@@ -1,0 +1,155 @@
+/* General Reset and Body Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: rgb(253, 253, 253);
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ADBBDA ;
+    border-bottom: 2px solid orange;
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D52A0 ; /* White color for high contrast */
+}
+
+/* Navigation Styles */
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+
+Hover/Active Link Styles */
+.navbar a:hover, .navbar a.active {
+    color: #EDE8F5 ;
+    }
+
+
+
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 0; /* Remove padding to make the image cover the entire page */
+    margin: 0; /* Remove margin to eliminate space around the image */
+    height: 100vh; /* Full viewport height */
+    /* background-color: #7091E6 ; */
+    /* background: url('../images/welcome-hero/newone-background-image.webp') no-repeat center center; */
+    background: url('../images/welcome-hero/darknight.webp') no-repeat center center;
+    background-size: cover; /* Ensure the image covers the entire section */
+    z-index: 1;
+}
+
+/* Overlay Styles */
+.hero:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #EDE8F5 (0, 0, 0, 0.4); /* Darker, subtle overlay for better contrast */
+    z-index: 2; /* Make sure overlay stays below text */
+}
+
+/* Hero Text Content Styles */
+.hero .hero-txt {
+    position: absolute;
+    top: 50%; /* Center the content vertically */
+    left: 50%; /* Center the content horizontally */
+    transform: translate(-50%, -50%); /* Offset the centering to perfectly align */
+    width: 100%;
+    z-index: 3; /* Ensure text appears above the overlay */
+    padding: 0 20px; /* Responsive padding */
+    text-align: center; /* Center align text */
+}
+
+
+/* Hero Heading Styles */
+.hero h1 {
+    font-size: 4rem; /* Larger font size for better visibility */
+    color: #fbc02d; /* White text for readability */
+    /* background: linear-gradient(45deg, #fbc02d, #fbc02d); color: transparent; -webkit-background-clip: text; */
+    background: linear-gradient(45deg, #fbc02d, #f57f17);
+    color: transparent;
+    background-clip: text;
+    text-shadow: 3px 3px 8px rgba(44, 43, 43, 0.7); /* Stronger shadow for better contrast */
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Hero Paragraph Styles */
+.hero p {
+    font-size: 2.5rem; /* Slightly larger font size for better readability */
+    text-transform: initial;
+    color: #fbc02d; /* White text for readability */
+    /* background: linear-gradient(45deg, #fbc02d, #fbc02d);
+    color: transparent;
+    -webkit-background-clip: text; */
+    background: linear-gradient(45deg, #fbc02d, #f57f17);
+    color: transparent;
+    background-clip: text;
+    text-shadow: 3px 3px 8px rgba(34, 33, 33, 0.89); /* Stronger shadow for better contrast */
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-bottom: 2rem; /* More space below the paragraph */
+    text-align: center; /* Centered paragraph */
+}
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      
+      #logo {
+        width: 90px; /* Fixed unit added */
+        height: auto; /* Height adjusts proportionally */
+      }
+      
+      nav ul {
+        list-style: none;
+        display: flex;
+      }
+      
+      nav ul li {
+        margin: 0 15px;
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+      }
+      

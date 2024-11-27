@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Filter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #ADBBDA;;
+        }
+
+        .filters {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #3D52A0;
+            /* background: #616161; */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px #3D52A0(0, 0, 0, 0.1);
+        }
+
+        .filter {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        select, input[type="range"] {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #8a8888;
+            border-radius: 4px;
+        }
+
+        #price-value {
+            font-weight: bold;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #18a818;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #3D52A0 (255, 123, 0);">Filter Vehicles</h1>
+
+    <div class="filters">
+        <form id="vehicle-filter-form">
+
+            <!-- Vehicle Type Filter -->
+            <div class="filter">
+                <label for="vehicle-type">Select Vehicle Type:</label>
+                <select id="vehicle-type">
+                    <option value="">Select Vehicle Type</option>
+                    <option value="Commercial Vehicles">Commercial Vehicles</option>
+                    <option value="Luxury and Premium Vehicles">Luxury and Premium Vehicles</option>
+                    <option value="Passenger Vehicles">Passenger Vehicles</option>
+                    <option value="Tractor and Farm Equipment">Tractor and Farm Equipment</option>
+                    <option value="Two Wheeler">Two Wheeler</option>
+                </select>
+            </div>
+
+            <!-- Vehicle Brand Filter -->
+            <div class="filter">
+                <label for="vehicle-brand">Select Vehicle Brand:</label>
+                <select id="vehicle-brand" disabled>
+                    <option value="">Select Brand</option>
+                </select>
+            </div>
+
+            <!-- Vehicle Model Filter -->
+            <div class="filter">
+                <label for="vehicle-model">Select Vehicle Model:</label>
+                <select id="vehicle-model" disabled>
+                    <option value="">Select Model</option>
+                </select>
+            </div>
+
+        </form>
+
+        <!-- Button to Apply Filter -->
+        <button id="apply-filters">Apply Filters</button>
+        
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

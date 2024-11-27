@@ -1,0 +1,135 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ADBBDA;
+    color: white;
+}
+
+header {
+    background-color: #ADBBDA  ;
+    padding: 30px;
+    text-align: center;
+    /* color: #f1f1f1; */
+    color: #3D52A0  ;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #3D52A0  red;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0 auto;
+    /* color: #3D52A0 ; */
+    max-width: 1200px;
+}
+
+.brands {
+    color: #7091E6;
+    flex: 1;
+    margin-right: 30px;
+}
+
+.brand-category h3 {
+    color: #3D52A0;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.brand-category ul {
+    color: #f1f1f1;
+    list-style-type: none;
+    padding: 0;
+}
+
+.brand-category ul li {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #7091e6;
+}
+
+.newsletter {
+    flex: 1;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.newsletter h2 {
+    color: #7091E6;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7091E6;
+    color: #fff;
+    border: 2px solid #7091E6;;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #111;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav ul {
+    color: #f1f1f1;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: #f1f1f1;
+    color: #51684a(250, 250, 250);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer nav ul li a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+}

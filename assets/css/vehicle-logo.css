@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ADBBDA;  /* Lighter background for better contrast */
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #ADBBDA ;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #3d52a0 , #3d52a0 ); /* Gradient effect */
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-grid {
+    background-color: #ADBBDA;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .logo-item {
+    background-color: #444437;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .logo-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .logo-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo-item img:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  
+  h1:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Glow effect on title */
+  }
+  
+  /* Dark theme mode toggle effect */
+  body.dark-mode {
+    background-color: #333;
+  }
+  
+  body.dark-mode h1 {
+    color: #ff7e5f;
+  }
+  
+  body.dark-mode .logo-item {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  body.dark-mode .logo-item:hover {
+    background-color: #555;
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.1);
+  }
+  
+  body.dark-mode .logo-item img:hover {
+    opacity: 1;
+  }
+  
+  /* Smooth transition for body background color change */
+  .dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff7e5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: #feb47b;
+  }
+  

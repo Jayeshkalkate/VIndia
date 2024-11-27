@@ -1,0 +1,100 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ADBBDA; /* Dark background for contrast */
+    color: rgb(240, 240, 240); /* Light text color for readability */
+}
+
+
+header {
+    background-color: #ADBBDA ; /* Dark header for emphasis */
+    color: rgb(240, 240, 240); /* Light text in the header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #3D52A0 ; /* Highlighted color for main title */
+    font-size: 28px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #3D52A0  ;
+    /* color: #7091E6  (220, 220, 220); Subtle color for description text */
+}
+
+#vehicle-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between vehicle cards */
+    justify-content: center;
+    padding: 20px; /* Padding around the vehicle list */
+}
+
+.vehicle-card {
+    background-color: #ffc504; /* Bright yellow for card background */
+    border: 1px solid #555770; /* Subtle border for definition */
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px; /* Fixed width for uniformity */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    text-align: center;
+    color: #333; /* Dark text for readability on yellow */
+}
+
+.vehicle-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.vehicle-card img {
+    width: 100%; /* Responsive image */
+    height: auto;
+    border-bottom: 1px solid #555770; /* Separator line below the image */
+}
+
+.vehicle-card h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+    color: #030303; /* Black for the vehicle title */
+}
+
+.vehicle-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #222; /* Slightly darker gray for text */
+    line-height: 1.4;
+}
+
+.vehicle-card p strong {
+    color: #000; /* Bold text in darker shade */
+}
+
+footer {
+    background-color: #333; /* Dark footer for consistency with header */
+    color: rgb(240, 240, 240); /* Light text for footer */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #vehicle-list {
+        flex-direction: column; /* Stack cards on smaller screens */
+        align-items: center;
+    }
+    
+    .vehicle-card {
+        width: 90%; /* Full width on small screens */
+    }
+}
+
