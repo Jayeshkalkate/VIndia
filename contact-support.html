@@ -9,7 +9,12 @@
 <body>
     <header>
         <h1>VIndia</h1>
-        <p>At Vehicles of India, our goal is to make your journey to finding the perfect vehicle fast, smart, and easy. We are dedicated to connecting you with the best choices across India, ensuring you have all the information you need at your fingertips.</p>
+
+        <h2 style="color: #3a3530; background-color: #f0f0f0 ;padding: 5px 10px ;">At Vehicles of India, our goal is to make your journey to finding the perfect vehicle fast, smart, and easy. We are dedicated to connecting you with the best choices across India, ensuring you have all the information you need at your fingertips.</h2>
+
+
+        <!-- <h2><style At Vehicles of India, our goal is to make your journey to finding the perfect vehicle fast, smart, and easy. We are dedicated to connecting you with the best choices across India, ensuring you have all the information you need at your fingertips. ></style></h2> -->
+
     </header>
 
     <section class="content">
@@ -64,21 +69,30 @@
         <div class="newsletter">
             <h2>News Letter</h2>
             <p>Subscribe to get the latest news updates and information</p>
+
             <form id="newsletter-form">
-                <input type="email" id="email" name="email" placeholder="Add Email" required>
-                <button type="submit">Subscribe</button>
+                <input type="email" id="email" name="email" placeholder="Add Your Email" required>
+                <!-- <button type="submit">Subscribe</button> -->
+                <button type="button" onclick="subscribeUser()">Subscribe</button>
             </form>
+
+            <!-- <form id="subscribeForm">
+                <input type="email" id="emailInput" placeholder="Enter your email" required />
+                <button type="button" onclick="subscribeUser()">Subscribe</button>
+            </form> -->
+
         </div>
+        
     </section>
 
     <footer>
         <nav>
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">MotoNest</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="terms-or-service.html">Terms of Service</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <!-- <li><a href="#">MotoNest</a></li> -->
             </ul>
         </nav>
     </footer>

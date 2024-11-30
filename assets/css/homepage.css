@@ -12,7 +12,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #ADBBDA ;
+    /* background-color: #ADBBDA ; */
+    background-color: #f0f0f0;
     border-bottom: 2px solid orange;
 }
 
@@ -20,13 +21,14 @@ body {
 .logo {
     font-size: 20px;
     font-weight: bold;
-    color: #3D52A0 ; /* White color for high contrast */
+    /* color: #3D52A0 ;  */
+    color: #333;/* White color for high contrast */
 }
 
 /* Navigation Styles */
 .navbar a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #e47b19;
     margin: 0 10px;
     font-size: 20px;
     transition: color 0.3s;
@@ -38,9 +40,6 @@ Hover/Active Link Styles */
     color: #EDE8F5 ;
     }
 
-
-
-
 /* Hero Section Styles */
 .hero {
     position: relative;
@@ -48,9 +47,7 @@ Hover/Active Link Styles */
     padding: 0; /* Remove padding to make the image cover the entire page */
     margin: 0; /* Remove margin to eliminate space around the image */
     height: 100vh; /* Full viewport height */
-    /* background-color: #7091E6 ; */
-    /* background: url('../images/welcome-hero/newone-background-image.webp') no-repeat center center; */
-    background: url('../images/welcome-hero/darknight.webp') no-repeat center center;
+    background: url('../images/welcome-hero/Homepagebackgroundimage.png') no-repeat center center;
     background-size: cover; /* Ensure the image covers the entire section */
     z-index: 1;
 }
@@ -79,44 +76,50 @@ Hover/Active Link Styles */
     text-align: center; /* Center align text */
 }
 
-
-/* Hero Heading Styles */
-.hero h1 {
-    font-size: 4rem; /* Larger font size for better visibility */
-    color: #fbc02d; /* White text for readability */
-    /* background: linear-gradient(45deg, #fbc02d, #fbc02d); color: transparent; -webkit-background-clip: text; */
-    background: linear-gradient(45deg, #fbc02d, #f57f17);
-    color: transparent;
-    background-clip: text;
-    text-shadow: 3px 3px 8px rgba(44, 43, 43, 0.7); /* Stronger shadow for better contrast */
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 2rem;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 10px;
+.hero {
+  text-align: center;      /* Center text horizontally */
+  padding-top: 16vh;       /* 10 Adjust padding to move text down */
+  padding-bottom: 18vh;    /* 10 Adjust padding to move text up or down */
 }
+
+
+
+.hero h1 {
+  font-size: 2.5em;
+  color: #2D3A3A;
+  /* background: linear-gradient(45deg, #2D3A3A, #2D3A3A); */
+  color: transparent;
+  background-clip: text;
+  text-shadow: 3px 3px 8px #2D3A3A(44, 43, 43, 0.7);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  padding: 10px;
+  text-align: center;      /* Center text horizontally */
+  padding-top: 0.1vh;       /* 10 Adjust padding to move text down */
+  padding-bottom: 74vh;    /* 10 Adjust padding to move text up or down */
+}
+
+
+
 
 
 /* Hero Paragraph Styles */
 .hero p {
     font-size: 2.5rem; /* Slightly larger font size for better readability */
     text-transform: initial;
-    color: #fbc02d; /* White text for readability */
-    /* background: linear-gradient(45deg, #fbc02d, #fbc02d);
-    color: transparent;
-    -webkit-background-clip: text; */
-    background: linear-gradient(45deg, #fbc02d, #f57f17);
+    color: #5D6D7E; /* White text for readability */
+    background: linear-gradient(45deg, #5D6D7E, #5D6D7E);
     color: transparent;
     background-clip: text;
-    text-shadow: 3px 3px 8px rgba(34, 33, 33, 0.89); /* Stronger shadow for better contrast */
+    text-shadow: 3px 3px 8px #5D6D7E(34, 33, 33, 0.89); /* Stronger shadow for better contrast */
     font-weight: 600;
     margin: 0 auto;
     max-width: 900px;
     margin-bottom: 2rem; /* More space below the paragraph */
     text-align: center; /* Centered paragraph */
 }
-
 
 
     body {

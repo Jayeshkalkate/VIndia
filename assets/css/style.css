@@ -116,3 +116,20 @@ body {
 .vehicle-details button:hover {
   background-color: #3D52A0 ;
 }
+
+
+
+
+
+
+#results {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#results p {
+  font-size: 16px;
+  color: #333;
+}

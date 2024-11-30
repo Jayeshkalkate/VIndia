@@ -1,14 +1,18 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #504e4e; */
-    background-color: #ADBBDA;
+    background-image: url('assets\images\welcome-hero\Topvehiclebackgroundimage.png'); /* Insert background image path here */
+    
+    /* C:\Users\kalka\Desktop\New folder\assets\images\welcome-hero\Topvehiclebackgroundimage.png */
+    background-size: cover;  /* Ensures the image covers the entire background */
+    background-position: center;  /* Centers the image */
+    background-attachment: fixed;  /* Keeps the image fixed while scrolling */
+    background-color: #ADBBDA; /* Fallback background color in case the image doesn't load */
 }
 
 header {
-    background-color: #ADBBDA ;
+    background-color: #ADBBDA;
     color: rgb(240, 240, 240);
     padding: 20px;
     text-align: center;
@@ -16,40 +20,40 @@ header {
 
 h1 {
     margin: 0;
-    color: #101011 ;
+    color: #101011;
 }
 
 h4 {
     margin: 0;
-    color: #191b25 ;
+    color: #191b25;
 }
 
 h2 {
     margin: 0;
-    color: #0f1118 ;
+    color: #0f1118;
 }
+
 main {
     padding: 20px;
 }
 
+/* Vehicle list section */
 #vehicle-list {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    /* color: #1f1f20 ; */
     color: #ADBBDA;
     justify-content: center;
 }
 
+/* Vehicle card */
 .vehicle-card {
-    /* background: rgb(255, 197, 4); */
     background-color: #6e7583;
-    border: 1px solid #EDE8F5 ; 
-    /* border: 1px solid #EDE8F5;  */
+    border: 1px solid #EDE8F5;
     border-radius: 8px;
     overflow: hidden;
     width: 300px;
-    box-shadow: 0 4px 6px #EDE8F5(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(237, 232, 245, 0.1); /* Fixed the box-shadow */
     transition: transform 0.3s;
 }
 

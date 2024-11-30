@@ -1,0 +1,58 @@
+/* terms-or-service.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #5065db;
+}
+
+h2 {
+    color: #0f2c63;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p, ul {
+    font-size: 16px;
+    color: #24264b;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #938f8f;
+    color: white;
+}
+
+footer p {
+    color: antiquewhite;
+    margin: 0;
+}

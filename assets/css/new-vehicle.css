@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin: auto;
     color: #3D52A0 ; /* Highlighted color for main title */
     font-size: 28px;
 }

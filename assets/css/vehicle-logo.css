@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ADBBDA;  /* Lighter background for better contrast */
+    background-color: #f0f0f0;  /* Lighter background for better contrast */
     margin: 0;
     padding: 0;
     transition: background-color 0.3s ease;
@@ -23,7 +23,7 @@ body {
   }
   
   .logo-grid {
-    background-color: #ADBBDA;
+    background-color: #f0f0f0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 20px;
