@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: #1a237e;
+  font-size: 40px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #ff7300 ,#ffffff , #15ff00 ); /* Gradient effect */
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.vehicle-selection {
+  background-color: #c2a5a5;
+  /* background-color: rgb(152, 172, 172); */
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  /* display: inline-block; Adjusts the background to wrap the text */
+  border-radius: 50px; /* Optional for a better look */
+}
+
+h2 {
+  color: #0277bd ;
+  /* background-color: black; */
+}
+
+label {
+  color: bisque;
+}
+
+select#vehicle1 {
+  color: #263238 ;
+  background-color: #e7e7e7 ;
+  width: 200px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  border: 1px solid #90a4ae; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+}
+
+select#vehicle2 {
+  color: #263238 ;
+  background-color: #e7e7e7 ;
+  width: 200px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  border: 1px solid #90a4ae ; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+}
+
+
+button {
+  color: ffffff ;
+  background-color: #1565c0 ;
+  /* background-color: rgb(152, 172, 172); */
+  width: 200px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+table {
+  /* color: rgb(6, 7, 8); */
+  color: #ffffff  ;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #c2a5a5;
+}
+
+tr:nth-child(even) {
+  background-color: #c2a5a5 ;
+}
+
+.comparison-result {
+  max-width: 926px;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: rgb(152, 172, 172); */
+  background-color: #b79999 ;
+  border: 1px solid #b0bec5 ; /* Add a border */
+  border-radius: 50px; /* Rounded corners */
+  padding: 20px; /* Ensure content doesn't touch the edges */
+  overflow: hidden; /* Prevent table overflow beyond rounded edges */
+}

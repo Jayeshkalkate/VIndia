@@ -1,6 +1,7 @@
 
 // Vehicle data object
-const vehicleData = {
+const vehicleDetails = {
+
     "Nexon": {
         type: "Passenger",
         brand: "Tata",
@@ -17,8 +18,9 @@ const vehicleData = {
         performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
+        releaseDateYear: "2016",
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2016"
+        imageUrl: "assets/images/vehicle_models_images/Tata_nexon.png"
     },
 
     "Eicher Pro 3015": {
@@ -38,7 +40,9 @@ const vehicleData = {
     interiorFeatures: "Basic Cabin, Adjustable Seats, Digital Display",
     exteriorFeatures: "Front Grille with Chrome, Halogen Headlights",
     warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 3015"
+    
 },
 
 "Eicher Pro 5040": {
@@ -58,7 +62,8 @@ const vehicleData = {
     interiorFeatures: "Basic Cabin, Adjustable Seats, Digital Instrument Cluster",
     exteriorFeatures: "Large Front Grille, LED Headlamps",
     warrantyAfterSalesService: "3-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 5040.png"
 },
 
 "Eicher Pro 6037": {
@@ -78,7 +83,9 @@ const vehicleData = {
     interiorFeatures: "Comfortable Cabin, Adjustable Seats, Digital Dashboard",
     exteriorFeatures: "Large Front Grille, LED Fog Lamps, Dual-Tone Paint",
     warrantyAfterSalesService: "3-year/2,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2022"
+    releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 6037.png"
+
 },
 
 "Eicher Pro 5028": {
@@ -98,7 +105,8 @@ const vehicleData = {
     interiorFeatures: "Basic Cabin, Adjustable Seats, Digital Instrument Cluster",
     exteriorFeatures: "Front Grille, Halogen Headlamps, Reflector Taillights",
     warrantyAfterSalesService: "3-year/1,80,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 5028.png"
 },
 
 "AMW 3118": {
@@ -118,7 +126,8 @@ const vehicleData = {
     "interiorFeatures": "Driver Information System, Ergonomic Seats",  // Interior Features
     "exteriorFeatures": "Heavy-duty Front Bumper, LED Tail Lamps",  // Exterior Features
     "warrantyAfterSalesService": "3-year/3,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2018"  // Release Date/Year
+    "releaseDateYear": "2018",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/AMW 3118.png"
 },
 
 "AMW 2518": {
@@ -138,7 +147,8 @@ const vehicleData = {
     "interiorFeatures": "Digital Instrument Cluster, Air Conditioning",  // Interior Features
     "exteriorFeatures": "Heavy-duty Bumper, LED Tail Lamps",  // Exterior Features
     "warrantyAfterSalesService": "2-year/2,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2017"  // Release Date/Year
+    "releaseDateYear": "2017",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/AMW 2518.png"
 },
 
 "AMW 4023": {
@@ -158,7 +168,8 @@ const vehicleData = {
     "interiorFeatures": "Driver Information System, Air Conditioning",  // Interior Features
     "exteriorFeatures": "Heavy-duty Bumper, LED DRLs",  // Exterior Features
     "warrantyAfterSalesService": "3-year/4,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2019"  // Release Date/Year
+    "releaseDateYear": "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/AMW 4023.png"
 },
 
 "SML Isuzu Super": {
@@ -178,7 +189,9 @@ const vehicleData = {
     interiorFeatures: "Basic Dashboard, Comfortable Seating",  // Interior Features (Placeholder)
     exteriorFeatures: "Durable Body, Chrome Grille, Clear Lens Headlights",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2020"  // Release Date/Year
+    releaseDateYear: "2020",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/SML Isuzu Super.png"
+
 },
 
 "SML Isuzu Citylife": {
@@ -198,7 +211,9 @@ const vehicleData = {
     interiorFeatures: "Spacious Cabin, Premium Seats, Air Conditioning",  // Interior Features (Placeholder)
     exteriorFeatures: "Stylish Front Bumper, Alloy Wheels",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
+    releaseDateYear: "2021",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/SML Isuzu Citylife.png"
+
 },
 
 "SML Isuzu S5": {
@@ -218,7 +233,9 @@ const vehicleData = {
     interiorFeatures: "Spacious Interiors, Basic Infotainment",  // Interior Features (Placeholder)
     exteriorFeatures: "Sturdy Bumper, Clear Headlamps",  // Exterior Features
     warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2019"  // Release Date/Year
+    releaseDateYear: "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/SML Isuzu S5.png"
+
 },
 
 "SML Isuzu S7": {
@@ -238,7 +255,9 @@ const vehicleData = {
     interiorFeatures: "Luxurious Cabin, Premium Seating",  // Interior Features (Placeholder)
     exteriorFeatures: "Sleek Design, Chrome Accents",  // Exterior Features
     warrantyAfterSalesService: "4-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2022"  // Release Date/Year
+    releaseDateYear: "2022",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/SML Isuzu S7.png"
+
 },
 
 "BharatBenz 2523R": {
@@ -258,7 +277,9 @@ const vehicleData = {
     interiorFeatures: "Basic Interior, Adjustable Seats",
     exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2015"
+    releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/BharatBenz 2523R.png"
+
 },
 "BharatBenz 3123R": {
     type: "Commercial",
@@ -277,8 +298,10 @@ const vehicleData = {
     interiorFeatures: "Basic Interior, Adjustable Seats",
     exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2016"
+    releaseDateYear: "2016",
+    imageUrl: "assets/images/vehicle_models_images/BharatBenz 3123R.png"
 },
+
 "BharatBenz 3723R": {
     type: "Commercial",
     brand: "BharatBenz",
@@ -296,8 +319,11 @@ const vehicleData = {
     interiorFeatures: "Basic Interior, Adjustable Seats",
     exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/BharatBenz 3723R.png"
+
 },
+
 "BharatBenz 1617R": {
     type: "Commercial",
     brand: "BharatBenz",
@@ -315,8 +341,10 @@ const vehicleData = {
     interiorFeatures: "Basic Interior, Adjustable Seats",
     exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2014"
+    releaseDateYear: "2014",
+    imageUrl: "assets/images/vehicle_models_images/BharatBenz 1617R.png"
 },
+
 "BharatBenz 1014R": {
     type: "Commercial",
     brand: "BharatBenz",
@@ -334,7 +362,8 @@ const vehicleData = {
     interiorFeatures: "Basic Interior, Adjustable Seats",
     exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2013"
+    releaseDateYear: "2013",
+    imageUrl: "assets/images/vehicle_models_images/BharatBenz 1014R.png"
 },
 
 "Mahindra Bolero Pik-Up": {
@@ -354,7 +383,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Digital Cluster, Adjustable Seats",  // Interior Features
     "exteriorFeatures": "Halogen Headlamps, Fog Lamps, Steel Wheels",  // Exterior Features
     "warrantyAfterSalesService": "2-year/60,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2011"  // Release Date/Year
+    "releaseDateYear": "2011",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Bolero Pik-Up.png"
+
 },
 
 "Mahindra Supro Mini Truck": {
@@ -374,7 +405,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Instrument Cluster, Adjustable Seats",  // Interior Features
     "exteriorFeatures": "Halogen Headlamps, Steel Wheels",  // Exterior Features
     "warrantyAfterSalesService": "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2016"  // Release Date/Year
+    "releaseDateYear": "2016",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Supro Mini Truck.png"
+
 },
 
 "Mahindra Supro Maxi Truck": {
@@ -394,7 +427,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Digital Cluster, Adjustable Seats",  // Interior Features
     "exteriorFeatures": "Halogen Headlamps, Steel Wheels",  // Exterior Features
     "warrantyAfterSalesService": "2-year/60,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2016"  // Release Date/Year
+    "releaseDateYear": "2016",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Supro Maxi Truck.png"
+
 },
 
 "Mahindra Blazo X": {
@@ -414,7 +449,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Instrument Cluster, Ergonomic Seats",  // Interior Features
     "exteriorFeatures": "LED Headlamps, Fog Lamps, Steel Wheels",  // Exterior Features
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2017"  // Release Date/Year
+    "releaseDateYear": "2017",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Blazo X.png"
+
 },
 
 "Mahindra Furio": {
@@ -434,7 +471,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Instrument Cluster, Ergonomic Seats",  // Interior Features
     "exteriorFeatures": "LED Headlamps, Fog Lamps",  // Exterior Features
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2019"  // Release Date/Year
+    "releaseDateYear": "2019" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Furio.png"
+
 },
 
 "Mahindra Bolero": {
@@ -454,7 +493,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Infotainment, Fabric Upholstery, Power Windows",
     "exteriorFeatures": "Chrome Grille, LED Tail Lamps, Roof Rails",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2000"
+    "releaseDateYear": "2000",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Bolero.png"
+
 },
 
 "Mahindra Marazzo": {
@@ -474,7 +515,9 @@ const vehicleData = {
     "interiorFeatures": "Android Auto, Apple CarPlay, Touchscreen Infotainment",
     "exteriorFeatures": "Projector Headlamps, LED DRLs, Roof Rails",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2018"
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Marazzo.png"
+
 },
 
 "Mahindra Alturas G4": {
@@ -494,7 +537,9 @@ const vehicleData = {
     "interiorFeatures": "Leather Upholstery, 8-inch Touchscreen Infotainment, Sunroof",
     "exteriorFeatures": "Chrome Garnish, LED Headlamps, Dual-tone Roof",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2018"
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Alturas G4.png"
+
 },
 
 "Mahindra e2o Plus": {
@@ -514,7 +559,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Digital Dashboard, Eco Mode",
     "exteriorFeatures": "LED DRLs, Smart Design, Compact Dimensions",
     "warrantyAfterSalesService": "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra e2o Plus.png"
+
 },
 
 "Mahindra KUV100": {
@@ -534,7 +581,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Smart Storage Spaces",
     "exteriorFeatures": "Bold Front Grille, Alloy Wheels, Roof Rails",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2016"
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra KUV100.png"
+
 },
 
 "TUV300": {
@@ -554,7 +603,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Premium Fabric Upholstery, Digital Instrument Cluster",
     exteriorFeatures: "LED Tail Lamps, Bold Front Grille, Silver Roof Rails",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2015"
+    releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/TUV300.png"
+
 },
 
 
@@ -575,8 +626,10 @@ const vehicleData = {
     "interiorFeatures": "Comfortable Seating, AM/FM Radio",
     "exteriorFeatures": "Bigger Load Deck, Sturdy Build",
     "warrantyAfterSalesService": "2-year/75,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2009"
+    "releaseDateYear": "2009",
+    imageUrl: "assets/images/vehicle_models_images/Tata Super Ace.png"
   },
+
   "Tata Ultra 1918": {
     "type": "Commercial",
     "brand": "Tata",
@@ -594,8 +647,10 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Comfortable Seating",
     "exteriorFeatures": "Strong Body Frame, Large Cargo Space",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Tata Ultra 1918.png"
   },
+  
   "Tata Yodha": {
     "type": "Commercial",
     "brand": "Tata",
@@ -613,8 +668,10 @@ const vehicleData = {
     "interiorFeatures": "Spacious Cabin, Ergonomic Seating",
     "exteriorFeatures": "Strong Bumper, Wide Cargo Space",
     "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2018"
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Tata Ultra 1918.png"
   },
+
   "Tata Prima": {
     "type": "Commercial",
     "brand": "Tata",
@@ -632,8 +689,10 @@ const vehicleData = {
     "interiorFeatures": "Comfortable Seat, Air Conditioning",
     "exteriorFeatures": "Reinforced Chassis, Wide Cargo Bed",
     "warrantyAfterSalesService": "4-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2011"
+    "releaseDateYear": "2011",
+    imageUrl: "assets/images/vehicle_models_images/Tata Prima.png"
   },
+  
   "Tata 3718": {
     "type": "Commercial",
     "brand": "Tata",
@@ -651,7 +710,8 @@ const vehicleData = {
     "interiorFeatures": "Basic Interior, Comfortable Seats",
     "exteriorFeatures": "Sturdy Build, Spacious Cargo Area",
     "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2013"
+    "releaseDateYear": "2013",
+    imageUrl: "assets/images/vehicle_models_images/Tata 3718.png"
   },
 
 
@@ -672,8 +732,10 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Comfortable Driver Seat",
     "exteriorFeatures": "High Ground Clearance, Heavy-duty Bumper",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2017"
+    "releaseDateYear": "2017",
+    imageUrl: "assets/images/vehicle_models_images/Tata 1512 LPT.png"
 },
+
 "Tata 1623 LPT": {
     "type": "Commercial",
     "brand": "Tata",
@@ -691,8 +753,10 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Adjustable Driver Seat",
     "exteriorFeatures": "Tough Bumper, High Ground Clearance",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2018"
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Tata 1623 LPT.png"
 },
+
 "Tata 407": {
     "type": "Commercial",
     "brand": "Tata",
@@ -710,8 +774,10 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Comfortable Driver Seat",
     "exteriorFeatures": "Heavy Duty Bumper, Large Cargo Area",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2015"
+    "releaseDateYear": "2015",
+    imageUrl: "assets/images/vehicle_models_images/Tata 407.png"
 },
+
 "Tata LPT 1613": {
     "type": "Commercial",
     "brand": "Tata",
@@ -729,8 +795,10 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Adjustable Driver Seat",
     "exteriorFeatures": "Rugged Design, High Ground Clearance",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Tata LPT 1613.png"
 },
+
 "Tata Ace": {
     "type": "Commercial",
     "brand": "Tata",
@@ -748,7 +816,8 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Comfortable Seat",
     "exteriorFeatures": "Heavy Duty Rear Bumper, Small Turning Radius",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2005"
+    "releaseDateYear": "2005",
+    imageUrl: "assets/images/vehicle_models_images/Tata Ace.png"
 },
 
 "Traveller": {
@@ -768,7 +837,8 @@ const vehicleData = {
     interiorFeatures: "Comfortable Seating, Air Conditioning",  // Interior Features
     exteriorFeatures: "Durable Bumpers, High Ground Clearance",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2010"  // Release Date/Year
+    releaseDateYear: "2010",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Traveller.png"
 },
 
 "Trax": {
@@ -788,7 +858,8 @@ const vehicleData = {
     interiorFeatures: "Spacious Cabin, Optional Roof Air-conditioning",  // Interior Features
     exteriorFeatures: "Simple, Functional Design",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2008"  // Release Date/Year
+    releaseDateYear: "2008",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Trax.png"
 },
 
 "Gurkha": {
@@ -808,7 +879,8 @@ const vehicleData = {
     interiorFeatures: "Leather Seats, Touchscreen Infotainment",  // Interior Features
     exteriorFeatures: "Steel Bumpers, High Ground Clearance",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2015"  // Release Date/Year
+    releaseDateYear: "2015" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Gurkha.png"
 },
 
 "Urbania": {
@@ -828,7 +900,9 @@ const vehicleData = {
     interiorFeatures: "Comfortable Seats, Air Conditioning",  // Interior Features
     exteriorFeatures: "Stylish Front Grille, High Ground Clearance",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2020"  // Release Date/Year
+    releaseDateYear: "2020",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Urbania.png"
+
 },
 
 "Citiline": {
@@ -848,7 +922,8 @@ const vehicleData = {
     interiorFeatures: "Spacious Cabin, Overhead Storage",  // Interior Features
     exteriorFeatures: "Durable Bodywork, Enhanced Safety",  // Exterior Features
     warrantyAfterSalesService: "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2019"  // Release Date/Year
+    releaseDateYear: "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Citiline.png"
 },
 
 
@@ -869,8 +944,10 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Driver Comfort Seat",
     "exteriorFeatures": "High Ground Clearance, Large Cargo Area",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2020"
+    "releaseDateYear": "2020",
+    imageUrl: "assets/images/vehicle_models_images/Tata 2518.png"
 },
+
 "Tata Intra": {
     "type": "Commercial",
     "brand": "Tata",
@@ -888,8 +965,10 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Comfortable Seats, Minimalistic Controls",
     "exteriorFeatures": "Compact Size, Sturdy Build, Functional Design",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2018"
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Tata Intra.png"
 },
+
 "Tata T.12": {
     "type": "Commercial",
     "brand": "Tata",
@@ -907,7 +986,8 @@ const vehicleData = {
     "interiorFeatures": "Comfortable Seats, Simple Dashboard Layout",
     "exteriorFeatures": "Functional Cargo Space, High Durability",
     "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2019"
+    "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/Tata T.12.png"
 },
 
 "Monobus": {
@@ -927,7 +1007,9 @@ const vehicleData = {
     interiorFeatures: "Spacious Seating, Overhead Storage, AC",  // Interior Features
     exteriorFeatures: "LED Lights, High-Visibility Markings, Large Windows",  // Exterior Features
     warrantyAfterSalesService: "3-year/100,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2019"  // Release Date/Year
+    releaseDateYear: "2019" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Monobus.png"
+
 },
 
 "Delivery Van": {
@@ -947,7 +1029,8 @@ const vehicleData = {
     interiorFeatures: "Minimalist Dashboard, Durable Flooring, Spacious Cargo Area",  // Interior Features
     exteriorFeatures: "Side Sliding Doors, Reinforced Bumper, High Ground Clearance",  // Exterior Features
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
+    releaseDateYear: "2021",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Delivery Van.png"
 },
 
 "Ambulance": {
@@ -967,7 +1050,9 @@ const vehicleData = {
     interiorFeatures: "Medical Equipment Holders, Spacious Cabin, AC",  // Interior Features
     exteriorFeatures: "Reflective Decals, LED Siren Lights, High Ground Clearance",  // Exterior Features
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2018"  // Release Date/Year
+    releaseDateYear: "2018",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ambulance.png"
+
 },
 
 "Force Minidor": {
@@ -987,7 +1072,9 @@ const vehicleData = {
     interiorFeatures: "Spacious Cargo Area, Simple Dashboard",  // Interior Features
     exteriorFeatures: "Heavy Duty Bumper, Sliding Doors",  // Exterior Features
     warrantyAfterSalesService: "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2017"  // Release Date/Year
+    releaseDateYear: "2017" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Force Minidor.png"
+
 },
 
 "Force Matador": {
@@ -1007,7 +1094,8 @@ const vehicleData = {
     interiorFeatures: "Seating for 12, Overhead Luggage Storage",  // Interior Features
     exteriorFeatures: "Rear Cargo Door, Side Windows",  // Exterior Features
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2015"  // Release Date/Year
+    releaseDateYear: "2015",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Force Matador.png"
 },
 
 "Force Shaktiman": {
@@ -1027,11 +1115,12 @@ const vehicleData = {
     interiorFeatures: "Simple Dashboard, Spacious Cargo Area",  // Interior Features
     exteriorFeatures: "Heavy-duty Bumper, High Ground Clearance",  // Exterior Features
     warrantyAfterSalesService: "3-year/100,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2016"  // Release Date/Year
+    releaseDateYear: "2016",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Force Shaktiman.png"
 },
 
 
-"BOSS": {
+"Ashok Leyland BOSS": {
     "type": "Commercial",
     "brand": "Tata",
     "modelNameNumber": "BOSS",  
@@ -1048,12 +1137,14 @@ const vehicleData = {
     "interiorFeatures": "Basic Instrument Cluster, Durable Seats",  
     "exteriorFeatures": "Front Bumper Guard, High Ground Clearance",  
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    "releaseDateYear": "2019"
+    "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland BOSS.png"
+
 },
-"Ecomet": {
+"Tata Ecomet": {
     "type": "Commercial",
     "brand": "Tata",
-    "modelNameNumber": "Ecomet",  
+    "modelNameNumber": "Tata Ecomet",  
     "engineSpecifications": "2.2L Diesel",  
     "fuelType": "Diesel",  
     "transmissionType": "Manual",  
@@ -1067,7 +1158,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Vinyl Seats",  
     "exteriorFeatures": "LED Tail Lamps, Robust Bumper",  
     "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  
-    "releaseDateYear": "2018"
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Tata Ecomet.png"
+
 },
 "Partner": {
     "type": "Commercial",
@@ -1086,7 +1179,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Instrument Panel, Hard-wearing Seats",  
     "exteriorFeatures": "Simple Grille Design, Rugged Rear",  
     "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    "releaseDateYear": "2015"
+    "releaseDateYear": "2015",
+    imageUrl: "assets/images/vehicle_models_images/Partner.png"
+
 },
 "Dost": {
     "type": "Commercial",
@@ -1105,7 +1200,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Seating, Digital Dashboard",  
     "exteriorFeatures": "Strong Body, Simple Bumper",  
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    "releaseDateYear": "2014"
+    "releaseDateYear": "2014",
+    imageUrl: "assets/images/vehicle_models_images/Dost.png"
+
 },
 "Stile": {
     "type": "Passenger",
@@ -1124,7 +1221,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Comfortable Seats",  
     "exteriorFeatures": "Simple, Attractive Design, Roof Rails",  
     "warrantyAfterSalesService": "3-year/1,20,000 km Warranty, Roadside Assistance",  
-    "releaseDateYear": "2010"
+    "releaseDateYear": "2010",
+    imageUrl: "assets/images/vehicle_models_images/Stile.png"
+
 },
 "U-Truck": {
     "type": "Commercial",
@@ -1143,7 +1242,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Cabin, Durable Seats",  
     "exteriorFeatures": "Heavy-duty Bumper, Large Tires",  
     "warrantyAfterSalesService": "5-year/2,00,000 km Warranty, 24/7 Roadside Assistance",  
-    "releaseDateYear": "2017"
+    "releaseDateYear": "2017",
+    imageUrl: "assets/images/vehicle_models_images/U-Truck.png"
+
 },
 
 "Ashok Leyland Dost": {
@@ -1163,8 +1264,10 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Fabric Upholstery, AM/FM Radio",  // Interior Features
     "exteriorFeatures": "Halogen Headlamps, Roof Rails, Cargo Box",  // Exterior Features
     "warrantyAfterSalesService": "2-year/80,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2013"  // Release Date/Year
+    "releaseDateYear": "2013", // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Dost.png"
 },
+
 "Ashok Leyland Dost Plus": {
     "type": "Commercial",
     "brand": "Ashok Leyland",
@@ -1182,7 +1285,8 @@ const vehicleData = {
     "interiorFeatures": "Comfortable Seats, Digital Instrument Cluster",  // Interior Features
     "exteriorFeatures": "Daytime Running Lamps, Steel Rims",  // Exterior Features
     "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2016"  // Release Date/Year
+    "releaseDateYear": "2016",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Dost Plus.png"
 },
 "Ashok Leyland Partner": {
     "type": "Commercial",
@@ -1201,7 +1305,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Console, Fabric Upholstery",  // Interior Features
     "exteriorFeatures": "Side Step, Chrome Grille",  // Exterior Features
     "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2014"  // Release Date/Year
+    "releaseDateYear": "2014",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Partner.png"
+
 },
 "Ashok Leyland Ecomet 1615": {
     "type": "Commercial",
@@ -1220,7 +1326,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Dashboard, Digital Cluster",  // Interior Features
     "exteriorFeatures": "Dual-tone Bumper, Side Step",  // Exterior Features
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2017"  // Release Date/Year
+    "releaseDateYear": "2017" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Ecomet 1615.png"
+
 },
 "Ashok Leyland Ecomet 1214": {
     "type": "Commercial",
@@ -1239,7 +1347,9 @@ const vehicleData = {
     "interiorFeatures": "Digital Instrument Cluster, Basic Seats",  // Interior Features
     "exteriorFeatures": "Side Cladding, Steel Wheels",  // Exterior Features
     "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2015"  // Release Date/Year
+    "releaseDateYear": "2015" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Ecomet 1214.png"
+
 },
 
 "Ashok Leyland 3118": {
@@ -1259,7 +1369,9 @@ const vehicleData = {
     interiorFeatures: "Basic Cabin, Driver Seat with Adjustable Suspension",
     exteriorFeatures: "Steel Body, Wide Tires, LED Taillights",
     warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Nationwide Service Network",
-    releaseDateYear: "2015"
+    releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland 3118.png"
+
 },
 
 "Ashok Leyland 4923": {
@@ -1279,7 +1391,9 @@ const vehicleData = {
     interiorFeatures: "Spacious Cabin, Comfortable Seat, Adjustable Steering",
     exteriorFeatures: "Durable Body, LED Lamps, Wide Wheelbase",
     warrantyAfterSalesService: "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland 4923.png"
+
 },
 
 "Ashok Leyland Viking": {
@@ -1299,7 +1413,9 @@ const vehicleData = {
     interiorFeatures: "Basic Cabin, Adjustable Driver Seat",
     exteriorFeatures: "Heavy Duty Bumper, Wide Front Grille",
     warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Nationwide Service Network",
-    releaseDateYear: "2016"
+    releaseDateYear: "2016",
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Viking.png"
+
 },
 
 "Ashok Leyland Captain": {
@@ -1319,7 +1435,9 @@ const vehicleData = {
     interiorFeatures: "Comfortable Cabin, Adjustable Steering, Digital Instrument Cluster",
     exteriorFeatures: "LED Taillights, Heavy Duty Suspension",
     warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Nationwide Service Network",
-    releaseDateYear: "2017"
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Captain.png"
+
 },
 
 "Pro 2049": {
@@ -1339,10 +1457,12 @@ const vehicleData = {
     interiorFeatures: "Basic Dashboard, Fabric Upholstery, Audio System",  // Interior Features
     exteriorFeatures: "Fog Lamps, High Ground Clearance, Side Cladding",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
+    releaseDateYear: "2021" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Pro 2049.png"
+
 },
 
-"Ecomet Star": {
+"Ashok Leyland Ecomet Star": {
     type: "Commercial",
     brand: "Tata",
     modelNameNumber: "Ecomet Star",  // Model Name Number
@@ -1359,7 +1479,9 @@ const vehicleData = {
     interiorFeatures: "Basic Cabin, Adjustable Driver Seat",  // Interior Features
     exteriorFeatures: "Durable Bumper, Alloy Wheels",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2020"  // Release Date/Year
+    releaseDateYear: "2020" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Ecomet Star.png"
+
 },
 "1615 HE": {
     type: "Commercial",
@@ -1378,7 +1500,9 @@ const vehicleData = {
     interiorFeatures: "Basic Dashboard, Adjustable Seats",  // Interior Features
     exteriorFeatures: "Durable Exterior, Front Bullbar",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Support",  // Warranty & After-Sales Service
-    releaseDateYear: "2018"  // Release Date/Year
+    releaseDateYear: "2018" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/1615 HE.png"
+
 },
 "1915 HE": {
     type: "Commercial",
@@ -1397,7 +1521,9 @@ const vehicleData = {
     interiorFeatures: "Comfortable Cabin, Basic Features",  // Interior Features
     exteriorFeatures: "Sturdy Build, High Clearance",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Support",  // Warranty & After-Sales Service
-    releaseDateYear: "2019"  // Release Date/Year
+    releaseDateYear: "2019" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/1915 HE.png"
+
 },
 "4220 HG": {
     type: "Commercial",
@@ -1416,7 +1542,9 @@ const vehicleData = {
     interiorFeatures: "Premium Cabin, Air Conditioning",  // Interior Features
     exteriorFeatures: "Reinforced Body, Roof Rails",  // Exterior Features
     warrantyAfterSalesService: "4-year/2,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
+    releaseDateYear: "2021" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/4220 HG.png"
+
 },
 "Eicher 1110 Pro": {
     type: "Commercial",
@@ -1435,7 +1563,9 @@ const vehicleData = {
     interiorFeatures: "Basic Cabin, Adjustable Seats",  // Interior Features
     exteriorFeatures: "Reinforced Body, Easy Access Cab",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2017"  // Release Date/Year
+    releaseDateYear: "2017" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Eicher 1110 Pro.png"
+
 },
 "Eicher 1114 XP Pro": {
     type: "Commercial",
@@ -1454,7 +1584,9 @@ const vehicleData = {
     interiorFeatures: "Comfortable Cabin, Adjustable Seats",  // Interior Features
     exteriorFeatures: "Durable Build, Front Bumper",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2018"  // Release Date/Year
+    releaseDateYear: "2018" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Eicher 1114 XP Pro.png"
+
 },
 
 "Eicher 3015": {
@@ -1474,7 +1606,9 @@ const vehicleData = {
     interiorFeatures: "Basic Cabin, Digital Speedometer, AM/FM Radio",
     exteriorFeatures: "Strong Front Bumper, Halogen Headlamps, Wide Side Mirrors",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2019"
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/Eicher 3015.png"
+
 },
 "Eicher 1049": {
     type: "Commercial",
@@ -1493,7 +1627,9 @@ const vehicleData = {
     interiorFeatures: "Basic Cabin, Speedometer, Cup Holders",
     exteriorFeatures: "Reflective Tape, Strong Grille, Bumper Guard",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2018"
+    releaseDateYear: "2018",
+    imageUrl: "assets/images/vehicle_models_images/Eicher 1049.png"
+
 },
 "Eicher Pro 6000": {
     type: "Commercial",
@@ -1512,7 +1648,9 @@ const vehicleData = {
     interiorFeatures: "Ergonomic Cabin, Digital Display, Bluetooth Connectivity",
     exteriorFeatures: "LED Lighting, Robust Bumper, Durable Body",
     warrantyAfterSalesService: "5-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 6000.png"
+
 },
 "Eicher Pro 8000": {
     type: "Commercial",
@@ -1531,7 +1669,9 @@ const vehicleData = {
     interiorFeatures: "Comfortable Driver's Cabin, Digital Instrument Cluster",
     exteriorFeatures: "Front Fog Lights, Extended Side Mirrors, Robust Design",
     warrantyAfterSalesService: "5-year/3,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2022"
+    releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 8000.png"
+
 },
 
 "Renault Kwid": {
@@ -1551,7 +1691,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Digital Instrument Cluster, Power Steering",  // Interior Features
     exteriorFeatures: "LED DRLs, Body-coloured Bumpers, Stylish Grill",  // Exterior Features
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2015"  // Release Date/Year
+    releaseDateYear: "2015" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Renault Kwid.png"
+
 },
 
 "Renault Triber": {
@@ -1571,7 +1713,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Modular Seating, Digital Instrument Cluster",  // Interior Features
     exteriorFeatures: "LED DRLs, Roof Rails, Dual-tone Exteriors",  // Exterior Features
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2019"  // Release Date/Year
+    releaseDateYear: "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Renault Triber.png"
+
 },
 
 "Renault Duster": {
@@ -1591,7 +1735,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Climate Control",  // Interior Features
     exteriorFeatures: "Roof Rails, Projector Headlamps, LED DRLs",  // Exterior Features
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2012"  // Release Date/Year
+    releaseDateYear: "2012" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Renault Duster.png"
+
 },
 
 "Renault Captur": {
@@ -1611,7 +1757,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Automatic Climate Control, Leather Upholstery",  // Interior Features
     exteriorFeatures: "LED Projector Headlamps, Dual-tone Exteriors, Roof Rails",  // Exterior Features
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2017"  // Release Date/Year
+    releaseDateYear: "2017" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Renault Captur.png"
+
 },
 
 "Renault Lodgy": {
@@ -1631,7 +1779,9 @@ const vehicleData = {
     interiorFeatures: "Modular Seating, Touchscreen Infotainment, AC with Climate Control",  // Interior Features
     exteriorFeatures: "Roof Rails, Chrome Front Grill, LED DRLs",  // Exterior Features
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2015"  // Release Date/Year
+    releaseDateYear: "2015" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Renault Lodgy.png"
+
 },
 
 "Nissan Magnite": {
@@ -1651,7 +1801,9 @@ const vehicleData = {
     interiorFeatures: "7-inch Touchscreen Infotainment, Steering Mounted Controls, Digital Instrument Cluster",  
     exteriorFeatures: "LED DRLs, LED Projector Headlamps, Roof Rails, Stylish Front Grille",  
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Nissan Magnite.png"
+
 },
 
 "Nissan Kicks": {
@@ -1671,7 +1823,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Automatic Climate Control, Leather Upholstery",  
     exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Roof Rails",  
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2019"
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/Nissan Kicks.png"
+    
 },
 
 "Nissan Sunny": {
@@ -1691,7 +1845,8 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Automatic Climate Control, Premium Upholstery",  
     exteriorFeatures: "Chrome Grille, LED Taillights, Large Windows for Better Visibility",  
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2011"
+    releaseDateYear: "2011",
+    imageUrl: "assets/images/vehicle_models_images/Nissan Kicks.png"
 },
 
 "Nissan Terrano": {
@@ -1711,8 +1866,11 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Premium Leather Upholstery, Push Button Start",  
     exteriorFeatures: "Chrome Door Handles, Roof Rails, Projector Headlamps",  
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2013"
+    releaseDateYear: "2013",
+    imageUrl: "assets/images/vehicle_models_images/Nissan Terrano.png"
 },
+
+    
 
 "MG Hector": {
     type: "Passenger",
@@ -1731,7 +1889,9 @@ const vehicleData = {
     interiorFeatures: "10.4-inch Infotainment, Leather Upholstery, Panoramic Sunroof",
     exteriorFeatures: "LED DRLs, Dual-tone Roof, Chrome Accents, Fog Lamps",
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2019"
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/MG Hector.png"
+
 },
 
 "MG Hector Plus": {
@@ -1751,7 +1911,9 @@ const vehicleData = {
     interiorFeatures: "10.4-inch Infotainment, Leather Upholstery, Panoramic Sunroof",
     exteriorFeatures: "LED DRLs, Dual-tone Roof, Chrome Accents, Fog Lamps",
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/MG Hector Plus.png"
+
 },
 
 "MG ZS EV": {
@@ -1771,7 +1933,9 @@ const vehicleData = {
     interiorFeatures: "10.1-inch Infotainment, Leather Upholstery, Panoramic Sunroof",
     exteriorFeatures: "LED DRLs, Dual-tone Roof, Fog Lamps",
     warrantyAfterSalesService: "8-year/1,50,000 km Battery Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/MG ZS EV.png"
+
 },
 
 "MG Astor": {
@@ -1791,7 +1955,9 @@ const vehicleData = {
     interiorFeatures: "10.1-inch Infotainment, Leather Upholstery, Digital Instrument Cluster",
     exteriorFeatures: "LED DRLs, Projector Headlamps, Fog Lamps",
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/MG Astor.png"
+
 },
 
 "MG Gloster": {
@@ -1811,7 +1977,9 @@ const vehicleData = {
     interiorFeatures: "12.3-inch Infotainment, Leather Upholstery, Panoramic Sunroof, 12-speaker Audio",
     exteriorFeatures: "LED DRLs, Projector Headlamps, Chrome Accents, Fog Lamps",
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/MG Gloster.png"
+
 },
 
 "Linea": {
@@ -1831,7 +1999,9 @@ const vehicleData = {
     interiorFeatures: "Infotainment System, Premium Upholstery, Spacious Cabin",  // Interior Features
     exteriorFeatures: "Projector Headlamps, Chrome Accents, Body-colored Mirrors",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2007"  // Release Date/Year
+    releaseDateYear: "2007" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Linea.png"
+
 },
 
 "Punto": {
@@ -1851,7 +2021,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen System, Comfortable Seats, Spacious Boot",  // Interior Features
     exteriorFeatures: "Fog Lamps, Chrome Grille, Body-colored Door Handles",  // Exterior Features
     warrantyAfterSalesService: "2-year/1,20,000 km Warranty, Free Service for First Year",  // Warranty & After-Sales Service
-    releaseDateYear: "2009"  // Release Date/Year
+    releaseDateYear: "2009" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Punto.png"
+
 },
 
 "Avventura": {
@@ -1871,7 +2043,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen, Leather Upholstery, Spacious Boot Space",  // Interior Features
     exteriorFeatures: "Roof Rails, Body Cladding, Daytime Running Lights",  // Exterior Features
     warrantyAfterSalesService: "3-year/1,50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2014"  // Release Date/Year
+    releaseDateYear: "2014",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Avventura.png"
+
 },
 
 "Tipo": {
@@ -1891,7 +2065,9 @@ const vehicleData = {
     interiorFeatures: "Infotainment System, Premium Audio, Spacious Cabin",  // Interior Features
     exteriorFeatures: "Body-colored Bumpers, Chrome Grille, Alloy Wheels",  // Exterior Features
     warrantyAfterSalesService: "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2016"  // Release Date/Year
+    releaseDateYear: "2016" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Tipo.png"
+
 },
 
 "Honda Amaze": {
@@ -1911,7 +2087,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Keyless Entry, Digital AC Control",  
     exteriorFeatures: "LED DRLs, Chrome Grille, Fog Lamps",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    releaseDateYear: "2018"  
+    releaseDateYear: "2018"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda Amaze.png"
+
 },
 
 "Honda WR-V": {
@@ -1931,7 +2109,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Leather Seats, Smart Key",  
     exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2017"  
+    releaseDateYear: "2017"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda WR-V.png"
+
 },
 
 "Honda Civic": {
@@ -1951,7 +2131,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Apple CarPlay, Leather Upholstery",  
     exteriorFeatures: "LED Projector Headlamps, Alloy Wheels, Sunroof",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    releaseDateYear: "2019"  
+    releaseDateYear: "2019"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda Civic.png"
+
 },
 
 "Honda Accord": {
@@ -1971,7 +2153,9 @@ const vehicleData = {
     interiorFeatures: "Premium Sound System, Leather Upholstery, Dual-zone Climate Control",  
     exteriorFeatures: "LED Headlamps, Alloy Wheels, Sunroof",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    releaseDateYear: "2020"  
+    releaseDateYear: "2020"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda Accord.png"
+
 },
 
 "Honda Jazz": {
@@ -1991,7 +2175,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Keyless Entry, Magic Seats",  
     exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2015"  
+    releaseDateYear: "2015"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda Jazz.png"
+
 },
 
 "Honda BR-V": {
@@ -2011,7 +2197,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Leather Seats, Smart Key",  
     exteriorFeatures: "Roof Rails, LED DRLs, Alloy Wheels",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    releaseDateYear: "2016"  
+    releaseDateYear: "2016"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda BR-V.png"
+
 },
 
 "Honda City": {
@@ -2031,7 +2219,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Apple CarPlay, Leather Upholstery",  
     exteriorFeatures: "LED DRLs, Alloy Wheels, Sunroof",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    releaseDateYear: "2020"  
+    releaseDateYear: "2020"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda City.png"
+
 },
 
 
@@ -2052,7 +2242,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Premium Sound System",  // Interior Features
     "exteriorFeatures": "LED DRLs, Projector Headlamps, Sunroof, Chrome Accents",  // Exterior Features
     "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2019"  // Release Date/Year
+    "releaseDateYear": "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Seltos.png"
+
 },
 "Carens": {
     "type": "Passenger",
@@ -2071,7 +2263,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, 7-seater Configuration",  // Interior Features
     "exteriorFeatures": "LED DRLs, Chrome Grille, Projector Headlamps",  // Exterior Features
     "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2022"  // Release Date/Year
+    "releaseDateYear": "2022",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Carens.png"
+
 },
 "Carnival": {
     "type": "Passenger",
@@ -2090,7 +2284,9 @@ const vehicleData = {
     "interiorFeatures": "Premium Leather Seats, Dual Infotainment Screens",  // Interior Features
     "exteriorFeatures": "LED DRLs, Front and Rear Fog Lamps",  // Exterior Features
     "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2020"  // Release Date/Year
+    "releaseDateYear": "2020" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Carnival.png"
+
 },
 "EV6": {
     "type": "Electric",
@@ -2109,7 +2305,9 @@ const vehicleData = {
     "interiorFeatures": "Premium Audio System, Digital Cockpit, Panoramic Sunroof",  // Interior Features
     "exteriorFeatures": "LED Headlights, Aerodynamic Design, Flush Door Handles",  // Exterior Features
     "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2022"  // Release Date/Year
+    "releaseDateYear": "2022",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/EV6.png"
+
 },
 "EV9": {
     "type": "Electric",
@@ -2128,7 +2326,9 @@ const vehicleData = {
     "interiorFeatures": "Triple Display Screens, Heated/Cooled Seats, 360-degree Audio System",  // Interior Features
     "exteriorFeatures": "Matrix LED Lights, Aerodynamic Styling",  // Exterior Features
     "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2024"  // Release Date/Year
+    "releaseDateYear": "2024" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/EV9.png"
+
 },
 
 "Hyundai Exter": {
@@ -2148,7 +2348,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Wireless Charging, Digital Speedometer",
     exteriorFeatures: "LED Headlamps, Diamond Cut Alloys, Roof Rails",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2023"
+    releaseDateYear: "2023",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Exter.png"
+
 },
 "Hyundai Grand i10 Nios": {
     type: "Passenger",
@@ -2167,7 +2369,9 @@ const vehicleData = {
     interiorFeatures: "7-inch Touchscreen, Automatic Climate Control, Leather-wrapped Steering Wheel",
     exteriorFeatures: "LED DRLs, Projector Headlamps, Diamond Cut Alloy Wheels",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2019"
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Grand i10 Nios.png"
+
 },
 "Hyundai i20": {
     type: "Passenger",
@@ -2186,7 +2390,9 @@ const vehicleData = {
     interiorFeatures: "10.25-inch Touchscreen, Wireless Charging, Ambient Lighting",
     exteriorFeatures: "LED DRLs, Projector Headlamps, 16-inch Alloy Wheels",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai i20.png"
+
 },
 "Hyundai Aura": {
     type: "Passenger",
@@ -2205,7 +2411,9 @@ const vehicleData = {
     interiorFeatures: "7-inch Touchscreen, Automatic Climate Control, Digital Instrument Cluster",
     exteriorFeatures: "LED DRLs, Projector Headlamps, Roof Rails",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Aura.png"
+
 },
 "Hyundai Verna": {
     type: "Passenger",
@@ -2224,7 +2432,9 @@ const vehicleData = {
     interiorFeatures: "10.25-inch Touchscreen, Wireless Charging, Leather Upholstery",
     exteriorFeatures: "LED Headlamps, Chrome Grille, Dual-tone Roof",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2023"
+    releaseDateYear: "2023",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Verna.png"
+
 },
 "Hyundai Creta": {
     type: "Passenger",
@@ -2243,7 +2453,9 @@ const vehicleData = {
     interiorFeatures: "8-inch Touchscreen, Automatic Climate Control, Wireless Charging",
     exteriorFeatures: "LED DRLs, Projector Headlamps, 17-inch Alloy Wheels",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2015"
+    releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Creta.png"
+
 },
 
 "Hyundai Alcazar": {
@@ -2263,7 +2475,9 @@ const vehicleData = {
     interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Wireless Charging",  
     exteriorFeatures: "LED Headlamps, Roof Rails, Chrome Door Handles, Fog Lamps",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Alcazar.png"
+
 },
 "Hyundai Venue": {
     type: "Passenger",
@@ -2282,7 +2496,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Climate Control",  
     exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Roof Rails",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2019"
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Venue.png"
+
 },
 "Hyundai Tucson": {
     type: "Passenger",
@@ -2301,7 +2517,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Wireless Charging",  
     exteriorFeatures: "LED Headlamps, Roof Rails, Alloy Wheels, Fog Lamps",  
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Tucson.png"
+
 },
 "Hyundai Ioniq 5": {
     type: "Passenger",
@@ -2320,7 +2538,9 @@ const vehicleData = {
     interiorFeatures: "Dual Touchscreen Infotainment, Digital Instrument Cluster, Sustainable Materials",  
     exteriorFeatures: "Pixelated LED Headlights, V2L (Vehicle-to-Load), Aerodynamic Design",  
     warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2022"
+    releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Ioniq 5.png"
+
 },
 "Hyundai Venue N Line": {
     type: "Passenger",
@@ -2339,7 +2559,9 @@ const vehicleData = {
     interiorFeatures: "Sporty Black Interior, Touchscreen Infotainment, Wireless Charging",  
     exteriorFeatures: "Sporty Red Accents, LED DRLs, Dual-tone Roof, Roof Rails",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Venue N Line.png"
+
 },
 "Hyundai i20 N Line": {
     type: "Passenger",
@@ -2358,7 +2580,9 @@ const vehicleData = {
     interiorFeatures: "Sporty Black Interior, Touchscreen Infotainment, Digital Instrument Cluster",  
     exteriorFeatures: "Sporty Red Accents, LED DRLs, Alloy Wheels, Fog Lamps",  
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai i20 N Line.png"
+
 },
 "Hyundai Creta N Line": {
     type: "Passenger",
@@ -2377,7 +2601,9 @@ const vehicleData = {
     interiorFeatures: "Sporty Interior, Touchscreen Infotainment, Wireless Charging",  
     exteriorFeatures: "Sporty Red Accents, LED DRLs, Dual-tone Roof, Roof Rails",  
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Creta N Line.png"
+
 },
 
 "Magnite": {
@@ -2397,7 +2623,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Wireless Apple CarPlay, Wireless Charging, Adjustable Seats",
     exteriorFeatures: "LED DRLs, Split-Type LED Tail Lamps, Bold Front Grille",
     warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Magnite.png"
+
 },
 
 "X-Trail": {
@@ -2417,7 +2645,9 @@ const vehicleData = {
     interiorFeatures: "Panoramic Sunroof, Leather Upholstery, 8-inch Touchscreen Infotainment",
     exteriorFeatures: "LED Headlights, Roof Rails, Smart Auto Lights",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/X-Trail.png"
+
 },
 
 "GT-R": {
@@ -2437,7 +2667,9 @@ const vehicleData = {
     interiorFeatures: "Recaro Seats, Multi-Function Display, Bose Audio System",
     exteriorFeatures: "Aerodynamic Design, Signature LED Tail Lamps, Carbon Fiber Accents",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",
-    releaseDateYear: "2007"
+    releaseDateYear: "2007",
+    imageUrl: "assets/images/vehicle_models_images/GT-R.png"
+
 },
 
 "Kushaq": {
@@ -2457,7 +2689,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Virtual Cockpit, Wireless Charging",
     exteriorFeatures: "LED DRLs, Projector Headlamps, Roof Rails, Fog Lamps",
     warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Kushaq.png"
+
 },
 
 "Slavia": {
@@ -2477,7 +2711,9 @@ const vehicleData = {
     interiorFeatures: "8-inch Touchscreen, Ambient Lighting, Wireless Charging",
     exteriorFeatures: "LED DRLs, Projector Headlamps, Chrome Grille, Alloy Wheels",
     warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2022"
+    releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Slavia.png"
+
 },
 
 "Kodiaq": {
@@ -2497,7 +2733,9 @@ const vehicleData = {
     interiorFeatures: "Panoramic Sunroof, Virtual Cockpit, Leather Upholstery",
     exteriorFeatures: "LED Headlamps, Roof Rails, 18-inch Alloy Wheels, Fog Lamps",
     warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Kodiaq.png"
+
 },
 
 "Superb": {
@@ -2517,7 +2755,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Ambient Lighting, Virtual Cockpit",
     exteriorFeatures: "LED Headlamps, Chrome Trims, Alloy Wheels",
     warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2001"
+    releaseDateYear: "2001",
+    imageUrl: "assets/images/vehicle_models_images/Superb.png"
+
 },
 
 "Octavia": {
@@ -2537,7 +2777,9 @@ const vehicleData = {
     interiorFeatures: "8-inch Touchscreen, Leather Upholstery, Virtual Cockpit",
     exteriorFeatures: "LED DRLs, Projector Headlamps, Alloy Wheels",
     warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "1996"
+    releaseDateYear: "1996",
+    imageUrl: "assets/images/vehicle_models_images/Octavia.png"
+
 },
 
 "Enyaq iV": {
@@ -2557,7 +2799,9 @@ const vehicleData = {
     interiorFeatures: "Panoramic Sunroof, Touchscreen Infotainment, Leather Upholstery",
     exteriorFeatures: "LED Headlamps, Roof Rails, Alloy Wheels",
     warrantyAfterSalesService: "8-year Battery Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Enyaq iV.png"
+
 },
 
 "Kylaq": {
@@ -2577,7 +2821,9 @@ const vehicleData = {
     interiorFeatures: "Virtual Cockpit, Leather Upholstery, Premium Sound System",
     exteriorFeatures: "LED Headlamps, Roof Rails, Alloy Wheels",
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2024"
+    releaseDateYear: "2024",
+    imageUrl: "assets/images/vehicle_models_images/Kylaq.png"
+
 },
 
 
@@ -2598,7 +2844,9 @@ const vehicleData = {
     "interiorFeatures": "Premium Upholstery, 2-DIN Audio System",
     "exteriorFeatures": "Halogen Headlamps, Body-Colored Bumpers",
     "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2012"
+    "releaseDateYear": "2012",
+    imageUrl: "assets/images/vehicle_models_images/Alto 800.png"
+
 },
 "Alto K10": {
     "type": "Passenger",
@@ -2617,7 +2865,9 @@ const vehicleData = {
     "interiorFeatures": "Integrated Audio System, Digital Instrument Cluster",
     "exteriorFeatures": "Body-Colored ORVMs, Fog Lamps, Chrome Front Grille",
     "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2014"
+    "releaseDateYear": "2014",
+    imageUrl: "assets/images/vehicle_models_images/Alto K10.png"
+
 },
 "Wagon R": {
     "type": "Passenger",
@@ -2636,7 +2886,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Digital Speedometer",
     "exteriorFeatures": "New Grille Design, Fog Lamps, LED DRLs",
     "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "1999"
+    "releaseDateYear": "1999",
+    imageUrl: "assets/images/vehicle_models_images/Wagon R.png"
+
 },
 "Swift": {
     "type": "Passenger",
@@ -2655,7 +2907,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Smart Instrument Cluster",
     "exteriorFeatures": "LED DRLs, Projector Headlamps, Chrome Accents",
     "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2005"
+    "releaseDateYear": "2005",
+    imageUrl: "assets/images/vehicle_models_images/Swift.png"
+
 },
 "Swift Dzire": {
     "type": "Passenger",
@@ -2674,7 +2928,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Leather Seats, Smart Instrument Cluster",
     "exteriorFeatures": "LED DRLs, Alloy Wheels, Chrome Accents",
     "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2008"
+    "releaseDateYear": "2008",
+    imageUrl: "assets/images/vehicle_models_images/Swift Dzire.png"
+
 },
 "Celerio": {
     "type": "Passenger",
@@ -2693,26 +2949,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Smart Digital Display",
     "exteriorFeatures": "LED DRLs, Body-Colored ORVMs, Fog Lamps",
     "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2008"
-},
-"Nexon": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Nexon",
-    "engineSpecifications": "1.2L Turbocharged Petrol, 1.5L Diesel",
-    "fuelType": "Petrol/Diesel",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹8,00,000 - ₹14,00,000",
-    "mileageRange": "17 - 21 km/l",
-    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Assist",
-    "colorOptions": "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-    "dimensions": "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-    "performanceFeatures": "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-    "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
+    "releaseDateYear": "2008",
+    imageUrl: "assets/images/vehicle_models_images/Celerio.png"
+
 },
 
 "Eeco Cargo": {
@@ -2732,7 +2971,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Instrument Cluster, Spacious Cargo Area",  // Interior Features
     "exteriorFeatures": "Halogen Headlamps, Body-Colored Bumpers",  // Exterior Features
     "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2010"  // Release Date/Year
+    "releaseDateYear": "2010",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Eeco Cargo.png"
+
 },
 
 "Alto Tour": {
@@ -2752,7 +2993,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Instrument Cluster, Spacious Cabin",  // Interior Features
     "exteriorFeatures": "Halogen Headlamps, Rear Defogger",  // Exterior Features
     "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2014"  // Release Date/Year
+    "releaseDateYear": "2014",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Alto Tour.png"
+
 },
 
 "Wagon R Tour": {
@@ -2772,7 +3015,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Instrument Cluster, Ample Boot Space",  // Interior Features
     "exteriorFeatures": "Halogen Headlamps, Fog Lamps",  // Exterior Features
     "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2015"  // Release Date/Year
+    "releaseDateYear": "2015",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Wagon R Tour.png"
+
 },
 
 "Ertiga Tour": {
@@ -2792,29 +3037,11 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Ample Legroom",  // Interior Features
     "exteriorFeatures": "Chrome Accents, Dual-tone Roof",  // Exterior Features
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2017"  // Release Date/Year
+    "releaseDateYear": "2017" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ertiga Tour.png"
+
 },
 
-
-"Nexon": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Nexon",  // Model Name Number
-    engineSpecifications: "1.2L Turbocharged Petrol, 1.5L Diesel", 
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹8,00,000 - ₹14,00,000",
-    mileageRange: "17 - 21 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",
-    colorOptions: "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-    dimensions: "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-    interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2016"
-},
 "Harrier": {
     type: "Passenger",
     brand: "Tata",
@@ -2832,7 +3059,9 @@ const vehicleData = {
     interiorFeatures: "Panoramic Sunroof, Touchscreen Infotainment, Leather Upholstery",
     exteriorFeatures: "LED DRLs, Projector Headlamps, 18-inch Alloy Wheels",
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2019"
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/Harrier.png"
+
 },
 "Safari": {
     type: "Passenger",
@@ -2851,7 +3080,9 @@ const vehicleData = {
     interiorFeatures: "Premium Leather Upholstery, 9-inch Touchscreen Infotainment, Panoramic Sunroof",
     exteriorFeatures: "LED DRLs, Dual-tone Roof, Projector Headlamps",
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Safari.png"
+
 },
 "Tiago": {
     type: "Passenger",
@@ -2870,7 +3101,9 @@ const vehicleData = {
     interiorFeatures: "7-inch Touchscreen Infotainment, Premium Fabric Upholstery",
     exteriorFeatures: "LED DRLs, Projector Headlamps",
     warrantyAfterSalesService: "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2016"
+    releaseDateYear: "2016",
+    imageUrl: "assets/images/vehicle_models_images/Tiago.png"
+
 },
 "Tigor": {
     type: "Passenger",
@@ -2889,7 +3122,9 @@ const vehicleData = {
     interiorFeatures: "7-inch Touchscreen Infotainment, Fabric Upholstery",
     exteriorFeatures: "LED DRLs, Projector Headlamps",
     warrantyAfterSalesService: "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Tigor.png"
+
 },
 "Punch": {
     type: "Passenger",
@@ -2908,7 +3143,9 @@ const vehicleData = {
     interiorFeatures: "7-inch Touchscreen Infotainment, Fabric Upholstery",
     exteriorFeatures: "LED DRLs, Projector Headlamps",
     warrantyAfterSalesService: "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Punch.png"
+
 },
 
 
@@ -2929,7 +3166,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Premium Upholstery, Apple CarPlay/Android Auto",
     exteriorFeatures: "LED DRLs, Projector Headlamps, Fog Lamps",
     warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Altroz.png"
+
 },
 "Curvv": {
     type: "Passenger",
@@ -2948,7 +3187,9 @@ const vehicleData = {
     interiorFeatures: "Connected Car Tech, 10.25-inch Touchscreen, Wireless Charging",
     exteriorFeatures: "LED Headlights, Bold Grille, SUV Coupe Design",
     warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2024"
+    releaseDateYear: "2024",
+    imageUrl: "assets/images/vehicle_models_images/Curvv.png"
+
 },
 "Gravitas": {
     type: "Passenger",
@@ -2967,7 +3208,9 @@ const vehicleData = {
     interiorFeatures: "Premium Leather Upholstery, 8.8-inch Infotainment System, 9 Speaker System",
     exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof",
     warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Gravitas.png"
+
 },
 "Nano": {
     type: "Passenger",
@@ -2986,7 +3229,9 @@ const vehicleData = {
     interiorFeatures: "Basic Infotainment, Minimalist Dashboard, Comfortable Seating",
     exteriorFeatures: "Compact Design, Stylish Look, Fog Lamps",
     warrantyAfterSalesService: "2-year/40,000 km Warranty",
-    releaseDateYear: "2008"
+    releaseDateYear: "2008",
+    imageUrl: "assets/images/vehicle_models_images/Nano.png"
+
 },
 "Nexon EV": {
     type: "Passenger",
@@ -3005,7 +3250,9 @@ const vehicleData = {
     interiorFeatures: "7-inch Touchscreen, Apple CarPlay, Wireless Charging",
     exteriorFeatures: "LED DRLs, Projector Headlamps, Fog Lamps, Stylish Alloy Wheels",
     warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",
-    releaseDateYear: "2020"
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Nexon EV.png"
+
 },
 "Tiago EV": {
     type: "Passenger",
@@ -3024,7 +3271,9 @@ const vehicleData = {
     interiorFeatures: "7-inch Touchscreen, Apple CarPlay, Digital Instrument Cluster",
     exteriorFeatures: "LED DRLs, Bold Grille, Rear Spoiler",
     warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",
-    releaseDateYear: "2022"
+    releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Tiago EV.png"
+
 },
 
 
@@ -3045,7 +3294,9 @@ const vehicleData = {
     "interiorFeatures": "7-inch Touchscreen, Android Auto, Apple CarPlay, Digital Instrument Cluster",
     "exteriorFeatures": "LED DRLs, Projector Headlamps, Alloy Wheels",
     "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2021"
+    "releaseDateYear": "2021",
+    imageUrl: "assets/images/vehicle_models_images/Tigor EV.png"
+
 },
 "Punch EV": {
     "type": "Passenger",
@@ -3064,7 +3315,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Digital Instrument Cluster, Smart Storage",
     "exteriorFeatures": "LED DRLs, Projector Headlamps, 16-inch Alloy Wheels",
     "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2023"
+    "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/Punch EV.png"
+
 },
 "Curvv EV": {
     "type": "Passenger",
@@ -3083,7 +3336,9 @@ const vehicleData = {
     "interiorFeatures": "7-inch Touchscreen Infotainment, Premium Upholstery, Voice Assist",
     "exteriorFeatures": "LED DRLs, Projector Headlamps, 18-inch Alloy Wheels",
     "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2024"
+    "releaseDateYear": "2024",
+    imageUrl: "assets/images/vehicle_models_images/Curvv EV.png"
+
 },
 "Harrier EV": {
     "type": "Passenger",
@@ -3102,7 +3357,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
     "exteriorFeatures": "LED DRLs, Projector Headlamps, 17-inch Alloy Wheels",
     "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2024"
+    "releaseDateYear": "2024",
+    imageUrl: "assets/images/vehicle_models_images/Harrier EV.png"
+
 },
 "Hexa": {
     "type": "Passenger",
@@ -3121,7 +3378,9 @@ const vehicleData = {
     "interiorFeatures": "7-inch Touchscreen, Premium Leather Upholstery, Automatic Climate Control",
     "exteriorFeatures": "LED DRLs, Projector Headlamps, Roof Rails, Fog Lamps",
     "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-    "releaseDateYear": "2016"
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Hexa.png"
+
 },
 "Zest": {
     "type": "Passenger",
@@ -3140,7 +3399,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Automatic Climate Control, Keyless Entry",
     "exteriorFeatures": "Projector Headlamps, Alloy Wheels, LED DRLs",
     "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-    "releaseDateYear": "2014"
+    "releaseDateYear": "2014",
+    imageUrl: "assets/images/vehicle_models_images/Zest.png"
+
 },
 "Bolt": {
     "type": "Passenger",
@@ -3159,7 +3420,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen Infotainment, Digital Instrument Cluster, Automatic Climate Control",
     "exteriorFeatures": "Projector Headlamps, LED DRLs, Alloy Wheels",
     "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-    "releaseDateYear": "2015"
+    "releaseDateYear": "2015",
+    imageUrl: "assets/images/vehicle_models_images/Bolt.png"
+
 },
 "Indica": {
     "type": "Passenger",
@@ -3178,7 +3441,9 @@ const vehicleData = {
     "interiorFeatures": "Basic Infotainment, Fabric Upholstery, Manual Air Conditioning",
     "exteriorFeatures": "Halogen Headlamps, Body-colored Bumpers",
     "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-    "releaseDateYear": "1998"
+    "releaseDateYear": "1998",
+    imageUrl: "assets/images/vehicle_models_images/Indica.png"
+
 },
 
 "Corolla Altis": {
@@ -3198,7 +3463,9 @@ const vehicleData = {
     interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Automatic Climate Control",
     exteriorFeatures: "LED Headlamps, Fog Lamps, Alloy Wheels, Chrome Accents",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2008"
+    releaseDateYear: "2008",
+    imageUrl: "assets/images/vehicle_models_images/Corolla Altis.png"
+
 },
 
 "Vellfire": {
@@ -3218,7 +3485,9 @@ const vehicleData = {
     interiorFeatures: "Luxury Leather Seats, 17-inch Touchscreen, Sunroof",
     exteriorFeatures: "LED Projector Headlamps, Alloy Wheels, Power Sliding Doors",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Vellfire.png"
+
 },
 
 "Hilux": {
@@ -3238,7 +3507,9 @@ const vehicleData = {
     interiorFeatures: "Premium Upholstery, Touchscreen Infotainment, Climate Control",
     exteriorFeatures: "LED Daytime Running Lights, Alloy Wheels, Tow Hooks",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Hilux.png"
+
 },
 
 "Land Cruiser Prado": {
@@ -3258,7 +3529,9 @@ const vehicleData = {
     interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Rear Entertainment",
     exteriorFeatures: "LED Headlamps, Alloy Wheels, Roof Rails",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2009"
+    releaseDateYear: "2009",
+    imageUrl: "assets/images/vehicle_models_images/Land Cruiser Prado.png"
+
 },
 
 "Etios": {
@@ -3278,7 +3551,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Digital Instrument Cluster, Air Conditioning",
     exteriorFeatures: "LED DRLs, Fog Lamps, Body Colored Bumpers",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2010"
+    releaseDateYear: "2010",
+    imageUrl: "assets/images/vehicle_models_images/Etios.png"
+
 },
 
 "Prius": {
@@ -3298,7 +3573,9 @@ const vehicleData = {
     interiorFeatures: "Premium Upholstery, Touchscreen Infotainment, Climate Control",
     exteriorFeatures: "LED Headlamps, Alloy Wheels, Aerodynamic Design",
     warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2010"
+    releaseDateYear: "2010",
+    imageUrl: "assets/images/vehicle_models_images/Prius.png"
+
 },
 
 
@@ -3319,7 +3596,9 @@ const vehicleData = {
     "interiorFeatures": "Premium Upholstery, 8-inch Touchscreen, 7-inch MID",
     "exteriorFeatures": "LED Headlamps, Chrome Grille, Roof Rails",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Innova Crysta.png"
+
   },
   "Fortuner": {
     "type": "Passenger",
@@ -3338,7 +3617,9 @@ const vehicleData = {
     "interiorFeatures": "Leather Upholstery, Touchscreen Infotainment, Smart Key Entry",
     "exteriorFeatures": "LED Projector Headlamps, Chrome Accents, Roof Rails",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2009"
+    "releaseDateYear": "2009",
+    imageUrl: "assets/images/vehicle_models_images/Fortuner.png"
+
   },
   "Urban Cruiser": {
     "type": "Passenger",
@@ -3357,7 +3638,9 @@ const vehicleData = {
     "interiorFeatures": "7-inch Touchscreen, Smart Connectivity, Leather Steering",
     "exteriorFeatures": "LED Projector Headlamps, Diamond Cut Alloy Wheels, Roof Rails",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2020"
+    "releaseDateYear": "2020",
+    imageUrl: "assets/images/vehicle_models_images/Urban Cruiser.png"
+
   },
   "Glanza": {
     "type": "Passenger",
@@ -3376,7 +3659,9 @@ const vehicleData = {
     "interiorFeatures": "7-inch Infotainment System, Steering-mounted Controls",
     "exteriorFeatures": "LED DRLs, Dual-tone Roof",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2019"
+    "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/Glanza.png"
+
   },
   "Yaris": {
     "type": "Passenger",
@@ -3395,7 +3680,9 @@ const vehicleData = {
     "interiorFeatures": "Touchscreen, Leather Upholstery, Smart Key Entry",
     "exteriorFeatures": "LED Projector Headlamps, Alloy Wheels, Shark-fin Antenna",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2018"
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Yaris.png"
+
   },
   "Camry": {
     "type": "Passenger",
@@ -3414,26 +3701,9 @@ const vehicleData = {
     "interiorFeatures": "Premium Leather Upholstery, Touchscreen, 9-inch MID",
     "exteriorFeatures": "LED Headlamps, Alloy Wheels, Aerodynamic Design",
     "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2021"
-  },
-  "Nexon": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "XUV300",
-    "engineSpecifications": "1.2L Turbocharged Petrol, 1.5L Diesel",
-    "fuelType": "Petrol/Diesel",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹8,00,000 - ₹14,00,000",
-    "mileageRange": "17 - 21 km/l",
-    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Assist",
-    "colorOptions": "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-    "dimensions": "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-    "performanceFeatures": "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-    "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
+    "releaseDateYear": "2021",
+    imageUrl: "assets/images/vehicle_models_images/Camry.png"
+
   },
 
   "Virtus": {
@@ -3453,7 +3723,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Digital Cockpit, Leather Upholstery",  // Interior Features
     exteriorFeatures: "LED Headlamps, Fog Lamps, Alloy Wheels, Sunroof",  // Exterior Features
     warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2022"  // Release Date/Year
+    releaseDateYear: "2022" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Virtus.png"
+
 },
 
 "Taigun": {
@@ -3473,7 +3745,9 @@ const vehicleData = {
     interiorFeatures: "Touchscreen Infotainment, Wireless Charging, Leather Upholstery",  // Interior Features
     exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails, Fog Lamps",  // Exterior Features
     warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
+    releaseDateYear: "2021",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Taigun.png"
+
 },
 
 "Tiguan": {
@@ -3493,7 +3767,9 @@ const vehicleData = {
     interiorFeatures: "Digital Cockpit, 8-inch Infotainment, Leather Upholstery",  // Interior Features
     exteriorFeatures: "LED Headlamps, Alloy Wheels, Roof Rails, Panoramic Sunroof",  // Exterior Features
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
+    releaseDateYear: "2021",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Tiguan.png"
+
 },
 
 "New Tiguan": {
@@ -3513,7 +3789,9 @@ const vehicleData = {
     interiorFeatures: "Virtual Cockpit, 9.2-inch Infotainment, Leather Upholstery",  // Interior Features
     exteriorFeatures: "LED Matrix Headlamps, Alloy Wheels, Panoramic Sunroof",  // Exterior Features
     warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2023"  // Release Date/Year
+    releaseDateYear: "2023",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/New Tiguan.png"
+
 },
 
 "Virtus GT": {
@@ -3533,7 +3811,9 @@ const vehicleData = {
     interiorFeatures: "GT-inspired Seats, Touchscreen Infotainment, Leather Upholstery",  // Interior Features
     exteriorFeatures: "GT Badging, LED DRLs, Fog Lamps, Alloy Wheels",  // Exterior Features
     warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2022"  // Release Date/Year
+    releaseDateYear: "2022" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Virtus GT.png"
+
 },
 
     "Grand Vitara": {
@@ -3553,7 +3833,9 @@ const vehicleData = {
         "interiorFeatures": "10.1-inch Touchscreen, Premium Upholstery, Wireless Charging",
         "exteriorFeatures": "LED Headlights, Front Skid Plate, Dual-tone Roof",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022" ,
+    imageUrl: "assets/images/vehicle_models_images/Grand Vitara.png"
+
     },
     "Jimny": {
         "type": "Passenger",
@@ -3572,7 +3854,9 @@ const vehicleData = {
         "interiorFeatures": "7-inch Touchscreen, Fabric Upholstery, Roof Rails",
         "exteriorFeatures": "LED Headlamps, Rear Spoiler, Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2023"
+        "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/Jimny.png"
+
     },
     "Fronx": {
         "type": "Passenger",
@@ -3591,7 +3875,9 @@ const vehicleData = {
         "interiorFeatures": "7-inch Touchscreen, Wireless Apple CarPlay, Push Start",
         "exteriorFeatures": "LED DRLs, Alloy Wheels, Roof Rails",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2023"
+        "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/Fronx.png"
+
     },
     "Invicto": {
         "type": "Passenger",
@@ -3610,7 +3896,9 @@ const vehicleData = {
         "interiorFeatures": "12-inch Touchscreen, Leather Upholstery, Digital Instrument Cluster",
         "exteriorFeatures": "LED Headlamps, Dual-tone Roof, Power Tailgate",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2023"
+        "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/Invicto.png"
+
     },
     "Eeco": {
         "type": "Commercial",
@@ -3629,7 +3917,9 @@ const vehicleData = {
         "interiorFeatures": "Basic Infotainment System, Fabric Upholstery",
         "exteriorFeatures": "Halogen Headlights, Wheel Covers",
         "warrantyAfterSalesService": "3-year/1,00,000 km Warranty",
-        "releaseDateYear": "2010"
+        "releaseDateYear": "2010",
+    imageUrl: "assets/images/vehicle_models_images/Eeco.png"
+
     },
     "Super Carry": {
         "type": "Commercial",
@@ -3648,26 +3938,9 @@ const vehicleData = {
         "interiorFeatures": "Basic Cabin, Comfortable Seats",
         "exteriorFeatures": "Robust Body, Halogen Headlamps",
         "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-        "releaseDateYear": "2016"
-    },
-    "Nexon": {
-        "type": "Passenger",
-        "brand": "Tata",
-        "modelNameNumber": "Nexon",
-        "engineSpecifications": "1.2L Turbocharged Petrol, 1.5L Diesel",
-        "fuelType": "Petrol/Diesel",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹8,00,000 - ₹14,00,000",
-        "mileageRange": "17 - 21 km/l",
-        "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Assist",
-        "colorOptions": "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-        "dimensions": "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-        "performanceFeatures": "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-        "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-        "exteriorFeatures": "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-        "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2016"
+        "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Super Carry.png"
+
     },
 
     "Baleno": {
@@ -3687,7 +3960,9 @@ const vehicleData = {
         "interiorFeatures": "Touchscreen Infotainment, SmartPlay Studio, Auto AC",
         "exteriorFeatures": "LED DRLs, Projector Headlamps, Diamond Cut Alloy Wheels",
         "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2015"
+        "releaseDateYear": "2015",
+    imageUrl: "assets/images/vehicle_models_images/Baleno.png"
+
     },
     "Ignis": {
         "type": "Passenger",
@@ -3706,7 +3981,9 @@ const vehicleData = {
         "interiorFeatures": "Touchscreen Infotainment, Premium Upholstery, Smart Instrument Cluster",
         "exteriorFeatures": "Dual-tone Roof, LED DRLs, Projector Headlamps",
         "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2017"
+        "releaseDateYear": "2017",
+    imageUrl: "assets/images/vehicle_models_images/Ignis.png"
+
     },
     "S-Presso": {
         "type": "Passenger",
@@ -3725,7 +4002,9 @@ const vehicleData = {
         "interiorFeatures": "Smart Infotainment, Adjustable Seats, LED Cluster",
         "exteriorFeatures": "SUV-like Stance, LED DRLs, Bold Grille",
         "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2019"
+        "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/S-Presso.png"
+
     },
     "Vitara Brezza": {
         "type": "Passenger",
@@ -3744,7 +4023,9 @@ const vehicleData = {
         "interiorFeatures": "Touchscreen Infotainment, Smart Instrument Cluster, Rear AC Vents",
         "exteriorFeatures": "LED DRLs, 16-inch Alloy Wheels, Roof Rails",
         "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2016"
+        "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Vitara Brezza.png"
+
     },
     "Ertiga": {
         "type": "Passenger",
@@ -3763,7 +4044,9 @@ const vehicleData = {
         "interiorFeatures": "Touchscreen Infotainment, Rear AC Vents, 3rd Row Seating",
         "exteriorFeatures": "Roof Rails, LED DRLs, Projector Headlamps",
         "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2012"
+        "releaseDateYear": "2012",
+    imageUrl: "assets/images/vehicle_models_images/Ertiga.png"
+
     },
     "XL6": {
         "type": "Passenger",
@@ -3782,7 +4065,9 @@ const vehicleData = {
         "interiorFeatures": "Smart Infotainment, Premium Leather Upholstery, 2nd-row Captain Seats",
         "exteriorFeatures": "LED DRLs, 16-inch Alloy Wheels, Roof Rails",
         "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2019"
+        "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/XL6.png"
+
     },
     "Ciaz": {
         "type": "Passenger",
@@ -3801,26 +4086,9 @@ const vehicleData = {
         "interiorFeatures": "Touchscreen Infotainment, Smart Instrument Cluster",
         "exteriorFeatures": "LED DRLs, Projector Headlamps",
         "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2014"
-    },
-    "Nexon": {
-        "type": "Passenger",
-        "brand": "Tata",
-        "modelNameNumber": "Nexon",
-        "engineSpecifications": "1.2L Turbocharged Petrol, 1.5L Diesel",
-        "fuelType": "Petrol/Diesel",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹8,00,000 - ₹14,00,000",
-        "mileageRange": "17 - 21 km/l",
-        "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Assist",
-        "colorOptions": "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-        "dimensions": "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-        "performanceFeatures": "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-        "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-        "exteriorFeatures": "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-        "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2016"
+        "releaseDateYear": "2014",
+    imageUrl: "assets/images/vehicle_models_images/Ciaz.png"
+
     },
     
     "Splendor Plus": {
@@ -3840,7 +4108,9 @@ const vehicleData = {
         "interiorFeatures": "N/A (Motorcycle)",
         "exteriorFeatures": "Stylish Body Graphics, Halogen Headlamp",
         "warrantyAfterSalesService": "5-year/70,000 km Warranty",
-        "releaseDateYear": "1994"
+        "releaseDateYear": "1994",
+    imageUrl: "assets/images/vehicle_models_images/Splendor Plus.png"
+
         },
     
         "Passion Pro": {
@@ -3860,7 +4130,9 @@ const vehicleData = {
         "interiorFeatures": "N/A (Motorcycle)",
         "exteriorFeatures": "Bold Graphics, LED Tail Lamp",
         "warrantyAfterSalesService": "5-year/70,000 km Warranty",
-        "releaseDateYear": "2001"
+        "releaseDateYear": "2001",
+    imageUrl: "assets/images/vehicle_models_images/Passion Pro.png"
+
         },
     
         "Bajaj Pulsar 150": {
@@ -3880,7 +4152,9 @@ const vehicleData = {
         interiorFeatures: "Digital Speedometer, Backlit Switches",  // Interior Features
         exteriorFeatures: "LED Tail Light, Aggressive Styling",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2001"  // Release Date/Year
+        releaseDateYear: "2001" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Bajaj Pulsar 150.png"
+
         },
     
         "Kubota Neostar A211N-NT": {
@@ -3900,7 +4174,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Ergonomic Seating",
         exteriorFeatures: "Heavy-duty Front Bumper, Rigid Rear Axle",
         warrantyAfterSalesService: "2-year/1000-hour Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Kubota Neostar A211N-NT.png"
+
        },
     
        "XP Plus 265 Orchard": {
@@ -3920,7 +4196,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Vinyl Seats, No Infotainment",  // Interior Features
         exteriorFeatures: "Halogen Headlamps, Side Mirrors, Steel Rims",  // Exterior Features
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/XP Plus 265 Orchard.png"
+
     },
     
     "XP Plus 415 DI": {
@@ -3940,7 +4218,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Manual Windows, Fabric Seats",  // Interior Features
         exteriorFeatures: "Halogen Headlamps, Side Skirts",  // Exterior Features
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/XP Plus 415 DI.png"
+
     },
     
     "XP Plus 475 DI MS": {
@@ -3960,7 +4240,9 @@ const vehicleData = {
         interiorFeatures: "Basic Interior, No Infotainment, Vinyl Seats",  // Interior Features
         exteriorFeatures: "LED Tail Lamps, Heavy-duty Bumpers",  // Exterior Features
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2019"  // Release Date/Year
+        releaseDateYear: "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/XP Plus 475 DI MS.png"
+
     },
     
     "XP Plus 585 DI": {
@@ -3980,7 +4262,9 @@ const vehicleData = {
         interiorFeatures: "No Infotainment, Fabric Seats, Basic Dashboard",  // Interior Features
         exteriorFeatures: "Halogen Headlamps, Side Skirts, Fog Lamps",  // Exterior Features
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/XP Plus 585 DI.png"
+
     },
     
     "225 DI": {
@@ -4000,7 +4284,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Fabric Seat Upholstery",
         exteriorFeatures: "Halogen Headlamps, Steel Rims, Basic Grille",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+    imageUrl: "assets/images/vehicle_models_images/225 DI.png"
+
     },
     "245 DI Vineyard": {
         type: "Commercial",
@@ -4019,7 +4305,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Fabric Seat Upholstery",
         exteriorFeatures: "Halogen Headlamps, Steel Rims, Basic Grille",
         warrantyAfterSalesService: "3-year/1,20,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/245 DI Vineyard.png"
+
     },
     "305 DI Vineyard": {
         type: "Commercial",
@@ -4038,7 +4326,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Fabric Seat Upholstery",
         exteriorFeatures: "Halogen Headlamps, Steel Rims, Basic Grille",
         warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/305 DI Vineyard.png"
+
     },
     "365 DI": {
         type: "Commercial",
@@ -4057,7 +4347,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Fabric Seat Upholstery",
         exteriorFeatures: "Halogen Headlamps, Steel Rims, Basic Grille",
         warrantyAfterSalesService: "3-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/365 DI.png"
+
     },
     "3132": {
         type: "Commercial",
@@ -4076,7 +4368,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Fabric Seat Upholstery",
         exteriorFeatures: "Halogen Headlamps, Steel Rims, Basic Grille",
         warrantyAfterSalesService: "3-year/2,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/3132.png"
+
     },
     
     "3140": {
@@ -4096,7 +4390,9 @@ const vehicleData = {
         interiorFeatures: "Basic Driver Cabin, Air Conditioning",
         exteriorFeatures: "Durable Chassis, Wide Wheelbase",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Support",
-        releaseDateYear: "2012"
+        releaseDateYear: "2012",
+    imageUrl: "assets/images/vehicle_models_images/3140.png"
+
     },
     
     "2130": {
@@ -4116,7 +4412,9 @@ const vehicleData = {
         interiorFeatures: "Basic Cabin, Driver Comfort",
         exteriorFeatures: "Heavy-duty Build, Functional Rear Cargo Area",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Support",
-        releaseDateYear: "2015"
+        releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/2130.png"
+
     },
     
     "2121": {
@@ -4136,7 +4434,9 @@ const vehicleData = {
         interiorFeatures: "Driver-focused Cabin, Air Conditioning",
         exteriorFeatures: "Heavy-duty Suspension, Reinforced Body",
         warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Roadside Assistance",
-        releaseDateYear: "2013"
+        releaseDateYear: "2013",
+    imageUrl: "assets/images/vehicle_models_images/2121.png"
+
     },
     
     "2136": {
@@ -4156,7 +4456,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Cabin, Basic Features",
         exteriorFeatures: "Reinforced Chassis, Large Cargo Bed",
         warrantyAfterSalesService: "4-year/1,50,000 km Warranty, 24/7 Support",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+    imageUrl: "assets/images/vehicle_models_images/2136.png"
+
     },
     
     "655 DI PP": {
@@ -4176,7 +4478,9 @@ const vehicleData = {
         interiorFeatures: "Basic Driver's Cabin",
         exteriorFeatures: "Durable Cargo Area, Wide Wheelbase",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",
-        releaseDateYear: "2014"
+        releaseDateYear: "2014",
+    imageUrl: "assets/images/vehicle_models_images/655 DI PP.png"
+
     },
     
     "755 DI PP 4WD": {
@@ -4196,7 +4500,9 @@ const vehicleData = {
         interiorFeatures: "Air Conditioning, Basic Cabin Comfort",
         exteriorFeatures: "Heavy-duty Chassis, Functional Cargo Area",
         warrantyAfterSalesService: "4-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2017"
+        releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/755 DI PP 4WD.png"
+        
     },
     
     "35 RX": {
@@ -4216,7 +4522,9 @@ const vehicleData = {
         interiorFeatures: "Air Conditioning, Basic Driver's Cabin",
         exteriorFeatures: "Strong Chassis, Cargo Space",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Support",
-        releaseDateYear: "2015"
+        releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/35 RX.png"
+
     },
     
     "47 RX": {
@@ -4236,7 +4544,9 @@ const vehicleData = {
         "interiorFeatures": "Basic cabin, Fabric seats",
         "exteriorFeatures": "Fog Lamps, Steel Rims",
         "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+    imageUrl: "assets/images/vehicle_models_images/47 RX.png"
+
     },
     "50 RX": {
         "type": "Commercial",
@@ -4255,7 +4565,9 @@ const vehicleData = {
         "interiorFeatures": "Basic dashboard, Vinyl seating",
         "exteriorFeatures": "Chrome bumpers, High-clearance tires",
         "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+    imageUrl: "assets/images/vehicle_models_images/50 RX.png"
+
     },
     "60 RX": {
         "type": "Commercial",
@@ -4274,7 +4586,9 @@ const vehicleData = {
         "interiorFeatures": "Premium vinyl upholstery, Basic infotainment",
         "exteriorFeatures": "Alloy wheels, Roof rails",
         "warrantyAfterSalesService": "3-year/1,20,000 km Warranty",
-        "releaseDateYear": "2023"
+        "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/60 RX.png"
+
     },
     "Sikander DI 35": {
         "type": "Commercial",
@@ -4293,7 +4607,9 @@ const vehicleData = {
         "interiorFeatures": "Basic cabin, Comfortable seating",
         "exteriorFeatures": "Steel wheels, Front grille guard",
         "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+    imageUrl: "assets/images/vehicle_models_images/Sikander DI 35.png"
+
     },
     "Sikander DI 42": {
         "type": "Commercial",
@@ -4312,7 +4628,9 @@ const vehicleData = {
         "interiorFeatures": "Basic interior, Durable seats",
         "exteriorFeatures": "Fog lamps, Steel rims",
         "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+    imageUrl: "assets/images/vehicle_models_images/Sikander DI 42.png"
+
     },
     "Sikander DI 60": {
         "type": "Commercial",
@@ -4331,7 +4649,9 @@ const vehicleData = {
         "interiorFeatures": "Basic interior, Comfort seats",
         "exteriorFeatures": "Alloy wheels, High-clearance tires",
         "warrantyAfterSalesService": "3-year/1,20,000 km Warranty",
-        "releaseDateYear": "2023"
+        "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/Sikander DI 60.png"
+
     },
     "Sikander DI 750": {
         "type": "Commercial",
@@ -4350,7 +4670,9 @@ const vehicleData = {
         "interiorFeatures": "Premium cabin, Comfortable seats",
         "exteriorFeatures": "Fog lamps, Alloy wheels",
         "warrantyAfterSalesService": "3-year/1,50,000 km Warranty",
-        "releaseDateYear": "2024"
+        "releaseDateYear": "2024",
+    imageUrl: "assets/images/vehicle_models_images/Sikander DI 750.png"
+
     },
     
     "5050 D": {
@@ -4370,7 +4692,9 @@ const vehicleData = {
         interiorFeatures: "Basic Driver Seat, Standard Dashboard",
         exteriorFeatures: "Steel Wheels, Heavy Duty Suspension",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/5050 D.png"
+
     },
     
     "575 DI SP Plus": {
@@ -4390,7 +4714,9 @@ const vehicleData = {
         interiorFeatures: "Basic Driver Seat, Minimalist Dashboard",
         exteriorFeatures: "Heavy Duty Tyres, Front Grille Protection",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+    imageUrl: "assets/images/vehicle_models_images/575 DI SP Plus.png"
+
     },
     
     "575 DI": {
@@ -4410,7 +4736,9 @@ const vehicleData = {
         interiorFeatures: "Standard Driver Seat, Basic Dashboard",
         exteriorFeatures: "Durable Bumper, Robust Suspension",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty",
-        releaseDateYear: "2017"
+        releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/575 DI.png"
+
     },
     
     "Mahindra Yuvraj 215 NXT": {
@@ -4430,7 +4758,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Adjustable Driver Seat",
         exteriorFeatures: "All-terrain Tyres, Heavy Duty Suspension",
         warrantyAfterSalesService: "2-year/50,000 km Warranty",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Yuvraj 215 NXT.png"
+
     },
     
     "Mahindra Novo 755 DI PP 4WD V1": {
@@ -4450,7 +4780,9 @@ const vehicleData = {
         interiorFeatures: "Standard Dashboard, Adjustable Seat",
         exteriorFeatures: "Steel Wheels, Protective Skid Plates",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Novo 755 DI PP 4WD V1.png"
+
     },
     
     "Mahindra Yuvo Tech Plus 585 DI": {
@@ -4470,7 +4802,9 @@ const vehicleData = {
         interiorFeatures: "Spacious Cabin, Adjustable Seat, Radio",
         exteriorFeatures: "Rugged Design, Strong Bumper, Heavy Duty Suspension",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Service",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Yuvo Tech Plus 585 DI.png"
+
     },
     
     "Mahindra OJA Series": {
@@ -4490,7 +4824,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Seat, Digital Instrument Cluster",
         exteriorFeatures: "Compact Design, Sturdy Wheels, Rearview Mirror",
         warrantyAfterSalesService: "3-year/75,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra OJA Series.png"
+
     },
     
     "John Deere 5036D": {
@@ -4510,7 +4846,9 @@ const vehicleData = {
         "interiorFeatures": "Simple Controls, Comfortable Seat",  
         "exteriorFeatures": "Heavy-duty Tires, Front Bumper",  
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Customer Support",  
-        "releaseDateYear": "2017"
+        "releaseDateYear": "2017",
+    imageUrl: "assets/images/vehicle_models_images/John Deere 5036D.png"
+
     },
     "John Deere 5075 Gear Pro": {
         "type": "Commercial",
@@ -4529,7 +4867,9 @@ const vehicleData = {
         "interiorFeatures": "Power Steering, Adjustable Seat",  
         "exteriorFeatures": "Large Tyres, Robust Body",  
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Support",  
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+    imageUrl: "assets/images/vehicle_models_images/John Deere 5075 Gear Pro.png"
+
     },
     "John Deere 5075 E": {
         "type": "Commercial",
@@ -4548,7 +4888,9 @@ const vehicleData = {
         "interiorFeatures": "Simple Dashboard, Adjustable Seat",  
         "exteriorFeatures": "Heavy-duty Tires, Durable Frame",  
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Assistance",  
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/John Deere 5075 E.png"
+
     },
     "John Deere 5045 D": {
         "type": "Commercial",
@@ -4567,7 +4909,9 @@ const vehicleData = {
         "interiorFeatures": "Comfortable Seat, Simple Control Panel",  
         "exteriorFeatures": "Durable Tires, Front Bumper",  
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Customer Service",  
-        "releaseDateYear": "2019"
+        "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/John Deere 5045 D.png"
+
     },
     
     "e-tron": {
@@ -4587,7 +4931,9 @@ const vehicleData = {
         interiorFeatures: "Virtual Cockpit, Leather Upholstery, MMI Touch",  // Interior Features
         exteriorFeatures: "LED Headlights, Aerodynamic Design, Aluminum Roof Rails",  // Exterior Features
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/e-tron.png"
+        
     },
     
     "RS Q8": {
@@ -4607,7 +4953,9 @@ const vehicleData = {
         interiorFeatures: "RS Sport Seats, MMI Touch, Carbon Fiber Inlays",  // Interior Features
         exteriorFeatures: "Matrix LED Headlights, RS-specific Front Bumper, Quad Exhaust",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/RS Q8.png"
+
     },
     
     "S5": {
@@ -4627,7 +4975,9 @@ const vehicleData = {
         interiorFeatures: "MMI Navigation Plus, Leather Upholstery, Digital Cockpit",  // Interior Features
         exteriorFeatures: "LED Headlights, Sports Rear Diffuser, RS Style Grille",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2017"  // Release Date/Year
+        releaseDateYear: "2017",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/S5.png"
+
     },
     
     "S6": {
@@ -4647,7 +4997,9 @@ const vehicleData = {
         interiorFeatures: "MMI Touch Response, Alcantara Upholstery, Digital Cockpit",  // Interior Features
         exteriorFeatures: "HD Matrix LED Headlights, Gloss Black Exterior Package",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/S6.png"
+
     },
     
     "TT": {
@@ -4667,7 +5019,9 @@ const vehicleData = {
         interiorFeatures: "MMI Navigation, Leather Upholstery, Sport Seats",  // Interior Features
         exteriorFeatures: "LED Headlights, Aerodynamic Body, Sporty Design",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2014"  // Release Date/Year
+        releaseDateYear: "2014",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/TT.png"
+
     },
     
     "R8": {
@@ -4687,7 +5041,9 @@ const vehicleData = {
         interiorFeatures: "MMI Navigation, Alcantara Upholstery, Carbon Fiber Inlays",  // Interior Features
         exteriorFeatures: "Matrix LED Headlights, Dynamic Rear Spoiler",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2006"  // Release Date/Year
+        releaseDateYear: "2006" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/R8.png"
+
     },
     
     "RS5": {
@@ -4707,7 +5063,9 @@ const vehicleData = {
         interiorFeatures: "MMI Navigation, RS Sport Seats, Virtual Cockpit",  // Interior Features
         exteriorFeatures: "LED Headlights, RS-specific Design",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/RS5.png"
+
     },
     
     "RS7": {
@@ -4727,7 +5085,9 @@ const vehicleData = {
         interiorFeatures: "MMI Navigation, Carbon Fiber Inlays, Sports Seats",  // Interior Features
         exteriorFeatures: "Matrix LED Headlights, RS-specific Grille",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/RS7.png"
+
     },
     
     "RS Q8": {
@@ -4747,7 +5107,9 @@ const vehicleData = {
         interiorFeatures: "RS Sport Seats, MMI Touch, Carbon Fiber Inlays",  // Interior Features
         exteriorFeatures: "Matrix LED Headlights, RS-specific Front Bumper, Quad Exhaust",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/RS Q8.png"
+
     },
     
     "Continental GT": {
@@ -4767,7 +5129,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Customizable Interiors, Massaging Seats",
         exteriorFeatures: "LED Matrix Headlamps, Active Aerodynamics, Chrome Details",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2003"
+        releaseDateYear: "2003",
+        imageUrl: "assets/images/vehicle_models_images/Continental GT.png"
+
     },
     
     "Flying Spur": {
@@ -4787,7 +5151,9 @@ const vehicleData = {
         interiorFeatures: "Premium Leather Upholstery, Touchscreen Infotainment, 4-Zone Climate Control",
         exteriorFeatures: "LED Headlamps, Adaptive Cruise Control, 22-inch Alloy Wheels",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2005"
+        releaseDateYear: "2005",
+        imageUrl: "assets/images/vehicle_models_images/Flying Spur.png"
+
     },
     
     "Bentayga": {
@@ -4807,7 +5173,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Luxury Leather Seats, Panoramic Sunroof",
         exteriorFeatures: "Matrix LED Headlights, 22-inch Alloy Wheels, Adaptive Suspension",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2015"
+        releaseDateYear: "2015",
+        imageUrl: "assets/images/vehicle_models_images/Bentayga.png"
+
     },
     
     
@@ -4828,7 +5196,9 @@ const vehicleData = {
         "interiorFeatures": "Bespoke Leather Upholstery, Premium Audio System, Leather-lined Cabin",
         "exteriorFeatures": "Spirit of Ecstasy, LED Headlights, Chrome Detailing",
         "warrantyAfterSalesService": "4-year/Unlimited Warranty, 24/7 Concierge Service",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/Ghost.png"
+
     },
     "Phantom": {
         "type": "Passenger",
@@ -4847,7 +5217,9 @@ const vehicleData = {
         "interiorFeatures": "Premium Leather Upholstery, Bespoke Audio System, Leather-lined Cabin",
         "exteriorFeatures": "Classic Rolls-Royce Spirit of Ecstasy, LED Headlights, Chrome Detailing",
         "warrantyAfterSalesService": "4-year/Unlimited Warranty, 24/7 Concierge Service",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/Phantom.png"
+
     },
     "Wraith": {
         "type": "Passenger",
@@ -4866,7 +5238,9 @@ const vehicleData = {
         "interiorFeatures": "Bespoke Leather Upholstery, Suede Headlining, Premium Audio System",
         "exteriorFeatures": "Signature Rolls-Royce Grille, LED Headlights, Spirit of Ecstasy",
         "warrantyAfterSalesService": "4-year/Unlimited Warranty, 24/7 Concierge Service",
-        "releaseDateYear": "2015"
+        "releaseDateYear": "2015",
+        imageUrl: "assets/images/vehicle_models_images/Wraith.png"
+
     },
     "Dawn": {
         "type": "Passenger",
@@ -4885,7 +5259,9 @@ const vehicleData = {
         "interiorFeatures": "Leather Upholstery, Suede Headlining, Digital Instrument Cluster",
         "exteriorFeatures": "Convertible Roof, Signature Spirit of Ecstasy, LED Headlamps",
         "warrantyAfterSalesService": "4-year/Unlimited Warranty, 24/7 Concierge Service",
-        "releaseDateYear": "2016"
+        "releaseDateYear": "2016",
+        imageUrl: "assets/images/vehicle_models_images/Dawn.png"
+
     },
     "Cullinan": {
         "type": "Passenger",
@@ -4904,7 +5280,9 @@ const vehicleData = {
         "interiorFeatures": "Bespoke Leather Upholstery, Premium Audio System, Wooden Accents",
         "exteriorFeatures": "Spirit of Ecstasy, LED Headlamps, Panoramic Sunroof",
         "warrantyAfterSalesService": "4-year/Unlimited Warranty, 24/7 Concierge Service",
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/Cullinan.png"
+
     },
     
     "Continental GT": {
@@ -4924,7 +5302,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Customizable Interiors, Massaging Seats",
         exteriorFeatures: "LED Matrix Headlamps, Active Aerodynamics, Chrome Details",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2003"
+        releaseDateYear: "2003",
+        imageUrl: "assets/images/vehicle_models_images/Continental GT.png"
+
     },
     
     "Flying Spur": {
@@ -4944,7 +5324,9 @@ const vehicleData = {
         interiorFeatures: "Premium Leather Upholstery, Touchscreen Infotainment, 4-Zone Climate Control",
         exteriorFeatures: "LED Headlamps, Adaptive Cruise Control, 22-inch Alloy Wheels",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2005"
+        releaseDateYear: "2005",
+        imageUrl: "assets/images/vehicle_models_images/Flying Spur.png"
+
     },
     
     "Bentayga": {
@@ -4964,7 +5346,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Luxury Leather Seats, Panoramic Sunroof",
         exteriorFeatures: "Matrix LED Headlights, 22-inch Alloy Wheels, Adaptive Suspension",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2015"
+        releaseDateYear: "2015",
+        imageUrl: "assets/images/vehicle_models_images/Bentayga.png"
+
     },
     
     
@@ -4985,7 +5369,9 @@ const vehicleData = {
         "interiorFeatures": "Premium Upholstery, Digital Display, Gesture Control",
         "exteriorFeatures": "LED Headlights, M Sport Body Kit, Sunroof",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/2 Series Gran Coupe.png"
+
     },
     "3 Series": {
         "type": "Passenger",
@@ -5004,7 +5390,9 @@ const vehicleData = {
         "interiorFeatures": "Luxury Upholstery, Digital Cockpit, Ambient Lighting",
         "exteriorFeatures": "Adaptive LED Lights, M Sport Wheels, Sunroof",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/3 Series.png"
+
     },
     "3 Series Gran Limousine": {
         "type": "Passenger",
@@ -5023,7 +5411,9 @@ const vehicleData = {
         "interiorFeatures": "Premium Leather Upholstery, Rear Seat Entertainment, Digital Cockpit",
         "exteriorFeatures": "LED Headlights, Sports Body Kit, Sunroof",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/3 Series Gran Limousine.png"
+
     },
     "4 Series": {
         "type": "Passenger",
@@ -5042,7 +5432,9 @@ const vehicleData = {
         "interiorFeatures": "Luxurious Cabin, Digital Display, Gesture Control",
         "exteriorFeatures": "LED Headlights, M Sport Package, Sunroof",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/4 Series.png"
+
     },
     
     "5 Series": {
@@ -5062,7 +5454,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Gesture Controls",
         exteriorFeatures: "LED Headlamps, Sunroof, Alloy Wheels, Parking Assistance",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/5 Series.png"
+
     },
     "6 Series Gran Turismo": {
         type: "Passenger",
@@ -5081,7 +5475,9 @@ const vehicleData = {
         interiorFeatures: "Panoramic Sunroof, Touchscreen Infotainment, Premium Sound System",
         exteriorFeatures: "LED Headlights, Aerodynamic Design, Alloy Wheels",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/6 Series Gran Turismo.png"
+
     },
     "7 Series": {
         type: "Passenger",
@@ -5100,7 +5496,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Executive Lounge Seating, Massaging Seats",
         exteriorFeatures: "Laser Light Technology, Sunroof, Alloy Wheels",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/7 Series.png"
+
     },
     "8 Series": {
         type: "Passenger",
@@ -5119,7 +5517,9 @@ const vehicleData = {
         interiorFeatures: "Leather Upholstery, Bowers & Wilkins Audio, Gesture Controls",
         exteriorFeatures: "Adaptive LED Headlights, Sunroof, Aerodynamic Design",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/8 Series.png"
+
     },
     "X1": {
         type: "Passenger",
@@ -5138,7 +5538,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Alloy Wheels, Fog Lamps",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/X1.png"
+
     },
     "X3": {
         type: "Passenger",
@@ -5157,7 +5559,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Apple CarPlay",
         exteriorFeatures: "LED Headlamps, Alloy Wheels, Roof Rails",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/X3.png"
+
     },
     
     
@@ -5178,7 +5582,9 @@ const vehicleData = {
         interiorFeatures: "Panoramic Sunroof, Digital Dashboard, Gesture Controls",  
         exteriorFeatures: "Adaptive LED Headlights, Roof Rails, Sporty Bumper",  
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2023"  
+        releaseDateYear: "2023"  ,
+        imageUrl: "assets/images/vehicle_models_images/iX1.png"
+
     },
     "i7": {
         type: "Passenger",
@@ -5197,7 +5603,9 @@ const vehicleData = {
         interiorFeatures: "Luxury Lounge Seating, Panoramic Roof, 12.3-inch Digital Display",  
         exteriorFeatures: "Dynamic LED Lights, Air Curtains, Elegant Grille",  
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2022"  
+        releaseDateYear: "2022"  ,
+        imageUrl: "assets/images/vehicle_models_images/i7.png"
+
     },
     "Z4": {
         type: "Passenger",
@@ -5216,7 +5624,9 @@ const vehicleData = {
         interiorFeatures: "Sporty Interior, 10.25-inch Infotainment System, Leather Upholstery",  
         exteriorFeatures: "Adaptive LED Headlights, Aerodynamic Design",  
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2019"  
+        releaseDateYear: "2019"  ,
+        imageUrl: "assets/images/vehicle_models_images/Z4.png"
+
     },
     "M2": {
         type: "Passenger",
@@ -5235,7 +5645,9 @@ const vehicleData = {
         interiorFeatures: "Sporty Seats, 12.3-inch Digital Instrument Cluster",  
         exteriorFeatures: "M Sport Body Kit, Adaptive LED Headlights",  
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2023"  
+        releaseDateYear: "2023"  ,
+        imageUrl: "assets/images/vehicle_models_images/M2.png"
+
     },
     "M3": {
         type: "Passenger",
@@ -5254,7 +5666,9 @@ const vehicleData = {
         interiorFeatures: "M Carbon Bucket Seats, Gesture Controls, 12.3-inch Digital Cluster",  
         exteriorFeatures: "M Aerodynamics Package, Laser Light Technology",  
         warrantyAfterSalesService: "3-year/60,000 km Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2021"  
+        releaseDateYear: "2021"  ,
+        imageUrl: "assets/images/vehicle_models_images/M3.png"
+
     },
     "M4": {
         type: "Passenger",
@@ -5273,7 +5687,9 @@ const vehicleData = {
         interiorFeatures: "M Carbon Seats, M Performance Steering Wheel",  
         exteriorFeatures: "M Sport Body Kit, LED Headlights, Carbon Fiber Trim",  
         warrantyAfterSalesService: "3-year/60,000 km Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2021"  
+        releaseDateYear: "2021"  ,
+        imageUrl: "assets/images/vehicle_models_images/M4.png"
+
     },
     
     
@@ -5410,7 +5826,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof",
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/M5.png"
+
     },
     "M8": {
         type: "Passenger",
@@ -5429,7 +5847,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/M8.png"
+
     },
     "XM": {
         type: "Passenger",
@@ -5448,7 +5868,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof",
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/XM.png"
+
     },
     
     "E-Pace": {
@@ -5468,7 +5890,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Leather Seats, Digital Instrument Cluster",  // Interior Features
         exteriorFeatures: "LED Headlights, Panoramic Sunroof, 18” Alloy Wheels",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2017"  // Release Date/Year
+        releaseDateYear: "2017",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/E-Pace.png"
+
     },
     
     "F-Pace": {
@@ -5488,7 +5912,9 @@ const vehicleData = {
         interiorFeatures: "Touch Pro Duo System, Leather Upholstery, 14-Speaker Meridian Sound",  // Interior Features
         exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2016"  // Release Date/Year
+        releaseDateYear: "2016" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/F-Pace.png"
+
     },
     
     "XJ": {
@@ -5508,7 +5934,9 @@ const vehicleData = {
         interiorFeatures: "Premium Leather Seats, Rear-Seat Entertainment, Power Sunroof",  // Interior Features
         exteriorFeatures: "Active Grille Shutters, LED Tail Lamps, Panoramic Roof",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2010"  // Release Date/Year
+        releaseDateYear: "2010" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/XJ.png"
+
     },
     
     "XF": {
@@ -5528,7 +5956,9 @@ const vehicleData = {
         interiorFeatures: "Wood and Leather Interior, Advanced Sound System, Digital Display",  // Interior Features
         exteriorFeatures: "LED Headlights, Dual Exhaust, 18” Alloy Wheels",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2008"  // Release Date/Year
+        releaseDateYear: "2008" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/XF.png"
+
     },
     
     "F-Type": {
@@ -5548,7 +5978,9 @@ const vehicleData = {
         interiorFeatures: "Premium Leather Upholstery, Touchscreen Infotainment, Navigation",  // Interior Features
         exteriorFeatures: "LED Headlights, Alloy Wheels, Sports Exhaust",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2013"  // Release Date/Year
+        releaseDateYear: "2013"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/F-Type.png"
+
     },
     
     "Range Rover Sport": {
@@ -5568,7 +6000,9 @@ const vehicleData = {
         interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Panoramic Sunroof",  // Interior Features
         exteriorFeatures: "Matrix LED Headlamps, Signature Daytime Running Lights, Power Tailgate",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2005"  // Release Date/Year
+        releaseDateYear: "2005",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Range Rover Sport.png"
+
     },
     "Range Rover Velar": {
         type: "Passenger",
@@ -5587,7 +6021,9 @@ const vehicleData = {
         interiorFeatures: "Heated Seats, Meridian Sound System, Touch Pro Duo Dual-Screen",  // Interior Features
         exteriorFeatures: "LED Headlamps, Gloss Black Roof Rails, Power Foldable Mirrors",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2017"  // Release Date/Year
+        releaseDateYear: "2017" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Range Rover Velar.png"
+
     },
     "XE": {
         type: "Passenger",
@@ -5606,7 +6042,9 @@ const vehicleData = {
         interiorFeatures: "Leather Upholstery, 8-inch Touchscreen, Meridian Sound System",  // Interior Features
         exteriorFeatures: "LED Headlights, Dynamic Grill, Gloss Black Side Vents",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2015"  // Release Date/Year
+        releaseDateYear: "2015",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/XE.png"
+
     },
     "Range Rover Evoque": {
         type: "Passenger",
@@ -5625,7 +6063,9 @@ const vehicleData = {
         interiorFeatures: "InControl Touch Pro, Meridian Sound System, Panoramic Roof",  // Interior Features
         exteriorFeatures: "Matrix LED Headlights, Signature Daytime Running Lights, Black Roof",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2011"  // Release Date/Year
+        releaseDateYear: "2011" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Range Rover Evoque.png"
+
     },
     
     
@@ -5646,7 +6086,9 @@ const vehicleData = {
         "interiorFeatures": "12.3-inch TFT Instrument Cluster, Premium Sound System, Leather Upholstery",
         "exteriorFeatures": "LED Headlamps, Aerodynamic Design, Split Rear Spoiler",
         "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/I-Pace.png"
+
     },
     "Defender": {
         "type": "Passenger",
@@ -5665,7 +6107,9 @@ const vehicleData = {
         "interiorFeatures": "InControl Touch Pro, Meridian Sound System, Leather Upholstery",
         "exteriorFeatures": "LED Headlamps, Panoramic Sunroof, Raised Ground Clearance",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/Defender.png"
+
     },
     "Discovery": {
         "type": "Passenger",
@@ -5684,7 +6128,9 @@ const vehicleData = {
         "interiorFeatures": "Touch Pro Duo, Luxurious Leather Seats, Premium Sound System",
         "exteriorFeatures": "LED Signature Headlamps, Power Tailgate, Roof Rails",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2017"
+        "releaseDateYear": "2017",
+        imageUrl: "assets/images/vehicle_models_images/Discovery.png"
+
     },
     "Discovery Sport": {
         "type": "Passenger",
@@ -5703,7 +6149,9 @@ const vehicleData = {
         "interiorFeatures": "10-inch Touchscreen, Leather Upholstery, Meridian Sound System",
         "exteriorFeatures": "LED Headlamps, Panoramic Roof, Roof Rails",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2014"
+        "releaseDateYear": "2014",
+        imageUrl: "assets/images/vehicle_models_images/Discovery Sport.png"
+
     },
     "Range Rover": {
         "type": "Passenger",
@@ -5722,7 +6170,9 @@ const vehicleData = {
         "interiorFeatures": "Touch Pro Duo, 29-speaker Meridian Sound System, Executive Class Seating",
         "exteriorFeatures": "Signature LED Headlamps, Deployable Side Steps, Panoramic Glass Roof",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2012"
+        "releaseDateYear": "2012",
+        imageUrl: "assets/images/vehicle_models_images/Range Rover.png"
+
     },
     
     
@@ -5743,7 +6193,9 @@ const vehicleData = {
         "interiorFeatures": "MBUX Infotainment System, Dual Zone Climate Control, LED Ambient Lighting",
         "exteriorFeatures": "LED Headlights, Panoramic Sunroof, 17-inch Alloy Wheels",
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/A-Class.png"
+
       },
       "B-Class": {
         "type": "Passenger",
@@ -5762,7 +6214,9 @@ const vehicleData = {
         "interiorFeatures": "MBUX Infotainment, High-Resolution Display, Reversing Camera",
         "exteriorFeatures": "LED High-Performance Headlights, Roof Rails, Rear Spoiler",
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/B-Class.png"
+
       },
       "C-Class": {
         "type": "Passenger",
@@ -5781,7 +6235,9 @@ const vehicleData = {
         "interiorFeatures": "COMAND Infotainment System, Heated Seats, Electric Adjustments",
         "exteriorFeatures": "LED Intelligent Light System, 18-inch Alloy Wheels, Panoramic Sunroof",
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/C-Class.png"
+
       },
       "E-Class": {
         "type": "Passenger",
@@ -5800,7 +6256,9 @@ const vehicleData = {
         "interiorFeatures": "MBUX with Voice Control, Ambient Lighting, Electric Front Seats",
         "exteriorFeatures": "LED High Performance Headlights, 19-inch Alloy Wheels, Panoramic Sunroof",
         "warrantyAfterSalesService": "3-year Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/E-Class.png"
+
       },
       "S-Class": {
         "type": "Passenger",
@@ -5819,7 +6277,9 @@ const vehicleData = {
         "interiorFeatures": "MBUX with Gesture Control, 3D Sound System, Massaging Seats",
         "exteriorFeatures": "Multibeam LED Headlights, 20-inch Alloy Wheels, Panorama Sunroof",
         "warrantyAfterSalesService": "3-year Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2023"
+        "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/S-Class.png"
+
       },
     
     
@@ -5841,7 +6301,9 @@ const vehicleData = {
         interiorFeatures: "MBUX Infotainment System, Leather Upholstery, Ambient Lighting",
         exteriorFeatures: "LED High Performance Headlamps, Panoramic Sunroof, AMG Styling",
         warrantyAfterSalesService: "3-year Warranty, Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/GLA.png"
+
     },
     
     // Vehicle Model: GLB
@@ -5862,7 +6324,9 @@ const vehicleData = {
         interiorFeatures: "MBUX, 10.25-inch Display, Thermotronic Climate Control",
         exteriorFeatures: "LED Tail Lights, Roof Rails, Power Tailgate",
         warrantyAfterSalesService: "3-year Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/GLB.png"
+
     },
     
     // Vehicle Model: GLC
@@ -5883,7 +6347,9 @@ const vehicleData = {
         interiorFeatures: "MBUX, Burmester Surround Sound, Panoramic Sunroof",
         exteriorFeatures: "LED High-Performance Lights, AMG Sport Package",
         warrantyAfterSalesService: "4-year Warranty, Roadside Assistance",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/GLC.png"
+
     },
     
     // Vehicle Model: GLE
@@ -5904,7 +6370,9 @@ const vehicleData = {
         interiorFeatures: "MBUX, Advanced Climate Control, Leather Upholstery",
         exteriorFeatures: "AMG Line, LED Tail Lights, Panoramic Sunroof",
         warrantyAfterSalesService: "4-year Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/GLE.png"
+
     },
     
     // Vehicle Model: GLS
@@ -5925,7 +6393,9 @@ const vehicleData = {
         interiorFeatures: "MBUX, Premium Sound System, 12.3-inch Digital Displays",
         exteriorFeatures: "Panoramic Sunroof, AMG Styling, LED High-Performance Lights",
         warrantyAfterSalesService: "4-year Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/GLS.png"
+
     },
     
     // Vehicle Model: G-Class
@@ -5946,7 +6416,9 @@ const vehicleData = {
         interiorFeatures: "Burmester Sound System, Nappa Leather, 12.3-inch MBUX Display",
         exteriorFeatures: "LED Headlights, AMG Body Styling, Side Steps",
         warrantyAfterSalesService: "5-year Warranty, Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/G-Class.png"
+
     },
     
     "EQB": {
@@ -5966,7 +6438,9 @@ const vehicleData = {
         interiorFeatures: "MBUX System, Panoramic Sunroof, Luxury Seats",  // Interior Features
         exteriorFeatures: "LED Headlamps, AMG Styling Package, 20-inch Wheels",  // Exterior Features
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/EQB.png"
+
     },
     
     "EQC": {
@@ -5986,7 +6460,9 @@ const vehicleData = {
         interiorFeatures: "MBUX System, Premium Audio, Full Digital Cockpit",  // Interior Features
         exteriorFeatures: "LED Headlamps, AMG Styling Package, 20-inch Wheels",  // Exterior Features
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/EQC.png"
+
     },
     
     "EQS": {
@@ -6006,7 +6482,9 @@ const vehicleData = {
         interiorFeatures: "MBUX Hyperscreen, Ambient Lighting, Premium Leather",  // Interior Features
         exteriorFeatures: "LED Headlamps, AMG Styling Package, 21-inch Wheels",  // Exterior Features
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/EQS.png"
+
     },
     
     "AMG A 35": {
@@ -6026,7 +6504,9 @@ const vehicleData = {
         interiorFeatures: "AMG Sport Seats, MBUX System, Digital Cockpit",  // Interior Features
         exteriorFeatures: "LED Headlamps, AMG Body Styling, 19-inch Wheels",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/AMG A 35.png"
+
     },
     
     "AMG C 63": {
@@ -6046,7 +6526,9 @@ const vehicleData = {
         interiorFeatures: "AMG Sport Seats, Premium Audio, Digital Cockpit",  // Interior Features
         exteriorFeatures: "LED Headlamps, AMG Body Styling, 19-inch Wheels",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/AMG C 63.png"
+
     },
     
     "AMG E 63": {
@@ -6066,7 +6548,9 @@ const vehicleData = {
         interiorFeatures: "MBUX Infotainment, Nappa Leather Upholstery, AMG Sport Seats",  // Interior Features
         exteriorFeatures: "AMG Night Package, LED Headlights, AMG Performance Exhaust",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2017"  // Release Date/Year
+        releaseDateYear: "2017",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/AMG E 63.png"
+
     },
     
     
@@ -6087,7 +6571,9 @@ const vehicleData = {
         "interiorFeatures": "MBUX Infotainment System, Premium Leather Upholstery, 3-zone Climate Control",
         "exteriorFeatures": "LED Multibeam Headlamps, Panoramic Sunroof, AMG Styling",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/CLS.png"
+
     },
     "EQE": {
         "type": "Passenger",
@@ -6106,7 +6592,9 @@ const vehicleData = {
         "interiorFeatures": "MBUX Hyperscreen, Premium Sound System, Vegan Leather Upholstery",
         "exteriorFeatures": "LED Headlights, Flush Door Handles, Aerodynamic Design",
         "warrantyAfterSalesService": "8-year/160,000 km Battery Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/EQE.png"
+
     },
     "AMG GT": {
         "type": "Passenger",
@@ -6125,7 +6613,9 @@ const vehicleData = {
         "interiorFeatures": "MB-Tex Upholstery, AMG Performance Steering Wheel, Burmester Sound System",
         "exteriorFeatures": "AMG Performance Exhaust, LED High-Performance Headlamps, Panoramic Roof",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2015"
+        "releaseDateYear": "2015",
+        imageUrl: "assets/images/vehicle_models_images/AMG GT.png"
+
     },
     
     
@@ -6146,7 +6636,9 @@ const vehicleData = {
         "interiorFeatures": "12.3-inch Digital Driver Display, Leather Upholstery, Bowers & Wilkins Sound System",
         "exteriorFeatures": "LED Headlights, Panoramic Sunroof, 19-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/XC60.png"
+
     },
     "XC90": {
         "type": "Passenger",
@@ -6165,7 +6657,9 @@ const vehicleData = {
         "interiorFeatures": "Bowers & Wilkins Sound System, Leather Upholstery, 9-inch Infotainment Display",
         "exteriorFeatures": "LED Headlights, Panoramic Sunroof, 20-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2015"
+        "releaseDateYear": "2015",
+        imageUrl: "assets/images/vehicle_models_images/XC90.png"
+
     },
     "S60": {
         "type": "Passenger",
@@ -6184,7 +6678,9 @@ const vehicleData = {
         "interiorFeatures": "12.3-inch Digital Driver Display, Leather Upholstery, Harman Kardon Sound System",
         "exteriorFeatures": "LED DRLs, Adaptive Headlights, 18-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/S60.png"
+
     },
     "S90": {
         "type": "Passenger",
@@ -6203,7 +6699,9 @@ const vehicleData = {
         "interiorFeatures": "Leather Upholstery, 9-inch Infotainment, Harman Kardon Sound System",
         "exteriorFeatures": "LED Headlights, Panoramic Sunroof, 19-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/S90.png"
+
     },
     "XC40": {
         "type": "Passenger",
@@ -6222,7 +6720,9 @@ const vehicleData = {
         "interiorFeatures": "Leather Upholstery, 9-inch Infotainment, Wireless Charging",
         "exteriorFeatures": "LED DRLs, Panoramic Sunroof, 18-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/XC40.png"
+
     },
     "V40": {
         "type": "Passenger",
@@ -6241,7 +6741,9 @@ const vehicleData = {
         "interiorFeatures": "Leather Upholstery, 8-inch Infotainment, Premium Sound System",
         "exteriorFeatures": "LED DRLs, Roof Rails, 17-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2017"
+        "releaseDateYear": "2017",
+        imageUrl: "assets/images/vehicle_models_images/V40.png"
+
     },
     
         "V60": {
@@ -6261,7 +6763,9 @@ const vehicleData = {
             "interiorFeatures": "Sensus Connect, Leather Upholstery, Panoramic Sunroof",
             "exteriorFeatures": "LED Headlights, Roof Rails, Dual Exhaust",
             "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Volvo On Call",
-            "releaseDateYear": "2018"
+            "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/V60.png"
+
         },
         "V90": {
             "type": "Passenger",
@@ -6280,7 +6784,9 @@ const vehicleData = {
             "interiorFeatures": "Bowers & Wilkins Sound System, Nappa Leather Upholstery",
             "exteriorFeatures": "Active Bending Lights, Power Tailgate, Roof Rails",
             "warrantyAfterSalesService": "4-year/1,00,000 km Warranty, Volvo Assistance",
-            "releaseDateYear": "2016"
+            "releaseDateYear": "2016",
+            imageUrl: "assets/images/vehicle_models_images/V90.png"
+
         },
         "EX90": {
             "type": "Passenger",
@@ -6299,7 +6805,9 @@ const vehicleData = {
             "interiorFeatures": "Large Touchscreen, Heated Seats, Premium Sound System",
             "exteriorFeatures": "Panoramic Roof, Adaptive Headlights, Roof Rails",
             "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, Volvo Assistance",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+            imageUrl: "assets/images/vehicle_models_images/EX90.png"
+
         },
         "Volvo 9400": {
             "type": "Commercial",
@@ -6318,7 +6826,9 @@ const vehicleData = {
             "interiorFeatures": "Comfortable Seating, AC, Onboard Wi-Fi",
             "exteriorFeatures": "LED Lights, Air Conditioning System, Roof Ventilation",
             "warrantyAfterSalesService": "2-year/2,00,000 km Warranty, Roadside Assistance",
-            "releaseDateYear": "2016"
+            "releaseDateYear": "2016",
+            imageUrl: "assets/images/vehicle_models_images/Volvo 9400.png"
+
         },
         "Volvo 9600": {
             "type": "Commercial",
@@ -6337,7 +6847,9 @@ const vehicleData = {
             "interiorFeatures": "Comfort Seats, Entertainment System, Onboard Refrigerator",
             "exteriorFeatures": "LED Fog Lights, Automatic Wipers, Roof Vents",
             "warrantyAfterSalesService": "3-year/2,50,000 km Warranty, Roadside Assistance",
-            "releaseDateYear": "2017"
+            "releaseDateYear": "2017",
+            imageUrl: "assets/images/vehicle_models_images/Volvo 9600.png"
+
         },
         "Volvo 7900": {
             "type": "Commercial",
@@ -6356,7 +6868,9 @@ const vehicleData = {
             "interiorFeatures": "Comfortable Seating, AC, Wi-Fi",
             "exteriorFeatures": "LED Tail Lights, Roof Vents, Adaptive Wipers",
             "warrantyAfterSalesService": "2-year/2,00,000 km Warranty, Roadside Assistance",
-            "releaseDateYear": "2015"
+            "releaseDateYear": "2015",
+            imageUrl: "assets/images/vehicle_models_images/Volvo 7900.png"
+
         },
     
         "RX": {
@@ -6376,7 +6890,9 @@ const vehicleData = {
             "interiorFeatures": "Leather Upholstery, 12-inch Touchscreen Infotainment, Digital Cluster",
             "exteriorFeatures": "LED Headlamps, Dual-tone Roof, Alloy Wheels",
             "warrantyAfterSalesService": "5-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+            imageUrl: "assets/images/vehicle_models_images/RX.png"
+
         },
         "NX": {
             "type": "Passenger",
@@ -6395,7 +6911,9 @@ const vehicleData = {
             "interiorFeatures": "Leatherette Seats, Touchscreen Infotainment, Auto Climate Control",
             "exteriorFeatures": "LED DRLs, Alloy Wheels, Fog Lamps",
             "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/MX.png"
+
         },
         "LS": {
             "type": "Passenger",
@@ -6414,7 +6932,9 @@ const vehicleData = {
             "interiorFeatures": "Touchscreen, Bluetooth Connectivity, Steering Mounted Controls",
             "exteriorFeatures": "Chrome Grille, Roof Rails, Body Cladding",
             "warrantyAfterSalesService": "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+            imageUrl: "assets/images/vehicle_models_images/LS.png"
+
         },
         "GX": {
             "type": "Passenger",
@@ -6433,7 +6953,9 @@ const vehicleData = {
             "interiorFeatures": "Leather Seats, Premium Audio System, Automatic Climate Control",
             "exteriorFeatures": "LED Tail Lights, Roof Rails, Alloy Wheels",
             "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+            imageUrl: "assets/images/vehicle_models_images/GX.png"
+
         },
         "LX": {
             "type": "Passenger",
@@ -6452,7 +6974,9 @@ const vehicleData = {
             "interiorFeatures": "Luxury Upholstery, 8-inch Infotainment, Voice Recognition",
             "exteriorFeatures": "LED Projector Headlamps, Roof Rails, Stylish Alloy Wheels",
             "warrantyAfterSalesService": "5-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+            imageUrl: "assets/images/vehicle_models_images/LX.png"
+
         },
         "UX": {
             "type": "Commercial",
@@ -6471,7 +6995,9 @@ const vehicleData = {
             "interiorFeatures": "Basic Console, Durable Seating",
             "exteriorFeatures": "Steel Wheels, Minimalistic Design",
             "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+            imageUrl: "assets/images/vehicle_models_images/UX.png"
+
         },
         "LC": {
             "type": "Commercial",
@@ -6490,7 +7016,9 @@ const vehicleData = {
             "interiorFeatures": "Durable Dashboard, Minimalistic Interior",
             "exteriorFeatures": "Reinforced Body, Heavy-duty Tyres",
             "warrantyAfterSalesService": "4-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/LC.png"
+
         },
     
         "Cayenne": {
@@ -6510,7 +7038,9 @@ const vehicleData = {
             "interiorFeatures": "Panoramic Roof, 12.3-inch Infotainment Screen, Leather Upholstery",
             "exteriorFeatures": "LED Matrix Headlights, Panoramic Sunroof, Active Rear Spoiler",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2002"
+            "releaseDateYear": "2002",
+            imageUrl: "assets/images/vehicle_models_images/Cayenne.png"
+
         },
         "Macan": {
             "type": "SUV",
@@ -6529,7 +7059,9 @@ const vehicleData = {
             "interiorFeatures": "Leather Seats, 10.9-inch Infotainment, Dual-zone Climate Control",
             "exteriorFeatures": "LED Headlights, Rear Spoiler, 21-inch Wheels",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2014"
+            "releaseDateYear": "2014",
+            imageUrl: "assets/images/vehicle_models_images/Macan.png"
+
         },
         "Panamera": {
             "type": "Luxury Sedan",
@@ -6548,7 +7080,9 @@ const vehicleData = {
             "interiorFeatures": "14-way Power Seats, Touchscreen Infotainment, Leather Upholstery",
             "exteriorFeatures": "LED Headlights, Panoramic Roof, Active Rear Spoiler",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2009"
+            "releaseDateYear": "2009",
+            imageUrl: "assets/images/vehicle_models_images/Panamera.png"
+
         },
         "911": {
             "type": "Sports Car",
@@ -6567,7 +7101,9 @@ const vehicleData = {
             "interiorFeatures": "Sports Seats, PCM Infotainment, Premium Audio System",
             "exteriorFeatures": "LED Headlights, Active Aero, Dynamic Chassis Control",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "1964"
+            "releaseDateYear": "1964",
+            imageUrl: "assets/images/vehicle_models_images/911.png"
+
         },
         "Taycan": {
             "type": "Electric Sedan",
@@ -6586,7 +7122,9 @@ const vehicleData = {
             "interiorFeatures": "Infotainment System, Digital Instrument Cluster, Leather Upholstery",
             "exteriorFeatures": "LED Matrix Headlights, Active Aero, Dynamic Chassis Control",
             "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2019"
+            "releaseDateYear": "2019",
+            imageUrl: "assets/images/vehicle_models_images/Taycan.png"
+
         },
         "Cayman": {
             "type": "Sports Car",
@@ -6605,7 +7143,9 @@ const vehicleData = {
             "interiorFeatures": "Sport Seats, 7-inch Infotainment, Premium Audio",
             "exteriorFeatures": "LED Headlights, Rear Spoiler, Sport Exhaust System",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2005"
+            "releaseDateYear": "2005",
+            imageUrl: "assets/images/vehicle_models_images/Cayman.png"
+
         },
         "Boxster": {
             "type": "Sports Car",
@@ -6624,7 +7164,9 @@ const vehicleData = {
             "interiorFeatures": "Infotainment System, Leather Seats, Premium Audio",
             "exteriorFeatures": "LED Headlights, Rear Spoiler, Dynamic Chassis Control",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "1996"
+            "releaseDateYear": "1996",
+            imageUrl: "assets/images/vehicle_models_images/Boxster.png"
+
         },
     
         "A3": {
@@ -6644,7 +7186,9 @@ const vehicleData = {
             "interiorFeatures": "Virtual Cockpit, MMI Touch, Leather Upholstery",
             "exteriorFeatures": "LED DRLs, S-Line Body Styling, Alloy Wheels",
             "warrantyAfterSalesService": "2-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2019"
+            "releaseDateYear": "2019",
+            imageUrl: "assets/images/vehicle_models_images/A3.png"
+
         },
         "A4": {
             "type": "Passenger",
@@ -6663,7 +7207,9 @@ const vehicleData = {
             "interiorFeatures": "MMI Navigation, Virtual Cockpit, Leather Upholstery",
             "exteriorFeatures": "Matrix LED Headlamps, S-Line Package, Alloy Wheels",
             "warrantyAfterSalesService": "3-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+            imageUrl: "assets/images/vehicle_models_images/A4.png"
+
         },
         "A6": {
             "type": "Passenger",
@@ -6682,7 +7228,9 @@ const vehicleData = {
             "interiorFeatures": "MMI Touch, Audi Virtual Cockpit, Leather Upholstery",
             "exteriorFeatures": "HD Matrix LED Headlamps, Panoramic Sunroof",
             "warrantyAfterSalesService": "3-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/A6.png"
+
         },
         "A8": {
             "type": "Passenger",
@@ -6701,7 +7249,9 @@ const vehicleData = {
             "interiorFeatures": "Bang & Olufsen Sound System, Executive Rear Seats, Virtual Cockpit",
             "exteriorFeatures": "HD Matrix LED Headlamps, Adaptive Cruise Control, 21-inch Alloy Wheels",
             "warrantyAfterSalesService": "5-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+            imageUrl: "assets/images/vehicle_models_images/A8.png"
+
         },
         "Q2": {
             "type": "SUV",
@@ -6720,7 +7270,9 @@ const vehicleData = {
             "interiorFeatures": "MMI Touch, Virtual Cockpit, Leather Upholstery",
             "exteriorFeatures": "LED Headlamps, Roof Rails, 18-inch Alloy Wheels",
             "warrantyAfterSalesService": "2-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+            imageUrl: "assets/images/vehicle_models_images/Q2.png"
+
         },
         "Q3": {
             "type": "SUV",
@@ -6739,7 +7291,9 @@ const vehicleData = {
             "interiorFeatures": "MMI Navigation, Virtual Cockpit, Leather Upholstery",
             "exteriorFeatures": "LED Headlamps, S-Line Package, Alloy Wheels",
             "warrantyAfterSalesService": "3-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/Q3.png"
+
         },
         "Q5": {
             "type": "SUV",
@@ -6758,7 +7312,9 @@ const vehicleData = {
             "interiorFeatures": "MMI Touch, Virtual Cockpit, Leather Upholstery",
             "exteriorFeatures": "HD Matrix LED Headlamps, Adaptive Cruise Control, 20-inch Alloy Wheels",
             "warrantyAfterSalesService": "3-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+            imageUrl: "assets/images/vehicle_models_images/Q5.png"
+
         },
         "Q7": {
             "type": "SUV",
@@ -6777,7 +7333,9 @@ const vehicleData = {
             "interiorFeatures": "Virtual Cockpit, Executive Rear Seats, Leather Upholstery",
             "exteriorFeatures": "HD Matrix LED Headlamps, 21-inch Alloy Wheels, Adaptive Cruise Control",
             "warrantyAfterSalesService": "5-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/Q7.png"
+
         },
         "Q8": {
             "type": "SUV",
@@ -6796,7 +7354,9 @@ const vehicleData = {
             "interiorFeatures": "Bang & Olufsen Sound System, Executive Rear Seats, Virtual Cockpit",
             "exteriorFeatures": "HD Matrix LED Headlamps, Panoramic Sunroof, 22-inch Alloy Wheels",
             "warrantyAfterSalesService": "5-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+            imageUrl: "assets/images/vehicle_models_images/Q8.png"
+
         },
     
         "John Deere 5050 D": {
@@ -6816,7 +7376,9 @@ const vehicleData = {
             "interiorFeatures": "Ergonomic Driver Seat, Easy-to-Use Controls",
             "exteriorFeatures": "Front Weights, Heavy-Duty Tires",
             "warrantyAfterSalesService": "5-year/5000 hours Warranty, 24/7 Support",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+            imageUrl: "assets/images/vehicle_models_images/John Deere 5050 D.png"
+
         },
         "John Deere 5042 D": {
             "type": "Tractor",
@@ -6835,7 +7397,9 @@ const vehicleData = {
             "interiorFeatures": "Comfortable Driver Seat, Simple Controls",
             "exteriorFeatures": "Front Weights, Strong Axles",
             "warrantyAfterSalesService": "5-year/5000 hours Warranty, 24/7 Support",
-            "releaseDateYear": "2019"
+            "releaseDateYear": "2019",
+            imageUrl: "assets/images/vehicle_models_images/John Deere 5042 D.png"
+
         },
         "John Deere 3038 E": {
             "type": "Tractor",
@@ -6854,7 +7418,9 @@ const vehicleData = {
             "interiorFeatures": "Comfortable Seat, Simple Controls",
             "exteriorFeatures": "Heavy-Duty Tires, Adjustable Linkage",
             "warrantyAfterSalesService": "5-year/5000 hours Warranty, 24/7 Support",
-            "releaseDateYear": "2018"
+            "releaseDateYear": "2018",
+            imageUrl: "assets/images/vehicle_models_images/John Deere 3038 E.png"
+
         },
         "John Deere 5050 E": {
             "type": "Tractor",
@@ -6873,7 +7439,9 @@ const vehicleData = {
             "interiorFeatures": "Ergonomic Driver Seat, Easy-to-Use Controls",
             "exteriorFeatures": "Front Weights, Heavy-Duty Tires",
             "warrantyAfterSalesService": "5-year/5000 hours Warranty, 24/7 Support",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/John Deere 5050 E.png"
+
         },
     
     "Mahindra SP Plus Series": {
@@ -6893,7 +7461,9 @@ const vehicleData = {
         interiorFeatures: "Ergonomic Seat, Digital Console",
         exteriorFeatures: "Heavy Duty Bumper, Roof Rails, Fog Lamps",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/Mahindra SP Plus Series.png"
+
     },
     
        "605 DI i": {
@@ -6913,7 +7483,9 @@ const vehicleData = {
         "interiorFeatures": "Basic Cabin with Adjustable Seating",
         "exteriorFeatures": "Fog Lamps, Side Cladding, Roof Rail",
         "warrantyAfterSalesService": "3-year/1,00,000 km Warranty",
-        "releaseDateYear": "2019"
+        "releaseDateYear": "2019",
+        imageUrl: "assets/images/vehicle_models_images/605 DI i.png"
+
       },
       
       "Tech+ 265 DI": {
@@ -6933,7 +7505,9 @@ const vehicleData = {
         "interiorFeatures": "Basic Interior with Adjustable Seating",
         "exteriorFeatures": "Side Cladding, Roof Rail, Chrome Grille",
         "warrantyAfterSalesService": "3-year/1,20,000 km Warranty",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 265 DI.png"
+
       },
       
       "Tech+ 405 4WD": {
@@ -6953,7 +7527,9 @@ const vehicleData = {
         "interiorFeatures": "Premium Interior with Adjustable Seats",
         "exteriorFeatures": "Heavy Duty Bumpers, Roof Rails, Fog Lamps",
         "warrantyAfterSalesService": "3-year/1,50,000 km Warranty",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 405 4WD.png"
+
       },
       
       "Tech+ 415 4WD": {
@@ -6973,7 +7549,9 @@ const vehicleData = {
         "interiorFeatures": "Standard Interior with Adjustable Seats",
         "exteriorFeatures": "Heavy Duty Roof Rails, Side Steps, Bumper",
         "warrantyAfterSalesService": "3-year/1,50,000 km Warranty",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 415 4WD.png"
+
       },
     
       "Tech+ 475": {
@@ -6993,7 +7571,9 @@ const vehicleData = {
         "interiorFeatures": "Basic Interior with Adjustable Seats",
         "exteriorFeatures": "Roof Rail, Side Cladding",
         "warrantyAfterSalesService": "3-year/1,20,000 km Warranty",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 475.png"
+
       },
     
         "Tech+ 575 4WD": {
@@ -7013,7 +7593,9 @@ const vehicleData = {
             "interiorFeatures": "Basic Upholstery, Radio, A/C",
             "exteriorFeatures": "LED Tail Lamps, Fog Lamps, Steel Wheels",
             "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 575 4WD.png"
+
         },
         
         "Tech+ 585": {
@@ -7033,7 +7615,9 @@ const vehicleData = {
             "interiorFeatures": "Basic Upholstery, Air Conditioning, Music System",
             "exteriorFeatures": "Chrome Grille, Fog Lights, Steel Rims",
             "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 585.png"
+
         },
         
         "SP Plus 265 DI": {
@@ -7053,7 +7637,9 @@ const vehicleData = {
             "interiorFeatures": "Basic Features, Radio, AC",
             "exteriorFeatures": "Steel Wheels, LED Tail Lamps",
             "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 265 DI.png"
+
         },
         
         "SP Plus 275 DI": {
@@ -7073,7 +7659,9 @@ const vehicleData = {
             "interiorFeatures": "Basic Upholstery, AC, Music System",
             "exteriorFeatures": "LED Tail Lights, Chrome Grille",
             "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 275 DI.png"
+
         },
         
         "SP Plus 415 DI": {
@@ -7093,7 +7681,9 @@ const vehicleData = {
             "interiorFeatures": "Basic Upholstery, A/C, Radio",
             "exteriorFeatures": "Fog Lamps, LED Tail Lights",
             "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 415 DI.png"
+
         },
         
         "SP Plus 475 DI": {
@@ -7113,7 +7703,9 @@ const vehicleData = {
             "interiorFeatures": "Basic Upholstery, A/C, Music System",
             "exteriorFeatures": "Steel Rims, Chrome Grille",
             "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 475 DI.png"
+
         },
         
         "SP Plus 575 DI": {
@@ -7133,7 +7725,9 @@ const vehicleData = {
             "interiorFeatures": "Premium Upholstery, A/C, Touchscreen",
             "exteriorFeatures": "Steel Rims, LED Lights",
             "warrantyAfterSalesService": "3-year/1,50,000 km Warranty",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 575 DI.png"
+
         },
         
         "SP Plus 585 DI": {
@@ -7153,7 +7747,9 @@ const vehicleData = {
             "interiorFeatures": "Premium Upholstery, A/C, Music System",
             "exteriorFeatures": "Steel Rims, Chrome Grille, LED Lights",
             "warrantyAfterSalesService": "3-year/1,50,000 km Warranty",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 585 DI.png"
+
         },
     
     
@@ -7174,7 +7770,9 @@ const vehicleData = {
           "interiorFeatures": "Air Conditioning, Ergonomic Driver's Seat, Digital Dashboard",
           "exteriorFeatures": "Wide Front Grille, Robust Body Structure, Fog Lamps",
           "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2018"
+          "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/5036 D.png"
+
         },
         
         "5042 D": {
@@ -7194,7 +7792,9 @@ const vehicleData = {
           "interiorFeatures": "Comfortable Seats, Advanced Dashboard Display, Air Conditioning",
           "exteriorFeatures": "Chrome Grille, LED Fog Lamps, Wide Tires",
           "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2019"
+          "releaseDateYear": "2019",
+        imageUrl: "assets/images/vehicle_models_images/5042 D.png"
+
         },
         
         "5050 D": {
@@ -7214,7 +7814,9 @@ const vehicleData = {
           "interiorFeatures": "Comfortable Seats, Adjustable Steering, Digital Dashboard",
           "exteriorFeatures": "Wide Grille, LED Headlamps, Reinforced Body",
           "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2020"
+          "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/5050 D.png"
+
         },
         
         "3028 EN": {
@@ -7234,7 +7836,9 @@ const vehicleData = {
           "interiorFeatures": "Driver's Comfort Seat, Digital Dashboard",
           "exteriorFeatures": "Sleek Design, Enhanced Visibility",
           "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2017"
+          "releaseDateYear": "2017",
+        imageUrl: "assets/images/vehicle_models_images/3028 EN.png"
+
         },
         
         "5075 E": {
@@ -7254,7 +7858,9 @@ const vehicleData = {
           "interiorFeatures": "Air Conditioning, Digital Dashboard, Comfortable Seating",
           "exteriorFeatures": "Durable Body, High Visibility Lights",
           "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2021"
+          "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/5075 E.png"
+
         },
         
         "PowerPro 5105": {
@@ -7274,7 +7880,9 @@ const vehicleData = {
           "interiorFeatures": "Air Conditioning, Ergonomic Driver's Seat",
           "exteriorFeatures": "Powerful Grille, LED Lights",
           "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2020"
+          "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/PowerPro 5105.png"
+
         },
     
        "PowerPro 5050": {
@@ -7294,7 +7902,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Vinyl Seat Upholstery, Power Steering",
         exteriorFeatures: "Halogen Headlamps, Steel Wheels, Side Step",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/PowerPro 5050.png"
+
         },
     
         "PowerPro 5305": {
@@ -7314,7 +7924,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Vinyl Seat Upholstery, Power Windows",
         exteriorFeatures: "Fog Lamps, Steel Wheels, Side Skirts",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/PowerPro 5305.png"
+
         },
     
        "555 DI": {
@@ -7334,7 +7946,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Vinyl Seat Upholstery, Power Steering",
         exteriorFeatures: "Projector Headlamps, Side Skirts, Wide Tyres",
         warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2017"
+        releaseDateYear: "2017",
+        imageUrl: "assets/images/vehicle_models_images/555 DI.png"
+
         },
     
         "605 DI MS": {
@@ -7354,7 +7968,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Power Windows, Vinyl Upholstery",
         exteriorFeatures: "Heavy-duty Bumper, LED Tail Lights, Side Step",
         warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/605 DI MS.png"
+
         },
     
         "605 DI PP": {
@@ -7374,7 +7990,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Power Steering, Vinyl Upholstery",
         exteriorFeatures: "Fog Lamps, Steel Wheels, Side Skirts",
         warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/605 DI PP.png"
+
         },
     
        "New Holland Simba 20": {
@@ -7394,7 +8012,9 @@ const vehicleData = {
         interiorFeatures: "Basic Operator Cabin, Adjustable Seat",  // Interior Features
         exteriorFeatures: "High Ground Clearance, Durable Tires",  // Exterior Features
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/New Holland Simba 20.png"
+
         },
     
        "New Holland 5630 TX Plus 4WD": {
@@ -7414,7 +8034,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Cabin, Adjustable Steering",  // Interior Features
         exteriorFeatures: "Durable Tires, Front Weights",  // Exterior Features
         warrantyAfterSalesService: "3-year Warranty, 24/7 Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2022"  // Release Date/Year
+        releaseDateYear: "2022" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/New Holland 5630 TX Plus 4WD.png"
+
         },
     
         "New Holland T5": {
@@ -7434,7 +8056,9 @@ const vehicleData = {
         interiorFeatures: "Digital Dashboard, Premium Cabin",  // Interior Features
         exteriorFeatures: "Heavy-duty Tires, Front Weights",  // Exterior Features
         warrantyAfterSalesService: "3-year Warranty, 24/7 Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/New Holland T5.png"
+
         },
     
        "New Holland 7030": {
@@ -7454,7 +8078,9 @@ const vehicleData = {
         interiorFeatures: "Operator Cabin, Adjustable Seat",  // Interior Features
         exteriorFeatures: "Durable Tires, High Ground Clearance",  // Exterior Features
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2019"  // Release Date/Year
+        releaseDateYear: "2019"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/New Holland 7030.png"
+
         },
     
         "New Holland 6500": {
@@ -7474,7 +8100,9 @@ const vehicleData = {
         interiorFeatures: "Basic Cabin, Adjustable Seat",  // Interior Features
         exteriorFeatures: "High Ground Clearance, Strong Build",  // Exterior Features
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/New Holland 6500.png"
+
         },
     
        "Sonalika DI 734 DLX": {
@@ -7494,7 +8122,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Seat, Basic Dashboard",
         exteriorFeatures: "Wide Front Tyres, Strong Build",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika DI 734 DLX.png"
+
         },
     
         "Sonalika Tiger DI 75 CRDS": {
@@ -7514,7 +8144,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Seat, Advanced Dashboard",
         exteriorFeatures: "Strong Chassis, Wide Tyres",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika Tiger DI 75 CRDS.png"
+
         },
     
         "Sonalika DI 745 III": {
@@ -7534,7 +8166,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Operator Seat, Basic Dashboard",
         exteriorFeatures: "Heavy Duty Tyres, Robust Build",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika DI 745 III.png"
+
         },
     
         "Sonalika 60Max Tiger": {
@@ -7554,7 +8188,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Operator Seat, Modern Dashboard",
         exteriorFeatures: "Wide Front Tyres, Durable Build",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika 60Max Tiger.png"
+
         },
     
         "Sonalika DI 35 Sikander": {
@@ -7574,7 +8210,9 @@ const vehicleData = {
         interiorFeatures: "Basic Seat, Simple Dashboard",
         exteriorFeatures: "Durable Tyres, Solid Frame",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika DI 35 Sikander.png"
+
         },
     
         "Sonalika Worldtrac 90 4WD": {
@@ -7594,7 +8232,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Operator Seat, Advanced Dashboard",
         exteriorFeatures: "Heavy Duty Tyres, Robust Construction",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika Worldtrac 90 4WD.png"
+
         },
     
        "Swaraj 744 FE": {
@@ -7614,7 +8254,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Seats, Adjustable Steering",
         exteriorFeatures: "LED Headlamps, High Ground Clearance, Reflective Mirrors",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 744 FE.png"
+
         },
     
         "Swaraj 735 FE": {
@@ -7634,7 +8276,9 @@ const vehicleData = {
         interiorFeatures: "Ergonomically Designed Seats, Adjustable Steering",
         exteriorFeatures: "High Ground Clearance, Strong Grille",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 735 FE.png"
+
         },
     
         "Swaraj 855 FE": {
@@ -7654,7 +8298,9 @@ const vehicleData = {
         interiorFeatures: "Leather Seats, Digital Dashboard",
         exteriorFeatures: "LED Lights, High Ground Clearance",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 855 FE.png"
+
         },
     
         "Swaraj 963 FE": {
@@ -7674,7 +8320,9 @@ const vehicleData = {
         interiorFeatures: "Adjustable Seat, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Strong Bumper",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 963 FE.png"
+
         },
     
         "Swaraj 725 XM": {
@@ -7694,7 +8342,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Seat, Adjustable Steering",
         exteriorFeatures: "High Ground Clearance, LED Headlamps",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 725 XM.png"
+
         },
     
         "Swaraj 824 XM": {
@@ -7714,7 +8364,9 @@ const vehicleData = {
         interiorFeatures: "Ergonomically Designed Seats, Adjustable Steering",
         exteriorFeatures: "LED Lights, High Ground Clearance",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2017"
+        releaseDateYear: "2017",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 824 XM.png"
+
         },
     
        "Escorts Farmtrac Smart 45": {
@@ -7734,7 +8386,9 @@ const vehicleData = {
         interiorFeatures: "Adjustable Driver Seat, Ergonomic Controls",
         exteriorFeatures: "Wide Tyres, Durable Frame, High Ground Clearance",
         warrantyAfterSalesService: "3-year/3000 hours Warranty, 24/7 Support",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Escorts Farmtrac Smart 45.png"
+
         },
     
         "Escorts Josh 335": {
@@ -7754,7 +8408,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Seats, User-Friendly Dashboard",
         exteriorFeatures: "Durable Tires, Protective Front Guard, Strong Body Frame",
         warrantyAfterSalesService: "2-year/2500 hours Warranty, 24/7 Support",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/Escorts Josh 335.png"
+
         },
         
         "Escorts Powertrac Euro 60": {
@@ -7774,7 +8430,9 @@ const vehicleData = {
         interiorFeatures: "Adjustable Seat, High Comfort Steering",
         exteriorFeatures: "Strong Frame, Wide Rear Tyres, Protective Bumper",
         warrantyAfterSalesService: "3-year/3500 hours Warranty, 24/7 Support",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Escorts Powertrac Euro 60.png"
+
         },
     
        "Kubota MU 5502 4WD": {
@@ -7794,7 +8452,9 @@ const vehicleData = {
         interiorFeatures: "Basic Dashboard, Comfortable Seats",
         exteriorFeatures: "Wide Wheelbase, Front Guard",
         warrantyAfterSalesService: "2-year/1500-hour Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/Kubota MU 5502 4WD.png"
+
         },
     
             "FZ-Series": {
@@ -7814,7 +8474,9 @@ const vehicleData = {
                 interiorFeatures: "Digital Instrument Console, LED Headlamps",
                 exteriorFeatures: "Fender, Alloy Wheels, LED Indicators",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2008"
+                releaseDateYear: "2008",
+        imageUrl: "assets/images/vehicle_models_images/FZ-Series.png"
+
             },
             
             "MT-15": {
@@ -7834,7 +8496,9 @@ const vehicleData = {
                 interiorFeatures: "Digital Instrument Console, Blue Core Technology",
                 exteriorFeatures: "Muscular Tank Design, LED DRLs, Alloy Wheels",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2019"
+                releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/MT-15.png"
+
             },
             
             "R15": {
@@ -7854,7 +8518,9 @@ const vehicleData = {
                 interiorFeatures: "Digital Speedometer, LED Tail Lamp, USB Charging Port",
                 exteriorFeatures: "Racing Inspired Design, LED DRLs, Alloy Wheels",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2008"
+                releaseDateYear: "2008",
+        imageUrl: "assets/images/vehicle_models_images/R15.png"
+
             },
             
             "FZ-X": {
@@ -7874,7 +8540,9 @@ const vehicleData = {
                 interiorFeatures: "Digital Instrument Console, LED Headlamps",
                 exteriorFeatures: "Fender, Alloy Wheels, LED Indicators",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2021"
+                releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/FZ-X.png"
+
             },
             
             "R15 V4": {
@@ -7894,7 +8562,9 @@ const vehicleData = {
                 interiorFeatures: "Digital Instrument Console, USB Charging, Smart LED Tail Lamp",
                 exteriorFeatures: "Racing Inspired Design, LED DRLs, Alloy Wheels",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2021"
+                releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/R15 V4.png"
+
             },
     
             "MY-15": {
@@ -7914,7 +8584,9 @@ const vehicleData = {
                 interiorFeatures: "Analog Instrument Console, LED Tail Lamp",
                 exteriorFeatures: "Stylish Body Design, Alloy Wheels",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2015"
+                releaseDateYear: "2015",
+        imageUrl: "assets/images/vehicle_models_images/MY-15.png"
+
             },    
     
         "Massey Ferguson 5118": {
@@ -7934,7 +8606,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable Seat, Simple Controls, Spacious Cabin",  // Interior Features
         exteriorFeatures: "Strong Chassis, LED Tail Lamps, Robust Design",  // Exterior Features
         warrantyAfterSalesService: "2-year/2000 hours Warranty, 24/7 Customer Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2015"  // Release Date/Year
+        releaseDateYear: "2015",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Massey Ferguson 5118.png"
+
         },
     
         "Massey Ferguson 254 DI Dynatrak 4WD": {
@@ -7954,7 +8628,9 @@ const vehicleData = {
         interiorFeatures: "Spacious Cabin, Comfortable Seat, Easy-to-Use Controls",  // Interior Features
         exteriorFeatures: "Sturdy Build, LED Tail Lamps, Robust Design",  // Exterior Features
         warrantyAfterSalesService: "2-year/2000 hours Warranty, 24/7 Customer Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Massey Ferguson 254 DI Dynatrak 4WD.png"
+
         },
     
         "TVS Radeon": {
@@ -7974,7 +8650,9 @@ const vehicleData = {
         interiorFeatures: "Analog Speedometer, Telescopic Front Forks",
         exteriorFeatures: "Chrome Finished Silencer, Stylish Headlamp, LED Tail Lamp",
         warrantyAfterSalesService: "5-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/TVS Radeon.png"
+
         },
     
         "Honda Activa 6G": {
@@ -7994,7 +8672,9 @@ const vehicleData = {
         interiorFeatures: "Digital Speedometer, External Fuel Lid, LED Headlamp",
         exteriorFeatures: "LED Position Lamps, Stylish Graphics",
         warrantyAfterSalesService: "3-year/36,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Honda Activa 6G.png"
+
         },
     
         "Honda CB Hornet 160R": {
@@ -8014,7 +8694,9 @@ const vehicleData = {
         interiorFeatures: "Digital Instrument Cluster, Gear Indicator",
         exteriorFeatures: "Sharp Headlamp, Premium Styling",
         warrantyAfterSalesService: "2-year/24,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2015"
+        releaseDateYear: "2015",
+        imageUrl: "assets/images/vehicle_models_images/Honda CB Hornet 160R.png"
+
         },
     
         "Honda CBR 250R": {
@@ -8034,7 +8716,9 @@ const vehicleData = {
         interiorFeatures: "Digital Instrument Console, Full-Fairing Design",
         exteriorFeatures: "LED Headlamp, Aggressive Styling",
         warrantyAfterSalesService: "2-year/24,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2011"
+        releaseDateYear: "2011",
+        imageUrl: "assets/images/vehicle_models_images/Honda CBR 250R.png"
+
         },
     
         "Honda CB Shine": {
@@ -8054,7 +8738,9 @@ const vehicleData = {
         interiorFeatures: "Analog Speedometer, Clear Visibility",
         exteriorFeatures: "Chrome Finish, Stylish Design",
         warrantyAfterSalesService: "3-year/36,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2006"
+        releaseDateYear: "2006",
+        imageUrl: "assets/images/vehicle_models_images/Honda CB Shine.png"
+
         },
     
         "Honda SP 125": {
@@ -8074,7 +8760,9 @@ const vehicleData = {
         interiorFeatures: "Digital Meter Console, Side Stand Engine Cut-Off",
         exteriorFeatures: "Sharp Headlamps, Premium Body Design",
         warrantyAfterSalesService: "3-year/36,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Honda SP 125.png"
+
         },
     
         "Honda XBlade": {
@@ -8094,7 +8782,9 @@ const vehicleData = {
         interiorFeatures: "Digital Instrument Cluster, Full Digital Console",
         exteriorFeatures: "Aggressive Headlamp, LED Indicators",
         warrantyAfterSalesService: "2-year/24,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Honda XBlade.png"
+
         },
     
     
@@ -8115,7 +8805,9 @@ const vehicleData = {
         "interiorFeatures": "Fully Digital Instrument Cluster, LED Tail Lamp",  // Interior Features
         "exteriorFeatures": "LED DRLs, Aggressive Styling, Sporty Look",  // Exterior Features
         "warrantyAfterSalesService": "5-year/50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2006"  // Release Date/Year
+        "releaseDateYear": "2006" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS Apache RTR 160.png"
+
         },
     
         "TVS Apache RTR 180": {
@@ -8135,7 +8827,9 @@ const vehicleData = {
         "interiorFeatures": "Fully Digital Instrument Cluster, LED Tail Lamp",  // Interior Features
         "exteriorFeatures": "Aggressive Styling, LED DRLs, Muscular Design",  // Exterior Features
         "warrantyAfterSalesService": "5-year/50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2008"  // Release Date/Year
+        "releaseDateYear": "2008" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS Apache RTR 180.png"
+
         },
     
         "TVS Apache RR 310": {
@@ -8155,7 +8849,9 @@ const vehicleData = {
         "interiorFeatures": "Fully Digital Instrument Cluster, Bluetooth Connectivity",  // Interior Features
         "exteriorFeatures": "Aerodynamic Design, LED DRLs, LED Tail Light",  // Exterior Features
         "warrantyAfterSalesService": "3-year/36,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2017"  // Release Date/Year
+        "releaseDateYear": "2017",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS Apache RR 310.png"
+
         },
         
         "TVS Ntorq 125": {
@@ -8175,7 +8871,9 @@ const vehicleData = {
         "interiorFeatures": "Digital Instrument Console, LED Tail Light",  // Interior Features
         "exteriorFeatures": "LED DRLs, Sharp Styling, Dual-tone Seat",  // Exterior Features
         "warrantyAfterSalesService": "5-year/50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2018"  // Release Date/Year
+        "releaseDateYear": "2018" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS Ntorq 125.png"
+
         },
     
         "TVS Jupiter": {
@@ -8195,7 +8893,9 @@ const vehicleData = {
         "interiorFeatures": "Analog Instrument Console, USB Charging Port",  // Interior Features
         "exteriorFeatures": "Stylish Design, LED Tail Light",  // Exterior Features
         "warrantyAfterSalesService": "5-year/50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2013"  // Release Date/Year
+        "releaseDateYear": "2013",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS Jupiter.png"
+
         },
         
         "TVS XL100": {
@@ -8215,7 +8915,9 @@ const vehicleData = {
         "interiorFeatures": "Analog Instrument Cluster, Simple Design",  // Interior Features
         "exteriorFeatures": "Sturdy Build, Comfortable Seating",  // Exterior Features
         "warrantyAfterSalesService": "5-year/50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2018"  // Release Date/Year
+        "releaseDateYear": "2018",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS XL100.png"
+
         },
     
         "Bajaj Dominar 400": {
@@ -8235,7 +8937,9 @@ const vehicleData = {
         interiorFeatures: "LED Display, Comfortable Seat, Dual-channel ABS",
         exteriorFeatures: "LED DRLs, Dual-Tone Colors, Dual-Disc Brakes",
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Dominar 400.png"
+
         },
     
         "Bajaj Avenger Street 160": {
@@ -8255,7 +8959,9 @@ const vehicleData = {
         interiorFeatures: "Simple, Minimalist Design",
         exteriorFeatures: "Blacked-out Styling, Matte Finish",
         warrantyAfterSalesService: "2-year/24,000 km Warranty",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Avenger Street 160.png"
+
         },
     
         "Bajaj Avenger Cruise 220": {
@@ -8275,7 +8981,9 @@ const vehicleData = {
         interiorFeatures: "Minimalist Interior, Comfortable Cruiser Seat",
         exteriorFeatures: "Classic Cruiser Styling, Chrome Accents",
         warrantyAfterSalesService: "2-year/24,000 km Warranty",
-        releaseDateYear: "2017"
+        releaseDateYear: "2017",
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Avenger Cruise 220.png"
+
         },
     
         "CT 100": {
@@ -8295,7 +9003,9 @@ const vehicleData = {
         interiorFeatures: "Comfortable and Simple Design",
         exteriorFeatures: "Classic Styling, Economical Body",
         warrantyAfterSalesService: "2-year/24,000 km Warranty",
-        releaseDateYear: "2004"
+        releaseDateYear: "2004",
+        imageUrl: "assets/images/vehicle_models_images/CT 100.png"
+
         },
     
        "V15": {
@@ -8315,7 +9025,9 @@ const vehicleData = {
         interiorFeatures: "Simple, Easy-to-read Instrument Cluster",
         exteriorFeatures: "Classic and Modern Styling",
         warrantyAfterSalesService: "2-year/24,000 km Warranty",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/V15.png"
+
         },
     
         "Bajaj Pulsar 200NS": {
@@ -8335,7 +9047,9 @@ const vehicleData = {
         interiorFeatures: "Digital Instrument Cluster, Split Seats",  // Interior Features
         exteriorFeatures: "LED Tail Light, Tinted Windshield",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2012"  // Release Date/Year
+        releaseDateYear: "2012" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Pulsar 200NS.png"
+
         },
     
         "Bajaj Pulsar 220F": {
@@ -8355,7 +9069,9 @@ const vehicleData = {
         interiorFeatures: "LED Speedometer, Fully Digital Console",  // Interior Features
         exteriorFeatures: "Projector Headlamps, V-shaped Tail Light",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2007"  // Release Date/Year
+        releaseDateYear: "2007" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Pulsar 220F.png"
+
         },
     
        "Bajaj Dominar 250": {
@@ -8375,7 +9091,9 @@ const vehicleData = {
         interiorFeatures: "Full Digital Console, LED DRLs",  // Interior Features
         exteriorFeatures: "Full LED Lighting, Sporty Design",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Dominar 250.png"
+
         },
     
         "Hero Pleasure Plus": {
@@ -8395,7 +9113,9 @@ const vehicleData = {
         interiorFeatures: "Digital Speedometer, 18L Under-seat Storage",
         exteriorFeatures: "Stylish Design, LED Tail Light, Large Footboard",
         warrantyAfterSalesService: "5-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/Hero Pleasure Plus.png"
+
         },
     
        "Hero Destini 125": {
@@ -8415,7 +9135,9 @@ const vehicleData = {
         interiorFeatures: "Digital Speedometer, USB Charging Port",
         exteriorFeatures: "Stylish Design, LED Tail Light, Front Disc Brake",
         warrantyAfterSalesService: "5-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Hero Destini 125.png"
+
         },
         
         "Hero Karizma XMR": {
@@ -8435,7 +9157,9 @@ const vehicleData = {
         interiorFeatures: "Full Digital Instrument Cluster, Smart App Connectivity",
         exteriorFeatures: "LED DRLs, Projector Headlamps, Sharp Styling",
         warrantyAfterSalesService: "5-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2024"
+        releaseDateYear: "2024",
+        imageUrl: "assets/images/vehicle_models_images/Hero Karizma XMR.png"
+
         },
     
         "HeroSuperSplendor": {
@@ -8455,7 +9179,9 @@ const vehicleData = {
         interiorFeatures: "N/A",
         exteriorFeatures: "Halogen Headlamp, Stylish Graphics",
         warrantyAfterSalesService: "5-year/50,000 km Warranty",
-        releaseDateYear: "2005"
+        releaseDateYear: "2005",
+        imageUrl: "assets/images/vehicle_models_images/HeroSuperSplendor.png"
+
         },
     
         "HeroXPulse200": {
@@ -8475,7 +9201,9 @@ const vehicleData = {
         interiorFeatures: "N/A",
         exteriorFeatures: "LED Headlamp, Digital Instrument Cluster",
         warrantyAfterSalesService: "5-year/70,000 km Warranty",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/HeroXPulse200.png"
+
         },
     
         "HeroXtreme160R": {
@@ -8495,7 +9223,9 @@ const vehicleData = {
         interiorFeatures: "N/A",
         exteriorFeatures: "LED Headlamp, Split Grab Rail",
         warrantyAfterSalesService: "5-year/50,000 km Warranty",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/HeroXtreme160R.png"
+
         },
     
         "HeroXoom110": {
@@ -8515,7 +9245,9 @@ const vehicleData = {
         interiorFeatures: "N/A",
         exteriorFeatures: "LED Projector Headlamp, Sporty Design",
         warrantyAfterSalesService: "5-year/50,000 km Warranty",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/HeroXoom110.png"
+
         },
     
         "Hero Xtreme 125R": {
@@ -8535,7 +9267,9 @@ const vehicleData = {
             "interiorFeatures": "Digital Instrument Cluster",
             "exteriorFeatures": "Stylish Graphics, LED Headlamp",
             "warrantyAfterSalesService": "5-year Warranty, Extensive Service Network",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/Hero Xtreme 125R.png"
+
         },
         
         "Hero Passion Plus": {
@@ -8555,7 +9289,9 @@ const vehicleData = {
             "interiorFeatures": "Analog Instrument Cluster",
             "exteriorFeatures": "Stylish Body Graphics, Front Disc Brake",
             "warrantyAfterSalesService": "5-year Warranty, Trusted Service Network",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/Hero Passion Plus.png"
+
         },
         
         "Hero HF Deluxe": {
@@ -8575,7 +9311,9 @@ const vehicleData = {
             "interiorFeatures": "Simple Instrument Cluster",
             "exteriorFeatures": "Chiseled Design, Reflector Tail Lamp",
             "warrantyAfterSalesService": "5-year Warranty, Wide Service Network",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/Hero HF Deluxe.png"
+
         },
     
         "Hero Glamour": {
@@ -8595,7 +9333,9 @@ const vehicleData = {
             "interiorFeatures": "Digital Speedometer, Smart Instrument Console",
             "exteriorFeatures": "Stylish Body Panels, LED Headlamps",
             "warrantyAfterSalesService": "5-year Warranty, Pan-India Service Network",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/Hero Glamour.png"
+
         },
     
         "Glamour": {
@@ -8615,7 +9355,9 @@ const vehicleData = {
         "interiorFeatures": "N/A (Motorcycle)",
         "exteriorFeatures": "LED Headlamp, Stylish Graphics",
         "warrantyAfterSalesService": "5-year/70,000 km Warranty",
-        "releaseDateYear": "2005"
+        "releaseDateYear": "2005",
+        imageUrl: "assets/images/vehicle_models_images/Glamour.png"
+
          },
     
         "Xtreme 160R": {
@@ -8635,7 +9377,9 @@ const vehicleData = {
         "interiorFeatures": "N/A (Motorcycle)",
         "exteriorFeatures": "Sporty Design, LED Headlamp and Indicators",
         "warrantyAfterSalesService": "5-year/70,000 km Warranty",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/Xtreme 160R.png"
+
         },
     
         "Royal Enfield Meteor 350": {
@@ -8655,7 +9399,9 @@ const vehicleData = {
         interiorFeatures: "Not Applicable",
         exteriorFeatures: "Halogen Headlamp, LED Tail Lamp, Alloy Wheels",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Royal Enfield Meteor 350.png"
+
         },
         
         "Royal Enfield Interceptor 650": {
@@ -8675,7 +9421,9 @@ const vehicleData = {
         interiorFeatures: "Not Applicable",
         exteriorFeatures: "Round Headlamp, Teardrop Fuel Tank, Spoke Wheels",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Royal Enfield Interceptor 650.png"
+
         },
     
         "Royal Enfield Continental GT 650": {
@@ -8695,7 +9443,9 @@ const vehicleData = {
         interiorFeatures: "Not Applicable",
         exteriorFeatures: "Round Headlamp, Clip-on Handlebars, Spoke Wheels",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Royal Enfield Continental GT 650.png"
+
         },
     
         "Continental GT 650": {
@@ -8715,7 +9465,9 @@ const vehicleData = {
         interiorFeatures: "Analog Speedometer, Tripper Navigation (Optional)",  // Interior Features
         exteriorFeatures: "Cafe Racer Design, Sculpted Fuel Tank",  // Exterior Features
         warrantyAfterSalesService: "3-year Warranty, 1-year Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Continental GT 650.png"
+
         },
     
         "Enfield Classic 350": {
@@ -8735,7 +9487,9 @@ const vehicleData = {
         interiorFeatures: "Analog Speedometer, Tripper Navigation (Optional)",  // Interior Features
         exteriorFeatures: "Retro Styling, Metal Construction",  // Exterior Features
         warrantyAfterSalesService: "3-year Warranty, 1-year Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Enfield Classic 350.png"
+
         },
     
         "Royal Enfield Bullet 350": {
@@ -8755,7 +9509,9 @@ const vehicleData = {
         interiorFeatures: "Analog Speedometer, Minimal Instrumentation",  // Interior Features
         exteriorFeatures: "Iconic Design, Pinstripe Fuel Tank",  // Exterior Features
         warrantyAfterSalesService: "2-year Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "1948 (Initial), Updated Regularly"  // Release Date/Year
+        releaseDateYear: "1948 (Initial), Updated Regularly",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Royal Enfield Bullet 350.png"
+
         },
         
         "Classic 350": {
@@ -8771,7 +9527,9 @@ const vehicleData = {
             colorOptions: "Chrome Red, Halcyon Black, Signals Marsh Grey, and more",
             dimensions: "2145 mm (Length), 785 mm (Width), 1090 mm (Height)",
             performanceFeatures: "Smooth Gear Shifting, Enhanced Stability",
-            releaseDateYear: "2021"  // Latest model update
+            releaseDateYear: "2021",  // Latest model update
+        imageUrl: "assets/images/vehicle_models_images/Classic 350.png"
+
         },
         
         "Bullet 350": {
@@ -8787,7 +9545,9 @@ const vehicleData = {
             colorOptions: "Black, Bullet Silver, Regal Red, and more",
             dimensions: "2170 mm (Length), 810 mm (Width), 1120 mm (Height)",
             performanceFeatures: "Iconic Thump Sound, Reliable Performance",
-            releaseDateYear: "2019"  // Latest model update
+            releaseDateYear: "2019",  // Latest model update
+        imageUrl: "assets/images/vehicle_models_images/Bullet 350.png"
+
         },
     
         "Meteor 350": {
@@ -8803,7 +9563,9 @@ const vehicleData = {
             colorOptions: "Fireball Yellow, Stellar Blue, Supernova Brown, and more",
             dimensions: "2140 mm (Length), 845 mm (Width), 1140 mm (Height)",
             performanceFeatures: "Cruise Comfort, Refined Engine",
-            releaseDateYear: "2020"  // Latest model update
+            releaseDateYear: "2020",  // Latest model update
+        imageUrl: "assets/images/vehicle_models_images/Meteor 350.png"
+
         },
     
         "Interceptor 650": {
@@ -8819,7 +9581,9 @@ const vehicleData = {
             colorOptions: "Orange Crush, Baker Express, Mark Two, and more",
             dimensions: "2122 mm (Length), 789 mm (Width), 1165 mm (Height)",
             performanceFeatures: "High Torque, Smooth Power Delivery",
-            releaseDateYear: "2018"  // Latest model update
+            releaseDateYear: "2018",  // Latest model update
+        imageUrl: "assets/images/vehicle_models_images/Interceptor 650.png"
+
         },
     
         "Activa": {
@@ -8839,7 +9603,9 @@ const vehicleData = {
         "interiorFeatures": "Digital-Analog Meter, External Fuel Lid",  // Interior Features
         "exteriorFeatures": "Stylish LED Headlamps, Chrome Highlights",  // Exterior Features
         "warrantyAfterSalesService": "3-year Warranty, Optional Extended Warranty",  // Warranty & After-Sales Service
-        "releaseDateYear": "2000"  // Release Date/Year
+        "releaseDateYear": "2000",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Activa.png"
+
         },
     
         "Shine": {
@@ -8859,7 +9625,9 @@ const vehicleData = {
         "interiorFeatures": "Digital-Analog Meter, Comfortable Seat",  // Interior Features
         "exteriorFeatures": "Chrome Highlights, Stylish Graphics",  // Exterior Features
         "warrantyAfterSalesService": "3-year Warranty, Optional Extended Warranty",  // Warranty & After-Sales Service
-        "releaseDateYear": "2006"  // Release Date/Year
+        "releaseDateYear": "2006" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Shine.png"
+
         },
     
         "CBR 250R": {
@@ -8879,7 +9647,9 @@ const vehicleData = {
         "interiorFeatures": "Digital Console, Aerodynamic Windshield",  // Interior Features
         "exteriorFeatures": "Sporty Graphics, LED DRLs",  // Exterior Features
         "warrantyAfterSalesService": "2-year Warranty, Optional Extended Warranty",  // Warranty & After-Sales Service
-        "releaseDateYear": "2011"  // Release Date/Year
+        "releaseDateYear": "2011",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/CBR 250R.png"
+
         },
     
         "CB Shine SP": {
@@ -8899,7 +9669,9 @@ const vehicleData = {
         "interiorFeatures": "Digital-Analog Meter, Spacious Seat",  // Interior Features
         "exteriorFeatures": "Chrome Highlights, Stylish Graphics",  // Exterior Features
         "warrantyAfterSalesService": "3-year Warranty, Optional Extended Warranty",  // Warranty & After-Sales Service
-        "releaseDateYear": "2015"  // Release Date/Year
+        "releaseDateYear": "2015" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/CB Shine SP.png"
+
         },
     
         "Apache RTR 180": {
@@ -8919,7 +9691,9 @@ const vehicleData = {
         "interiorFeatures": "Digital Instrument Console, SmartXonnect Connectivity",  
         "exteriorFeatures": "LED DRLs, Sculpted Tank, Race-Inspired Graphics",  
         "warrantyAfterSalesService": "5-year Warranty, Extensive Dealer Network",  
-        "releaseDateYear": "2009"
+        "releaseDateYear": "2009",
+        imageUrl: "assets/images/vehicle_models_images/Apache RTR 180.png"
+
         },
     
         "Apache RR 310": {
@@ -8939,7 +9713,9 @@ const vehicleData = {
         "interiorFeatures": "5-inch TFT Display, SmartXonnect System",  
         "exteriorFeatures": "Aerodynamic Fairing, Race-Inspired Design, LED Taillamps",  
         "warrantyAfterSalesService": "5-year Warranty, Nationwide Service Centers",  
-        "releaseDateYear": "2017"
+        "releaseDateYear": "2017",
+        imageUrl: "assets/images/vehicle_models_images/Apache RR 310.png"
+
         },
     
         "Raider 125": {
@@ -8959,7 +9735,9 @@ const vehicleData = {
         "interiorFeatures": "Digital Console, USB Charging Port",  
         "exteriorFeatures": "LED Headlamp, Sporty Design",  
         "warrantyAfterSalesService": "5-year Warranty, Pan-India Service Centers",  
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/Raider 125.png"
+
         },
     
         "Ntorq": {
@@ -8979,7 +9757,9 @@ const vehicleData = {
         "interiorFeatures": "Digital Display, USB Charger",  
         "exteriorFeatures": "LED Headlamp, Signature LED DRLs",  
         "warrantyAfterSalesService": "5-year Warranty, Extensive Dealer Network",  
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/Ntorq.png"
+
          },
     
         "Jupiter": {
@@ -8999,7 +9779,9 @@ const vehicleData = {
         "interiorFeatures": "External Fuel Filler Cap, Digital Analog Speedometer",  
         "exteriorFeatures": "LED Headlamp, Metal Body Panels",  
         "warrantyAfterSalesService": "5-year Warranty, TVS Service Support",  
-        "releaseDateYear": "2013"
+        "releaseDateYear": "2013",
+        imageUrl: "assets/images/vehicle_models_images/Jupiter.png"
+
         },
     
         "ApacheRTR160": {
@@ -9019,7 +9801,9 @@ const vehicleData = {
         interiorFeatures: "Digital Instrument Cluster with Lap Timer",  // Interior Features
         exteriorFeatures: "LED DRLs, Aerodynamic Design, Muscular Tank",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Widespread Service Network",  // Warranty & After-Sales Service
-        releaseDateYear: "2005"  // Release Date/Year
+        releaseDateYear: "2005" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/ApacheRTR160.png"
+
         },
     
         "Gixxer 150": {
@@ -9039,7 +9823,9 @@ const vehicleData = {
         interiorFeatures: "Digital Instrument Cluster, LED Tail Light",  // Interior Features
         exteriorFeatures: "LED Headlamp, Sporty Muffler, Split Seat",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2014"  // Release Date/Year
+        releaseDateYear: "2014"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Gixxer 150.png"
+
         },
     
         "Access 125": {
@@ -9059,7 +9845,9 @@ const vehicleData = {
         interiorFeatures: "Digital Instrument Cluster, Smartphone Connectivity, Storage Space",  // Interior Features
         exteriorFeatures: "Stylish LED Tail Lamp, Front Disc Brake, Sleek Body Design",  // Exterior Features
         warrantyAfterSalesService: "5-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2007"  // Release Date/Year
+        releaseDateYear: "2007"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Access 125.png"
+
         },
     
         "V-Strom": {
@@ -9079,7 +9867,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",  // Interior Features
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2024"  // Release Date/Year
+        releaseDateYear: "2024" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/V-Strom.png"
+
         },
     
         "Hayabusa": {
@@ -9099,7 +9889,9 @@ const vehicleData = {
         interiorFeatures: "Instrument Cluster with LCD Display, Multi-function Display",  // Interior Features
         exteriorFeatures: "Aerodynamic Bodywork, LED Lighting, Dual Exhausts",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Hayabusa.png"
+
         },
     
         "Ather 450X": {
@@ -9119,7 +9911,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Dashboard, Smartphone Connectivity, Bluetooth",  // Interior Features
         exteriorFeatures: "LED Headlights, Sleek Body Design, Tubeless Tires",  // Exterior Features
         warrantyAfterSalesService: "3-year/30,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Ather 450X.png"
+
         },
     
         "Ather 450": {
@@ -9139,7 +9933,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Dashboard, Navigation, Bluetooth Connectivity",  // Interior Features
         exteriorFeatures: "Stylish Body Design, LED Tail Lamps, Modern Front Design",  // Exterior Features
         warrantyAfterSalesService: "3-year/30,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Ather 450.png"
+
         },
     
         "Ola Electric": {
@@ -9159,7 +9955,9 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Navigation, Smartphone Connectivity",  // Interior Features
         exteriorFeatures: "LED Headlamps, Rearview Camera, Alloy Wheels",  // Exterior Features
         warrantyAfterSalesService: "3-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Ola Electric.png"
+
         },
     
         "Ola S1 Pro": {
@@ -9179,7 +9977,9 @@ const vehicleData = {
         interiorFeatures: "Fully Digital Dashboard, Smart Navigation, Customizable Ride Modes",  // Interior Features
         exteriorFeatures: "LED Headlamps, Sporty Design, Anti-theft Lock",  // Exterior Features
         warrantyAfterSalesService: "3-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Ola S1 Pro.png"
+
         },
     
         "Ola S1": {
@@ -9199,7 +9999,9 @@ const vehicleData = {
         interiorFeatures: "7-inch Touchscreen, Bluetooth Connectivity, Smartphone App Integration",  // Interior Features
         exteriorFeatures: "LED Headlamps, DRLs, Rear Disc Brakes",  // Exterior Features
         warrantyAfterSalesService: "3-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Ola S1.png"
+
         },
     
         "Suzuki Intruder 150": {
@@ -9219,7 +10021,9 @@ const vehicleData = {
         interiorFeatures: "LED Tail Light, Digital Speedometer, Anti-Theft System",  // Interior Features
         exteriorFeatures: "Aggressive Styling, Chrome Finish, Stylish Alloy Wheels",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Suzuki Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Suzuki Intruder 150.png"
+
         },
         
         "Burgman Street 125": {
@@ -9239,7 +10043,9 @@ const vehicleData = {
         interiorFeatures: "Digital Instrument Cluster, Spacious Under-Seat Storage",  // Interior Features
         exteriorFeatures: "LED Headlamps, Sleek Design, Chrome Detailing",  // Exterior Features
         warrantyAfterSalesService: "2-year Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Burgman Street 125.png"
+
         },
     
         "V-Strom 650": {
@@ -9259,7 +10065,9 @@ const vehicleData = {
         interiorFeatures: "Digital Instrument Cluster, LED Lighting, Multi-function Display",  // Interior Features
         exteriorFeatures: "Aluminium Handguards, High-mounted Exhaust, Twin LED Headlights",  // Exterior Features
         warrantyAfterSalesService: "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2004"  // Release Date/Year
+        releaseDateYear: "2004",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/V-Strom 650.png"
+
         },
     
         "Classic": {
@@ -9279,7 +10087,9 @@ const vehicleData = {
         interiorFeatures: "Basic Infotainment System, Fabric Upholstery, Manual AC",  // Interior Features
         exteriorFeatures: "Halogen Headlamps, Body-colored Bumpers, Steel Wheels",  // Exterior Features
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Classic.png"
+
         },
     
     
@@ -9300,53 +10110,44 @@ const vehicleData = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",  // Interior Features
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2024"  // Release Date/Year
+        releaseDateYear: "2024" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Java 42.png"
+
         },
-    
-        "Nexon": {
-            type: "Passenger",
-            brand: "Tata",
-            modelNameNumber: "XUV300",  // Model Name Number (Example, update as per your data)
-            engineSpecifications: "1.2L Turbocharged Petrol, 1.5L Diesel",  // Engine Specifications
-            fuelType: "Petrol/Diesel",  // Fuel Type
-            transmissionType: "Manual/Automatic",  // Transmission Type
-            seatingCapacity: "5",  // Seating Capacity
-            priceRange: "₹8,00,000 - ₹14,00,000",  // Price Range
-            mileageRange: "17 - 21 km/l",  // Mileage/Range
-            safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",  // Safety Features
-            colorOptions: "Flame Red, Calgary White, Foliage Green, Deep Red, and more",  // Color Options
-            dimensions: "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",  // Dimensions
-            performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Sports Mode",  // Performance Features
-            interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",  // Interior Features
-            exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",  // Exterior Features
-            warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-            releaseDateYear: "2016"  // Release Date/Year
-        },
-    
-        "Harrier": {
-            type: "Passenger",
-            brand: "Tata",
-            description: "Premium SUV with powerful engine and spacious interior.",
-            // features: ["Leather Seats", "Panoramic Sunroof", "Cruise Control"],
-            modelNameNumber: "",  // Placeholder for Model Name Number
-            engineSpecifications: "",  // Placeholder for Engine Specifications
-            fuelType: "",  // Placeholder for Fuel Type
-            transmissionType: "",  // Placeholder for Transmission Type
-            seatingCapacity: "",  // Placeholder for Seating Capacity
-            priceRange: "",  // Placeholder for Price Range
-            mileageRange: "",  // Placeholder for Mileage/Range
-            safetyFeatures: "",  // Placeholder for Safety Features
-            colorOptions: "",  // Placeholder for Color Options
-            dimensions: "",  // Placeholder for Dimensions
-            performanceFeatures: "",  // Placeholder for Performance Features
-            interiorFeatures: "",  // Placeholder for Interior Features
-            exteriorFeatures: "",  // Placeholder for Exterior Features
-            warrantyAfterSalesService: "",  // Placeholder for Warranty & After-Sales Service
-            releaseDateYear: ""  // Placeholder for Release Date/Year
-        },
+
+"Harrier": {
+    type: "Passenger",
+    brand: "Tata",
+    description: "Premium SUV with powerful engine and spacious interior.",
+    // features: ["Leather Seats", "Panoramic Sunroof", "Cruise Control"],
+    modelNameNumber: "Tata Harrier XZA+ Dark Edition",  
+    engineSpecifications: "2.0L Kryotec Turbocharged Diesel Engine, 1956cc, 170 PS, 350 Nm",  
+    fuelType: "Diesel",  
+    transmissionType: "6-speed Automatic and Manual",  
+    seatingCapacity: "5",  
+    priceRange: "₹15.49 Lakh - ₹24.49 Lakh (ex-showroom)",  
+    mileageRange: "16.35 km/l - 17.05 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, ESP, Hill Hold Assist, Roll-Over Mitigation",  
+    colorOptions: "Atlas Black, Orcus White, Tropical Mist, Daytona Grey, Royale Blue, and Calypso Red",  
+    dimensions: "Length: 4598 mm, Width: 1894 mm, Height: 1706 mm, Wheelbase: 2741 mm",  
+    performanceFeatures: "Drive Modes (Eco, City, Sport), Multi Drive 2.0, Advanced Terrain Response System",  
+    interiorFeatures: "Leather Upholstery, 8.8-inch Infotainment System, Ambient Lighting, JBL Sound System",  
+    exteriorFeatures: "LED DRLs, Dual-function LED Headlamps, 18-inch Diamond-Cut Alloy Wheels, Panoramic Sunroof",  
+    warrantyAfterSalesService: "2 years/unlimited km warranty with extended options and reliable service network",  
+    releaseDateYear: "2023",  
+    imageUrl: "assets/images/vehicle_models_images/Harrier.png"
+}
+
+
         // Add similar objects for other models...
     // Add more vehicle models as needed
+
 };
+
+
+
+
+// Function to handle the Apply Filters button click
 
 // Function to handle the Apply Filters button click
 function applyFilters(event) {
@@ -9398,6 +10199,8 @@ function applyFilters(event) {
                 <p><strong>Exterior Features:</strong> ${vehicleDetails.exteriorFeatures}</p>
                 <p><strong>Warranty & After-Sales Service:</strong> ${vehicleDetails.warrantyAfterSalesService}</p>
                 <p><strong>Release Date/Year:</strong> ${vehicleDetails.releaseDateYear}</p>
+                <img src="${vehicleDetails.imageUrl}" alt="${vehicleModel} photo" class="vehicle-image" />
+
             </div>
         </div>
     `;
@@ -9406,5 +10209,7 @@ function applyFilters(event) {
     vehicleInfoContainer.innerHTML = detailsHTML;
 }
 
+// imageUrl: "assets/images/vehicle_models_images/Tata_nexon.png"
+
 // Event listener for the form submit button
-document.getElementById("vehicle-filters").addEventListener("submit", applyFilters);
+// document.getElementById("vehicle-filters").addEventListener("submit", applyFilters);

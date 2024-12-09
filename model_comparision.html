@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Comparison</title>
+  <link rel="stylesheet" href="assets/css/model_comparision.css">
+
+  <style>
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ADBBDA;
+    background-image: url(assets/images/welcome-hero/comparisionbackgroundimage.png);
+    background-size: cover;  /* Ensures the image covers the entire background */
+    background-position: center;  /* Centers the image */
+  }
+
+  </style>
+
+</head>
+
+<body>
+  <h1>Compare Vehicles</h1>
+  <div class="vehicle-selection">
+    <label for="vehicle1">Select Vehicle 1:</label>
+    <select id="vehicle1">
+      <option value="none">Vehicles Of India (VInida)</option>
+    </select>
+
+    <label for="vehicle2">Select Vehicle 2:</label>
+    <select id="vehicle2">
+      <option value="none">Vehicles Of India (VInida)</option>
+    </select>
+    <button onclick="compareVehicles()">Compare</button>
+  </div>
+
+
+  <div id="comparison-container" class="hidden">
+    <div class="comparison-result">
+       <h2>Comparison Results</h2>
+       <table border="1" id="comparison-table">
+        <thead>
+          <tr>
+            <th>Attribute</th>
+            <th>Vehicle 1</th>
+            <th>Vehicle 2</th>
+          </tr>
+        </thead>
+        <tbody id="comparison-body">
+          <!-- Comparison rows will be dynamically added here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+  <script src="assets/js/model_comparision.js"></script>
+    
+</body>
+</html>

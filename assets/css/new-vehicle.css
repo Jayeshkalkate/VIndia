@@ -3,13 +3,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ADBBDA; /* Dark background for contrast */
-    color: rgb(240, 240, 240); /* Light text color for readability */
+    /* background-color: #ADBBDA; Dark background for contrast */
+    /* color: rgb(240, 240, 240); Light text color for readability */
+    /* align-items: center; */
+    background: linear-gradient(to right, #ff7300, #ffffff, #15ff00);
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+    color: rgb(78, 71, 167);
 }
 
 
 header {
-    background-color: #ADBBDA ; /* Dark header for emphasis */
     color: rgb(240, 240, 240); /* Light text in the header */
     padding: 20px;
     text-align: center;
@@ -37,7 +41,6 @@ header p {
 }
 
 .vehicle-card {
-    background-color: #ffc504; /* Bright yellow for card background */
     border: 1px solid #555770; /* Subtle border for definition */
     border-radius: 8px;
     overflow: hidden;
@@ -67,12 +70,12 @@ header p {
 .vehicle-card p {
     margin: 5px 0;
     font-size: 14px;
-    color: #222; /* Slightly darker gray for text */
+    color: #3523bf; /* Slightly darker gray for text */
     line-height: 1.4;
 }
 
 .vehicle-card p strong {
-    color: #000; /* Bold text in darker shade */
+    color: #14257d; /* Bold text in darker shade */
 }
 
 footer {

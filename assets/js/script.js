@@ -103,7 +103,7 @@ const data = {
 
         "Force Motors": ["Traveller", "Trax", "Gurkha", "Urbania", "Citiline", "Monobus", "Delivery Van", "Ambulance" , "Force Minidor", "Force Matador", "Force Shaktiman"],  
         
-        "Ashok Leyland": ["BOSS", "Ecomet", "Partner", "Dost", "Stile", "U-Truck", "4923",  "Ashok Leyland Dost", "Ashok Leyland Dost Plus", "Ashok Leyland Partner",  "Ashok Leyland Ecomet 1615", "Ashok Leyland Ecomet 1214", "Ashok Leyland 3118",  "Ashok Leyland 4923", "Ashok Leyland Viking", "Ashok Leyland Captain"],  
+        "Ashok Leyland": ["Ashok Leyland BOSS", "Ashok Leyland Ecomet", "Partner", "Dost", "Stile", "U-Truck", "4923",  "Ashok Leyland Dost", "Ashok Leyland Dost Plus", "Ashok Leyland Ashok Leyland Partner",  "Ashok Leyland Ecomet 1615", "Ashok Leyland Ecomet 1214", "Ashok Leyland 3118",  "Ashok Leyland 4923", "Ashok Leyland Viking", "Ashok Leyland Captain"],  
        
         "Eicher Motors": ["Pro 2049", "Pro 2059", "Pro 2110", "Pro 3015", "Pro 4028T", "Pro 6041", "Ecomet Star", "1615 HE", "1915 HE", "4220 HG" , "Eicher 1110 Pro", "Eicher 1114 XP Pro", "Eicher 3015", "Eicher 1049", "Eicher Pro 6000", "Eicher Pro 8000"],  
 
@@ -142,9 +142,4096 @@ const data = {
 
 
 
-// Example details for each vehicle model
-const vehicleDetails = {
+// Vehicle data object
+const vehicleData = {
+    "Nexon": {
+        type: "Passenger",
+        brand: "Tata",
+        modelNameNumber: "XUV300", 
+        engineSpecifications: "1.2L Turbocharged Petrol, 1.5L Diesel",
+        fuelType: "Petrol/Diesel",
+        transmissionType: "Manual/Automatic",
+        seatingCapacity: "5",
+        priceRange: "₹8,00,000 - ₹14,00,000",
+        mileageRange: "17 - 21 km/l",
+        safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",
+        colorOptions: "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
+        dimensions: "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
+        performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
+        interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
+        exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
+        releaseDateYear: "2016",
+        warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
+        imageUrl: "assets/images/vehicle_models_images/Tata_nexon.png"
+    },
 
+    "Eicher Pro 3015": {
+    type: "Commercial",
+    brand: "Eicher",
+    modelNameNumber: "Pro 3015",
+    engineSpecifications: "3.0L Turbocharged Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹15,00,000 - ₹18,00,000",
+    mileageRange: "8 - 10 km/l",
+    safetyFeatures: "ABS, EBD, Driver Airbag, Parking Brake Alarm",
+    colorOptions: "White, Silver, Blue",
+    dimensions: "6190 mm (Length), 2100 mm (Width), 2670 mm (Height)",
+    performanceFeatures: "High Torque Engine, Power Steering, Payload Capacity",
+    interiorFeatures: "Basic Cabin, Adjustable Seats, Digital Display",
+    exteriorFeatures: "Front Grille with Chrome, Halogen Headlights",
+    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 3015"
+    
+},
+
+"Eicher Pro 5040": {
+    type: "Commercial",
+    brand: "Eicher",
+    modelNameNumber: "Pro 5040",
+    engineSpecifications: "4.0L Turbocharged Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹18,00,000 - ₹22,00,000",
+    mileageRange: "7 - 9 km/l",
+    safetyFeatures: "ABS, EBD, Driver Airbag, Parking Brake Alarm",
+    colorOptions: "White, Yellow, Green",
+    dimensions: "7200 mm (Length), 2400 mm (Width), 2950 mm (Height)",
+    performanceFeatures: "Powerful Engine, High Payload Capacity, Stable Ride",
+    interiorFeatures: "Basic Cabin, Adjustable Seats, Digital Instrument Cluster",
+    exteriorFeatures: "Large Front Grille, LED Headlamps",
+    warrantyAfterSalesService: "3-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 5040.png"
+},
+
+"Eicher Pro 6037": {
+    type: "Commercial",
+    brand: "Eicher",
+    modelNameNumber: "Pro 6037",
+    engineSpecifications: "6.0L Turbocharged Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹22,00,000 - ₹26,00,000",
+    mileageRange: "6 - 8 km/l",
+    safetyFeatures: "ABS, EBD, Driver and Co-Driver Airbags, Parking Brake Alarm",
+    colorOptions: "White, Red, Black",
+    dimensions: "8200 mm (Length), 2500 mm (Width), 3250 mm (Height)",
+    performanceFeatures: "High Payload Capacity, Heavy-Duty Engine, Air Brakes",
+    interiorFeatures: "Comfortable Cabin, Adjustable Seats, Digital Dashboard",
+    exteriorFeatures: "Large Front Grille, LED Fog Lamps, Dual-Tone Paint",
+    warrantyAfterSalesService: "3-year/2,50,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 6037.png"
+
+},
+
+"Eicher Pro 5028": {
+    type: "Commercial",
+    brand: "Eicher",
+    modelNameNumber: "Pro 5028",
+    engineSpecifications: "5.0L Turbocharged Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹20,00,000 - ₹24,00,000",
+    mileageRange: "7 - 9 km/l",
+    safetyFeatures: "ABS, EBD, Driver Airbag, Parking Brake Alarm",
+    colorOptions: "White, Blue, Green",
+    dimensions: "7500 mm (Length), 2300 mm (Width), 3100 mm (Height)",
+    performanceFeatures: "High Torque Engine, High Ground Clearance, Payload Capacity",
+    interiorFeatures: "Basic Cabin, Adjustable Seats, Digital Instrument Cluster",
+    exteriorFeatures: "Front Grille, Halogen Headlamps, Reflector Taillights",
+    warrantyAfterSalesService: "3-year/1,80,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 5028.png"
+},
+
+"AMW 3118": {
+    "type": "Commercial",
+    "brand": "AMW",
+    "modelNameNumber": "3118",
+    "engineSpecifications": "7.8L, 6-Cylinder, Turbocharged Diesel",  // Engine Specifications (Example)
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity (Example)
+    "priceRange": "₹30,00,000 - ₹35,00,000",  // Price Range (Example)
+    "mileageRange": "6 - 8 km/l",  // Mileage/Range (Example)
+    "safetyFeatures": "ABS, EBD, Hill Assist, Air Brakes",  // Safety Features
+    "colorOptions": "White, Yellow, Red",  // Color Options (Example)
+    "dimensions": "8995 mm (Length), 2500 mm (Width), 3200 mm (Height)",  // Dimensions (Example)
+    "performanceFeatures": "High Torque Engine, Durable Suspension",  // Performance Features
+    "interiorFeatures": "Driver Information System, Ergonomic Seats",  // Interior Features
+    "exteriorFeatures": "Heavy-duty Front Bumper, LED Tail Lamps",  // Exterior Features
+    "warrantyAfterSalesService": "3-year/3,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2018",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/AMW 3118.png"
+},
+
+"AMW 2518": {
+    "type": "Commercial",
+    "brand": "AMW",
+    "modelNameNumber": "2518",
+    "engineSpecifications": "6.7L, 4-Cylinder, Turbocharged Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity
+    "priceRange": "₹28,00,000 - ₹33,00,000",  // Price Range
+    "mileageRange": "7 - 9 km/l",  // Mileage/Range
+    "safetyFeatures": "ABS, EBD, Air Brakes",  // Safety Features
+    "colorOptions": "White, Yellow",  // Color Options
+    "dimensions": "8200 mm (Length), 2450 mm (Width), 3100 mm (Height)",  // Dimensions
+    "performanceFeatures": "Turbocharged Engine, High Towing Capacity",  // Performance Features
+    "interiorFeatures": "Digital Instrument Cluster, Air Conditioning",  // Interior Features
+    "exteriorFeatures": "Heavy-duty Bumper, LED Tail Lamps",  // Exterior Features
+    "warrantyAfterSalesService": "2-year/2,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2017",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/AMW 2518.png"
+},
+
+"AMW 4023": {
+    "type": "Commercial",
+    "brand": "AMW",
+    "modelNameNumber": "4023",
+    "engineSpecifications": "9.0L, 6-Cylinder, Turbocharged Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity
+    "priceRange": "₹35,00,000 - ₹40,00,000",  // Price Range
+    "mileageRange": "5 - 7 km/l",  // Mileage/Range
+    "safetyFeatures": "ABS, EBD, Hill Assist, Air Brakes, Driver Assistance System",  // Safety Features
+    "colorOptions": "White, Red, Blue",  // Color Options
+    "dimensions": "9800 mm (Length), 2600 mm (Width), 3300 mm (Height)",  // Dimensions
+    "performanceFeatures": "High Torque, Advanced Suspension System",  // Performance Features
+    "interiorFeatures": "Driver Information System, Air Conditioning",  // Interior Features
+    "exteriorFeatures": "Heavy-duty Bumper, LED DRLs",  // Exterior Features
+    "warrantyAfterSalesService": "3-year/4,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/AMW 4023.png"
+},
+
+"SML Isuzu Super": {
+    type: "Commercial",
+    brand: "SML Isuzu",
+    modelNameNumber: "Super",  // Model Name Number
+    engineSpecifications: "3.0L Diesel",  // Engine Specifications (Placeholder)
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2-3",  // Seating Capacity (Placeholder)
+    priceRange: "₹12,00,000 - ₹18,00,000",  // Price Range (Placeholder)
+    mileageRange: "8 - 12 km/l",  // Mileage/Range (Placeholder)
+    safetyFeatures: "ABS, Driver & Co-Driver Airbags, Rear Parking Sensors",  // Safety Features (Placeholder)
+    colorOptions: "White, Yellow, Red, Blue, and more",  // Color Options (Placeholder)
+    dimensions: "5500 mm (Length), 2200 mm (Width), 2900 mm (Height)",  // Dimensions (Placeholder)
+    performanceFeatures: "Powerful Diesel Engine, Heavy Payload Capacity",  // Performance Features
+    interiorFeatures: "Basic Dashboard, Comfortable Seating",  // Interior Features (Placeholder)
+    exteriorFeatures: "Durable Body, Chrome Grille, Clear Lens Headlights",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2020",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/SML Isuzu Super.png"
+
+},
+
+"SML Isuzu Citylife": {
+    type: "Commercial",
+    brand: "SML Isuzu",
+    modelNameNumber: "Citylife",  // Model Name Number
+    engineSpecifications: "2.8L Diesel",  // Engine Specifications (Placeholder)
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "8-12",  // Seating Capacity (Placeholder)
+    priceRange: "₹14,00,000 - ₹20,00,000",  // Price Range (Placeholder)
+    mileageRange: "10 - 15 km/l",  // Mileage/Range (Placeholder)
+    safetyFeatures: "ABS, Airbags, Parking Sensors, Rearview Camera",  // Safety Features (Placeholder)
+    colorOptions: "White, Silver, Blue, Yellow",  // Color Options (Placeholder)
+    dimensions: "6000 mm (Length), 2500 mm (Width), 2900 mm (Height)",  // Dimensions (Placeholder)
+    performanceFeatures: "Optimized for City Travel, Comfortable Ride",  // Performance Features
+    interiorFeatures: "Spacious Cabin, Premium Seats, Air Conditioning",  // Interior Features (Placeholder)
+    exteriorFeatures: "Stylish Front Bumper, Alloy Wheels",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2021",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/SML Isuzu Citylife.png"
+
+},
+
+"SML Isuzu S5": {
+    type: "Commercial",
+    brand: "SML Isuzu",
+    modelNameNumber: "S5",  // Model Name Number
+    engineSpecifications: "3.0L Diesel",  // Engine Specifications (Placeholder)
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "6-8",  // Seating Capacity (Placeholder)
+    priceRange: "₹10,00,000 - ₹15,00,000",  // Price Range (Placeholder)
+    mileageRange: "9 - 14 km/l",  // Mileage/Range (Placeholder)
+    safetyFeatures: "ABS, Front and Rear Airbags, Rear Parking Sensors",  // Safety Features (Placeholder)
+    colorOptions: "White, Red, Silver, Yellow",  // Color Options (Placeholder)
+    dimensions: "5800 mm (Length), 2200 mm (Width), 2800 mm (Height)",  // Dimensions (Placeholder)
+    performanceFeatures: "Heavy Payload, Durable Chassis",  // Performance Features
+    interiorFeatures: "Spacious Interiors, Basic Infotainment",  // Interior Features (Placeholder)
+    exteriorFeatures: "Sturdy Bumper, Clear Headlamps",  // Exterior Features
+    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/SML Isuzu S5.png"
+
+},
+
+"SML Isuzu S7": {
+    type: "Commercial",
+    brand: "SML Isuzu",
+    modelNameNumber: "S7",  // Model Name Number
+    engineSpecifications: "3.5L Diesel",  // Engine Specifications (Placeholder)
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "8-12",  // Seating Capacity (Placeholder)
+    priceRange: "₹16,00,000 - ₹22,00,000",  // Price Range (Placeholder)
+    mileageRange: "8 - 12 km/l",  // Mileage/Range (Placeholder)
+    safetyFeatures: "ABS, Airbags, Parking Sensors, Rearview Camera",  // Safety Features (Placeholder)
+    colorOptions: "Silver, White, Black, Red",  // Color Options (Placeholder)
+    dimensions: "6500 mm (Length), 2400 mm (Width), 3000 mm (Height)",  // Dimensions (Placeholder)
+    performanceFeatures: "High Payload Capacity, Robust Engine",  // Performance Features
+    interiorFeatures: "Luxurious Cabin, Premium Seating",  // Interior Features (Placeholder)
+    exteriorFeatures: "Sleek Design, Chrome Accents",  // Exterior Features
+    warrantyAfterSalesService: "4-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2022",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/SML Isuzu S7.png"
+
+},
+
+"BharatBenz 2523R": {
+    type: "Commercial",
+    brand: "BharatBenz",
+    modelNameNumber: "2523R",
+    engineSpecifications: "6.3L Diesel, 230 HP",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹30,00,000 - ₹35,00,000",
+    mileageRange: "6 - 8 km/l",
+    safetyFeatures: "ABS, EBD, Hill Assist, Anti-roll Bar",
+    colorOptions: "White, Red, Blue, Yellow",
+    dimensions: "8190 mm (Length), 2490 mm (Width), 2880 mm (Height)",
+    performanceFeatures: "Heavy Load Capacity, Strong Chassis, High Torque",
+    interiorFeatures: "Basic Interior, Adjustable Seats",
+    exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/BharatBenz 2523R.png"
+
+},
+"BharatBenz 3123R": {
+    type: "Commercial",
+    brand: "BharatBenz",
+    modelNameNumber: "3123R",
+    engineSpecifications: "6.3L Diesel, 230 HP",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹35,00,000 - ₹40,00,000",
+    mileageRange: "6 - 8 km/l",
+    safetyFeatures: "ABS, EBD, Hill Assist, Anti-roll Bar",
+    colorOptions: "White, Red, Blue, Yellow",
+    dimensions: "8500 mm (Length), 2500 mm (Width), 3000 mm (Height)",
+    performanceFeatures: "Heavy Load Capacity, Strong Chassis, High Torque",
+    interiorFeatures: "Basic Interior, Adjustable Seats",
+    exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2016",
+    imageUrl: "assets/images/vehicle_models_images/BharatBenz 3123R.png"
+},
+
+"BharatBenz 3723R": {
+    type: "Commercial",
+    brand: "BharatBenz",
+    modelNameNumber: "3723R",
+    engineSpecifications: "7.2L Diesel, 240 HP",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹40,00,000 - ₹45,00,000",
+    mileageRange: "6 - 8 km/l",
+    safetyFeatures: "ABS, EBD, Hill Assist, Anti-roll Bar",
+    colorOptions: "White, Red, Blue, Yellow",
+    dimensions: "9000 mm (Length), 2600 mm (Width), 3100 mm (Height)",
+    performanceFeatures: "Heavy Load Capacity, Strong Chassis, High Torque",
+    interiorFeatures: "Basic Interior, Adjustable Seats",
+    exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/BharatBenz 3723R.png"
+
+},
+
+"BharatBenz 1617R": {
+    type: "Commercial",
+    brand: "BharatBenz",
+    modelNameNumber: "1617R",
+    engineSpecifications: "4.4L Diesel, 170 HP",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹20,00,000 - ₹25,00,000",
+    mileageRange: "7 - 9 km/l",
+    safetyFeatures: "ABS, EBD, Hill Assist, Anti-roll Bar",
+    colorOptions: "White, Red, Blue, Yellow",
+    dimensions: "6500 mm (Length), 2400 mm (Width), 2800 mm (Height)",
+    performanceFeatures: "Heavy Load Capacity, Strong Chassis, High Torque",
+    interiorFeatures: "Basic Interior, Adjustable Seats",
+    exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2014",
+    imageUrl: "assets/images/vehicle_models_images/BharatBenz 1617R.png"
+},
+
+"BharatBenz 1014R": {
+    type: "Commercial",
+    brand: "BharatBenz",
+    modelNameNumber: "1014R",
+    engineSpecifications: "4.4L Diesel, 140 HP",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹15,00,000 - ₹20,00,000",
+    mileageRange: "7 - 9 km/l",
+    safetyFeatures: "ABS, EBD, Hill Assist, Anti-roll Bar",
+    colorOptions: "White, Red, Blue, Yellow",
+    dimensions: "6000 mm (Length), 2300 mm (Width), 2500 mm (Height)",
+    performanceFeatures: "Heavy Load Capacity, Strong Chassis, High Torque",
+    interiorFeatures: "Basic Interior, Adjustable Seats",
+    exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2013",
+    imageUrl: "assets/images/vehicle_models_images/BharatBenz 1014R.png"
+},
+
+"Mahindra Bolero Pik-Up": {
+    "type": "Commercial",
+    "brand": "Mahindra",
+    "modelNameNumber": "Bolero Pik-Up",  // Model Name Number
+    "engineSpecifications": "2.5L Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity
+    "priceRange": "₹7,00,000 - ₹8,50,000",  // Price Range
+    "mileageRange": "10 - 14 km/l",  // Mileage/Range
+    "safetyFeatures": "Driver Airbag, ABS with EBD, Reverse Parking Sensors",  // Safety Features
+    "colorOptions": "White, Silver, Blue, Red",  // Color Options
+    "dimensions": "4880 mm (Length), 1700 mm (Width), 1860 mm (Height)",  // Dimensions
+    "performanceFeatures": "Heavy Duty Suspension, Robust Load-Carrying Capacity",  // Performance Features
+    "interiorFeatures": "Basic Digital Cluster, Adjustable Seats",  // Interior Features
+    "exteriorFeatures": "Halogen Headlamps, Fog Lamps, Steel Wheels",  // Exterior Features
+    "warrantyAfterSalesService": "2-year/60,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2011",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Bolero Pik-Up.png"
+
+},
+
+"Mahindra Supro Mini Truck": {
+    "type": "Commercial",
+    "brand": "Mahindra",
+    "modelNameNumber": "Supro Mini Truck",  // Model Name Number
+    "engineSpecifications": "0.8L Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity
+    "priceRange": "₹5,50,000 - ₹6,50,000",  // Price Range
+    "mileageRange": "15 - 19 km/l",  // Mileage/Range
+    "safetyFeatures": "Driver Airbag, Reverse Parking Sensors",  // Safety Features
+    "colorOptions": "White, Silver, Blue",  // Color Options
+    "dimensions": "3800 mm (Length), 1600 mm (Width), 1900 mm (Height)",  // Dimensions
+    "performanceFeatures": "Small and Compact for Urban Transportation",  // Performance Features
+    "interiorFeatures": "Basic Instrument Cluster, Adjustable Seats",  // Interior Features
+    "exteriorFeatures": "Halogen Headlamps, Steel Wheels",  // Exterior Features
+    "warrantyAfterSalesService": "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2016",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Supro Mini Truck.png"
+
+},
+
+"Mahindra Supro Maxi Truck": {
+    "type": "Commercial",
+    "brand": "Mahindra",
+    "modelNameNumber": "Supro Maxi Truck",  // Model Name Number
+    "engineSpecifications": "1.2L Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity
+    "priceRange": "₹6,00,000 - ₹7,50,000",  // Price Range
+    "mileageRange": "14 - 18 km/l",  // Mileage/Range
+    "safetyFeatures": "Driver Airbag, ABS with EBD, Reverse Parking Sensors",  // Safety Features
+    "colorOptions": "White, Silver, Red",  // Color Options
+    "dimensions": "4100 mm (Length), 1650 mm (Width), 1900 mm (Height)",  // Dimensions
+    "performanceFeatures": "Sturdy Load Capacity, Easy Maneuvering",  // Performance Features
+    "interiorFeatures": "Basic Digital Cluster, Adjustable Seats",  // Interior Features
+    "exteriorFeatures": "Halogen Headlamps, Steel Wheels",  // Exterior Features
+    "warrantyAfterSalesService": "2-year/60,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2016",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Supro Maxi Truck.png"
+
+},
+
+"Mahindra Blazo X": {
+    "type": "Commercial",
+    "brand": "Mahindra",
+    "modelNameNumber": "Blazo X",  // Model Name Number
+    "engineSpecifications": "7.2L Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity
+    "priceRange": "₹15,00,000 - ₹25,00,000",  // Price Range
+    "mileageRange": "6 - 8 km/l",  // Mileage/Range
+    "safetyFeatures": "ABS, Air Brakes, Disc Brakes, Reverse Parking Sensors",  // Safety Features
+    "colorOptions": "White, Red, Blue",  // Color Options
+    "dimensions": "10500 mm (Length), 2500 mm (Width), 3000 mm (Height)",  // Dimensions
+    "performanceFeatures": "Heavy-duty Performance, Advanced Engine Technology",  // Performance Features
+    "interiorFeatures": "Basic Instrument Cluster, Ergonomic Seats",  // Interior Features
+    "exteriorFeatures": "LED Headlamps, Fog Lamps, Steel Wheels",  // Exterior Features
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2017",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Blazo X.png"
+
+},
+
+"Mahindra Furio": {
+    "type": "Commercial",
+    "brand": "Mahindra",
+    "modelNameNumber": "Furio",  // Model Name Number
+    "engineSpecifications": "4.2L Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity
+    "priceRange": "₹10,00,000 - ₹18,00,000",  // Price Range
+    "mileageRange": "8 - 12 km/l",  // Mileage/Range
+    "safetyFeatures": "ABS, Air Brakes, Reverse Parking Sensors",  // Safety Features
+    "colorOptions": "White, Silver, Red",  // Color Options
+    "dimensions": "8000 mm (Length), 2500 mm (Width), 3500 mm (Height)",  // Dimensions
+    "performanceFeatures": "Powerful Engine, Heavy-duty Performance",  // Performance Features
+    "interiorFeatures": "Basic Instrument Cluster, Ergonomic Seats",  // Interior Features
+    "exteriorFeatures": "LED Headlamps, Fog Lamps",  // Exterior Features
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2019" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Furio.png"
+
+},
+
+"Mahindra Bolero": {
+    "type": "Passenger",
+    "brand": "Mahindra",
+    "modelNameNumber": "Bolero",
+    "engineSpecifications": "1.5L Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "7",
+    "priceRange": "₹9,00,000 - ₹10,50,000",
+    "mileageRange": "15 - 17 km/l",
+    "safetyFeatures": "ABS with EBD, Dual Airbags, Reverse Parking Sensors",
+    "colorOptions": "Diamond White, Bold Black, Mist Silver, Red Rage",
+    "dimensions": "3995 mm (Length), 1745 mm (Width), 1880 mm (Height)",
+    "performanceFeatures": "Body-on-Frame Construction, 4x4 Capabilities",
+    "interiorFeatures": "Basic Infotainment, Fabric Upholstery, Power Windows",
+    "exteriorFeatures": "Chrome Grille, LED Tail Lamps, Roof Rails",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
+    "releaseDateYear": "2000",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Bolero.png"
+
+},
+
+"Mahindra Marazzo": {
+    "type": "Passenger",
+    "brand": "Mahindra",
+    "modelNameNumber": "Marazzo",
+    "engineSpecifications": "1.5L Diesel, 1.5L Petrol",
+    "fuelType": "Diesel/Petrol",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "7/8",
+    "priceRange": "₹11,00,000 - ₹14,00,000",
+    "mileageRange": "17 - 20 km/l",
+    "safetyFeatures": "6 Airbags, ABS with EBD, Rear Parking Sensors, ESP",
+    "colorOptions": "Shimmering Silver, Iceberg White, Blue, Red",
+    "dimensions": "4585 mm (Length), 1866 mm (Width), 1774 mm (Height)",
+    "performanceFeatures": "Premium MPV, Smooth Ride, Dynamic Handling",
+    "interiorFeatures": "Android Auto, Apple CarPlay, Touchscreen Infotainment",
+    "exteriorFeatures": "Projector Headlamps, LED DRLs, Roof Rails",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Marazzo.png"
+
+},
+
+"Mahindra Alturas G4": {
+    "type": "Passenger",
+    "brand": "Mahindra",
+    "modelNameNumber": "Alturas G4",
+    "engineSpecifications": "2.2L Turbo Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Automatic",
+    "seatingCapacity": "7",
+    "priceRange": "₹30,00,000 - ₹35,00,000",
+    "mileageRange": "12 - 14 km/l",
+    "safetyFeatures": "9 Airbags, ABS with EBD, ESP, Hill Hold, Rear Camera",
+    "colorOptions": "Pearl White, Napoli Black, Burgundy Red",
+    "dimensions": "4850 mm (Length), 1960 mm (Width), 1845 mm (Height)",
+    "performanceFeatures": "4x4 Drivetrain, Automatic Transmission, LED DRLs",
+    "interiorFeatures": "Leather Upholstery, 8-inch Touchscreen Infotainment, Sunroof",
+    "exteriorFeatures": "Chrome Garnish, LED Headlamps, Dual-tone Roof",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Alturas G4.png"
+
+},
+
+"Mahindra e2o Plus": {
+    "type": "Passenger",
+    "brand": "Mahindra",
+    "modelNameNumber": "e2o Plus",
+    "engineSpecifications": "Electric Motor",
+    "fuelType": "Electric",
+    "transmissionType": "Automatic",
+    "seatingCapacity": "4",
+    "priceRange": "₹8,00,000 - ₹10,00,000",
+    "mileageRange": "140 - 180 km per charge",
+    "safetyFeatures": "ABS, Regenerative Braking, Reverse Parking Sensors",
+    "colorOptions": "Red, White, Blue, Silver",
+    "dimensions": "3590 mm (Length), 1665 mm (Width), 1540 mm (Height)",
+    "performanceFeatures": "Electric Drivetrain, Smooth Acceleration, Zero Emissions",
+    "interiorFeatures": "Touchscreen Infotainment, Digital Dashboard, Eco Mode",
+    "exteriorFeatures": "LED DRLs, Smart Design, Compact Dimensions",
+    "warrantyAfterSalesService": "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra e2o Plus.png"
+
+},
+
+"Mahindra KUV100": {
+    "type": "Passenger",
+    "brand": "Mahindra",
+    "modelNameNumber": "KUV100",
+    "engineSpecifications": "1.2L Petrol, 1.2L Diesel",
+    "fuelType": "Petrol/Diesel",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹5,50,000 - ₹8,00,000",
+    "mileageRange": "14 - 18 km/l",
+    "safetyFeatures": "Dual Airbags, ABS, Rear Parking Sensors",
+    "colorOptions": "Dazzling Silver, Flamboyant Red, Pearl White",
+    "dimensions": "3700 mm (Length), 1735 mm (Width), 1655 mm (Height)",
+    "performanceFeatures": "Compact SUV, SUV Styling, High Ground Clearance",
+    "interiorFeatures": "Touchscreen Infotainment, Smart Storage Spaces",
+    "exteriorFeatures": "Bold Front Grille, Alloy Wheels, Roof Rails",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra KUV100.png"
+
+},
+
+"TUV300": {
+    type: "Passenger",
+    brand: "Mahindra",
+    modelNameNumber: "TUV300",
+    engineSpecifications: "1.5L mHawk Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "7",
+    priceRange: "₹8,00,000 - ₹11,00,000",
+    mileageRange: "13 - 18 km/l",
+    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors, Cornering Stability Control",
+    colorOptions: "Dyno Blue, Bold Black, Molten Red, Premium Beige, and more",
+    dimensions: "3985 mm (Length), 1835 mm (Width), 1880 mm (Height)",
+    performanceFeatures: "Eco Mode, Power Steering, Hill Assist",
+    interiorFeatures: "Touchscreen Infotainment, Premium Fabric Upholstery, Digital Instrument Cluster",
+    exteriorFeatures: "LED Tail Lamps, Bold Front Grille, Silver Roof Rails",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/TUV300.png"
+
+},
+
+
+"Tata Super Ace": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Super Ace",
+    "engineSpecifications": "1.4L CR4 Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "2",
+    "priceRange": "₹5,00,000 - ₹6,50,000",
+    "mileageRange": "14 - 16 km/l",
+    "safetyFeatures": "Dual Airbags, ABS with EBD",
+    "colorOptions": "White, Silver, Red, Yellow",
+    "dimensions": "4300 mm (Length), 1700 mm (Width), 1900 mm (Height)",
+    "performanceFeatures": "Power Steering, Dual Front Airbags, Tough Build",
+    "interiorFeatures": "Comfortable Seating, AM/FM Radio",
+    "exteriorFeatures": "Bigger Load Deck, Sturdy Build",
+    "warrantyAfterSalesService": "2-year/75,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2009",
+    imageUrl: "assets/images/vehicle_models_images/Tata Super Ace.png"
+  },
+
+  "Tata Ultra 1918": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Ultra 1918",
+    "engineSpecifications": "5.6L, 4-Cylinder Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "2",
+    "priceRange": "₹25,00,000 - ₹30,00,000",
+    "mileageRange": "8 - 10 km/l",
+    "safetyFeatures": "ABS, EBD, Reverse Camera",
+    "colorOptions": "White, Red, Blue",
+    "dimensions": "8200 mm (Length), 2500 mm (Width), 3200 mm (Height)",
+    "performanceFeatures": "Heavy Payload Capacity, Turbocharged Engine",
+    "interiorFeatures": "Basic Dashboard, Comfortable Seating",
+    "exteriorFeatures": "Strong Body Frame, Large Cargo Space",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Tata Ultra 1918.png"
+  },
+  
+  "Tata Yodha": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Yodha",
+    "engineSpecifications": "2.2L 4-Cylinder Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "3",
+    "priceRange": "₹8,00,000 - ₹9,50,000",
+    "mileageRange": "12 - 14 km/l",
+    "safetyFeatures": "Dual Airbags, ABS, Reverse Parking Sensors",
+    "colorOptions": "White, Black, Blue, Silver",
+    "dimensions": "5170 mm (Length), 1800 mm (Width), 1950 mm (Height)",
+    "performanceFeatures": "Payload Capacity: 1.25 tons, Durable Build",
+    "interiorFeatures": "Spacious Cabin, Ergonomic Seating",
+    "exteriorFeatures": "Strong Bumper, Wide Cargo Space",
+    "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Tata Ultra 1918.png"
+  },
+
+  "Tata Prima": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Prima",
+    "engineSpecifications": "8.8L 6-Cylinder Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "2",
+    "priceRange": "₹30,00,000 - ₹45,00,000",
+    "mileageRange": "6 - 8 km/l",
+    "safetyFeatures": "ABS, EBD, Advanced Brake Assist",
+    "colorOptions": "White, Blue, Green",
+    "dimensions": "7000 mm (Length), 2400 mm (Width), 3000 mm (Height)",
+    "performanceFeatures": "Heavy-duty Engine, High Payload Capacity",
+    "interiorFeatures": "Comfortable Seat, Air Conditioning",
+    "exteriorFeatures": "Reinforced Chassis, Wide Cargo Bed",
+    "warrantyAfterSalesService": "4-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2011",
+    imageUrl: "assets/images/vehicle_models_images/Tata Prima.png"
+  },
+  
+  "Tata 3718": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "3718",
+    "engineSpecifications": "6.7L 4-Cylinder Turbocharged Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "2",
+    "priceRange": "₹20,00,000 - ₹25,00,000",
+    "mileageRange": "7 - 9 km/l",
+    "safetyFeatures": "ABS, EBD, Reverse Parking Assist",
+    "colorOptions": "White, Blue, Red",
+    "dimensions": "8800 mm (Length), 2500 mm (Width), 3200 mm (Height)",
+    "performanceFeatures": "High Torque Engine, Robust Chassis",
+    "interiorFeatures": "Basic Interior, Comfortable Seats",
+    "exteriorFeatures": "Sturdy Build, Spacious Cargo Area",
+    "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2013",
+    imageUrl: "assets/images/vehicle_models_images/Tata 3718.png"
+  },
+
+
+  "Tata 1512 LPT": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "1512 LPT",
+    "engineSpecifications": "5.0L Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "Driver + 2",
+    "priceRange": "₹12,00,000 - ₹15,00,000",
+    "mileageRange": "6 - 8 km/l",
+    "safetyFeatures": "ABS, Driver Airbag, Parking Sensors",
+    "colorOptions": "White, Red, Yellow",
+    "dimensions": "6190 mm (Length), 2380 mm (Width), 3050 mm (Height)",
+    "performanceFeatures": "Heavy Duty Suspension, Robust Chassis",
+    "interiorFeatures": "Basic Dashboard, Comfortable Driver Seat",
+    "exteriorFeatures": "High Ground Clearance, Heavy-duty Bumper",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2017",
+    imageUrl: "assets/images/vehicle_models_images/Tata 1512 LPT.png"
+},
+
+"Tata 1623 LPT": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "1623 LPT",
+    "engineSpecifications": "5.6L Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "Driver + 2",
+    "priceRange": "₹15,00,000 - ₹18,00,000",
+    "mileageRange": "5 - 7 km/l",
+    "safetyFeatures": "ABS, Driver Airbag, Parking Sensors",
+    "colorOptions": "White, Red, Yellow",
+    "dimensions": "6540 mm (Length), 2450 mm (Width), 3500 mm (Height)",
+    "performanceFeatures": "Powerful Engine, Heavy-duty Suspension",
+    "interiorFeatures": "Basic Dashboard, Adjustable Driver Seat",
+    "exteriorFeatures": "Tough Bumper, High Ground Clearance",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Tata 1623 LPT.png"
+},
+
+"Tata 407": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "407",
+    "engineSpecifications": "3.0L Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "Driver + 2",
+    "priceRange": "₹7,00,000 - ₹9,00,000",
+    "mileageRange": "8 - 10 km/l",
+    "safetyFeatures": "ABS, Driver Airbag, Parking Sensors",
+    "colorOptions": "White, Red, Yellow",
+    "dimensions": "4720 mm (Length), 1790 mm (Width), 2100 mm (Height)",
+    "performanceFeatures": "Lightweight Design, Strong Build",
+    "interiorFeatures": "Basic Dashboard, Comfortable Driver Seat",
+    "exteriorFeatures": "Heavy Duty Bumper, Large Cargo Area",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2015",
+    imageUrl: "assets/images/vehicle_models_images/Tata 407.png"
+},
+
+"Tata LPT 1613": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "LPT 1613",
+    "engineSpecifications": "5.6L Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "Driver + 2",
+    "priceRange": "₹14,00,000 - ₹17,00,000",
+    "mileageRange": "5 - 7 km/l",
+    "safetyFeatures": "ABS, Driver Airbag, Parking Sensors",
+    "colorOptions": "White, Red, Yellow",
+    "dimensions": "6470 mm (Length), 2400 mm (Width), 3000 mm (Height)",
+    "performanceFeatures": "Heavy Duty Suspension, Sturdy Build",
+    "interiorFeatures": "Basic Dashboard, Adjustable Driver Seat",
+    "exteriorFeatures": "Rugged Design, High Ground Clearance",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Tata LPT 1613.png"
+},
+
+"Tata Ace": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Ace",
+    "engineSpecifications": "0.7L Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "Driver + 1",
+    "priceRange": "₹4,00,000 - ₹5,00,000",
+    "mileageRange": "15 - 18 km/l",
+    "safetyFeatures": "ABS, Driver Airbag",
+    "colorOptions": "White, Blue, Red",
+    "dimensions": "3720 mm (Length), 1500 mm (Width), 1900 mm (Height)",
+    "performanceFeatures": "Compact Design, Easy Maneuverability",
+    "interiorFeatures": "Basic Dashboard, Comfortable Seat",
+    "exteriorFeatures": "Heavy Duty Rear Bumper, Small Turning Radius",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2005",
+    imageUrl: "assets/images/vehicle_models_images/Tata Ace.png"
+},
+
+"Traveller": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "Traveller 407",  // Model Name Number
+    engineSpecifications: "2.2L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "12-15",  // Seating Capacity
+    priceRange: "₹10,00,000 - ₹14,50,000",  // Price Range
+    mileageRange: "10 - 12 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Driver Airbag, Side Impact Beams",  // Safety Features
+    colorOptions: "White, Yellow, Red, Blue",  // Color Options
+    dimensions: "4800 mm (Length), 1850 mm (Width), 2080 mm (Height)",  // Dimensions
+    performanceFeatures: "Powerful Engine, High Payload Capacity",  // Performance Features
+    interiorFeatures: "Comfortable Seating, Air Conditioning",  // Interior Features
+    exteriorFeatures: "Durable Bumpers, High Ground Clearance",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2010",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Traveller.png"
+},
+
+"Trax": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "Trax Cruiser",  // Model Name Number
+    engineSpecifications: "2.0L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "10-13",  // Seating Capacity
+    priceRange: "₹8,00,000 - ₹12,00,000",  // Price Range
+    mileageRange: "12 - 15 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Dual Airbags, EBD",  // Safety Features
+    colorOptions: "White, Silver, Grey",  // Color Options
+    dimensions: "4500 mm (Length), 1750 mm (Width), 1900 mm (Height)",  // Dimensions
+    performanceFeatures: "Robust Engine, Versatile Driving",  // Performance Features
+    interiorFeatures: "Spacious Cabin, Optional Roof Air-conditioning",  // Interior Features
+    exteriorFeatures: "Simple, Functional Design",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2008",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Trax.png"
+},
+
+"Gurkha": {
+    type: "Passenger",
+    brand: "Force Motors",
+    modelNameNumber: "Gurkha Xplorer",  // Model Name Number
+    engineSpecifications: "2.6L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "4",  // Seating Capacity
+    priceRange: "₹10,00,000 - ₹12,50,000",  // Price Range
+    mileageRange: "9 - 12 km/l",  // Mileage/Range
+    safetyFeatures: "Dual Airbags, ABS, Rear Parking Sensors",  // Safety Features
+    colorOptions: "Red, White, Silver",  // Color Options
+    dimensions: "4040 mm (Length), 1810 mm (Width), 1900 mm (Height)",  // Dimensions
+    performanceFeatures: "4WD, Off-road Capabilities",  // Performance Features
+    interiorFeatures: "Leather Seats, Touchscreen Infotainment",  // Interior Features
+    exteriorFeatures: "Steel Bumpers, High Ground Clearance",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2015" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Gurkha.png"
+},
+
+"Urbania": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "Urbania 408",  // Model Name Number
+    engineSpecifications: "2.2L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "10-12",  // Seating Capacity
+    priceRange: "₹12,00,000 - ₹16,00,000",  // Price Range
+    mileageRange: "8 - 11 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Driver Airbag, Side Impact Beams",  // Safety Features
+    colorOptions: "White, Black, Yellow",  // Color Options
+    dimensions: "5100 mm (Length), 1900 mm (Width), 2200 mm (Height)",  // Dimensions
+    performanceFeatures: "Comfortable Ride, High Payload",  // Performance Features
+    interiorFeatures: "Comfortable Seats, Air Conditioning",  // Interior Features
+    exteriorFeatures: "Stylish Front Grille, High Ground Clearance",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2020",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Urbania.png"
+
+},
+
+"Citiline": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "Citiline 501",  // Model Name Number
+    engineSpecifications: "2.5L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "20-30",  // Seating Capacity
+    priceRange: "₹15,00,000 - ₹20,00,000",  // Price Range
+    mileageRange: "6 - 9 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, EBD, Driver and Co-driver Airbags",  // Safety Features
+    colorOptions: "Yellow, Green, White",  // Color Options
+    dimensions: "7000 mm (Length), 2500 mm (Width), 3000 mm (Height)",  // Dimensions
+    performanceFeatures: "High Passenger Capacity, Durable Build",  // Performance Features
+    interiorFeatures: "Spacious Cabin, Overhead Storage",  // Interior Features
+    exteriorFeatures: "Durable Bodywork, Enhanced Safety",  // Exterior Features
+    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Citiline.png"
+},
+
+
+"Tata 2518": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "2518",
+    "engineSpecifications": "5.9L 4-cylinder Diesel Engine",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "2",
+    "priceRange": "₹18,00,000 - ₹22,00,000",
+    "mileageRange": "8 - 10 km/l",
+    "safetyFeatures": "ABS with EBD, Driver Airbag, Reverse Camera",
+    "colorOptions": "White, Red, Yellow",
+    "dimensions": "6935 mm (Length), 2500 mm (Width), 2900 mm (Height)",
+    "performanceFeatures": "Heavy Load Capacity, High Torque, Power Steering",
+    "interiorFeatures": "Basic Dashboard, Driver Comfort Seat",
+    "exteriorFeatures": "High Ground Clearance, Large Cargo Area",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2020",
+    imageUrl: "assets/images/vehicle_models_images/Tata 2518.png"
+},
+
+"Tata Intra": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Intra",
+    "engineSpecifications": "1.4L Diesel Engine",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "2",
+    "priceRange": "₹6,00,000 - ₹7,50,000",
+    "mileageRange": "14 - 16 km/l",
+    "safetyFeatures": "Driver Airbag, ABS with EBD, Reverse Parking Sensor",
+    "colorOptions": "White, Silver, Red, Blue",
+    "dimensions": "3610 mm (Length), 1740 mm (Width), 1790 mm (Height)",
+    "performanceFeatures": "Strong Payload Capacity, Smooth Drive",
+    "interiorFeatures": "Basic Dashboard, Comfortable Seats, Minimalistic Controls",
+    "exteriorFeatures": "Compact Size, Sturdy Build, Functional Design",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Tata Intra.png"
+},
+
+"Tata T.12": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "T.12",
+    "engineSpecifications": "3.0L 4-cylinder Diesel Engine",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual",
+    "seatingCapacity": "3",
+    "priceRange": "₹12,00,000 - ₹16,00,000",
+    "mileageRange": "10 - 12 km/l",
+    "safetyFeatures": "Driver Airbag, ABS with EBD, Parking Brake System",
+    "colorOptions": "White, Yellow, Grey",
+    "dimensions": "5220 mm (Length), 2000 mm (Width), 2250 mm (Height)",
+    "performanceFeatures": "Powerful Engine, Strong Load Handling",
+    "interiorFeatures": "Comfortable Seats, Simple Dashboard Layout",
+    "exteriorFeatures": "Functional Cargo Space, High Durability",
+    "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/Tata T.12.png"
+},
+
+"Monobus": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "Monobus",  // Model Name Number
+    engineSpecifications: "4.0L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "30",  // Seating Capacity
+    priceRange: "₹15,00,000 - ₹20,00,000",  // Price Range
+    mileageRange: "6 - 8 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Air Suspension, Crash Protection",  // Safety Features
+    colorOptions: "White, Silver, Blue",  // Color Options
+    dimensions: "8000 mm (Length), 2500 mm (Width), 3500 mm (Height)",  // Dimensions
+    performanceFeatures: "Heavy-duty Suspension, Air-conditioning, Spacious Interior",  // Performance Features
+    interiorFeatures: "Spacious Seating, Overhead Storage, AC",  // Interior Features
+    exteriorFeatures: "LED Lights, High-Visibility Markings, Large Windows",  // Exterior Features
+    warrantyAfterSalesService: "3-year/100,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2019" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Monobus.png"
+
+},
+
+"Delivery Van": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "Delivery Van",  // Model Name Number
+    engineSpecifications: "1.5L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2",  // Seating Capacity
+    priceRange: "₹6,00,000 - ₹8,00,000",  // Price Range
+    mileageRange: "12 - 15 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Reverse Camera, Parking Sensors",  // Safety Features
+    colorOptions: "White, Grey, Blue",  // Color Options
+    dimensions: "4000 mm (Length), 1700 mm (Width), 2000 mm (Height)",  // Dimensions
+    performanceFeatures: "Payload Capacity, Easy Access Door, High Mileage",  // Performance Features
+    interiorFeatures: "Minimalist Dashboard, Durable Flooring, Spacious Cargo Area",  // Interior Features
+    exteriorFeatures: "Side Sliding Doors, Reinforced Bumper, High Ground Clearance",  // Exterior Features
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2021",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Delivery Van.png"
+},
+
+"Ambulance": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "Ambulance",  // Model Name Number
+    engineSpecifications: "2.0L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2 (Driver + Attendant)",  // Seating Capacity
+    priceRange: "₹8,00,000 - ₹12,00,000",  // Price Range
+    mileageRange: "10 - 12 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Reverse Parking Sensors, Emergency Lights",  // Safety Features
+    colorOptions: "White, Red",  // Color Options
+    dimensions: "5500 mm (Length), 2000 mm (Width), 2500 mm (Height)",  // Dimensions
+    performanceFeatures: "Emergency Lights, Medical Equipment Storage, Oxygen Supply",  // Performance Features
+    interiorFeatures: "Medical Equipment Holders, Spacious Cabin, AC",  // Interior Features
+    exteriorFeatures: "Reflective Decals, LED Siren Lights, High Ground Clearance",  // Exterior Features
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2018",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ambulance.png"
+
+},
+
+"Force Minidor": {
+    type: "Commercial",
+    brand: "Force",
+    modelNameNumber: "Minidor",  // Model Name Number
+    engineSpecifications: "2.5L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2",  // Seating Capacity
+    priceRange: "₹5,00,000 - ₹6,00,000",  // Price Range
+    mileageRange: "10 - 12 km/l",  // Mileage/Range
+    safetyFeatures: "Driver Airbag, ABS",  // Safety Features
+    colorOptions: "White, Blue",  // Color Options
+    dimensions: "4000 mm (Length), 1700 mm (Width), 1900 mm (Height)",  // Dimensions
+    performanceFeatures: "Payload Capacity, Fuel Efficiency, Compact Design",  // Performance Features
+    interiorFeatures: "Spacious Cargo Area, Simple Dashboard",  // Interior Features
+    exteriorFeatures: "Heavy Duty Bumper, Sliding Doors",  // Exterior Features
+    warrantyAfterSalesService: "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2017" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Force Minidor.png"
+
+},
+
+"Force Matador": {
+    type: "Commercial",
+    brand: "Force",
+    modelNameNumber: "Matador",  // Model Name Number
+    engineSpecifications: "2.5L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "12",  // Seating Capacity
+    priceRange: "₹7,00,000 - ₹9,00,000",  // Price Range
+    mileageRange: "10 - 12 km/l",  // Mileage/Range
+    safetyFeatures: "Driver Airbag, ABS, Fire Extinguisher",  // Safety Features
+    colorOptions: "Yellow, Red, Blue",  // Color Options
+    dimensions: "5500 mm (Length), 2000 mm (Width), 2200 mm (Height)",  // Dimensions
+    performanceFeatures: "Heavy-duty Suspension, Low Turning Radius",  // Performance Features
+    interiorFeatures: "Seating for 12, Overhead Luggage Storage",  // Interior Features
+    exteriorFeatures: "Rear Cargo Door, Side Windows",  // Exterior Features
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2015",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Force Matador.png"
+},
+
+"Force Shaktiman": {
+    type: "Commercial",
+    brand: "Force",
+    modelNameNumber: "Shaktiman",  // Model Name Number
+    engineSpecifications: "3.0L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2",  // Seating Capacity
+    priceRange: "₹8,00,000 - ₹11,00,000",  // Price Range
+    mileageRange: "8 - 10 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Air Suspension, Stability Control",  // Safety Features
+    colorOptions: "White, Red",  // Color Options
+    dimensions: "6000 mm (Length), 2500 mm (Width), 3000 mm (Height)",  // Dimensions
+    performanceFeatures: "High Towing Capacity, Heavy-duty Engine",  // Performance Features
+    interiorFeatures: "Simple Dashboard, Spacious Cargo Area",  // Interior Features
+    exteriorFeatures: "Heavy-duty Bumper, High Ground Clearance",  // Exterior Features
+    warrantyAfterSalesService: "3-year/100,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2016",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Force Shaktiman.png"
+},
+
+
+"Ashok Leyland BOSS": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "BOSS",  
+    "engineSpecifications": "3.0L Diesel",  
+    "fuelType": "Diesel",  
+    "transmissionType": "Manual",  
+    "seatingCapacity": "3",  
+    "priceRange": "₹6,00,000 - ₹8,00,000",  
+    "mileageRange": "10 - 12 km/l",  
+    "safetyFeatures": "Driver Airbag, ABS, Reverse Parking Sensors",  
+    "colorOptions": "White, Red, Blue",  
+    "dimensions": "4530 mm (Length), 1940 mm (Width), 1680 mm (Height)",  
+    "performanceFeatures": "Heavy Payload, Good Mileage for Commercial Use",  
+    "interiorFeatures": "Basic Instrument Cluster, Durable Seats",  
+    "exteriorFeatures": "Front Bumper Guard, High Ground Clearance",  
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",  
+    "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland BOSS.png"
+
+},
+"Tata Ecomet": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Tata Ecomet",  
+    "engineSpecifications": "2.2L Diesel",  
+    "fuelType": "Diesel",  
+    "transmissionType": "Manual",  
+    "seatingCapacity": "2",  
+    "priceRange": "₹7,50,000 - ₹9,50,000",  
+    "mileageRange": "8 - 10 km/l",  
+    "safetyFeatures": "Driver Airbag, ABS with EBD, Anti-Rollover Protection",  
+    "colorOptions": "White, Yellow, Grey",  
+    "dimensions": "5990 mm (Length), 2400 mm (Width), 2325 mm (Height)",  
+    "performanceFeatures": "Enhanced Fuel Efficiency, Heavy Load Capacity",  
+    "interiorFeatures": "Basic Dashboard, Vinyl Seats",  
+    "exteriorFeatures": "LED Tail Lamps, Robust Bumper",  
+    "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Tata Ecomet.png"
+
+},
+"Partner": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Partner",  
+    "engineSpecifications": "1.4L Diesel",  
+    "fuelType": "Diesel",  
+    "transmissionType": "Manual",  
+    "seatingCapacity": "2",  
+    "priceRange": "₹5,00,000 - ₹7,00,000",  
+    "mileageRange": "12 - 14 km/l",  
+    "safetyFeatures": "Driver Airbag, ABS, Disc Brakes",  
+    "colorOptions": "White, Blue, Red",  
+    "dimensions": "4420 mm (Length), 1700 mm (Width), 1750 mm (Height)",  
+    "performanceFeatures": "Compact, Efficient for City Deliveries",  
+    "interiorFeatures": "Basic Instrument Panel, Hard-wearing Seats",  
+    "exteriorFeatures": "Simple Grille Design, Rugged Rear",  
+    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
+    "releaseDateYear": "2015",
+    imageUrl: "assets/images/vehicle_models_images/Partner.png"
+
+},
+"Dost": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Dost",  
+    "engineSpecifications": "1.4L Diesel",  
+    "fuelType": "Diesel",  
+    "transmissionType": "Manual",  
+    "seatingCapacity": "2",  
+    "priceRange": "₹5,50,000 - ₹7,50,000",  
+    "mileageRange": "12 - 14 km/l",  
+    "safetyFeatures": "Driver Airbag, ABS, Reverse Parking Sensors",  
+    "colorOptions": "White, Red, Yellow",  
+    "dimensions": "4380 mm (Length), 1680 mm (Width), 1820 mm (Height)",  
+    "performanceFeatures": "Small Footprint, Easy Maneuverability",  
+    "interiorFeatures": "Basic Seating, Digital Dashboard",  
+    "exteriorFeatures": "Strong Body, Simple Bumper",  
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",  
+    "releaseDateYear": "2014",
+    imageUrl: "assets/images/vehicle_models_images/Dost.png"
+
+},
+"Stile": {
+    "type": "Passenger",
+    "brand": "Tata",
+    "modelNameNumber": "Stile",  
+    "engineSpecifications": "1.4L Petrol/Diesel",  
+    "fuelType": "Petrol/Diesel",  
+    "transmissionType": "Manual",  
+    "seatingCapacity": "5",  
+    "priceRange": "₹5,50,000 - ₹7,50,000",  
+    "mileageRange": "14 - 18 km/l",  
+    "safetyFeatures": "Driver & Passenger Airbags, ABS, EBD",  
+    "colorOptions": "White, Silver, Red",  
+    "dimensions": "3745 mm (Length), 1640 mm (Width), 1615 mm (Height)",  
+    "performanceFeatures": "Compact and Efficient, Good for Urban Driving",  
+    "interiorFeatures": "Basic Dashboard, Comfortable Seats",  
+    "exteriorFeatures": "Simple, Attractive Design, Roof Rails",  
+    "warrantyAfterSalesService": "3-year/1,20,000 km Warranty, Roadside Assistance",  
+    "releaseDateYear": "2010",
+    imageUrl: "assets/images/vehicle_models_images/Stile.png"
+
+},
+"U-Truck": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "U-Truck",  
+    "engineSpecifications": "4.2L Diesel",  
+    "fuelType": "Diesel",  
+    "transmissionType": "Manual",  
+    "seatingCapacity": "2",  
+    "priceRange": "₹10,00,000 - ₹15,00,000",  
+    "mileageRange": "8 - 10 km/l",  
+    "safetyFeatures": "Driver Airbag, ABS, Anti-Rollover Protection",  
+    "colorOptions": "White, Red, Green",  
+    "dimensions": "7530 mm (Length), 2500 mm (Width), 2850 mm (Height)",  
+    "performanceFeatures": "High Load Carrying Capacity, Robust Engine",  
+    "interiorFeatures": "Basic Cabin, Durable Seats",  
+    "exteriorFeatures": "Heavy-duty Bumper, Large Tires",  
+    "warrantyAfterSalesService": "5-year/2,00,000 km Warranty, 24/7 Roadside Assistance",  
+    "releaseDateYear": "2017",
+    imageUrl: "assets/images/vehicle_models_images/U-Truck.png"
+
+},
+
+"Ashok Leyland Dost": {
+    "type": "Commercial",
+    "brand": "Ashok Leyland",
+    "modelNameNumber": "4923",  // Model Name Number
+    "engineSpecifications": "1.5L Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2-3",  // Seating Capacity
+    "priceRange": "₹7,00,000 - ₹9,00,000",  // Price Range
+    "mileageRange": "10 - 12 km/l",  // Mileage/Range
+    "safetyFeatures": "ABS, Driver Airbag, Rear Parking Sensors",  // Safety Features
+    "colorOptions": "White, Red, Blue, Yellow, and more",  // Color Options
+    "dimensions": "4340 mm (Length), 1735 mm (Width), 1890 mm (Height)",  // Dimensions
+    "performanceFeatures": "Heavy Load Capacity, Power Steering",  // Performance Features
+    "interiorFeatures": "Basic Dashboard, Fabric Upholstery, AM/FM Radio",  // Interior Features
+    "exteriorFeatures": "Halogen Headlamps, Roof Rails, Cargo Box",  // Exterior Features
+    "warrantyAfterSalesService": "2-year/80,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2013", // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Dost.png"
+},
+
+"Ashok Leyland Dost Plus": {
+    "type": "Commercial",
+    "brand": "Ashok Leyland",
+    "modelNameNumber": "4923",  // Model Name Number
+    "engineSpecifications": "1.5L Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "3-4",  // Seating Capacity
+    "priceRange": "₹8,00,000 - ₹10,50,000",  // Price Range
+    "mileageRange": "11 - 14 km/l",  // Mileage/Range
+    "safetyFeatures": "ABS, Dual Airbags, Parking Sensors",  // Safety Features
+    "colorOptions": "White, Red, Yellow, Blue, and more",  // Color Options
+    "dimensions": "4700 mm (Length), 1800 mm (Width), 1900 mm (Height)",  // Dimensions
+    "performanceFeatures": "Heavy Duty, Good Load Distribution",  // Performance Features
+    "interiorFeatures": "Comfortable Seats, Digital Instrument Cluster",  // Interior Features
+    "exteriorFeatures": "Daytime Running Lamps, Steel Rims",  // Exterior Features
+    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2016",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Dost Plus.png"
+},
+"Ashok Leyland Partner": {
+    "type": "Commercial",
+    "brand": "Ashok Leyland",
+    "modelNameNumber": "4923",  // Model Name Number
+    "engineSpecifications": "3.0L Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2-3",  // Seating Capacity
+    "priceRange": "₹9,00,000 - ₹11,50,000",  // Price Range
+    "mileageRange": "9 - 12 km/l",  // Mileage/Range
+    "safetyFeatures": "ABS, Dual Airbags, EBD",  // Safety Features
+    "colorOptions": "White, Yellow, Red",  // Color Options
+    "dimensions": "5400 mm (Length), 1900 mm (Width), 2150 mm (Height)",  // Dimensions
+    "performanceFeatures": "Payload Capacity of 2.5 tons, Power Steering",  // Performance Features
+    "interiorFeatures": "Basic Console, Fabric Upholstery",  // Interior Features
+    "exteriorFeatures": "Side Step, Chrome Grille",  // Exterior Features
+    "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2014",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Partner.png"
+
+},
+"Ashok Leyland Ecomet 1615": {
+    "type": "Commercial",
+    "brand": "Ashok Leyland",
+    "modelNameNumber": "4923",  // Model Name Number
+    "engineSpecifications": "3.0L Turbocharged Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2-3",  // Seating Capacity
+    "priceRange": "₹12,00,000 - ₹14,50,000",  // Price Range
+    "mileageRange": "8 - 10 km/l",  // Mileage/Range
+    "safetyFeatures": "ABS, Driver Airbag, Parking Sensors",  // Safety Features
+    "colorOptions": "White, Red, Blue",  // Color Options
+    "dimensions": "6400 mm (Length), 2100 mm (Width), 2500 mm (Height)",  // Dimensions
+    "performanceFeatures": "Heavy Duty, Good Payload Capacity",  // Performance Features
+    "interiorFeatures": "Basic Dashboard, Digital Cluster",  // Interior Features
+    "exteriorFeatures": "Dual-tone Bumper, Side Step",  // Exterior Features
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2017" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Ecomet 1615.png"
+
+},
+"Ashok Leyland Ecomet 1214": {
+    "type": "Commercial",
+    "brand": "Ashok Leyland",
+    "modelNameNumber": "4923",  // Model Name Number
+    "engineSpecifications": "3.0L Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2-3",  // Seating Capacity
+    "priceRange": "₹10,00,000 - ₹12,50,000",  // Price Range
+    "mileageRange": "10 - 12 km/l",  // Mileage/Range
+    "safetyFeatures": "ABS, Airbags, Parking Sensors",  // Safety Features
+    "colorOptions": "White, Red, Blue, Yellow",  // Color Options
+    "dimensions": "5700 mm (Length), 1850 mm (Width), 2300 mm (Height)",  // Dimensions
+    "performanceFeatures": "Load Capacity of 1.5 tons, Power Steering",  // Performance Features
+    "interiorFeatures": "Digital Instrument Cluster, Basic Seats",  // Interior Features
+    "exteriorFeatures": "Side Cladding, Steel Wheels",  // Exterior Features
+    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2015" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Ecomet 1214.png"
+
+},
+
+"Ashok Leyland 3118": {
+    type: "Commercial",
+    brand: "Ashok Leyland",
+    modelNameNumber: "3118",
+    engineSpecifications: "6.7L Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹25,00,000 - ₹35,00,000",  // Approximate, adjust as needed
+    mileageRange: "6 - 8 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Airbags, EBD, Anti-roll bar",
+    colorOptions: "White, Yellow, Green",  // Adjust according to available colors
+    dimensions: "10000 mm (Length), 2500 mm (Width), 3500 mm (Height)",  // Adjust as per the model specs
+    performanceFeatures: "Heavy Duty, Long Haul, Robust Engine",
+    interiorFeatures: "Basic Cabin, Driver Seat with Adjustable Suspension",
+    exteriorFeatures: "Steel Body, Wide Tires, LED Taillights",
+    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Nationwide Service Network",
+    releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland 3118.png"
+
+},
+
+"Ashok Leyland 4923": {
+    type: "Commercial",
+    brand: "Ashok Leyland",
+    modelNameNumber: "4923",
+    engineSpecifications: "7.3L Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹30,00,000 - ₹40,00,000",  // Approximate, adjust as needed
+    mileageRange: "6 - 8 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, EBD, Airbags, Roll-Over Protection",
+    colorOptions: "White, Blue, Black",  // Adjust according to available colors
+    dimensions: "12000 mm (Length), 2500 mm (Width), 3800 mm (Height)",  // Adjust as per the model specs
+    performanceFeatures: "Heavy Payload Capacity, Long Distance Hauling",
+    interiorFeatures: "Spacious Cabin, Comfortable Seat, Adjustable Steering",
+    exteriorFeatures: "Durable Body, LED Lamps, Wide Wheelbase",
+    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland 4923.png"
+
+},
+
+"Ashok Leyland Viking": {
+    type: "Commercial",
+    brand: "Ashok Leyland",
+    modelNameNumber: "Viking",
+    engineSpecifications: "4.0L Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "3",
+    priceRange: "₹15,00,000 - ₹25,00,000",  // Approximate, adjust as needed
+    mileageRange: "8 - 10 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, EBD, Safety Cab, Roll-Over Protection",
+    colorOptions: "White, Yellow, Green",  // Adjust according to available colors
+    dimensions: "7500 mm (Length), 2500 mm (Width), 3200 mm (Height)",  // Adjust as per the model specs
+    performanceFeatures: "Versatile, High Load Capacity",
+    interiorFeatures: "Basic Cabin, Adjustable Driver Seat",
+    exteriorFeatures: "Heavy Duty Bumper, Wide Front Grille",
+    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Nationwide Service Network",
+    releaseDateYear: "2016",
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Viking.png"
+
+},
+
+"Ashok Leyland Captain": {
+    type: "Commercial",
+    brand: "Ashok Leyland",
+    modelNameNumber: "Captain",
+    engineSpecifications: "5.3L Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹20,00,000 - ₹30,00,000",  // Approximate, adjust as needed
+    mileageRange: "7 - 9 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, EBD, Airbags, Safety Cabin",
+    colorOptions: "White, Blue, Yellow",  // Adjust according to available colors
+    dimensions: "9500 mm (Length), 2400 mm (Width), 3500 mm (Height)",  // Adjust as per the model specs
+    performanceFeatures: "Powerful Engine, High Payload Capacity",
+    interiorFeatures: "Comfortable Cabin, Adjustable Steering, Digital Instrument Cluster",
+    exteriorFeatures: "LED Taillights, Heavy Duty Suspension",
+    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Nationwide Service Network",
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Captain.png"
+
+},
+
+"Pro 2049": {
+    type: "Commercial",  // Vehicle Type
+    brand: "Tata",  // Brand
+    modelNameNumber: "Pro 2049",  // Model Name Number
+    engineSpecifications: "4.5L 4-Cylinder Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2",  // Seating Capacity (Commercial vehicle typically has 2)
+    priceRange: "₹10,00,000 - ₹12,00,000",  // Price Range
+    mileageRange: "8 - 10 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Driver and Passenger Airbags, Reverse Parking Sensors",  // Safety Features
+    colorOptions: "White, Silver, Red, Blue",  // Color Options
+    dimensions: "6725 mm (Length), 2500 mm (Width), 2900 mm (Height)",  // Dimensions
+    performanceFeatures: "Heavy Load Capacity, Sturdy Suspension, 4WD",  // Performance Features
+    interiorFeatures: "Basic Dashboard, Fabric Upholstery, Audio System",  // Interior Features
+    exteriorFeatures: "Fog Lamps, High Ground Clearance, Side Cladding",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2021" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Pro 2049.png"
+
+},
+
+"Ashok Leyland Ecomet Star": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "Ecomet Star",  // Model Name Number
+    engineSpecifications: "2.2L CR4 Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2",  // Seating Capacity (Typically commercial vehicles have 2 or 3 seats)
+    priceRange: "₹10,00,000 - ₹12,50,000",  // Price Range
+    mileageRange: "10 - 14 km/l",  // Mileage/Range
+    safetyFeatures: "ABS with EBD, Airbags, Parking Sensors",  // Safety Features
+    colorOptions: "White, Red, Silver",  // Color Options
+    dimensions: "5240 mm (Length), 1835 mm (Width), 2195 mm (Height)",  // Dimensions
+    performanceFeatures: "Heavy Load Carrying Capacity, Enhanced Stability",  // Performance Features
+    interiorFeatures: "Basic Cabin, Adjustable Driver Seat",  // Interior Features
+    exteriorFeatures: "Durable Bumper, Alloy Wheels",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2020" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ashok Leyland Ecomet Star.png"
+
+},
+"1615 HE": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "1615 HE",  // Model Name Number
+    engineSpecifications: "5.0L Turbocharged Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2",  // Seating Capacity
+    priceRange: "₹16,00,000 - ₹18,50,000",  // Price Range
+    mileageRange: "8 - 12 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Airbags, Reverse Parking Sensors",  // Safety Features
+    colorOptions: "White, Yellow, Blue",  // Color Options
+    dimensions: "7200 mm (Length), 2500 mm (Width), 3000 mm (Height)",  // Dimensions
+    performanceFeatures: "Heavy Duty Performance, Excellent Payload",  // Performance Features
+    interiorFeatures: "Basic Dashboard, Adjustable Seats",  // Interior Features
+    exteriorFeatures: "Durable Exterior, Front Bullbar",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Support",  // Warranty & After-Sales Service
+    releaseDateYear: "2018" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/1615 HE.png"
+
+},
+"1915 HE": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "1915 HE",  // Model Name Number
+    engineSpecifications: "5.0L Turbocharged Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2",  // Seating Capacity
+    priceRange: "₹18,00,000 - ₹20,00,000",  // Price Range
+    mileageRange: "8 - 12 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Airbags, Reverse Parking Sensors",  // Safety Features
+    colorOptions: "White, Yellow, Blue",  // Color Options
+    dimensions: "7600 mm (Length), 2550 mm (Width), 3100 mm (Height)",  // Dimensions
+    performanceFeatures: "High Load Capacity, Powerful Engine",  // Performance Features
+    interiorFeatures: "Comfortable Cabin, Basic Features",  // Interior Features
+    exteriorFeatures: "Sturdy Build, High Clearance",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Support",  // Warranty & After-Sales Service
+    releaseDateYear: "2019" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/1915 HE.png"
+
+},
+"4220 HG": {
+    type: "Commercial",
+    brand: "Tata",
+    modelNameNumber: "4220 HG",  // Model Name Number
+    engineSpecifications: "6.0L Turbocharged Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2",  // Seating Capacity
+    priceRange: "₹22,00,000 - ₹24,00,000",  // Price Range
+    mileageRange: "6 - 10 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Airbags, Advanced Parking Sensors",  // Safety Features
+    colorOptions: "White, Black, Silver",  // Color Options
+    dimensions: "8500 mm (Length), 2700 mm (Width), 3400 mm (Height)",  // Dimensions
+    performanceFeatures: "Heavy Load Bearing, High Power Engine",  // Performance Features
+    interiorFeatures: "Premium Cabin, Air Conditioning",  // Interior Features
+    exteriorFeatures: "Reinforced Body, Roof Rails",  // Exterior Features
+    warrantyAfterSalesService: "4-year/2,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2021" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/4220 HG.png"
+
+},
+"Eicher 1110 Pro": {
+    type: "Commercial",
+    brand: "Eicher",
+    modelNameNumber: "1110 Pro",  // Model Name Number
+    engineSpecifications: "4.4L Turbocharged Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2",  // Seating Capacity
+    priceRange: "₹11,00,000 - ₹12,50,000",  // Price Range
+    mileageRange: "9 - 13 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Airbags, Anti-rollover System",  // Safety Features
+    colorOptions: "White, Yellow, Red",  // Color Options
+    dimensions: "6400 mm (Length), 2300 mm (Width), 2500 mm (Height)",  // Dimensions
+    performanceFeatures: "Strong Payload, Fuel Efficient",  // Performance Features
+    interiorFeatures: "Basic Cabin, Adjustable Seats",  // Interior Features
+    exteriorFeatures: "Reinforced Body, Easy Access Cab",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2017" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Eicher 1110 Pro.png"
+
+},
+"Eicher 1114 XP Pro": {
+    type: "Commercial",
+    brand: "Eicher",
+    modelNameNumber: "1114 XP Pro",  // Model Name Number
+    engineSpecifications: "4.4L Turbocharged Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "2",  // Seating Capacity
+    priceRange: "₹12,50,000 - ₹14,00,000",  // Price Range
+    mileageRange: "8 - 12 km/l",  // Mileage/Range
+    safetyFeatures: "ABS, Airbags, Parking Sensors",  // Safety Features
+    colorOptions: "White, Yellow, Red",  // Color Options
+    dimensions: "6600 mm (Length), 2350 mm (Width), 2700 mm (Height)",  // Dimensions
+    performanceFeatures: "Heavy Duty Performance, High Payload",  // Performance Features
+    interiorFeatures: "Comfortable Cabin, Adjustable Seats",  // Interior Features
+    exteriorFeatures: "Durable Build, Front Bumper",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2018" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Eicher 1114 XP Pro.png"
+
+},
+
+"Eicher 3015": {
+    type: "Commercial",
+    brand: "Eicher",
+    modelNameNumber: "3015",
+    engineSpecifications: "3.3L Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹7,00,000 - ₹10,00,000",  // Example price range
+    mileageRange: "8 - 10 km/l",  // Example mileage
+    safetyFeatures: "Driver Airbag, ABS, Reverse Parking Sensors",
+    colorOptions: "White, Red, Yellow",
+    dimensions: "5300 mm (Length), 2000 mm (Width), 3000 mm (Height)",
+    performanceFeatures: "Powerful Engine, High Load Carrying Capacity",
+    interiorFeatures: "Basic Cabin, Digital Speedometer, AM/FM Radio",
+    exteriorFeatures: "Strong Front Bumper, Halogen Headlamps, Wide Side Mirrors",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/Eicher 3015.png"
+
+},
+"Eicher 1049": {
+    type: "Commercial",
+    brand: "Eicher",
+    modelNameNumber: "1049",
+    engineSpecifications: "3.0L Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹6,00,000 - ₹8,50,000",  // Example price range
+    mileageRange: "10 - 12 km/l",  // Example mileage
+    safetyFeatures: "Driver Airbag, ABS, Reverse Parking Sensors",
+    colorOptions: "White, Red, Blue",
+    dimensions: "4200 mm (Length), 1900 mm (Width), 2400 mm (Height)",
+    performanceFeatures: "Durable Engine, High Payload Capacity",
+    interiorFeatures: "Basic Cabin, Speedometer, Cup Holders",
+    exteriorFeatures: "Reflective Tape, Strong Grille, Bumper Guard",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2018",
+    imageUrl: "assets/images/vehicle_models_images/Eicher 1049.png"
+
+},
+"Eicher Pro 6000": {
+    type: "Commercial",
+    brand: "Eicher",
+    modelNameNumber: "Pro 6000",
+    engineSpecifications: "5.0L Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹15,00,000 - ₹20,00,000",  // Example price range
+    mileageRange: "7 - 9 km/l",  // Example mileage
+    safetyFeatures: "Driver Airbag, ABS, Automatic Transmission, Hill Assist",
+    colorOptions: "White, Yellow, Blue",
+    dimensions: "6500 mm (Length), 2300 mm (Width), 3500 mm (Height)",
+    performanceFeatures: "High Torque Engine, Load Sensing, Long Haul Durability",
+    interiorFeatures: "Ergonomic Cabin, Digital Display, Bluetooth Connectivity",
+    exteriorFeatures: "LED Lighting, Robust Bumper, Durable Body",
+    warrantyAfterSalesService: "5-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 6000.png"
+
+},
+"Eicher Pro 8000": {
+    type: "Commercial",
+    brand: "Eicher",
+    modelNameNumber: "Pro 8000",
+    engineSpecifications: "7.0L Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "2",
+    priceRange: "₹22,00,000 - ₹28,00,000",  // Example price range
+    mileageRange: "6 - 8 km/l",  // Example mileage
+    safetyFeatures: "Driver Airbag, ABS, EBD, Emergency Braking System",
+    colorOptions: "White, Green, Blue",
+    dimensions: "8000 mm (Length), 2500 mm (Width), 3800 mm (Height)",
+    performanceFeatures: "Heavy Duty Engine, High Load Capacity, Excellent Torque",
+    interiorFeatures: "Comfortable Driver's Cabin, Digital Instrument Cluster",
+    exteriorFeatures: "Front Fog Lights, Extended Side Mirrors, Robust Design",
+    warrantyAfterSalesService: "5-year/3,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Eicher Pro 8000.png"
+
+},
+
+"Renault Kwid": {
+    type: "Passenger",
+    brand: "Renault",
+    modelNameNumber: "Kwid",  // Model Name Number (Example, update as per your data)
+    engineSpecifications: "1.0L Petrol",  // Engine Specifications
+    fuelType: "Petrol",  // Fuel Type
+    transmissionType: "Manual/Automatic",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹4,50,000 - ₹6,00,000",  // Price Range
+    mileageRange: "20 - 23 km/l",  // Mileage/Range
+    safetyFeatures: "Driver Airbag, ABS with EBD, Rear Parking Sensors",  // Safety Features
+    colorOptions: "Planet Grey, Fiery Red, Moonlight Silver, Electric Blue, and more",  // Color Options
+    dimensions: "3731 mm (Length), 1579 mm (Width), 1474 mm (Height)",  // Dimensions
+    performanceFeatures: "Compact Size, Efficient Engine, Easy Maneuvering",  // Performance Features
+    interiorFeatures: "Touchscreen Infotainment, Digital Instrument Cluster, Power Steering",  // Interior Features
+    exteriorFeatures: "LED DRLs, Body-coloured Bumpers, Stylish Grill",  // Exterior Features
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2015" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Renault Kwid.png"
+
+},
+
+"Renault Triber": {
+    type: "Passenger",
+    brand: "Renault",
+    modelNameNumber: "Triber",  // Model Name Number (Example, update as per your data)
+    engineSpecifications: "1.0L Petrol",  // Engine Specifications
+    fuelType: "Petrol",  // Fuel Type
+    transmissionType: "Manual/Automatic",  // Transmission Type
+    seatingCapacity: "7",  // Seating Capacity
+    priceRange: "₹5,50,000 - ₹8,00,000",  // Price Range
+    mileageRange: "18 - 20 km/l",  // Mileage/Range
+    safetyFeatures: "Driver and Passenger Airbags, ABS with EBD, Rear Parking Sensors",  // Safety Features
+    colorOptions: "Mystic Red, Ice Cool White, Moonlight Silver, and more",  // Color Options
+    dimensions: "3990 mm (Length), 1739 mm (Width), 1643 mm (Height)",  // Dimensions
+    performanceFeatures: "Flexible Seating, Efficient Engine, Compact Dimensions",  // Performance Features
+    interiorFeatures: "Touchscreen Infotainment, Modular Seating, Digital Instrument Cluster",  // Interior Features
+    exteriorFeatures: "LED DRLs, Roof Rails, Dual-tone Exteriors",  // Exterior Features
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Renault Triber.png"
+
+},
+
+"Renault Duster": {
+    type: "Passenger",
+    brand: "Renault",
+    modelNameNumber: "Duster",  // Model Name Number (Example, update as per your data)
+    engineSpecifications: "1.5L Petrol, 1.5L Diesel",  // Engine Specifications
+    fuelType: "Petrol/Diesel",  // Fuel Type
+    transmissionType: "Manual/Automatic",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹9,00,000 - ₹14,00,000",  // Price Range
+    mileageRange: "16 - 19 km/l",  // Mileage/Range
+    safetyFeatures: "Dual Airbags, ABS with EBD, ESC, Hill Start Assist",  // Safety Features
+    colorOptions: "Cayenne Orange, Glacier White, Moonlight Silver, and more",  // Color Options
+    dimensions: "4360 mm (Length), 1822 mm (Width), 1695 mm (Height)",  // Dimensions
+    performanceFeatures: "Efficient Diesel Engine, All-terrain Capability, Powerful Performance",  // Performance Features
+    interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Climate Control",  // Interior Features
+    exteriorFeatures: "Roof Rails, Projector Headlamps, LED DRLs",  // Exterior Features
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2012" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Renault Duster.png"
+
+},
+
+"Renault Captur": {
+    type: "Passenger",
+    brand: "Renault",
+    modelNameNumber: "Captur",  // Model Name Number (Example, update as per your data)
+    engineSpecifications: "1.5L Petrol, 1.5L Diesel",  // Engine Specifications
+    fuelType: "Petrol/Diesel",  // Fuel Type
+    transmissionType: "Manual/Automatic",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹10,00,000 - ₹16,00,000",  // Price Range
+    mileageRange: "14 - 17 km/l",  // Mileage/Range
+    safetyFeatures: "Dual Airbags, ABS with EBD, ESC, Hill Start Assist",  // Safety Features
+    colorOptions: "Mahogany Brown, Moonlight Silver, Caspian Blue, and more",  // Color Options
+    dimensions: "4122 mm (Length), 1789 mm (Width), 1613 mm (Height)",  // Dimensions
+    performanceFeatures: "Premium SUV Styling, Efficient Engine, Modern Features",  // Performance Features
+    interiorFeatures: "Touchscreen Infotainment, Automatic Climate Control, Leather Upholstery",  // Interior Features
+    exteriorFeatures: "LED Projector Headlamps, Dual-tone Exteriors, Roof Rails",  // Exterior Features
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2017" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Renault Captur.png"
+
+},
+
+"Renault Lodgy": {
+    type: "Passenger",
+    brand: "Renault",
+    modelNameNumber: "Lodgy",  // Model Name Number (Example, update as per your data)
+    engineSpecifications: "1.5L Diesel",  // Engine Specifications
+    fuelType: "Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "7",  // Seating Capacity
+    priceRange: "₹9,00,000 - ₹12,00,000",  // Price Range
+    mileageRange: "19 - 22 km/l",  // Mileage/Range
+    safetyFeatures: "Driver and Passenger Airbags, ABS with EBD, Rear Parking Sensors",  // Safety Features
+    colorOptions: "Glacier White, Moonlight Silver, and more",  // Color Options
+    dimensions: "4498 mm (Length), 1751 mm (Width), 1690 mm (Height)",  // Dimensions
+    performanceFeatures: "Spacious Cabin, Efficient Diesel Engine",  // Performance Features
+    interiorFeatures: "Modular Seating, Touchscreen Infotainment, AC with Climate Control",  // Interior Features
+    exteriorFeatures: "Roof Rails, Chrome Front Grill, LED DRLs",  // Exterior Features
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2015" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Renault Lodgy.png"
+
+},
+
+"Nissan Magnite": {
+    type: "Passenger",
+    brand: "Nissan",
+    modelNameNumber: "Magnite",
+    engineSpecifications: "1.0L Turbocharged Petrol, 1.0L Naturally Aspirated Petrol",  
+    fuelType: "Petrol",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹5,00,000 - ₹9,00,000",  
+    mileageRange: "18 - 20 km/l",  
+    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors, ESP",  
+    colorOptions: "Vivid Blue, Onyx Black, Flare Red, Pearl White, and more",  
+    dimensions: "3994 mm (Length), 1758 mm (Width), 1576 mm (Height)",  
+    performanceFeatures: "Turbocharged Engine, Responsive Steering, High Ground Clearance",  
+    interiorFeatures: "7-inch Touchscreen Infotainment, Steering Mounted Controls, Digital Instrument Cluster",  
+    exteriorFeatures: "LED DRLs, LED Projector Headlamps, Roof Rails, Stylish Front Grille",  
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Nissan Magnite.png"
+
+},
+
+"Nissan Kicks": {
+    type: "Passenger",
+    brand: "Nissan",
+    modelNameNumber: "Kicks",
+    engineSpecifications: "1.5L Petrol, 1.3L Turbocharged Petrol",  
+    fuelType: "Petrol",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹9,00,000 - ₹15,00,000",  
+    mileageRange: "13 - 16 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Traction Control, Rear Parking Sensors",  
+    colorOptions: "Pearl White, Blade Silver, Deep Blue, Radiant Red, and more",  
+    dimensions: "4135 mm (Length), 1813 mm (Width), 1625 mm (Height)",  
+    performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Hill Assist",  
+    interiorFeatures: "Touchscreen Infotainment, Automatic Climate Control, Leather Upholstery",  
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Roof Rails",  
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/Nissan Kicks.png"
+    
+},
+
+"Nissan Sunny": {
+    type: "Passenger",
+    brand: "Nissan",
+    modelNameNumber: "Sunny",
+    engineSpecifications: "1.5L Petrol",  
+    fuelType: "Petrol",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹7,00,000 - ₹11,00,000",  
+    mileageRange: "16 - 19 km/l",  
+    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",  
+    colorOptions: "Sunset Orange, Onyx Black, Brilliant Silver, Pearl White",  
+    dimensions: "4490 mm (Length), 1695 mm (Width), 1485 mm (Height)",  
+    performanceFeatures: "Smooth Ride, Fuel-Efficient Engine",  
+    interiorFeatures: "Touchscreen Infotainment, Automatic Climate Control, Premium Upholstery",  
+    exteriorFeatures: "Chrome Grille, LED Taillights, Large Windows for Better Visibility",  
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2011",
+    imageUrl: "assets/images/vehicle_models_images/Nissan Kicks.png"
+},
+
+"Nissan Terrano": {
+    type: "SUV",
+    brand: "Nissan",
+    modelNameNumber: "Terrano",
+    engineSpecifications: "1.5L Diesel, 1.6L Petrol",  
+    fuelType: "Diesel/Petrol",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹9,50,000 - ₹14,00,000",  
+    mileageRange: "15 - 20 km/l",  
+    safetyFeatures: "Dual Airbags, ABS with EBD, ESC, Rear Parking Sensors, Hill Descent Control",  
+    colorOptions: "Fire Red, Sterling Grey, Nightshade, and more",  
+    dimensions: "4331 mm (Length), 1822 mm (Width), 1677 mm (Height)",  
+    performanceFeatures: "Rugged SUV Build, Off-road Capability, Powerful Engine Options",  
+    interiorFeatures: "Touchscreen Infotainment, Premium Leather Upholstery, Push Button Start",  
+    exteriorFeatures: "Chrome Door Handles, Roof Rails, Projector Headlamps",  
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2013",
+    imageUrl: "assets/images/vehicle_models_images/Nissan Terrano.png"
+},
+
+    
+
+"MG Hector": {
+    type: "Passenger",
+    brand: "MG",
+    modelNameNumber: "Hector",
+    engineSpecifications: "1.5L Turbocharged Petrol, 2.0L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5-7",
+    priceRange: "₹15,00,000 - ₹20,00,000",
+    mileageRange: "13 - 17 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
+    colorOptions: "Starry Sky, Glaze Red, Candy White, Aurora Silver, and more",
+    dimensions: "4655 mm (Length), 1835 mm (Width), 1760 mm (Height)",
+    performanceFeatures: "Turbocharged Engine, 4x4 Option, Multi-Drive Modes",
+    interiorFeatures: "10.4-inch Infotainment, Leather Upholstery, Panoramic Sunroof",
+    exteriorFeatures: "LED DRLs, Dual-tone Roof, Chrome Accents, Fog Lamps",
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/MG Hector.png"
+
+},
+
+"MG Hector Plus": {
+    type: "Passenger",
+    brand: "MG",
+    modelNameNumber: "Hector Plus",
+    engineSpecifications: "1.5L Turbocharged Petrol, 2.0L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "6-7",
+    priceRange: "₹17,00,000 - ₹22,00,000",
+    mileageRange: "12 - 16 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
+    colorOptions: "Starry Sky, Glaze Red, Candy White, Aurora Silver, and more",
+    dimensions: "4720 mm (Length), 1835 mm (Width), 1774 mm (Height)",
+    performanceFeatures: "Turbocharged Engine, 4x4 Option, Multi-Drive Modes",
+    interiorFeatures: "10.4-inch Infotainment, Leather Upholstery, Panoramic Sunroof",
+    exteriorFeatures: "LED DRLs, Dual-tone Roof, Chrome Accents, Fog Lamps",
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/MG Hector Plus.png"
+
+},
+
+"MG ZS EV": {
+    type: "Electric",
+    brand: "MG",
+    modelNameNumber: "ZS EV",
+    engineSpecifications: "44.5 kWh Lithium-ion Battery",
+    fuelType: "Electric",
+    transmissionType: "Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹22,00,000 - ₹25,00,000",
+    mileageRange: "340 km (WLTP Range)",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
+    colorOptions: "Glaze Red, Aurora Silver, and more",
+    dimensions: "4323 mm (Length), 1809 mm (Width), 1644 mm (Height)",
+    performanceFeatures: "Electric Motor, Fast Charging, Regenerative Braking",
+    interiorFeatures: "10.1-inch Infotainment, Leather Upholstery, Panoramic Sunroof",
+    exteriorFeatures: "LED DRLs, Dual-tone Roof, Fog Lamps",
+    warrantyAfterSalesService: "8-year/1,50,000 km Battery Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/MG ZS EV.png"
+
+},
+
+"MG Astor": {
+    type: "Passenger",
+    brand: "MG",
+    modelNameNumber: "Astor",
+    engineSpecifications: "1.3L Turbocharged Petrol, 1.5L Petrol",
+    fuelType: "Petrol",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹10,00,000 - ₹15,00,000",
+    mileageRange: "14 - 18 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
+    colorOptions: "Candy White, Glaze Red, Aurora Silver, and more",
+    dimensions: "4323 mm (Length), 1809 mm (Width), 1644 mm (Height)",
+    performanceFeatures: "Turbocharged Engine, Multi-Drive Modes",
+    interiorFeatures: "10.1-inch Infotainment, Leather Upholstery, Digital Instrument Cluster",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Fog Lamps",
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/MG Astor.png"
+
+},
+
+"MG Gloster": {
+    type: "SUV",
+    brand: "MG",
+    modelNameNumber: "Gloster",
+    engineSpecifications: "2.0L Turbocharged Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Automatic",
+    seatingCapacity: "6-7",
+    priceRange: "₹30,00,000 - ₹40,00,000",
+    mileageRange: "12 - 14 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, 360-degree Camera, Adaptive Cruise Control",
+    colorOptions: "Candy White, Aurora Silver, and more",
+    dimensions: "4985 mm (Length), 1925 mm (Width), 1875 mm (Height)",
+    performanceFeatures: "4x4 Option, Advanced Terrain Management System, Multiple Driving Modes",
+    interiorFeatures: "12.3-inch Infotainment, Leather Upholstery, Panoramic Sunroof, 12-speaker Audio",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Chrome Accents, Fog Lamps",
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/MG Gloster.png"
+
+},
+
+"Linea": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Linea",  // Model Name Number
+    engineSpecifications: "1.3L Multijet Diesel, 1.4L Petrol",  // Engine Specifications
+    fuelType: "Petrol/Diesel",  // Fuel Type
+    transmissionType: "Manual/Automatic",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹7,50,000 - ₹10,00,000",  // Price Range
+    mileageRange: "14 - 18 km/l",  // Mileage/Range
+    safetyFeatures: "Dual Airbags, ABS with EBD, Reverse Parking Sensors",  // Safety Features
+    colorOptions: "Bossa Nova White, Exotica Red, Hip Hop Black",  // Color Options
+    dimensions: "4360 mm (Length), 1792 mm (Width), 1487 mm (Height)",  // Dimensions
+    performanceFeatures: "Powerful Petrol and Diesel Engines, Smooth Ride",  // Performance Features
+    interiorFeatures: "Infotainment System, Premium Upholstery, Spacious Cabin",  // Interior Features
+    exteriorFeatures: "Projector Headlamps, Chrome Accents, Body-colored Mirrors",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2007" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Linea.png"
+
+},
+
+"Punto": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Punto",  // Model Name Number
+    engineSpecifications: "1.2L Petrol, 1.3L Multijet Diesel",  // Engine Specifications
+    fuelType: "Petrol/Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹5,00,000 - ₹7,50,000",  // Price Range
+    mileageRange: "15 - 20 km/l",  // Mileage/Range
+    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",  // Safety Features
+    colorOptions: "Pearl White, Sunburnt Orange, Matte Black",  // Color Options
+    dimensions: "3987 mm (Length), 1687 mm (Width), 1487 mm (Height)",  // Dimensions
+    performanceFeatures: "Good Handling, Responsive Steering, Excellent Fuel Economy",  // Performance Features
+    interiorFeatures: "Touchscreen System, Comfortable Seats, Spacious Boot",  // Interior Features
+    exteriorFeatures: "Fog Lamps, Chrome Grille, Body-colored Door Handles",  // Exterior Features
+    warrantyAfterSalesService: "2-year/1,20,000 km Warranty, Free Service for First Year",  // Warranty & After-Sales Service
+    releaseDateYear: "2009" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Punto.png"
+
+},
+
+"Avventura": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Avventura",  // Model Name Number
+    engineSpecifications: "1.3L Multijet Diesel, 1.4L Petrol",  // Engine Specifications
+    fuelType: "Petrol/Diesel",  // Fuel Type
+    transmissionType: "Manual",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹7,50,000 - ₹10,00,000",  // Price Range
+    mileageRange: "16 - 19 km/l",  // Mileage/Range
+    safetyFeatures: "Dual Airbags, ABS with EBD, Cornering Stability Control",  // Safety Features
+    colorOptions: "Bronze, White, Red, Black",  // Color Options
+    dimensions: "3995 mm (Length), 1706 mm (Width), 1530 mm (Height)",  // Dimensions
+    performanceFeatures: "Elevated Ground Clearance, Robust Build, Strong Off-road Capability",  // Performance Features
+    interiorFeatures: "Touchscreen, Leather Upholstery, Spacious Boot Space",  // Interior Features
+    exteriorFeatures: "Roof Rails, Body Cladding, Daytime Running Lights",  // Exterior Features
+    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2014",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Avventura.png"
+
+},
+
+"Tipo": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Tipo",  // Model Name Number
+    engineSpecifications: "1.4L Petrol, 1.3L Multijet Diesel",  // Engine Specifications
+    fuelType: "Petrol/Diesel",  // Fuel Type
+    transmissionType: "Manual/Automatic",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹6,00,000 - ₹8,00,000",  // Price Range
+    mileageRange: "14 - 18 km/l",  // Mileage/Range
+    safetyFeatures: "Dual Airbags, ABS, Hill Hold Control",  // Safety Features
+    colorOptions: "Pristine White, Red, Grey",  // Color Options
+    dimensions: "4370 mm (Length), 1792 mm (Width), 1485 mm (Height)",  // Dimensions
+    performanceFeatures: "Compact Size, Efficient Engine, Smooth Driving Experience",  // Performance Features
+    interiorFeatures: "Infotainment System, Premium Audio, Spacious Cabin",  // Interior Features
+    exteriorFeatures: "Body-colored Bumpers, Chrome Grille, Alloy Wheels",  // Exterior Features
+    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2016" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Tipo.png"
+
+},
+
+"Honda Amaze": {
+    type: "Passenger",
+    brand: "Honda",
+    modelNameNumber: "Amaze",  
+    engineSpecifications: "1.2L Petrol, 1.5L Diesel",  
+    fuelType: "Petrol/Diesel",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹7,00,000 - ₹10,00,000",  
+    mileageRange: "18 - 24 km/l",  
+    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",  
+    colorOptions: "Radiant Red, Modern Steel, White Orchid, Golden Brown",  
+    dimensions: "3995 mm (Length), 1695 mm (Width), 1501 mm (Height)",  
+    performanceFeatures: "Comfortable Ride, Smooth Handling",  
+    interiorFeatures: "Touchscreen Infotainment, Keyless Entry, Digital AC Control",  
+    exteriorFeatures: "LED DRLs, Chrome Grille, Fog Lamps",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
+    releaseDateYear: "2018"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda Amaze.png"
+
+},
+
+"Honda WR-V": {
+    type: "Passenger",
+    brand: "Honda",
+    modelNameNumber: "WR-V",  
+    engineSpecifications: "1.2L Petrol, 1.5L Diesel",  
+    fuelType: "Petrol/Diesel",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹8,00,000 - ₹12,00,000",  
+    mileageRange: "17 - 23 km/l",  
+    safetyFeatures: "Dual Airbags, ABS with EBD, Reverse Parking Sensors",  
+    colorOptions: "Lunar Silver, White Orchid, Golden Brown",  
+    dimensions: "3999 mm (Length), 1734 mm (Width), 1601 mm (Height)",  
+    performanceFeatures: "Higher Ground Clearance, Smooth Driving Experience",  
+    interiorFeatures: "Touchscreen Infotainment, Leather Seats, Smart Key",  
+    exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2017"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda WR-V.png"
+
+},
+
+"Honda Civic": {
+    type: "Passenger",
+    brand: "Honda",
+    modelNameNumber: "Civic",  
+    engineSpecifications: "1.8L Petrol, 1.6L Diesel",  
+    fuelType: "Petrol/Diesel",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹17,00,000 - ₹22,00,000",  
+    mileageRange: "16 - 26 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, Lane Watch Camera, Hill Assist",  
+    colorOptions: "Platinum White, Rallye Red, Lunar Silver",  
+    dimensions: "4630 mm (Length), 1799 mm (Width), 1416 mm (Height)",  
+    performanceFeatures: "Sporty Performance, Agile Handling",  
+    interiorFeatures: "Touchscreen Infotainment, Apple CarPlay, Leather Upholstery",  
+    exteriorFeatures: "LED Projector Headlamps, Alloy Wheels, Sunroof",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
+    releaseDateYear: "2019"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda Civic.png"
+
+},
+
+"Honda Accord": {
+    type: "Passenger",
+    brand: "Honda",
+    modelNameNumber: "Accord",  
+    engineSpecifications: "2.4L Petrol, 1.5L Turbo Petrol",  
+    fuelType: "Petrol",  
+    transmissionType: "Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹23,00,000 - ₹28,00,000",  
+    mileageRange: "12 - 15 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, Lane Keep Assist, Collision Mitigation",  
+    colorOptions: "Crystal Black, Modern Steel, Platinum White",  
+    dimensions: "4933 mm (Length), 1850 mm (Width), 1460 mm (Height)",  
+    performanceFeatures: "Turbocharged Engine, Smooth Handling",  
+    interiorFeatures: "Premium Sound System, Leather Upholstery, Dual-zone Climate Control",  
+    exteriorFeatures: "LED Headlamps, Alloy Wheels, Sunroof",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
+    releaseDateYear: "2020"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda Accord.png"
+
+},
+
+"Honda Jazz": {
+    type: "Passenger",
+    brand: "Honda",
+    modelNameNumber: "Jazz",  
+    engineSpecifications: "1.2L Petrol",  
+    fuelType: "Petrol",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹7,50,000 - ₹9,50,000",  
+    mileageRange: "16 - 18 km/l",  
+    safetyFeatures: "Dual Airbags, ABS with EBD, Reverse Parking Sensors",  
+    colorOptions: "Sunset Orange, Radiant Red, White Orchid, Modern Steel",  
+    dimensions: "3995 mm (Length), 1694 mm (Width), 1544 mm (Height)",  
+    performanceFeatures: "Responsive Handling, Spacious Cabin",  
+    interiorFeatures: "Touchscreen Infotainment, Keyless Entry, Magic Seats",  
+    exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2015"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda Jazz.png"
+
+},
+
+"Honda BR-V": {
+    type: "Passenger",
+    brand: "Honda",
+    modelNameNumber: "BR-V",  
+    engineSpecifications: "1.5L Petrol, 1.5L Diesel",  
+    fuelType: "Petrol/Diesel",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "7",  
+    priceRange: "₹9,50,000 - ₹12,00,000",  
+    mileageRange: "15 - 21 km/l",  
+    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",  
+    colorOptions: "Taffeta White, Golden Brown, Modern Steel",  
+    dimensions: "4456 mm (Length), 1735 mm (Width), 1666 mm (Height)",  
+    performanceFeatures: "Comfortable Ride, High Ground Clearance",  
+    interiorFeatures: "Touchscreen Infotainment, Leather Seats, Smart Key",  
+    exteriorFeatures: "Roof Rails, LED DRLs, Alloy Wheels",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
+    releaseDateYear: "2016"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda BR-V.png"
+
+},
+
+"Honda City": {
+    type: "Passenger",
+    brand: "Honda",
+    modelNameNumber: "City",  
+    engineSpecifications: "1.5L Petrol, 1.5L Diesel",  
+    fuelType: "Petrol/Diesel",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹11,00,000 - ₹16,00,000",  
+    mileageRange: "17 - 25 km/l",  
+    safetyFeatures: "Dual Airbags, ABS with EBD, Reverse Parking Sensors",  
+    colorOptions: "Radiant Red, Modern Steel, White Orchid, Golden Brown",  
+    dimensions: "4549 mm (Length), 1748 mm (Width), 1487 mm (Height)",  
+    performanceFeatures: "Smooth Handling, Comfortable Ride",  
+    interiorFeatures: "Touchscreen Infotainment, Apple CarPlay, Leather Upholstery",  
+    exteriorFeatures: "LED DRLs, Alloy Wheels, Sunroof",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
+    releaseDateYear: "2020"  ,
+    imageUrl: "assets/images/vehicle_models_images/Honda City.png"
+
+},
+
+
+"Seltos": {
+    "type": "Passenger",
+    "brand": "Kia",
+    "modelNameNumber": "Seltos",  // Model Name Number
+    "engineSpecifications": "1.5L Petrol, 1.5L Diesel, 1.4L Turbocharged Petrol",  // Engine Specifications
+    "fuelType": "Petrol/Diesel",  // Fuel Type
+    "transmissionType": "Manual/Automatic",  // Transmission Type
+    "seatingCapacity": "5",  // Seating Capacity
+    "priceRange": "₹10,00,000 - ₹18,00,000",  // Price Range
+    "mileageRange": "16 - 21 km/l",  // Mileage/Range
+    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Assist, Reverse Parking Sensors",  // Safety Features
+    "colorOptions": "Intense Red, Gravity Grey, Clear White, Aurora Black Pearl",  // Color Options
+    "dimensions": "4315 mm (Length), 1800 mm (Width), 1645 mm (Height)",  // Dimensions
+    "performanceFeatures": "Turbocharged Engine, Smart Key, Drive Modes",  // Performance Features
+    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Premium Sound System",  // Interior Features
+    "exteriorFeatures": "LED DRLs, Projector Headlamps, Sunroof, Chrome Accents",  // Exterior Features
+    "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Seltos.png"
+
+},
+"Carens": {
+    "type": "Passenger",
+    "brand": "Kia",
+    "modelNameNumber": "Carens",  // Model Name Number
+    "engineSpecifications": "1.5L Petrol, 1.5L Diesel",  // Engine Specifications
+    "fuelType": "Petrol/Diesel",  // Fuel Type
+    "transmissionType": "Manual/Automatic",  // Transmission Type
+    "seatingCapacity": "7",  // Seating Capacity
+    "priceRange": "₹15,00,000 - ₹20,00,000",  // Price Range
+    "mileageRange": "16 - 20 km/l",  // Mileage/Range
+    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Parking Sensors",  // Safety Features
+    "colorOptions": "Sparkling Silver, Intense Red, Deep Blue",  // Color Options
+    "dimensions": "4565 mm (Length), 1800 mm (Width), 1700 mm (Height)",  // Dimensions
+    "performanceFeatures": "Smart Driving Modes, Advanced Infotainment",  // Performance Features
+    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, 7-seater Configuration",  // Interior Features
+    "exteriorFeatures": "LED DRLs, Chrome Grille, Projector Headlamps",  // Exterior Features
+    "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2022",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Carens.png"
+
+},
+"Carnival": {
+    "type": "Passenger",
+    "brand": "Kia",
+    "modelNameNumber": "Carnival",  // Model Name Number
+    "engineSpecifications": "2.2L Diesel, 3.5L Petrol",  // Engine Specifications
+    "fuelType": "Petrol/Diesel",  // Fuel Type
+    "transmissionType": "Automatic",  // Transmission Type
+    "seatingCapacity": "7/8",  // Seating Capacity
+    "priceRange": "₹30,00,000 - ₹35,00,000",  // Price Range
+    "mileageRange": "14 - 18 km/l",  // Mileage/Range
+    "safetyFeatures": "7 Airbags, ABS with EBD, ESC, 360-degree Camera",  // Safety Features
+    "colorOptions": "Aurora Black, Snow White Pearl, Steel Silver",  // Color Options
+    "dimensions": "5115 mm (Length), 1985 mm (Width), 1795 mm (Height)",  // Dimensions
+    "performanceFeatures": "Smart Power Tailgate, Dual-Sunroof",  // Performance Features
+    "interiorFeatures": "Premium Leather Seats, Dual Infotainment Screens",  // Interior Features
+    "exteriorFeatures": "LED DRLs, Front and Rear Fog Lamps",  // Exterior Features
+    "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2020" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Carnival.png"
+
+},
+"EV6": {
+    "type": "Electric",
+    "brand": "Kia",
+    "modelNameNumber": "EV6",  // Model Name Number
+    "engineSpecifications": "77.4 kWh Electric Motor",  // Engine Specifications
+    "fuelType": "Electric",  // Fuel Type
+    "transmissionType": "Automatic",  // Transmission Type
+    "seatingCapacity": "5",  // Seating Capacity
+    "priceRange": "₹60,00,000 - ₹70,00,000",  // Price Range
+    "mileageRange": "425 km on a full charge",  // Mileage/Range
+    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Autonomous Emergency Braking",  // Safety Features
+    "colorOptions": "Runway Red, Snow White Pearl, Cyber Grey",  // Color Options
+    "dimensions": "4695 mm (Length), 1890 mm (Width), 1550 mm (Height)",  // Dimensions
+    "performanceFeatures": "Dual Motor AWD, 800V Charging System",  // Performance Features
+    "interiorFeatures": "Premium Audio System, Digital Cockpit, Panoramic Sunroof",  // Interior Features
+    "exteriorFeatures": "LED Headlights, Aerodynamic Design, Flush Door Handles",  // Exterior Features
+    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2022",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/EV6.png"
+
+},
+"EV9": {
+    "type": "Electric",
+    "brand": "Kia",
+    "modelNameNumber": "EV9",  // Model Name Number
+    "engineSpecifications": "77.4 kWh Electric Motor",  // Engine Specifications
+    "fuelType": "Electric",  // Fuel Type
+    "transmissionType": "Automatic",  // Transmission Type
+    "seatingCapacity": "7",  // Seating Capacity
+    "priceRange": "₹70,00,000 - ₹80,00,000",  // Price Range
+    "mileageRange": "500 km on a full charge",  // Mileage/Range
+    "safetyFeatures": "8 Airbags, ABS with EBD, ESC, Lane Assist",  // Safety Features
+    "colorOptions": "Midnight Black, Snow White Pearl, Ocean Blue",  // Color Options
+    "dimensions": "5100 mm (Length), 2000 mm (Width), 1800 mm (Height)",  // Dimensions
+    "performanceFeatures": "Dual Motor AWD, Fast Charging, Autonomous Driving Features",  // Performance Features
+    "interiorFeatures": "Triple Display Screens, Heated/Cooled Seats, 360-degree Audio System",  // Interior Features
+    "exteriorFeatures": "Matrix LED Lights, Aerodynamic Styling",  // Exterior Features
+    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2024" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/EV9.png"
+
+},
+
+"Hyundai Exter": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Exter",
+    engineSpecifications: "1.2L Petrol",
+    fuelType: "Petrol",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹6,00,000 - ₹8,00,000",
+    mileageRange: "18 - 22 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",
+    colorOptions: "Phantom Black, Polar White, Titan Grey, Typhoon Silver, and more",
+    dimensions: "3855 mm (Length), 1710 mm (Width), 1635 mm (Height)",
+    performanceFeatures: "Smart EV Option, Reverse Parking Camera, LED DRLs",
+    interiorFeatures: "Touchscreen Infotainment, Wireless Charging, Digital Speedometer",
+    exteriorFeatures: "LED Headlamps, Diamond Cut Alloys, Roof Rails",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2023",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Exter.png"
+
+},
+"Hyundai Grand i10 Nios": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Grand i10 Nios",
+    engineSpecifications: "1.2L Petrol, 1.2L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹5,50,000 - ₹7,50,000",
+    mileageRange: "19 - 25 km/l",
+    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",
+    colorOptions: "Polar White, Aqua Teal, Fiery Red, Titan Grey, and more",
+    dimensions: "3795 mm (Length), 1680 mm (Width), 1520 mm (Height)",
+    performanceFeatures: "Smart Key, Reverse Parking Camera, Electric ORVMs",
+    interiorFeatures: "7-inch Touchscreen, Automatic Climate Control, Leather-wrapped Steering Wheel",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Diamond Cut Alloy Wheels",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Grand i10 Nios.png"
+
+},
+"Hyundai i20": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "i20",
+    engineSpecifications: "1.2L Petrol, 1.5L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹7,50,000 - ₹11,00,000",
+    mileageRange: "18 - 22 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",
+    colorOptions: "Polar White, Thunder Grey, Fiery Red, Lava Orange, and more",
+    dimensions: "4040 mm (Length), 1775 mm (Width), 1505 mm (Height)",
+    performanceFeatures: "Turbocharged Engine (Sportz variant), Multi-Drive Modes",
+    interiorFeatures: "10.25-inch Touchscreen, Wireless Charging, Ambient Lighting",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, 16-inch Alloy Wheels",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai i20.png"
+
+},
+"Hyundai Aura": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Aura",
+    engineSpecifications: "1.2L Petrol, 1.2L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹6,00,000 - ₹8,00,000",
+    mileageRange: "20 - 25 km/l",
+    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",
+    colorOptions: "Fiery Red, Polar White, Aqua Teal, Titan Grey, and more",
+    dimensions: "3825 mm (Length), 1680 mm (Width), 1520 mm (Height)",
+    performanceFeatures: "Smart Key, Reverse Parking Camera, Smart Infotainment",
+    interiorFeatures: "7-inch Touchscreen, Automatic Climate Control, Digital Instrument Cluster",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Roof Rails",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Aura.png"
+
+},
+"Hyundai Verna": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Verna",
+    engineSpecifications: "1.5L Petrol, 1.5L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹10,00,000 - ₹15,00,000",
+    mileageRange: "17 - 21 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
+    colorOptions: "Polar White, Fiery Red, Typhoon Silver, Starry Night, and more",
+    dimensions: "4440 mm (Length), 1729 mm (Width), 1475 mm (Height)",
+    performanceFeatures: "Turbocharged Engine (Sporty variants), Multi-Drive Modes",
+    interiorFeatures: "10.25-inch Touchscreen, Wireless Charging, Leather Upholstery",
+    exteriorFeatures: "LED Headlamps, Chrome Grille, Dual-tone Roof",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2023",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Verna.png"
+
+},
+"Hyundai Creta": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Creta",
+    engineSpecifications: "1.5L Petrol, 1.5L Diesel, 1.4L Turbo Petrol",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹10,00,000 - ₹18,00,000",
+    mileageRange: "16 - 21 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
+    colorOptions: "Phantom Black, Polar White, Titan Grey, Lava Orange, and more",
+    dimensions: "4300 mm (Length), 1790 mm (Width), 1635 mm (Height)",
+    performanceFeatures: "Turbocharged Engine (Sportz variant), Drive Modes, Panoramic Sunroof",
+    interiorFeatures: "8-inch Touchscreen, Automatic Climate Control, Wireless Charging",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, 17-inch Alloy Wheels",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Creta.png"
+
+},
+
+"Hyundai Alcazar": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Alcazar",
+    engineSpecifications: "2.0L Petrol, 1.5L Diesel",  
+    fuelType: "Petrol/Diesel",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "6-7",  
+    priceRange: "₹16,00,000 - ₹20,00,000",  
+    mileageRange: "14 - 18 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",  
+    colorOptions: "Typhoon Silver, Phantom Black, Polar White, Taiga Brown",  
+    dimensions: "4500 mm (Length), 1790 mm (Width), 1675 mm (Height)",  
+    performanceFeatures: "Multi-Drive Modes, Electronic Stability Control",  
+    interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Wireless Charging",  
+    exteriorFeatures: "LED Headlamps, Roof Rails, Chrome Door Handles, Fog Lamps",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Alcazar.png"
+
+},
+"Hyundai Venue": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Venue",
+    engineSpecifications: "1.2L Petrol, 1.0L Turbo Petrol, 1.5L Diesel",  
+    fuelType: "Petrol/Diesel",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹7,00,000 - ₹12,00,000",  
+    mileageRange: "17 - 23 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",  
+    colorOptions: "Polar White, Typhoon Silver, Deep Forest, Denim Blue",  
+    dimensions: "3995 mm (Length), 1770 mm (Width), 1605 mm (Height)",  
+    performanceFeatures: "Turbocharged Engine, Smart Key, Wireless Charging",  
+    interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Climate Control",  
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Roof Rails",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Venue.png"
+
+},
+"Hyundai Tucson": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Tucson",
+    engineSpecifications: "2.0L Petrol, 2.0L Diesel",  
+    fuelType: "Petrol/Diesel",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹22,00,000 - ₹28,00,000",  
+    mileageRange: "15 - 20 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",  
+    colorOptions: "Phantom Black, Polar White, Red, Blue",  
+    dimensions: "4630 mm (Length), 1865 mm (Width), 1660 mm (Height)",  
+    performanceFeatures: "All-Wheel Drive, Multi-Drive Modes, Panoramic Sunroof",  
+    interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Wireless Charging",  
+    exteriorFeatures: "LED Headlamps, Roof Rails, Alloy Wheels, Fog Lamps",  
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Tucson.png"
+
+},
+"Hyundai Ioniq 5": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Ioniq 5",
+    engineSpecifications: "77.4 kWh Electric",  
+    fuelType: "Electric",  
+    transmissionType: "Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹45,00,000 - ₹50,00,000",  
+    mileageRange: "500 - 600 km (Range per Charge)",  
+    safetyFeatures: "Multiple Airbags, ABS, ESC, Lane Keep Assist, Autonomous Emergency Braking",  
+    colorOptions: "Lucid Blue, Phantom Black, Biophilic Blue, White",  
+    dimensions: "4635 mm (Length), 1890 mm (Width), 1605 mm (Height)",  
+    performanceFeatures: "Fast Charging, Dual Motor AWD, Regenerative Braking",  
+    interiorFeatures: "Dual Touchscreen Infotainment, Digital Instrument Cluster, Sustainable Materials",  
+    exteriorFeatures: "Pixelated LED Headlights, V2L (Vehicle-to-Load), Aerodynamic Design",  
+    warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Ioniq 5.png"
+
+},
+"Hyundai Venue N Line": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Venue N Line",
+    engineSpecifications: "1.0L Turbo Petrol",  
+    fuelType: "Petrol",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹9,00,000 - ₹12,00,000",  
+    mileageRange: "16 - 19 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",  
+    colorOptions: "N Line Red, Polar White, Typhoon Silver",  
+    dimensions: "3995 mm (Length), 1770 mm (Width), 1605 mm (Height)",  
+    performanceFeatures: "Sporty Suspension, Multi-Drive Modes, Rear Disc Brakes",  
+    interiorFeatures: "Sporty Black Interior, Touchscreen Infotainment, Wireless Charging",  
+    exteriorFeatures: "Sporty Red Accents, LED DRLs, Dual-tone Roof, Roof Rails",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Venue N Line.png"
+
+},
+"Hyundai i20 N Line": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "i20 N Line",
+    engineSpecifications: "1.0L Turbo Petrol",  
+    fuelType: "Petrol",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹10,00,000 - ₹13,00,000",  
+    mileageRange: "17 - 20 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",  
+    colorOptions: "N Line Red, Polar White, Typhoon Silver",  
+    dimensions: "4045 mm (Length), 1775 mm (Width), 1505 mm (Height)",  
+    performanceFeatures: "Sporty Suspension, Multi-Drive Modes, Enhanced Handling",  
+    interiorFeatures: "Sporty Black Interior, Touchscreen Infotainment, Digital Instrument Cluster",  
+    exteriorFeatures: "Sporty Red Accents, LED DRLs, Alloy Wheels, Fog Lamps",  
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai i20 N Line.png"
+
+},
+"Hyundai Creta N Line": {
+    type: "Passenger",
+    brand: "Hyundai",
+    modelNameNumber: "Creta N Line",
+    engineSpecifications: "1.4L Turbo Petrol",  
+    fuelType: "Petrol",  
+    transmissionType: "Manual/Automatic",  
+    seatingCapacity: "5",  
+    priceRange: "₹16,00,000 - ₹20,00,000",  
+    mileageRange: "14 - 18 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",  
+    colorOptions: "N Line Red, Phantom Black, Polar White",  
+    dimensions: "4300 mm (Length), 1790 mm (Width), 1635 mm (Height)",  
+    performanceFeatures: "Sporty Suspension, Multi-Drive Modes, Turbocharged Engine",  
+    interiorFeatures: "Sporty Interior, Touchscreen Infotainment, Wireless Charging",  
+    exteriorFeatures: "Sporty Red Accents, LED DRLs, Dual-tone Roof, Roof Rails",  
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Hyundai Creta N Line.png"
+
+},
+
+"Magnite": {
+    type: "Passenger",
+    brand: "Nissan",
+    modelNameNumber: "Magnite",
+    engineSpecifications: "1.0L Turbocharged Petrol, 1.0L Petrol",
+    fuelType: "Petrol",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹5,00,000 - ₹8,00,000",
+    mileageRange: "18 - 20 km/l",
+    safetyFeatures: "4 Airbags, ABS with EBD, Rear Parking Sensors, Rearview Camera",
+    colorOptions: "Vivid Blue, Onyx Black, Pearl White, Storm White, and more",
+    dimensions: "3994 mm (Length), 1758 mm (Width), 1573 mm (Height)",
+    performanceFeatures: "Turbocharged Engine, Smart Driving Mode, 16-inch Wheels",
+    interiorFeatures: "Touchscreen Infotainment, Wireless Apple CarPlay, Wireless Charging, Adjustable Seats",
+    exteriorFeatures: "LED DRLs, Split-Type LED Tail Lamps, Bold Front Grille",
+    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Magnite.png"
+
+},
+
+"X-Trail": {
+    type: "Passenger",
+    brand: "Nissan",
+    modelNameNumber: "X-Trail",
+    engineSpecifications: "2.0L Petrol, 1.6L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹25,00,000 - ₹35,00,000",
+    mileageRange: "13 - 15 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, Intelligent Emergency Braking, Lane Departure Warning",
+    colorOptions: "Brilliant Silver, Magnetic Red, Gun Metallic, Pearl White, and more",
+    dimensions: "4640 mm (Length), 1820 mm (Width), 1740 mm (Height)",
+    performanceFeatures: "4WD, Intelligent Mobility, All-Terrain Capabilities",
+    interiorFeatures: "Panoramic Sunroof, Leather Upholstery, 8-inch Touchscreen Infotainment",
+    exteriorFeatures: "LED Headlights, Roof Rails, Smart Auto Lights",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/X-Trail.png"
+
+},
+
+"GT-R": {
+    type: "Passenger",
+    brand: "Nissan",
+    modelNameNumber: "GT-R",
+    engineSpecifications: "3.8L V6 Twin-Turbo Petrol",
+    fuelType: "Petrol",
+    transmissionType: "Automatic",
+    seatingCapacity: "2",
+    priceRange: "₹2,20,00,000 - ₹2,50,00,000",
+    mileageRange: "8 - 10 km/l",
+    safetyFeatures: "Advanced Airbag System, ABS with EBD, Traction Control, Active LSD",
+    colorOptions: "Super Silver, Pearl White, Jet Black, Blaze Metallic, and more",
+    dimensions: "4710 mm (Length), 1895 mm (Width), 1370 mm (Height)",
+    performanceFeatures: "565 hp, 0-100 km/h in 3.0 seconds, All-Wheel Drive",
+    interiorFeatures: "Recaro Seats, Multi-Function Display, Bose Audio System",
+    exteriorFeatures: "Aerodynamic Design, Signature LED Tail Lamps, Carbon Fiber Accents",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",
+    releaseDateYear: "2007",
+    imageUrl: "assets/images/vehicle_models_images/GT-R.png"
+
+},
+
+"Kushaq": {
+    type: "Passenger",
+    brand: "Skoda",
+    modelNameNumber: "Kushaq",
+    engineSpecifications: "1.0L Turbocharged Petrol, 1.5L Petrol",
+    fuelType: "Petrol",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹10,00,000 - ₹17,00,000",
+    mileageRange: "16 - 18 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Hold Control",
+    colorOptions: "Candy White, Brilliant Silver, Tornado Red, Carbon Steel, and more",
+    dimensions: "4225 mm (Length), 1760 mm (Width), 1610 mm (Height)",
+    performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Electric Power Steering",
+    interiorFeatures: "Touchscreen Infotainment, Virtual Cockpit, Wireless Charging",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Roof Rails, Fog Lamps",
+    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Kushaq.png"
+
+},
+
+"Slavia": {
+    type: "Passenger",
+    brand: "Skoda",
+    modelNameNumber: "Slavia",
+    engineSpecifications: "1.0L Turbocharged Petrol, 1.5L Petrol",
+    fuelType: "Petrol",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹10,00,000 - ₹18,00,000",
+    mileageRange: "17 - 20 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",
+    colorOptions: "Candy White, Brilliant Silver, Crystal Blue, and more",
+    dimensions: "4541 mm (Length), 1752 mm (Width), 1487 mm (Height)",
+    performanceFeatures: "Turbocharged Engine, Regenerative Braking, Electric Power Steering",
+    interiorFeatures: "8-inch Touchscreen, Ambient Lighting, Wireless Charging",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Chrome Grille, Alloy Wheels",
+    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Slavia.png"
+
+},
+
+"Kodiaq": {
+    type: "Passenger",
+    brand: "Skoda",
+    modelNameNumber: "Kodiaq",
+    engineSpecifications: "2.0L Turbocharged Petrol, 2.0L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Automatic",
+    seatingCapacity: "7",
+    priceRange: "₹35,00,000 - ₹45,00,000",
+    mileageRange: "14 - 17 km/l",
+    safetyFeatures: "9 Airbags, ABS with EBD, ESC, Lane Assist, Adaptive Cruise Control",
+    colorOptions: "Moon White, Lava Blue, Brilliant Silver, and more",
+    dimensions: "4697 mm (Length), 1882 mm (Width), 1676 mm (Height)",
+    performanceFeatures: "4WD, Adaptive Suspension, Off-Road Mode",
+    interiorFeatures: "Panoramic Sunroof, Virtual Cockpit, Leather Upholstery",
+    exteriorFeatures: "LED Headlamps, Roof Rails, 18-inch Alloy Wheels, Fog Lamps",
+    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Kodiaq.png"
+
+},
+
+"Superb": {
+    type: "Passenger",
+    brand: "Skoda",
+    modelNameNumber: "Superb",
+    engineSpecifications: "1.8L Petrol, 2.0L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹28,00,000 - ₹35,00,000",
+    mileageRange: "15 - 18 km/l",
+    safetyFeatures: "8 Airbags, ABS with EBD, ESC, Blind Spot Detection, Adaptive Cruise Control",
+    colorOptions: "Magnetite Brown, Candy White, Brilliant Silver, and more",
+    dimensions: "4869 mm (Length), 1864 mm (Width), 1467 mm (Height)",
+    performanceFeatures: "Adaptive Suspension, Dynamic Chassis Control, Turbocharged Engine",
+    interiorFeatures: "Touchscreen Infotainment, Ambient Lighting, Virtual Cockpit",
+    exteriorFeatures: "LED Headlamps, Chrome Trims, Alloy Wheels",
+    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2001",
+    imageUrl: "assets/images/vehicle_models_images/Superb.png"
+
+},
+
+"Octavia": {
+    type: "Passenger",
+    brand: "Skoda",
+    modelNameNumber: "Octavia",
+    engineSpecifications: "1.4L Turbocharged Petrol, 2.0L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹20,00,000 - ₹30,00,000",
+    mileageRange: "16 - 18 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors, Lane Assist",
+    colorOptions: "Magnetite Brown, Quartz Grey, Brilliant Silver, and more",
+    dimensions: "4689 mm (Length), 1829 mm (Width), 1465 mm (Height)",
+    performanceFeatures: "Turbocharged Engine, Regenerative Braking, Adaptive Cruise Control",
+    interiorFeatures: "8-inch Touchscreen, Leather Upholstery, Virtual Cockpit",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Alloy Wheels",
+    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "1996",
+    imageUrl: "assets/images/vehicle_models_images/Octavia.png"
+
+},
+
+"Enyaq iV": {
+    type: "Passenger",
+    brand: "Skoda",
+    modelNameNumber: "Enyaq iV",
+    engineSpecifications: "77 kWh Battery Electric",
+    fuelType: "Electric",
+    transmissionType: "Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹55,00,000 - ₹65,00,000",
+    mileageRange: "500 km (Range)",
+    safetyFeatures: "8 Airbags, ABS with EBD, ESC, Lane Assist, Adaptive Cruise Control",
+    colorOptions: "Black Magic, Mamba Green, Steel Grey, and more",
+    dimensions: "4649 mm (Length), 1877 mm (Width), 1610 mm (Height)",
+    performanceFeatures: "Electric Motor, Regenerative Braking, Fast Charging",
+    interiorFeatures: "Panoramic Sunroof, Touchscreen Infotainment, Leather Upholstery",
+    exteriorFeatures: "LED Headlamps, Roof Rails, Alloy Wheels",
+    warrantyAfterSalesService: "8-year Battery Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Enyaq iV.png"
+
+},
+
+"Kylaq": {
+    type: "Passenger",
+    brand: "Skoda",
+    modelNameNumber: "Kylaq",
+    engineSpecifications: "1.5L Petrol, 2.0L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Automatic",
+    seatingCapacity: "7",
+    priceRange: "₹25,00,000 - ₹40,00,000",
+    mileageRange: "15 - 18 km/l",
+    safetyFeatures: "7 Airbags, ABS with EBD, ESC, Blind Spot Detection, Adaptive Cruise Control",
+    colorOptions: "Moon White, Platinum Grey, Velvet Red, and more",
+    dimensions: "4700 mm (Length), 1880 mm (Width), 1680 mm (Height)",
+    performanceFeatures: "Turbocharged Engine, 4WD, Adaptive Suspension",
+    interiorFeatures: "Virtual Cockpit, Leather Upholstery, Premium Sound System",
+    exteriorFeatures: "LED Headlamps, Roof Rails, Alloy Wheels",
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2024",
+    imageUrl: "assets/images/vehicle_models_images/Kylaq.png"
+
+},
+
+
+"Alto 800": {
+    "type": "Passenger",
+    "brand": "Maruti Suzuki",
+    "modelNameNumber": "Alto 800",
+    "engineSpecifications": "0.8L Petrol",
+    "fuelType": "Petrol",
+    "transmissionType": "Manual",
+    "seatingCapacity": "4",
+    "priceRange": "₹3,50,000 - ₹5,00,000",
+    "mileageRange": "22 - 24 km/l",
+    "safetyFeatures": "Dual Airbags, ABS with EBD",
+    "colorOptions": "Silky Silver, Solid White, Cerulean Blue, Mojito Green",
+    "dimensions": "3445 mm (Length), 1475 mm (Width), 1470 mm (Height)",
+    "performanceFeatures": "Lightweight Engine, Smart Play Audio System",
+    "interiorFeatures": "Premium Upholstery, 2-DIN Audio System",
+    "exteriorFeatures": "Halogen Headlamps, Body-Colored Bumpers",
+    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
+    "releaseDateYear": "2012",
+    imageUrl: "assets/images/vehicle_models_images/Alto 800.png"
+
+},
+"Alto K10": {
+    "type": "Passenger",
+    "brand": "Maruti Suzuki",
+    "modelNameNumber": "Alto K10",
+    "engineSpecifications": "1.0L Petrol",
+    "fuelType": "Petrol",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹4,00,000 - ₹5,50,000",
+    "mileageRange": "22 - 24 km/l",
+    "safetyFeatures": "Dual Airbags, ABS with EBD",
+    "colorOptions": "Silky Silver, Pearl Arctic White, Granite Grey, Blazing Red",
+    "dimensions": "3445 mm (Length), 1475 mm (Width), 1470 mm (Height)",
+    "performanceFeatures": "Peppy Engine, Fuel Efficient, Smooth Gearbox",
+    "interiorFeatures": "Integrated Audio System, Digital Instrument Cluster",
+    "exteriorFeatures": "Body-Colored ORVMs, Fog Lamps, Chrome Front Grille",
+    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
+    "releaseDateYear": "2014",
+    imageUrl: "assets/images/vehicle_models_images/Alto K10.png"
+
+},
+"Wagon R": {
+    "type": "Passenger",
+    "brand": "Maruti Suzuki",
+    "modelNameNumber": "Wagon R",
+    "engineSpecifications": "1.0L Petrol, 1.2L Petrol",
+    "fuelType": "Petrol",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹5,00,000 - ₹6,50,000",
+    "mileageRange": "20 - 22 km/l",
+    "safetyFeatures": "Dual Airbags, ABS with EBD",
+    "colorOptions": "Magnetic Brown, Silky Silver, Nutmeg Brown, Poolside Blue",
+    "dimensions": "3655 mm (Length), 1620 mm (Width), 1675 mm (Height)",
+    "performanceFeatures": "Peppy Engine, High Fuel Efficiency, Dual-tone Interiors",
+    "interiorFeatures": "Touchscreen Infotainment, Digital Speedometer",
+    "exteriorFeatures": "New Grille Design, Fog Lamps, LED DRLs",
+    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
+    "releaseDateYear": "1999",
+    imageUrl: "assets/images/vehicle_models_images/Wagon R.png"
+
+},
+"Swift": {
+    "type": "Passenger",
+    "brand": "Maruti Suzuki",
+    "modelNameNumber": "Swift",
+    "engineSpecifications": "1.2L Petrol, 1.3L Diesel",
+    "fuelType": "Petrol/Diesel",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹5,80,000 - ₹8,00,000",
+    "mileageRange": "19 - 22 km/l",
+    "safetyFeatures": "Dual Airbags, ABS with EBD, ESP, Hill Hold Assist",
+    "colorOptions": "Pearl Arctic White, Silky Silver, Prime Mystic Red",
+    "dimensions": "3840 mm (Length), 1735 mm (Width), 1530 mm (Height)",
+    "performanceFeatures": "Powerful Engine, Swift Handling, Sporty Feel",
+    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Smart Instrument Cluster",
+    "exteriorFeatures": "LED DRLs, Projector Headlamps, Chrome Accents",
+    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
+    "releaseDateYear": "2005",
+    imageUrl: "assets/images/vehicle_models_images/Swift.png"
+
+},
+"Swift Dzire": {
+    "type": "Passenger",
+    "brand": "Maruti Suzuki",
+    "modelNameNumber": "Swift Dzire",
+    "engineSpecifications": "1.2L Petrol, 1.3L Diesel",
+    "fuelType": "Petrol/Diesel",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹6,00,000 - ₹8,50,000",
+    "mileageRange": "19 - 23 km/l",
+    "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
+    "colorOptions": "Pearl White, Silky Silver, Magma Grey, Oxford Blue",
+    "dimensions": "3995 mm (Length), 1690 mm (Width), 1515 mm (Height)",
+    "performanceFeatures": "Efficient Engine, Smooth Ride Quality, Low Maintenance",
+    "interiorFeatures": "Touchscreen Infotainment, Leather Seats, Smart Instrument Cluster",
+    "exteriorFeatures": "LED DRLs, Alloy Wheels, Chrome Accents",
+    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
+    "releaseDateYear": "2008",
+    imageUrl: "assets/images/vehicle_models_images/Swift Dzire.png"
+
+},
+"Celerio": {
+    "type": "Passenger",
+    "brand": "Maruti Suzuki",
+    "modelNameNumber": "Celerio",
+    "engineSpecifications": "1.0L Petrol, 1.0L CNG",
+    "fuelType": "Petrol/CNG",
+    "transmissionType": "Manual/AMT",
+    "seatingCapacity": "5",
+    "priceRange": "₹4,50,000 - ₹6,00,000",
+    "mileageRange": "23 - 27 km/l",
+    "safetyFeatures": "Dual Airbags, ABS with EBD, Rear Parking Sensors",
+    "colorOptions": "Silky Silver, Blazing Red, Glistening Grey, Caffeine Brown",
+    "dimensions": "3695 mm (Length), 1600 mm (Width), 1555 mm (Height)",
+    "performanceFeatures": "AMT Transmission, Fuel Efficiency, Easy Maneuverability",
+    "interiorFeatures": "Touchscreen Infotainment, Smart Digital Display",
+    "exteriorFeatures": "LED DRLs, Body-Colored ORVMs, Fog Lamps",
+    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
+    "releaseDateYear": "2008",
+    imageUrl: "assets/images/vehicle_models_images/Celerio.png"
+
+},
+
+"Eeco Cargo": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Eeco Cargo",  // Model Name Number
+    "engineSpecifications": "1.2L Petrol",  // Engine Specifications
+    "fuelType": "Petrol",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity
+    "priceRange": "₹5,00,000 - ₹6,50,000",  // Price Range
+    "mileageRange": "15 - 17 km/l",  // Mileage/Range
+    "safetyFeatures": "Driver Airbag, ABS with EBD",  // Safety Features
+    "colorOptions": "White, Silver, Red, Blue",  // Color Options
+    "dimensions": "3679 mm (Length), 1475 mm (Width), 1875 mm (Height)",  // Dimensions
+    "performanceFeatures": "Stable Ride, High Payload Capacity",  // Performance Features
+    "interiorFeatures": "Basic Instrument Cluster, Spacious Cargo Area",  // Interior Features
+    "exteriorFeatures": "Halogen Headlamps, Body-Colored Bumpers",  // Exterior Features
+    "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2010",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Eeco Cargo.png"
+
+},
+
+"Alto Tour": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Alto Tour",  // Model Name Number
+    "engineSpecifications": "1.0L Petrol",  // Engine Specifications
+    "fuelType": "Petrol",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity
+    "priceRange": "₹3,50,000 - ₹5,00,000",  // Price Range
+    "mileageRange": "18 - 20 km/l",  // Mileage/Range
+    "safetyFeatures": "Driver Airbag, ABS with EBD",  // Safety Features
+    "colorOptions": "White, Silver, Red",  // Color Options
+    "dimensions": "3445 mm (Length), 1490 mm (Width), 1475 mm (Height)",  // Dimensions
+    "performanceFeatures": "Fuel Efficient, Compact Design",  // Performance Features
+    "interiorFeatures": "Basic Instrument Cluster, Spacious Cabin",  // Interior Features
+    "exteriorFeatures": "Halogen Headlamps, Rear Defogger",  // Exterior Features
+    "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2014",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Alto Tour.png"
+
+},
+
+"Wagon R Tour": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Wagon R Tour",  // Model Name Number
+    "engineSpecifications": "1.0L Petrol",  // Engine Specifications
+    "fuelType": "Petrol",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "2",  // Seating Capacity
+    "priceRange": "₹5,50,000 - ₹7,00,000",  // Price Range
+    "mileageRange": "18 - 22 km/l",  // Mileage/Range
+    "safetyFeatures": "Driver Airbag, ABS with EBD",  // Safety Features
+    "colorOptions": "White, Silver, Blue",  // Color Options
+    "dimensions": "3655 mm (Length), 1620 mm (Width), 1700 mm (Height)",  // Dimensions
+    "performanceFeatures": "Efficient Engine, Spacious Interior",  // Performance Features
+    "interiorFeatures": "Basic Instrument Cluster, Ample Boot Space",  // Interior Features
+    "exteriorFeatures": "Halogen Headlamps, Fog Lamps",  // Exterior Features
+    "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2015",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Wagon R Tour.png"
+
+},
+
+"Ertiga Tour": {
+    "type": "Commercial",
+    "brand": "Tata",
+    "modelNameNumber": "Ertiga Tour",  // Model Name Number
+    "engineSpecifications": "1.5L Diesel",  // Engine Specifications
+    "fuelType": "Diesel",  // Fuel Type
+    "transmissionType": "Manual",  // Transmission Type
+    "seatingCapacity": "7",  // Seating Capacity
+    "priceRange": "₹9,50,000 - ₹11,00,000",  // Price Range
+    "mileageRange": "20 - 24 km/l",  // Mileage/Range
+    "safetyFeatures": "ABS with EBD, Dual Airbags, Reverse Parking Sensors",  // Safety Features
+    "colorOptions": "White, Silver, Blue, Black",  // Color Options
+    "dimensions": "4300 mm (Length), 1695 mm (Width), 1685 mm (Height)",  // Dimensions
+    "performanceFeatures": "Fuel Efficient, Spacious, and Comfortable Ride",  // Performance Features
+    "interiorFeatures": "Touchscreen Infotainment, Ample Legroom",  // Interior Features
+    "exteriorFeatures": "Chrome Accents, Dual-tone Roof",  // Exterior Features
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    "releaseDateYear": "2017" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Ertiga Tour.png"
+
+},
+
+"Harrier": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Harrier",
+    engineSpecifications: "2.0L Turbocharged Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹15,00,000 - ₹23,00,000",
+    mileageRange: "16 - 20 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Traction Control",
+    colorOptions: "Calypso Red, Pearl White, Daytona Grey, Orion Silver",
+    dimensions: "4598 mm (Length), 1894 mm (Width), 1706 mm (Height)",
+    performanceFeatures: "Turbocharged Engine, Multiple Driving Modes, Hill Hold Control",
+    interiorFeatures: "Panoramic Sunroof, Touchscreen Infotainment, Leather Upholstery",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, 18-inch Alloy Wheels",
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/Harrier.png"
+
+},
+"Safari": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Safari",
+    engineSpecifications: "2.0L Turbocharged Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "7",
+    priceRange: "₹16,00,000 - ₹24,00,000",
+    mileageRange: "14 - 18 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Traction Control",
+    colorOptions: "Pearl White, Royale Blue, Oyster Brown",
+    dimensions: "4661 mm (Length), 1894 mm (Width), 1786 mm (Height)",
+    performanceFeatures: "Advanced ESP, Terrain Response Modes",
+    interiorFeatures: "Premium Leather Upholstery, 9-inch Touchscreen Infotainment, Panoramic Sunroof",
+    exteriorFeatures: "LED DRLs, Dual-tone Roof, Projector Headlamps",
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Safari.png"
+
+},
+"Tiago": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Tiago",
+    engineSpecifications: "1.2L Petrol",
+    fuelType: "Petrol",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹5,00,000 - ₹7,50,000",
+    mileageRange: "19 - 23 km/l",
+    safetyFeatures: "Dual Airbags, ABS with EBD, Corner Stability Control",
+    colorOptions: "Berry Red, Pure Silver, Ocean Blue",
+    dimensions: "3765 mm (Length), 1647 mm (Width), 1537 mm (Height)",
+    performanceFeatures: "3 Driving Modes, Responsive Power Steering",
+    interiorFeatures: "7-inch Touchscreen Infotainment, Premium Fabric Upholstery",
+    exteriorFeatures: "LED DRLs, Projector Headlamps",
+    warrantyAfterSalesService: "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2016",
+    imageUrl: "assets/images/vehicle_models_images/Tiago.png"
+
+},
+"Tigor": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Tigor",
+    engineSpecifications: "1.2L Petrol",
+    fuelType: "Petrol",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹6,00,000 - ₹8,50,000",
+    mileageRange: "18 - 22 km/l",
+    safetyFeatures: "Dual Airbags, ABS with EBD, Corner Stability Control",
+    colorOptions: "Berry Red, Pure Silver, Arizona Blue",
+    dimensions: "3993 mm (Length), 1677 mm (Width), 1537 mm (Height)",
+    performanceFeatures: "Smooth Handling, Responsive Steering",
+    interiorFeatures: "7-inch Touchscreen Infotainment, Fabric Upholstery",
+    exteriorFeatures: "LED DRLs, Projector Headlamps",
+    warrantyAfterSalesService: "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Tigor.png"
+
+},
+"Punch": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Punch",
+    engineSpecifications: "1.2L Petrol",
+    fuelType: "Petrol",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹6,00,000 - ₹8,50,000",
+    mileageRange: "18 - 20 km/l",
+    safetyFeatures: "Dual Airbags, ABS with EBD, Corner Stability Control",
+    colorOptions: "Royal Blue, Tropical Mist, Orcus White, Daytona Grey",
+    dimensions: "3827 mm (Length), 1742 mm (Width), 1622 mm (Height)",
+    performanceFeatures: "Rugged Build, High Ground Clearance",
+    interiorFeatures: "7-inch Touchscreen Infotainment, Fabric Upholstery",
+    exteriorFeatures: "LED DRLs, Projector Headlamps",
+    warrantyAfterSalesService: "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Punch.png"
+
+},
+
+
+"Altroz": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Altroz",
+    engineSpecifications: "1.2L Petrol, 1.5L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹5,50,000 - ₹9,50,000",
+    mileageRange: "18 - 23 km/l",
+    safetyFeatures: "5 Star NCAP Rating, 6 Airbags, ABS with EBD, ESC, Hill Assist",
+    colorOptions: "High Street Gold, Harbour Blue, Downtown Red, Polar White, and more",
+    dimensions: "3990 mm (Length), 1755 mm (Width), 1505 mm (Height)",
+    performanceFeatures: "Harman Infotainment, Multi-Drive Modes, Premium Cabin",
+    interiorFeatures: "Touchscreen Infotainment, Premium Upholstery, Apple CarPlay/Android Auto",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Fog Lamps",
+    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Altroz.png"
+
+},
+"Curvv": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Curvv",
+    engineSpecifications: "1.2L Turbo Petrol, 1.5L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹12,00,000 - ₹18,00,000",
+    mileageRange: "14 - 18 km/l",
+    safetyFeatures: "Advanced Driver Assistance System (ADAS), 6 Airbags, ABS with EBD",
+    colorOptions: "Metalic Blue, Shadow Silver, White, Grey, and more",
+    dimensions: "4360 mm (Length), 1895 mm (Width), 1600 mm (Height)",
+    performanceFeatures: "Electric Sunroof, Adaptive Cruise Control, Advanced Infotainment System",
+    interiorFeatures: "Connected Car Tech, 10.25-inch Touchscreen, Wireless Charging",
+    exteriorFeatures: "LED Headlights, Bold Grille, SUV Coupe Design",
+    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2024",
+    imageUrl: "assets/images/vehicle_models_images/Curvv.png"
+
+},
+"Gravitas": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Gravitas",
+    engineSpecifications: "2.0L Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "7",
+    priceRange: "₹15,00,000 - ₹22,00,000",
+    mileageRange: "14 - 17 km/l",
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Hold Assist",
+    colorOptions: "Orcus White, Telesto Grey, Royale Blue, and more",
+    dimensions: "4661 mm (Length), 1894 mm (Width), 1786 mm (Height)",
+    performanceFeatures: "Panoramic Sunroof, Adaptive Cruise Control, Terrain Response Modes",
+    interiorFeatures: "Premium Leather Upholstery, 8.8-inch Infotainment System, 9 Speaker System",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof",
+    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Gravitas.png"
+
+},
+"Nano": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Nano",
+    engineSpecifications: "0.8L Petrol",
+    fuelType: "Petrol",
+    transmissionType: "Manual",
+    seatingCapacity: "4",
+    priceRange: "₹2,00,000 - ₹3,00,000",
+    mileageRange: "20 - 25 km/l",
+    safetyFeatures: "ABS with EBD, Dual Airbags",
+    colorOptions: "Papaya Orange, Serene White, Meteor Silver, and more",
+    dimensions: "3164 mm (Length), 1652 mm (Width), 1652 mm (Height)",
+    performanceFeatures: "Compact and Fuel Efficient, Low Running Cost",
+    interiorFeatures: "Basic Infotainment, Minimalist Dashboard, Comfortable Seating",
+    exteriorFeatures: "Compact Design, Stylish Look, Fog Lamps",
+    warrantyAfterSalesService: "2-year/40,000 km Warranty",
+    releaseDateYear: "2008",
+    imageUrl: "assets/images/vehicle_models_images/Nano.png"
+
+},
+"Nexon EV": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Nexon EV",
+    engineSpecifications: "Electric Motor (127 bhp)",
+    fuelType: "Electric",
+    transmissionType: "Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹15,00,000 - ₹20,00,000",
+    mileageRange: "312 km (ARAI Certified)",
+    safetyFeatures: "5 Star Global NCAP, 6 Airbags, ABS with EBD, ESC",
+    colorOptions: "Glacier White, Moonlit Silver, Pure Blue, and more",
+    dimensions: "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
+    performanceFeatures: "Instant Torque, Multi-Drive Modes, Fast Charging",
+    interiorFeatures: "7-inch Touchscreen, Apple CarPlay, Wireless Charging",
+    exteriorFeatures: "LED DRLs, Projector Headlamps, Fog Lamps, Stylish Alloy Wheels",
+    warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",
+    releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Nexon EV.png"
+
+},
+"Tiago EV": {
+    type: "Passenger",
+    brand: "Tata",
+    modelNameNumber: "Tiago EV",
+    engineSpecifications: "Electric Motor (74 bhp)",
+    fuelType: "Electric",
+    transmissionType: "Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹8,00,000 - ₹11,00,000",
+    mileageRange: "250 km (ARAI Certified)",
+    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",
+    colorOptions: "Teal Blue, Deep Red, Pure Silver, and more",
+    dimensions: "3763 mm (Length), 1677 mm (Width), 1537 mm (Height)",
+    performanceFeatures: "Regenerative Braking, Quick Charging",
+    interiorFeatures: "7-inch Touchscreen, Apple CarPlay, Digital Instrument Cluster",
+    exteriorFeatures: "LED DRLs, Bold Grille, Rear Spoiler",
+    warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",
+    releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Tiago EV.png"
+
+},
+
+
+"Tigor EV": {
+    "type": "Passenger",
+    "brand": "Tata",
+    "modelNameNumber": "Tigor EV",
+    "engineSpecifications": "72 V Lithium-ion Battery",
+    "fuelType": "Electric",
+    "transmissionType": "Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹12,00,000 - ₹15,00,000",
+    "mileageRange": "213 km (ARAI)",
+    "safetyFeatures": "Dual Airbags, ABS with EBD, Corner Stability Control",
+    "colorOptions": "Pristine White, Deep Red, Teal Blue, Daytona Grey",
+    "dimensions": "3990 mm (Length), 1677 mm (Width), 1532 mm (Height)",
+    "performanceFeatures": "Regenerative Braking, Electric Power Steering",
+    "interiorFeatures": "7-inch Touchscreen, Android Auto, Apple CarPlay, Digital Instrument Cluster",
+    "exteriorFeatures": "LED DRLs, Projector Headlamps, Alloy Wheels",
+    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2021",
+    imageUrl: "assets/images/vehicle_models_images/Tigor EV.png"
+
+},
+"Punch EV": {
+    "type": "Passenger",
+    "brand": "Tata",
+    "modelNameNumber": "Punch EV",
+    "engineSpecifications": "26 kWh Lithium-ion Battery",
+    "fuelType": "Electric",
+    "transmissionType": "Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹9,50,000 - ₹12,00,000",
+    "mileageRange": "300 km (ARAI)",
+    "safetyFeatures": "Dual Airbags, ABS with EBD, ESP, Hill Assist",
+    "colorOptions": "Calypso Red, Tropical Mist, Orcus White, Meteor Bronze",
+    "dimensions": "3827 mm (Length), 1742 mm (Width), 1652 mm (Height)",
+    "performanceFeatures": "EV Powertrain, Multi-Drive Modes, Regenerative Braking",
+    "interiorFeatures": "Touchscreen Infotainment, Digital Instrument Cluster, Smart Storage",
+    "exteriorFeatures": "LED DRLs, Projector Headlamps, 16-inch Alloy Wheels",
+    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/Punch EV.png"
+
+},
+"Curvv EV": {
+    "type": "Passenger",
+    "brand": "Tata",
+    "modelNameNumber": "Curvv EV",
+    "engineSpecifications": "40 kWh Lithium-ion Battery",
+    "fuelType": "Electric",
+    "transmissionType": "Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹16,00,000 - ₹22,00,000",
+    "mileageRange": "500 km (ARAI)",
+    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Advanced Driver Assistance System",
+    "colorOptions": "Starry Black, Moonlit Silver, Coral Red",
+    "dimensions": "4300 mm (Length), 1875 mm (Width), 1600 mm (Height)",
+    "performanceFeatures": "Electric Powertrain, Regenerative Braking, Cruise Control",
+    "interiorFeatures": "7-inch Touchscreen Infotainment, Premium Upholstery, Voice Assist",
+    "exteriorFeatures": "LED DRLs, Projector Headlamps, 18-inch Alloy Wheels",
+    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2024",
+    imageUrl: "assets/images/vehicle_models_images/Curvv EV.png"
+
+},
+"Harrier EV": {
+    "type": "Passenger",
+    "brand": "Tata",
+    "modelNameNumber": "Harrier EV",
+    "engineSpecifications": "40 kWh Lithium-ion Battery",
+    "fuelType": "Electric",
+    "transmissionType": "Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹22,00,000 - ₹28,00,000",
+    "mileageRange": "450 km (ARAI)",
+    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Advanced Driver Assistance System",
+    "colorOptions": "Calypso Red, Pearlescent White, Royale Blue",
+    "dimensions": "4598 mm (Length), 1894 mm (Width), 1700 mm (Height)",
+    "performanceFeatures": "Electric Powertrain, Regenerative Braking, Terrain Response Modes",
+    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
+    "exteriorFeatures": "LED DRLs, Projector Headlamps, 17-inch Alloy Wheels",
+    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2024",
+    imageUrl: "assets/images/vehicle_models_images/Harrier EV.png"
+
+},
+"Hexa": {
+    "type": "Passenger",
+    "brand": "Tata",
+    "modelNameNumber": "Hexa",
+    "engineSpecifications": "2.2L VARICOR Diesel",
+    "fuelType": "Diesel",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "7",
+    "priceRange": "₹13,00,000 - ₹20,00,000",
+    "mileageRange": "14 - 17 km/l",
+    "safetyFeatures": "6 Airbags, ABS with EBD, Cornering Stability Control",
+    "colorOptions": "Arctic Silver, Graphite, Pearl White",
+    "dimensions": "4760 mm (Length), 1900 mm (Width), 1785 mm (Height)",
+    "performanceFeatures": "4WD, Drive Modes, 6-Speed Automatic Transmission",
+    "interiorFeatures": "7-inch Touchscreen, Premium Leather Upholstery, Automatic Climate Control",
+    "exteriorFeatures": "LED DRLs, Projector Headlamps, Roof Rails, Fog Lamps",
+    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Hexa.png"
+
+},
+"Zest": {
+    "type": "Passenger",
+    "brand": "Tata",
+    "modelNameNumber": "Zest",
+    "engineSpecifications": "1.3L Quadrajet Diesel, 1.2L Revotron Petrol",
+    "fuelType": "Diesel/Petrol",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹6,00,000 - ₹8,00,000",
+    "mileageRange": "17 - 23 km/l",
+    "safetyFeatures": "Dual Airbags, ABS with EBD, Corner Stability Control",
+    "colorOptions": "Platinum Silver, Venetian Red, Sky Grey",
+    "dimensions": "3995 mm (Length), 1706 mm (Width), 1570 mm (Height)",
+    "performanceFeatures": "Turbocharged Engine, Drive Modes",
+    "interiorFeatures": "Touchscreen Infotainment, Automatic Climate Control, Keyless Entry",
+    "exteriorFeatures": "Projector Headlamps, Alloy Wheels, LED DRLs",
+    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
+    "releaseDateYear": "2014",
+    imageUrl: "assets/images/vehicle_models_images/Zest.png"
+
+},
+"Bolt": {
+    "type": "Passenger",
+    "brand": "Tata",
+    "modelNameNumber": "Bolt",
+    "engineSpecifications": "1.2L Revotron Petrol, 1.3L Quadrajet Diesel",
+    "fuelType": "Diesel/Petrol",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹5,50,000 - ₹7,50,000",
+    "mileageRange": "15 - 22 km/l",
+    "safetyFeatures": "Dual Airbags, ABS with EBD, Corner Stability Control",
+    "colorOptions": "Pristine White, Sunburst Orange, Platinum Silver",
+    "dimensions": "3825 mm (Length), 1695 mm (Width), 1550 mm (Height)",
+    "performanceFeatures": "Turbocharged Engine, Drive Modes",
+    "interiorFeatures": "Touchscreen Infotainment, Digital Instrument Cluster, Automatic Climate Control",
+    "exteriorFeatures": "Projector Headlamps, LED DRLs, Alloy Wheels",
+    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
+    "releaseDateYear": "2015",
+    imageUrl: "assets/images/vehicle_models_images/Bolt.png"
+
+},
+"Indica": {
+    "type": "Passenger",
+    "brand": "Tata",
+    "modelNameNumber": "Indica",
+    "engineSpecifications": "1.4L TDI Diesel, 1.2L Petrol",
+    "fuelType": "Diesel/Petrol",
+    "transmissionType": "Manual",
+    "seatingCapacity": "5",
+    "priceRange": "₹4,50,000 - ₹6,00,000",
+    "mileageRange": "15 - 20 km/l",
+    "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
+    "colorOptions": "Ocean Blue, Mist Silver, Spice Red",
+    "dimensions": "3795 mm (Length), 1665 mm (Width), 1490 mm (Height)",
+    "performanceFeatures": "Peppy Engine, Excellent Fuel Efficiency",
+    "interiorFeatures": "Basic Infotainment, Fabric Upholstery, Manual Air Conditioning",
+    "exteriorFeatures": "Halogen Headlamps, Body-colored Bumpers",
+    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
+    "releaseDateYear": "1998",
+    imageUrl: "assets/images/vehicle_models_images/Indica.png"
+
+},
+
+"Corolla Altis": {
+    type: "Passenger",
+    brand: "Toyota",
+    modelNameNumber: "Corolla Altis",
+    engineSpecifications: "1.8L Petrol, 1.4L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹16,00,000 - ₹20,00,000",
+    mileageRange: "15 - 18 km/l",
+    safetyFeatures: "7 Airbags, ABS with EBD, Vehicle Stability Control, Hill Assist",
+    colorOptions: "Pearl White, Silver Metallic, Attitude Black, Grey Metallic, and more",
+    dimensions: "4620 mm (Length), 1775 mm (Width), 1460 mm (Height)",
+    performanceFeatures: "Cruise Control, Enhanced Driving Modes, Electronic Power Steering",
+    interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Automatic Climate Control",
+    exteriorFeatures: "LED Headlamps, Fog Lamps, Alloy Wheels, Chrome Accents",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2008",
+    imageUrl: "assets/images/vehicle_models_images/Corolla Altis.png"
+
+},
+
+"Vellfire": {
+    type: "Passenger",
+    brand: "Toyota",
+    modelNameNumber: "Vellfire",
+    engineSpecifications: "2.5L Petrol, Hybrid",
+    fuelType: "Petrol/Hybird",
+    transmissionType: "Automatic",
+    seatingCapacity: "7",
+    priceRange: "₹80,00,000 - ₹90,00,000",
+    mileageRange: "10 - 14 km/l",
+    safetyFeatures: "10 Airbags, ABS with EBD, Vehicle Stability Control, Hill Start Assist",
+    colorOptions: "White Pearl Crystal Shine, Black, Silver, and more",
+    dimensions: "4935 mm (Length), 1850 mm (Width), 1895 mm (Height)",
+    performanceFeatures: "Adaptive Cruise Control, All-Wheel Drive, Power Tailgate",
+    interiorFeatures: "Luxury Leather Seats, 17-inch Touchscreen, Sunroof",
+    exteriorFeatures: "LED Projector Headlamps, Alloy Wheels, Power Sliding Doors",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Vellfire.png"
+
+},
+
+"Hilux": {
+    type: "Commercial",
+    brand: "Toyota",
+    modelNameNumber: "Hilux",
+    engineSpecifications: "2.4L Diesel, 2.8L Diesel",
+    fuelType: "Diesel",
+    transmissionType: "Manual/Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹35,00,000 - ₹45,00,000",
+    mileageRange: "12 - 16 km/l",
+    safetyFeatures: "7 Airbags, ABS with EBD, Traction Control, Hill Assist",
+    colorOptions: "White, Silver, Black, Red, and more",
+    dimensions: "5325 mm (Length), 1855 mm (Width), 1815 mm (Height)",
+    performanceFeatures: "4WD, Locking Differential, Tow Package",
+    interiorFeatures: "Premium Upholstery, Touchscreen Infotainment, Climate Control",
+    exteriorFeatures: "LED Daytime Running Lights, Alloy Wheels, Tow Hooks",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/Hilux.png"
+
+},
+
+"Land Cruiser Prado": {
+    type: "Passenger",
+    brand: "Toyota",
+    modelNameNumber: "Land Cruiser Prado",
+    engineSpecifications: "2.8L Diesel, 4.0L Petrol",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Automatic",
+    seatingCapacity: "7",
+    priceRange: "₹95,00,000 - ₹1,05,00,000",
+    mileageRange: "8 - 12 km/l",
+    safetyFeatures: "10 Airbags, ABS with EBD, Vehicle Stability Control, Multi-Terrain Select",
+    colorOptions: "White, Black, Silver, Grey, and more",
+    dimensions: "4820 mm (Length), 1885 mm (Width), 1845 mm (Height)",
+    performanceFeatures: "4WD, Active Traction Control, Multi-Terrain Monitoring",
+    interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Rear Entertainment",
+    exteriorFeatures: "LED Headlamps, Alloy Wheels, Roof Rails",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2009",
+    imageUrl: "assets/images/vehicle_models_images/Land Cruiser Prado.png"
+
+},
+
+"Etios": {
+    type: "Passenger",
+    brand: "Toyota",
+    modelNameNumber: "Etios",
+    engineSpecifications: "1.5L Petrol, 1.4L Diesel",
+    fuelType: "Petrol/Diesel",
+    transmissionType: "Manual",
+    seatingCapacity: "5",
+    priceRange: "₹7,00,000 - ₹9,00,000",
+    mileageRange: "15 - 18 km/l",
+    safetyFeatures: "Dual Airbags, ABS with EBD, Brake Assist",
+    colorOptions: "White, Silver, Red, Grey, and more",
+    dimensions: "4265 mm (Length), 1695 mm (Width), 1510 mm (Height)",
+    performanceFeatures: "Power Steering, Remote Central Locking, Dual Tone Dashboard",
+    interiorFeatures: "Touchscreen Infotainment, Digital Instrument Cluster, Air Conditioning",
+    exteriorFeatures: "LED DRLs, Fog Lamps, Body Colored Bumpers",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2010",
+    imageUrl: "assets/images/vehicle_models_images/Etios.png"
+
+},
+
+"Prius": {
+    type: "Passenger",
+    brand: "Toyota",
+    modelNameNumber: "Prius",
+    engineSpecifications: "1.8L Petrol Hybrid",
+    fuelType: "Hybrid",
+    transmissionType: "Automatic",
+    seatingCapacity: "5",
+    priceRange: "₹35,00,000 - ₹40,00,000",
+    mileageRange: "18 - 25 km/l",
+    safetyFeatures: "7 Airbags, ABS with EBD, Traction Control, Pre-Collision System",
+    colorOptions: "Silver, White, Black, Red, and more",
+    dimensions: "4540 mm (Length), 1760 mm (Width), 1490 mm (Height)",
+    performanceFeatures: "Eco Mode, Regenerative Braking, Power Mode",
+    interiorFeatures: "Premium Upholstery, Touchscreen Infotainment, Climate Control",
+    exteriorFeatures: "LED Headlamps, Alloy Wheels, Aerodynamic Design",
+    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    releaseDateYear: "2010",
+    imageUrl: "assets/images/vehicle_models_images/Prius.png"
+
+},
+
+
+"Innova Crysta": {
+    "type": "Passenger",
+    "brand": "Toyota",
+    "modelNameNumber": "Innova Crysta",
+    "engineSpecifications": "2.7L Petrol, 2.4L Diesel",
+    "fuelType": "Petrol/Diesel",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "7-8",
+    "priceRange": "₹17,00,000 - ₹24,00,000",
+    "mileageRange": "10 - 15 km/l",
+    "safetyFeatures": "7 Airbags, ABS, EBD, TCS, Vehicle Stability Control",
+    "colorOptions": "Silver, White, Grey, Pearl White, Bronze",
+    "dimensions": "4735 mm (Length), 1830 mm (Width), 1795 mm (Height)",
+    "performanceFeatures": "Powerful Engine, Auto Climate Control, Multi-Function Steering Wheel",
+    "interiorFeatures": "Premium Upholstery, 8-inch Touchscreen, 7-inch MID",
+    "exteriorFeatures": "LED Headlamps, Chrome Grille, Roof Rails",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Innova Crysta.png"
+
+  },
+  "Fortuner": {
+    "type": "Passenger",
+    "brand": "Toyota",
+    "modelNameNumber": "Fortuner",
+    "engineSpecifications": "2.7L Petrol, 2.8L Diesel",
+    "fuelType": "Petrol/Diesel",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "7",
+    "priceRange": "₹33,00,000 - ₹50,00,000",
+    "mileageRange": "10 - 14 km/l",
+    "safetyFeatures": "7 Airbags, ABS, EBD, Vehicle Stability Control, Hill Assist",
+    "colorOptions": "White, Silver, Black, Grey, Pearl White",
+    "dimensions": "4795 mm (Length), 1855 mm (Width), 1835 mm (Height)",
+    "performanceFeatures": "4x4, Sports Mode, Automatic Climate Control",
+    "interiorFeatures": "Leather Upholstery, Touchscreen Infotainment, Smart Key Entry",
+    "exteriorFeatures": "LED Projector Headlamps, Chrome Accents, Roof Rails",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2009",
+    imageUrl: "assets/images/vehicle_models_images/Fortuner.png"
+
+  },
+  "Urban Cruiser": {
+    "type": "Passenger",
+    "brand": "Toyota",
+    "modelNameNumber": "Urban Cruiser",
+    "engineSpecifications": "1.5L Petrol",
+    "fuelType": "Petrol",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹8,00,000 - ₹11,00,000",
+    "mileageRange": "16 - 18 km/l",
+    "safetyFeatures": "6 Airbags, ABS, EBD, Hill Assist, Parking Sensors",
+    "colorOptions": "White, Silver, Black, Red, Orange",
+    "dimensions": "3995 mm (Length), 1795 mm (Width), 1640 mm (Height)",
+    "performanceFeatures": "Smart Hybrid Technology, Automatic Climate Control",
+    "interiorFeatures": "7-inch Touchscreen, Smart Connectivity, Leather Steering",
+    "exteriorFeatures": "LED Projector Headlamps, Diamond Cut Alloy Wheels, Roof Rails",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2020",
+    imageUrl: "assets/images/vehicle_models_images/Urban Cruiser.png"
+
+  },
+  "Glanza": {
+    "type": "Passenger",
+    "brand": "Toyota",
+    "modelNameNumber": "Glanza",
+    "engineSpecifications": "1.2L Petrol",
+    "fuelType": "Petrol",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹7,00,000 - ₹9,00,000",
+    "mileageRange": "19 - 23 km/l",
+    "safetyFeatures": "Dual Airbags, ABS, EBD, Rear Parking Sensors",
+    "colorOptions": "White, Silver, Red, Blue, Black",
+    "dimensions": "4045 mm (Length), 1730 mm (Width), 1475 mm (Height)",
+    "performanceFeatures": "Smart Hybrid, LED Projector Headlamps",
+    "interiorFeatures": "7-inch Infotainment System, Steering-mounted Controls",
+    "exteriorFeatures": "LED DRLs, Dual-tone Roof",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/Glanza.png"
+
+  },
+  "Yaris": {
+    "type": "Passenger",
+    "brand": "Toyota",
+    "modelNameNumber": "Yaris",
+    "engineSpecifications": "1.5L Petrol",
+    "fuelType": "Petrol",
+    "transmissionType": "Manual/Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹10,00,000 - ₹15,00,000",
+    "mileageRange": "17 - 20 km/l",
+    "safetyFeatures": "7 Airbags, ABS, EBD, Parking Sensors",
+    "colorOptions": "White, Silver, Black, Red, Blue",
+    "dimensions": "4425 mm (Length), 1730 mm (Width), 1495 mm (Height)",
+    "performanceFeatures": "Super CVT-i, Multi-drive Mode",
+    "interiorFeatures": "Touchscreen, Leather Upholstery, Smart Key Entry",
+    "exteriorFeatures": "LED Projector Headlamps, Alloy Wheels, Shark-fin Antenna",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/Yaris.png"
+
+  },
+  "Camry": {
+    "type": "Passenger",
+    "brand": "Toyota",
+    "modelNameNumber": "Camry",
+    "engineSpecifications": "2.5L Petrol, 2.5L Hybrid",
+    "fuelType": "Petrol/Hybrid",
+    "transmissionType": "Automatic",
+    "seatingCapacity": "5",
+    "priceRange": "₹40,00,000 - ₹50,00,000",
+    "mileageRange": "14 - 19 km/l",
+    "safetyFeatures": "9 Airbags, ABS, EBD, Vehicle Stability Control, Hill Assist",
+    "colorOptions": "White, Silver, Black, Blue, Red",
+    "dimensions": "4855 mm (Length), 1840 mm (Width), 1445 mm (Height)",
+    "performanceFeatures": "Hybrid Technology, Drive Modes, Adaptive Cruise Control",
+    "interiorFeatures": "Premium Leather Upholstery, Touchscreen, 9-inch MID",
+    "exteriorFeatures": "LED Headlamps, Alloy Wheels, Aerodynamic Design",
+    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+    "releaseDateYear": "2021",
+    imageUrl: "assets/images/vehicle_models_images/Camry.png"
+
+  },
+
+  "Virtus": {
+    type: "Passenger",
+    brand: "Volkswagen",
+    modelNameNumber: "Virtus",  // Model Name Number
+    engineSpecifications: "1.0L TSI Petrol, 1.5L TSI Petrol",  // Engine Specifications
+    fuelType: "Petrol",  // Fuel Type
+    transmissionType: "Manual/Automatic",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹11,00,000 - ₹17,00,000",  // Price Range
+    mileageRange: "16 - 18 km/l",  // Mileage/Range
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",  // Safety Features
+    colorOptions: "Curcuma Yellow, Reflex Silver, Carbon Steel, Candy White, and more",  // Color Options
+    dimensions: "4561 mm (Length), 1759 mm (Width), 1506 mm (Height)",  // Dimensions
+    performanceFeatures: "Turbocharged Engine, Sports Mode, Adaptive Cruise Control",  // Performance Features
+    interiorFeatures: "Touchscreen Infotainment, Digital Cockpit, Leather Upholstery",  // Interior Features
+    exteriorFeatures: "LED Headlamps, Fog Lamps, Alloy Wheels, Sunroof",  // Exterior Features
+    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2022" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Virtus.png"
+
+},
+
+"Taigun": {
+    type: "Passenger",
+    brand: "Volkswagen",
+    modelNameNumber: "Taigun",  // Model Name Number
+    engineSpecifications: "1.0L TSI Petrol, 1.5L TSI Petrol",  // Engine Specifications
+    fuelType: "Petrol",  // Fuel Type
+    transmissionType: "Manual/Automatic",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹10,00,000 - ₹17,50,000",  // Price Range
+    mileageRange: "16 - 18 km/l",  // Mileage/Range
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",  // Safety Features
+    colorOptions: "Pure White, Reflex Silver, Carbon Steel, Lapiz Blue, and more",  // Color Options
+    dimensions: "4221 mm (Length), 1760 mm (Width), 1612 mm (Height)",  // Dimensions
+    performanceFeatures: "Turbocharged Engine, Sports Mode, Cruise Control",  // Performance Features
+    interiorFeatures: "Touchscreen Infotainment, Wireless Charging, Leather Upholstery",  // Interior Features
+    exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails, Fog Lamps",  // Exterior Features
+    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2021",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Taigun.png"
+
+},
+
+"Tiguan": {
+    type: "Passenger",
+    brand: "Volkswagen",
+    modelNameNumber: "Tiguan",  // Model Name Number
+    engineSpecifications: "2.0L TDI Diesel, 1.5L TSI Petrol",  // Engine Specifications
+    fuelType: "Diesel/Petrol",  // Fuel Type
+    transmissionType: "Automatic",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹30,00,000 - ₹36,00,000",  // Price Range
+    mileageRange: "12 - 16 km/l",  // Mileage/Range
+    safetyFeatures: "8 Airbags, ABS with EBD, ESC, Hill Assist, Lane Assist",  // Safety Features
+    colorOptions: "Pure White, Oryx White, Deep Black Pearl, and more",  // Color Options
+    dimensions: "4486 mm (Length), 1839 mm (Width), 1672 mm (Height)",  // Dimensions
+    performanceFeatures: "4MOTION All-Wheel Drive, Adaptive Cruise Control, Drive Mode Selection",  // Performance Features
+    interiorFeatures: "Digital Cockpit, 8-inch Infotainment, Leather Upholstery",  // Interior Features
+    exteriorFeatures: "LED Headlamps, Alloy Wheels, Roof Rails, Panoramic Sunroof",  // Exterior Features
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2021",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Tiguan.png"
+
+},
+
+"New Tiguan": {
+    type: "Passenger",
+    brand: "Volkswagen",
+    modelNameNumber: "New Tiguan",  // Model Name Number
+    engineSpecifications: "2.0L TDI Diesel, 1.5L TSI Petrol",  // Engine Specifications
+    fuelType: "Diesel/Petrol",  // Fuel Type
+    transmissionType: "Automatic",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹36,00,000 - ₹42,00,000",  // Price Range
+    mileageRange: "12 - 16 km/l",  // Mileage/Range
+    safetyFeatures: "8 Airbags, ABS with EBD, ESC, Hill Assist, Adaptive Cruise Control",  // Safety Features
+    colorOptions: "Oryx White, Deep Black Pearl, Lapiz Blue, and more",  // Color Options
+    dimensions: "4486 mm (Length), 1839 mm (Width), 1672 mm (Height)",  // Dimensions
+    performanceFeatures: "4MOTION AWD, Dynamic Chassis Control, Drive Mode Selector",  // Performance Features
+    interiorFeatures: "Virtual Cockpit, 9.2-inch Infotainment, Leather Upholstery",  // Interior Features
+    exteriorFeatures: "LED Matrix Headlamps, Alloy Wheels, Panoramic Sunroof",  // Exterior Features
+    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2023",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/New Tiguan.png"
+
+},
+
+"Virtus GT": {
+    type: "Passenger",
+    brand: "Volkswagen",
+    modelNameNumber: "Virtus GT",  // Model Name Number
+    engineSpecifications: "1.5L TSI Petrol",  // Engine Specifications
+    fuelType: "Petrol",  // Fuel Type
+    transmissionType: "Automatic",  // Transmission Type
+    seatingCapacity: "5",  // Seating Capacity
+    priceRange: "₹16,00,000 - ₹20,00,000",  // Price Range
+    mileageRange: "14 - 16 km/l",  // Mileage/Range
+    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",  // Safety Features
+    colorOptions: "Flash Red, Curcuma Yellow, Carbon Steel, and more",  // Color Options
+    dimensions: "4561 mm (Length), 1759 mm (Width), 1506 mm (Height)",  // Dimensions
+    performanceFeatures: "Turbocharged Engine, Sporty Exhaust Note, Sports Mode",  // Performance Features
+    interiorFeatures: "GT-inspired Seats, Touchscreen Infotainment, Leather Upholstery",  // Interior Features
+    exteriorFeatures: "GT Badging, LED DRLs, Fog Lamps, Alloy Wheels",  // Exterior Features
+    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
+    releaseDateYear: "2022" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Virtus GT.png"
+
+},
+
+    "Grand Vitara": {
+        "type": "Passenger",
+        "brand": "Tata",
+        "modelNameNumber": "Grand Vitara",
+        "engineSpecifications": "1.5L Petrol, 1.5L Hybrid",
+        "fuelType": "Petrol/Hybrid",
+        "transmissionType": "Manual/Automatic",
+        "seatingCapacity": "5",
+        "priceRange": "₹9,00,000 - ₹15,00,000",
+        "mileageRange": "18 - 22 km/l",
+        "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Hold Assist, Reverse Parking Sensors",
+        "colorOptions": "Pearl White, Silky Silver, Grandeur Grey, and more",
+        "dimensions": "4645 mm (Length), 1855 mm (Width), 1695 mm (Height)",
+        "performanceFeatures": "All-Wheel Drive, Drive Modes, E-Call Feature",
+        "interiorFeatures": "10.1-inch Touchscreen, Premium Upholstery, Wireless Charging",
+        "exteriorFeatures": "LED Headlights, Front Skid Plate, Dual-tone Roof",
+        "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2022" ,
+    imageUrl: "assets/images/vehicle_models_images/Grand Vitara.png"
+
+    },
+    "Jimny": {
+        "type": "Passenger",
+        "brand": "Tata",
+        "modelNameNumber": "Jimny",
+        "engineSpecifications": "1.5L Petrol",
+        "fuelType": "Petrol",
+        "transmissionType": "Manual/Automatic",
+        "seatingCapacity": "4",
+        "priceRange": "₹10,00,000 - ₹14,00,000",
+        "mileageRange": "15 - 18 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD, 4x4 Drive",
+        "colorOptions": "Kinetic Yellow, Silky Silver, Granite Grey",
+        "dimensions": "3645 mm (Length), 1645 mm (Width), 1725 mm (Height)",
+        "performanceFeatures": "4x4 Drive, Rigid Axle, Off-Road Capability",
+        "interiorFeatures": "7-inch Touchscreen, Fabric Upholstery, Roof Rails",
+        "exteriorFeatures": "LED Headlamps, Rear Spoiler, Alloy Wheels",
+        "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/Jimny.png"
+
+    },
+    "Fronx": {
+        "type": "Passenger",
+        "brand": "Tata",
+        "modelNameNumber": "Fronx",
+        "engineSpecifications": "1.2L Petrol, 1.0L Turbocharged Petrol",
+        "fuelType": "Petrol",
+        "transmissionType": "Manual/Automatic",
+        "seatingCapacity": "5",
+        "priceRange": "₹7,50,000 - ₹11,50,000",
+        "mileageRange": "18 - 20 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD, ESC, Hill Hold Assist",
+        "colorOptions": "Caffé Latte, Arctic White, Bronzo, and more",
+        "dimensions": "3995 mm (Length), 1765 mm (Width), 1550 mm (Height)",
+        "performanceFeatures": "Turbocharged Engine, Multi-Drive Modes",
+        "interiorFeatures": "7-inch Touchscreen, Wireless Apple CarPlay, Push Start",
+        "exteriorFeatures": "LED DRLs, Alloy Wheels, Roof Rails",
+        "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/Fronx.png"
+
+    },
+    "Invicto": {
+        "type": "Passenger",
+        "brand": "Tata",
+        "modelNameNumber": "Invicto",
+        "engineSpecifications": "2.0L Diesel",
+        "fuelType": "Diesel",
+        "transmissionType": "Automatic",
+        "seatingCapacity": "7",
+        "priceRange": "₹16,00,000 - ₹22,00,000",
+        "mileageRange": "14 - 18 km/l",
+        "safetyFeatures": "6 Airbags, ABS with EBD, ESC, 360-degree Camera",
+        "colorOptions": "Moonlit Silver, Shadow Black, Ivory White",
+        "dimensions": "5055 mm (Length), 1855 mm (Width), 1775 mm (Height)",
+        "performanceFeatures": "Turbocharged Diesel Engine, Cruise Control, Electric Parking Brake",
+        "interiorFeatures": "12-inch Touchscreen, Leather Upholstery, Digital Instrument Cluster",
+        "exteriorFeatures": "LED Headlamps, Dual-tone Roof, Power Tailgate",
+        "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/Invicto.png"
+
+    },
+    "Eeco": {
+        "type": "Commercial",
+        "brand": "Tata",
+        "modelNameNumber": "Eeco",
+        "engineSpecifications": "1.2L Petrol",
+        "fuelType": "Petrol",
+        "transmissionType": "Manual",
+        "seatingCapacity": "5-7",
+        "priceRange": "₹4,50,000 - ₹5,50,000",
+        "mileageRange": "16 - 18 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
+        "colorOptions": "Superior White, Metallic Silver",
+        "dimensions": "3675 mm (Length), 1475 mm (Width), 1800 mm (Height)",
+        "performanceFeatures": "Good Load Capacity, Efficient Fuel Consumption",
+        "interiorFeatures": "Basic Infotainment System, Fabric Upholstery",
+        "exteriorFeatures": "Halogen Headlights, Wheel Covers",
+        "warrantyAfterSalesService": "3-year/1,00,000 km Warranty",
+        "releaseDateYear": "2010",
+    imageUrl: "assets/images/vehicle_models_images/Eeco.png"
+
+    },
+    "Super Carry": {
+        "type": "Commercial",
+        "brand": "Tata",
+        "modelNameNumber": "Super Carry",
+        "engineSpecifications": "1.4L Diesel",
+        "fuelType": "Diesel",
+        "transmissionType": "Manual",
+        "seatingCapacity": "2",
+        "priceRange": "₹5,00,000 - ₹6,50,000",
+        "mileageRange": "18 - 20 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD",
+        "colorOptions": "White, Silver, Blue",
+        "dimensions": "3800 mm (Length), 1500 mm (Width), 1850 mm (Height)",
+        "performanceFeatures": "Heavy Payload Capacity, Strong Engine Torque",
+        "interiorFeatures": "Basic Cabin, Comfortable Seats",
+        "exteriorFeatures": "Robust Body, Halogen Headlamps",
+        "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
+        "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Super Carry.png"
+
+    },
+
+    "Baleno": {
+        "type": "Passenger",
+        "brand": "Maruti Suzuki",
+        "modelNameNumber": "Baleno",
+        "engineSpecifications": "1.2L Petrol, 1.3L Diesel",
+        "fuelType": "Petrol/Diesel",
+        "transmissionType": "Manual/Automatic",
+        "seatingCapacity": "5",
+        "priceRange": "₹6,00,000 - ₹9,50,000",
+        "mileageRange": "18 - 23 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
+        "colorOptions": "Pearl Arctic White, Premium Silver, NEXA Blue, and more",
+        "dimensions": "3995 mm (Length), 1745 mm (Width), 1500 mm (Height)",
+        "performanceFeatures": "Smooth Driving, Efficient Engine, Multi-Drive Modes",
+        "interiorFeatures": "Touchscreen Infotainment, SmartPlay Studio, Auto AC",
+        "exteriorFeatures": "LED DRLs, Projector Headlamps, Diamond Cut Alloy Wheels",
+        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2015",
+    imageUrl: "assets/images/vehicle_models_images/Baleno.png"
+
+    },
+    "Ignis": {
+        "type": "Passenger",
+        "brand": "Maruti Suzuki",
+        "modelNameNumber": "Ignis",
+        "engineSpecifications": "1.2L Petrol",
+        "fuelType": "Petrol",
+        "transmissionType": "Manual/Automatic",
+        "seatingCapacity": "5",
+        "priceRange": "₹5,00,000 - ₹7,50,000",
+        "mileageRange": "20 - 22 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
+        "colorOptions": "Uptown Red, Silky Silver, Pearl Arctic White, and more",
+        "dimensions": "3700 mm (Length), 1690 mm (Width), 1590 mm (Height)",
+        "performanceFeatures": "Compact Design, Fuel Efficient Engine",
+        "interiorFeatures": "Touchscreen Infotainment, Premium Upholstery, Smart Instrument Cluster",
+        "exteriorFeatures": "Dual-tone Roof, LED DRLs, Projector Headlamps",
+        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2017",
+    imageUrl: "assets/images/vehicle_models_images/Ignis.png"
+
+    },
+    "S-Presso": {
+        "type": "Passenger",
+        "brand": "Maruti Suzuki",
+        "modelNameNumber": "S-Presso",
+        "engineSpecifications": "1.0L Petrol",
+        "fuelType": "Petrol",
+        "transmissionType": "Manual/Automatic",
+        "seatingCapacity": "5",
+        "priceRange": "₹4,50,000 - ₹6,00,000",
+        "mileageRange": "21 - 23 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
+        "colorOptions": "Metallic Orange, Silky Silver, Starry Blue, and more",
+        "dimensions": "3565 mm (Length), 1520 mm (Width), 1549 mm (Height)",
+        "performanceFeatures": "Lightweight Design, Efficient Engine",
+        "interiorFeatures": "Smart Infotainment, Adjustable Seats, LED Cluster",
+        "exteriorFeatures": "SUV-like Stance, LED DRLs, Bold Grille",
+        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/S-Presso.png"
+
+    },
+    "Vitara Brezza": {
+        "type": "Passenger",
+        "brand": "Maruti Suzuki",
+        "modelNameNumber": "Vitara Brezza",
+        "engineSpecifications": "1.5L Petrol",
+        "fuelType": "Petrol",
+        "transmissionType": "Manual/Automatic",
+        "seatingCapacity": "5",
+        "priceRange": "₹8,00,000 - ₹11,00,000",
+        "mileageRange": "17 - 19 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Camera",
+        "colorOptions": "Autumn Orange, Sizzling Red, Pearl Arctic White, and more",
+        "dimensions": "3995 mm (Length), 1790 mm (Width), 1640 mm (Height)",
+        "performanceFeatures": "Smart Hybrid System, Efficient Engine",
+        "interiorFeatures": "Touchscreen Infotainment, Smart Instrument Cluster, Rear AC Vents",
+        "exteriorFeatures": "LED DRLs, 16-inch Alloy Wheels, Roof Rails",
+        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2016",
+    imageUrl: "assets/images/vehicle_models_images/Vitara Brezza.png"
+
+    },
+    "Ertiga": {
+        "type": "Passenger",
+        "brand": "Maruti Suzuki",
+        "modelNameNumber": "Ertiga",
+        "engineSpecifications": "1.5L Petrol, 1.3L Diesel",
+        "fuelType": "Petrol/Diesel",
+        "transmissionType": "Manual/Automatic",
+        "seatingCapacity": "7",
+        "priceRange": "₹8,50,000 - ₹12,00,000",
+        "mileageRange": "16 - 19 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
+        "colorOptions": "Magma Grey, Pearl Arctic White, Auburn Red, and more",
+        "dimensions": "4395 mm (Length), 1735 mm (Width), 1690 mm (Height)",
+        "performanceFeatures": "Fuel Efficient, Smooth Handling",
+        "interiorFeatures": "Touchscreen Infotainment, Rear AC Vents, 3rd Row Seating",
+        "exteriorFeatures": "Roof Rails, LED DRLs, Projector Headlamps",
+        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2012",
+    imageUrl: "assets/images/vehicle_models_images/Ertiga.png"
+
+    },
+    "XL6": {
+        "type": "Passenger",
+        "brand": "Maruti Suzuki",
+        "modelNameNumber": "XL6",
+        "engineSpecifications": "1.5L Petrol",
+        "fuelType": "Petrol",
+        "transmissionType": "Manual/Automatic",
+        "seatingCapacity": "6",
+        "priceRange": "₹10,00,000 - ₹12,50,000",
+        "mileageRange": "16 - 18 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
+        "colorOptions": "Brave Khaki, Premium Silver, Nexa Blue, and more",
+        "dimensions": "4450 mm (Length), 1775 mm (Width), 1700 mm (Height)",
+        "performanceFeatures": "Stylish, Efficient Engine, Smooth Drive",
+        "interiorFeatures": "Smart Infotainment, Premium Leather Upholstery, 2nd-row Captain Seats",
+        "exteriorFeatures": "LED DRLs, 16-inch Alloy Wheels, Roof Rails",
+        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/XL6.png"
+
+    },
+    "Ciaz": {
+        "type": "Passenger",
+        "brand": "Maruti Suzuki",
+        "modelNameNumber": "Ciaz",
+        "engineSpecifications": "1.5L Petrol, 1.3L Diesel",
+        "fuelType": "Petrol/Diesel",
+        "transmissionType": "Manual/Automatic",
+        "seatingCapacity": "5",
+        "priceRange": "₹8,00,000 - ₹11,00,000",
+        "mileageRange": "20 - 25 km/l",
+        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
+        "colorOptions": "Pearl Midnight Black, Burgundy Red, and more",
+        "dimensions": "4490 mm (Length), 1730 mm (Width), 1485 mm (Height)",
+        "performanceFeatures": "Smooth Drive, Fuel Efficient",
+        "interiorFeatures": "Touchscreen Infotainment, Smart Instrument Cluster",
+        "exteriorFeatures": "LED DRLs, Projector Headlamps",
+        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
+        "releaseDateYear": "2014",
+    imageUrl: "assets/images/vehicle_models_images/Ciaz.png"
+
+    },
     
     "Splendor Plus": {
         "type": "Passenger",
@@ -163,7 +4250,9 @@ const vehicleDetails = {
         "interiorFeatures": "N/A (Motorcycle)",
         "exteriorFeatures": "Stylish Body Graphics, Halogen Headlamp",
         "warrantyAfterSalesService": "5-year/70,000 km Warranty",
-        "releaseDateYear": "1994"
+        "releaseDateYear": "1994",
+    imageUrl: "assets/images/vehicle_models_images/Splendor Plus.png"
+
         },
     
         "Passion Pro": {
@@ -183,7 +4272,9 @@ const vehicleDetails = {
         "interiorFeatures": "N/A (Motorcycle)",
         "exteriorFeatures": "Bold Graphics, LED Tail Lamp",
         "warrantyAfterSalesService": "5-year/70,000 km Warranty",
-        "releaseDateYear": "2001"
+        "releaseDateYear": "2001",
+    imageUrl: "assets/images/vehicle_models_images/Passion Pro.png"
+
         },
     
         "Bajaj Pulsar 150": {
@@ -203,7 +4294,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Speedometer, Backlit Switches",  // Interior Features
         exteriorFeatures: "LED Tail Light, Aggressive Styling",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2001"  // Release Date/Year
+        releaseDateYear: "2001" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/Bajaj Pulsar 150.png"
+
         },
     
         "Kubota Neostar A211N-NT": {
@@ -223,7 +4316,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Ergonomic Seating",
         exteriorFeatures: "Heavy-duty Front Bumper, Rigid Rear Axle",
         warrantyAfterSalesService: "2-year/1000-hour Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Kubota Neostar A211N-NT.png"
+
        },
     
        "XP Plus 265 Orchard": {
@@ -243,7 +4338,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Vinyl Seats, No Infotainment",  // Interior Features
         exteriorFeatures: "Halogen Headlamps, Side Mirrors, Steel Rims",  // Exterior Features
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/XP Plus 265 Orchard.png"
+
     },
     
     "XP Plus 415 DI": {
@@ -263,7 +4360,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Manual Windows, Fabric Seats",  // Interior Features
         exteriorFeatures: "Halogen Headlamps, Side Skirts",  // Exterior Features
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/XP Plus 415 DI.png"
+
     },
     
     "XP Plus 475 DI MS": {
@@ -283,7 +4382,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Interior, No Infotainment, Vinyl Seats",  // Interior Features
         exteriorFeatures: "LED Tail Lamps, Heavy-duty Bumpers",  // Exterior Features
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2019"  // Release Date/Year
+        releaseDateYear: "2019",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/XP Plus 475 DI MS.png"
+
     },
     
     "XP Plus 585 DI": {
@@ -303,7 +4404,9 @@ const vehicleDetails = {
         interiorFeatures: "No Infotainment, Fabric Seats, Basic Dashboard",  // Interior Features
         exteriorFeatures: "Halogen Headlamps, Side Skirts, Fog Lamps",  // Exterior Features
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/XP Plus 585 DI.png"
+
     },
     
     "225 DI": {
@@ -323,7 +4426,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Fabric Seat Upholstery",
         exteriorFeatures: "Halogen Headlamps, Steel Rims, Basic Grille",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+    imageUrl: "assets/images/vehicle_models_images/225 DI.png"
+
     },
     "245 DI Vineyard": {
         type: "Commercial",
@@ -342,7 +4447,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Fabric Seat Upholstery",
         exteriorFeatures: "Halogen Headlamps, Steel Rims, Basic Grille",
         warrantyAfterSalesService: "3-year/1,20,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+    imageUrl: "assets/images/vehicle_models_images/245 DI Vineyard.png"
+
     },
     "305 DI Vineyard": {
         type: "Commercial",
@@ -361,7 +4468,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Fabric Seat Upholstery",
         exteriorFeatures: "Halogen Headlamps, Steel Rims, Basic Grille",
         warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/305 DI Vineyard.png"
+
     },
     "365 DI": {
         type: "Commercial",
@@ -380,7 +4489,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Fabric Seat Upholstery",
         exteriorFeatures: "Halogen Headlamps, Steel Rims, Basic Grille",
         warrantyAfterSalesService: "3-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/365 DI.png"
+
     },
     "3132": {
         type: "Commercial",
@@ -399,7 +4510,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Fabric Seat Upholstery",
         exteriorFeatures: "Halogen Headlamps, Steel Rims, Basic Grille",
         warrantyAfterSalesService: "3-year/2,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/3132.png"
+
     },
     
     "3140": {
@@ -419,7 +4532,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Driver Cabin, Air Conditioning",
         exteriorFeatures: "Durable Chassis, Wide Wheelbase",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Support",
-        releaseDateYear: "2012"
+        releaseDateYear: "2012",
+    imageUrl: "assets/images/vehicle_models_images/3140.png"
+
     },
     
     "2130": {
@@ -439,7 +4554,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Cabin, Driver Comfort",
         exteriorFeatures: "Heavy-duty Build, Functional Rear Cargo Area",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Support",
-        releaseDateYear: "2015"
+        releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/2130.png"
+
     },
     
     "2121": {
@@ -459,7 +4576,9 @@ const vehicleDetails = {
         interiorFeatures: "Driver-focused Cabin, Air Conditioning",
         exteriorFeatures: "Heavy-duty Suspension, Reinforced Body",
         warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Roadside Assistance",
-        releaseDateYear: "2013"
+        releaseDateYear: "2013",
+    imageUrl: "assets/images/vehicle_models_images/2121.png"
+
     },
     
     "2136": {
@@ -479,7 +4598,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Cabin, Basic Features",
         exteriorFeatures: "Reinforced Chassis, Large Cargo Bed",
         warrantyAfterSalesService: "4-year/1,50,000 km Warranty, 24/7 Support",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+    imageUrl: "assets/images/vehicle_models_images/2136.png"
+
     },
     
     "655 DI PP": {
@@ -499,7 +4620,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Driver's Cabin",
         exteriorFeatures: "Durable Cargo Area, Wide Wheelbase",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",
-        releaseDateYear: "2014"
+        releaseDateYear: "2014",
+    imageUrl: "assets/images/vehicle_models_images/655 DI PP.png"
+
     },
     
     "755 DI PP 4WD": {
@@ -519,7 +4642,9 @@ const vehicleDetails = {
         interiorFeatures: "Air Conditioning, Basic Cabin Comfort",
         exteriorFeatures: "Heavy-duty Chassis, Functional Cargo Area",
         warrantyAfterSalesService: "4-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2017"
+        releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/755 DI PP 4WD.png"
+        
     },
     
     "35 RX": {
@@ -539,7 +4664,9 @@ const vehicleDetails = {
         interiorFeatures: "Air Conditioning, Basic Driver's Cabin",
         exteriorFeatures: "Strong Chassis, Cargo Space",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Support",
-        releaseDateYear: "2015"
+        releaseDateYear: "2015",
+    imageUrl: "assets/images/vehicle_models_images/35 RX.png"
+
     },
     
     "47 RX": {
@@ -559,7 +4686,9 @@ const vehicleDetails = {
         "interiorFeatures": "Basic cabin, Fabric seats",
         "exteriorFeatures": "Fog Lamps, Steel Rims",
         "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+    imageUrl: "assets/images/vehicle_models_images/47 RX.png"
+
     },
     "50 RX": {
         "type": "Commercial",
@@ -578,7 +4707,9 @@ const vehicleDetails = {
         "interiorFeatures": "Basic dashboard, Vinyl seating",
         "exteriorFeatures": "Chrome bumpers, High-clearance tires",
         "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+    imageUrl: "assets/images/vehicle_models_images/50 RX.png"
+
     },
     "60 RX": {
         "type": "Commercial",
@@ -597,7 +4728,9 @@ const vehicleDetails = {
         "interiorFeatures": "Premium vinyl upholstery, Basic infotainment",
         "exteriorFeatures": "Alloy wheels, Roof rails",
         "warrantyAfterSalesService": "3-year/1,20,000 km Warranty",
-        "releaseDateYear": "2023"
+        "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/60 RX.png"
+
     },
     "Sikander DI 35": {
         "type": "Commercial",
@@ -616,7 +4749,9 @@ const vehicleDetails = {
         "interiorFeatures": "Basic cabin, Comfortable seating",
         "exteriorFeatures": "Steel wheels, Front grille guard",
         "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+    imageUrl: "assets/images/vehicle_models_images/Sikander DI 35.png"
+
     },
     "Sikander DI 42": {
         "type": "Commercial",
@@ -635,7 +4770,9 @@ const vehicleDetails = {
         "interiorFeatures": "Basic interior, Durable seats",
         "exteriorFeatures": "Fog lamps, Steel rims",
         "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+    imageUrl: "assets/images/vehicle_models_images/Sikander DI 42.png"
+
     },
     "Sikander DI 60": {
         "type": "Commercial",
@@ -654,7 +4791,9 @@ const vehicleDetails = {
         "interiorFeatures": "Basic interior, Comfort seats",
         "exteriorFeatures": "Alloy wheels, High-clearance tires",
         "warrantyAfterSalesService": "3-year/1,20,000 km Warranty",
-        "releaseDateYear": "2023"
+        "releaseDateYear": "2023",
+    imageUrl: "assets/images/vehicle_models_images/Sikander DI 60.png"
+
     },
     "Sikander DI 750": {
         "type": "Commercial",
@@ -673,7 +4812,9 @@ const vehicleDetails = {
         "interiorFeatures": "Premium cabin, Comfortable seats",
         "exteriorFeatures": "Fog lamps, Alloy wheels",
         "warrantyAfterSalesService": "3-year/1,50,000 km Warranty",
-        "releaseDateYear": "2024"
+        "releaseDateYear": "2024",
+    imageUrl: "assets/images/vehicle_models_images/Sikander DI 750.png"
+
     },
     
     "5050 D": {
@@ -693,7 +4834,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Driver Seat, Standard Dashboard",
         exteriorFeatures: "Steel Wheels, Heavy Duty Suspension",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/5050 D.png"
+
     },
     
     "575 DI SP Plus": {
@@ -713,7 +4856,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Driver Seat, Minimalist Dashboard",
         exteriorFeatures: "Heavy Duty Tyres, Front Grille Protection",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+    imageUrl: "assets/images/vehicle_models_images/575 DI SP Plus.png"
+
     },
     
     "575 DI": {
@@ -733,7 +4878,9 @@ const vehicleDetails = {
         interiorFeatures: "Standard Driver Seat, Basic Dashboard",
         exteriorFeatures: "Durable Bumper, Robust Suspension",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty",
-        releaseDateYear: "2017"
+        releaseDateYear: "2017",
+    imageUrl: "assets/images/vehicle_models_images/575 DI.png"
+
     },
     
     "Mahindra Yuvraj 215 NXT": {
@@ -753,7 +4900,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Adjustable Driver Seat",
         exteriorFeatures: "All-terrain Tyres, Heavy Duty Suspension",
         warrantyAfterSalesService: "2-year/50,000 km Warranty",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Yuvraj 215 NXT.png"
+
     },
     
     "Mahindra Novo 755 DI PP 4WD V1": {
@@ -773,7 +4922,9 @@ const vehicleDetails = {
         interiorFeatures: "Standard Dashboard, Adjustable Seat",
         exteriorFeatures: "Steel Wheels, Protective Skid Plates",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Novo 755 DI PP 4WD V1.png"
+
     },
     
     "Mahindra Yuvo Tech Plus 585 DI": {
@@ -793,7 +4944,9 @@ const vehicleDetails = {
         interiorFeatures: "Spacious Cabin, Adjustable Seat, Radio",
         exteriorFeatures: "Rugged Design, Strong Bumper, Heavy Duty Suspension",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Service",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra Yuvo Tech Plus 585 DI.png"
+
     },
     
     "Mahindra OJA Series": {
@@ -813,7 +4966,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Seat, Digital Instrument Cluster",
         exteriorFeatures: "Compact Design, Sturdy Wheels, Rearview Mirror",
         warrantyAfterSalesService: "3-year/75,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+    imageUrl: "assets/images/vehicle_models_images/Mahindra OJA Series.png"
+
     },
     
     "John Deere 5036D": {
@@ -833,7 +4988,9 @@ const vehicleDetails = {
         "interiorFeatures": "Simple Controls, Comfortable Seat",  
         "exteriorFeatures": "Heavy-duty Tires, Front Bumper",  
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Customer Support",  
-        "releaseDateYear": "2017"
+        "releaseDateYear": "2017",
+    imageUrl: "assets/images/vehicle_models_images/John Deere 5036D.png"
+
     },
     "John Deere 5075 Gear Pro": {
         "type": "Commercial",
@@ -852,7 +5009,9 @@ const vehicleDetails = {
         "interiorFeatures": "Power Steering, Adjustable Seat",  
         "exteriorFeatures": "Large Tyres, Robust Body",  
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Support",  
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+    imageUrl: "assets/images/vehicle_models_images/John Deere 5075 Gear Pro.png"
+
     },
     "John Deere 5075 E": {
         "type": "Commercial",
@@ -871,7 +5030,9 @@ const vehicleDetails = {
         "interiorFeatures": "Simple Dashboard, Adjustable Seat",  
         "exteriorFeatures": "Heavy-duty Tires, Durable Frame",  
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Assistance",  
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+    imageUrl: "assets/images/vehicle_models_images/John Deere 5075 E.png"
+
     },
     "John Deere 5045 D": {
         "type": "Commercial",
@@ -890,7 +5051,9 @@ const vehicleDetails = {
         "interiorFeatures": "Comfortable Seat, Simple Control Panel",  
         "exteriorFeatures": "Durable Tires, Front Bumper",  
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Customer Service",  
-        "releaseDateYear": "2019"
+        "releaseDateYear": "2019",
+    imageUrl: "assets/images/vehicle_models_images/John Deere 5045 D.png"
+
     },
     
     "e-tron": {
@@ -910,7 +5073,9 @@ const vehicleDetails = {
         interiorFeatures: "Virtual Cockpit, Leather Upholstery, MMI Touch",  // Interior Features
         exteriorFeatures: "LED Headlights, Aerodynamic Design, Aluminum Roof Rails",  // Exterior Features
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/e-tron.png"
+        
     },
     
     "RS Q8": {
@@ -930,7 +5095,9 @@ const vehicleDetails = {
         interiorFeatures: "RS Sport Seats, MMI Touch, Carbon Fiber Inlays",  // Interior Features
         exteriorFeatures: "Matrix LED Headlights, RS-specific Front Bumper, Quad Exhaust",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/RS Q8.png"
+
     },
     
     "S5": {
@@ -950,7 +5117,9 @@ const vehicleDetails = {
         interiorFeatures: "MMI Navigation Plus, Leather Upholstery, Digital Cockpit",  // Interior Features
         exteriorFeatures: "LED Headlights, Sports Rear Diffuser, RS Style Grille",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2017"  // Release Date/Year
+        releaseDateYear: "2017",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/S5.png"
+
     },
     
     "S6": {
@@ -970,7 +5139,9 @@ const vehicleDetails = {
         interiorFeatures: "MMI Touch Response, Alcantara Upholstery, Digital Cockpit",  // Interior Features
         exteriorFeatures: "HD Matrix LED Headlights, Gloss Black Exterior Package",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/S6.png"
+
     },
     
     "TT": {
@@ -990,7 +5161,9 @@ const vehicleDetails = {
         interiorFeatures: "MMI Navigation, Leather Upholstery, Sport Seats",  // Interior Features
         exteriorFeatures: "LED Headlights, Aerodynamic Body, Sporty Design",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2014"  // Release Date/Year
+        releaseDateYear: "2014",  // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/TT.png"
+
     },
     
     "R8": {
@@ -1010,7 +5183,9 @@ const vehicleDetails = {
         interiorFeatures: "MMI Navigation, Alcantara Upholstery, Carbon Fiber Inlays",  // Interior Features
         exteriorFeatures: "Matrix LED Headlights, Dynamic Rear Spoiler",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2006"  // Release Date/Year
+        releaseDateYear: "2006" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/R8.png"
+
     },
     
     "RS5": {
@@ -1030,7 +5205,9 @@ const vehicleDetails = {
         interiorFeatures: "MMI Navigation, RS Sport Seats, Virtual Cockpit",  // Interior Features
         exteriorFeatures: "LED Headlights, RS-specific Design",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018" , // Release Date/Year
+    imageUrl: "assets/images/vehicle_models_images/RS5.png"
+
     },
     
     "RS7": {
@@ -1050,7 +5227,9 @@ const vehicleDetails = {
         interiorFeatures: "MMI Navigation, Carbon Fiber Inlays, Sports Seats",  // Interior Features
         exteriorFeatures: "Matrix LED Headlights, RS-specific Grille",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/RS7.png"
+
     },
     
     "RS Q8": {
@@ -1070,7 +5249,9 @@ const vehicleDetails = {
         interiorFeatures: "RS Sport Seats, MMI Touch, Carbon Fiber Inlays",  // Interior Features
         exteriorFeatures: "Matrix LED Headlights, RS-specific Front Bumper, Quad Exhaust",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/RS Q8.png"
+
     },
     
     "Continental GT": {
@@ -1090,7 +5271,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Customizable Interiors, Massaging Seats",
         exteriorFeatures: "LED Matrix Headlamps, Active Aerodynamics, Chrome Details",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2003"
+        releaseDateYear: "2003",
+        imageUrl: "assets/images/vehicle_models_images/Continental GT.png"
+
     },
     
     "Flying Spur": {
@@ -1110,7 +5293,9 @@ const vehicleDetails = {
         interiorFeatures: "Premium Leather Upholstery, Touchscreen Infotainment, 4-Zone Climate Control",
         exteriorFeatures: "LED Headlamps, Adaptive Cruise Control, 22-inch Alloy Wheels",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2005"
+        releaseDateYear: "2005",
+        imageUrl: "assets/images/vehicle_models_images/Flying Spur.png"
+
     },
     
     "Bentayga": {
@@ -1130,7 +5315,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Luxury Leather Seats, Panoramic Sunroof",
         exteriorFeatures: "Matrix LED Headlights, 22-inch Alloy Wheels, Adaptive Suspension",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2015"
+        releaseDateYear: "2015",
+        imageUrl: "assets/images/vehicle_models_images/Bentayga.png"
+
     },
     
     
@@ -1151,7 +5338,9 @@ const vehicleDetails = {
         "interiorFeatures": "Bespoke Leather Upholstery, Premium Audio System, Leather-lined Cabin",
         "exteriorFeatures": "Spirit of Ecstasy, LED Headlights, Chrome Detailing",
         "warrantyAfterSalesService": "4-year/Unlimited Warranty, 24/7 Concierge Service",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/Ghost.png"
+
     },
     "Phantom": {
         "type": "Passenger",
@@ -1170,7 +5359,9 @@ const vehicleDetails = {
         "interiorFeatures": "Premium Leather Upholstery, Bespoke Audio System, Leather-lined Cabin",
         "exteriorFeatures": "Classic Rolls-Royce Spirit of Ecstasy, LED Headlights, Chrome Detailing",
         "warrantyAfterSalesService": "4-year/Unlimited Warranty, 24/7 Concierge Service",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/Phantom.png"
+
     },
     "Wraith": {
         "type": "Passenger",
@@ -1189,7 +5380,9 @@ const vehicleDetails = {
         "interiorFeatures": "Bespoke Leather Upholstery, Suede Headlining, Premium Audio System",
         "exteriorFeatures": "Signature Rolls-Royce Grille, LED Headlights, Spirit of Ecstasy",
         "warrantyAfterSalesService": "4-year/Unlimited Warranty, 24/7 Concierge Service",
-        "releaseDateYear": "2015"
+        "releaseDateYear": "2015",
+        imageUrl: "assets/images/vehicle_models_images/Wraith.png"
+
     },
     "Dawn": {
         "type": "Passenger",
@@ -1208,7 +5401,9 @@ const vehicleDetails = {
         "interiorFeatures": "Leather Upholstery, Suede Headlining, Digital Instrument Cluster",
         "exteriorFeatures": "Convertible Roof, Signature Spirit of Ecstasy, LED Headlamps",
         "warrantyAfterSalesService": "4-year/Unlimited Warranty, 24/7 Concierge Service",
-        "releaseDateYear": "2016"
+        "releaseDateYear": "2016",
+        imageUrl: "assets/images/vehicle_models_images/Dawn.png"
+
     },
     "Cullinan": {
         "type": "Passenger",
@@ -1227,7 +5422,9 @@ const vehicleDetails = {
         "interiorFeatures": "Bespoke Leather Upholstery, Premium Audio System, Wooden Accents",
         "exteriorFeatures": "Spirit of Ecstasy, LED Headlamps, Panoramic Sunroof",
         "warrantyAfterSalesService": "4-year/Unlimited Warranty, 24/7 Concierge Service",
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/Cullinan.png"
+
     },
     
     "Continental GT": {
@@ -1247,7 +5444,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Customizable Interiors, Massaging Seats",
         exteriorFeatures: "LED Matrix Headlamps, Active Aerodynamics, Chrome Details",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2003"
+        releaseDateYear: "2003",
+        imageUrl: "assets/images/vehicle_models_images/Continental GT.png"
+
     },
     
     "Flying Spur": {
@@ -1267,7 +5466,9 @@ const vehicleDetails = {
         interiorFeatures: "Premium Leather Upholstery, Touchscreen Infotainment, 4-Zone Climate Control",
         exteriorFeatures: "LED Headlamps, Adaptive Cruise Control, 22-inch Alloy Wheels",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2005"
+        releaseDateYear: "2005",
+        imageUrl: "assets/images/vehicle_models_images/Flying Spur.png"
+
     },
     
     "Bentayga": {
@@ -1287,7 +5488,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Luxury Leather Seats, Panoramic Sunroof",
         exteriorFeatures: "Matrix LED Headlights, 22-inch Alloy Wheels, Adaptive Suspension",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2015"
+        releaseDateYear: "2015",
+        imageUrl: "assets/images/vehicle_models_images/Bentayga.png"
+
     },
     
     
@@ -1308,7 +5511,9 @@ const vehicleDetails = {
         "interiorFeatures": "Premium Upholstery, Digital Display, Gesture Control",
         "exteriorFeatures": "LED Headlights, M Sport Body Kit, Sunroof",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/2 Series Gran Coupe.png"
+
     },
     "3 Series": {
         "type": "Passenger",
@@ -1327,7 +5532,9 @@ const vehicleDetails = {
         "interiorFeatures": "Luxury Upholstery, Digital Cockpit, Ambient Lighting",
         "exteriorFeatures": "Adaptive LED Lights, M Sport Wheels, Sunroof",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/3 Series.png"
+
     },
     "3 Series Gran Limousine": {
         "type": "Passenger",
@@ -1346,7 +5553,9 @@ const vehicleDetails = {
         "interiorFeatures": "Premium Leather Upholstery, Rear Seat Entertainment, Digital Cockpit",
         "exteriorFeatures": "LED Headlights, Sports Body Kit, Sunroof",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/3 Series Gran Limousine.png"
+
     },
     "4 Series": {
         "type": "Passenger",
@@ -1365,7 +5574,9 @@ const vehicleDetails = {
         "interiorFeatures": "Luxurious Cabin, Digital Display, Gesture Control",
         "exteriorFeatures": "LED Headlights, M Sport Package, Sunroof",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/4 Series.png"
+
     },
     
     "5 Series": {
@@ -1385,7 +5596,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Gesture Controls",
         exteriorFeatures: "LED Headlamps, Sunroof, Alloy Wheels, Parking Assistance",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/5 Series.png"
+
     },
     "6 Series Gran Turismo": {
         type: "Passenger",
@@ -1404,7 +5617,9 @@ const vehicleDetails = {
         interiorFeatures: "Panoramic Sunroof, Touchscreen Infotainment, Premium Sound System",
         exteriorFeatures: "LED Headlights, Aerodynamic Design, Alloy Wheels",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/6 Series Gran Turismo.png"
+
     },
     "7 Series": {
         type: "Passenger",
@@ -1423,7 +5638,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Executive Lounge Seating, Massaging Seats",
         exteriorFeatures: "Laser Light Technology, Sunroof, Alloy Wheels",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/7 Series.png"
+
     },
     "8 Series": {
         type: "Passenger",
@@ -1442,7 +5659,9 @@ const vehicleDetails = {
         interiorFeatures: "Leather Upholstery, Bowers & Wilkins Audio, Gesture Controls",
         exteriorFeatures: "Adaptive LED Headlights, Sunroof, Aerodynamic Design",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/8 Series.png"
+
     },
     "X1": {
         type: "Passenger",
@@ -1461,7 +5680,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Alloy Wheels, Fog Lamps",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/X1.png"
+
     },
     "X3": {
         type: "Passenger",
@@ -1480,7 +5701,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Apple CarPlay",
         exteriorFeatures: "LED Headlamps, Alloy Wheels, Roof Rails",
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/X3.png"
+
     },
     
     
@@ -1501,7 +5724,9 @@ const vehicleDetails = {
         interiorFeatures: "Panoramic Sunroof, Digital Dashboard, Gesture Controls",  
         exteriorFeatures: "Adaptive LED Headlights, Roof Rails, Sporty Bumper",  
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2023"  
+        releaseDateYear: "2023"  ,
+        imageUrl: "assets/images/vehicle_models_images/iX1.png"
+
     },
     "i7": {
         type: "Passenger",
@@ -1520,7 +5745,9 @@ const vehicleDetails = {
         interiorFeatures: "Luxury Lounge Seating, Panoramic Roof, 12.3-inch Digital Display",  
         exteriorFeatures: "Dynamic LED Lights, Air Curtains, Elegant Grille",  
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2022"  
+        releaseDateYear: "2022"  ,
+        imageUrl: "assets/images/vehicle_models_images/i7.png"
+
     },
     "Z4": {
         type: "Passenger",
@@ -1539,7 +5766,9 @@ const vehicleDetails = {
         interiorFeatures: "Sporty Interior, 10.25-inch Infotainment System, Leather Upholstery",  
         exteriorFeatures: "Adaptive LED Headlights, Aerodynamic Design",  
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2019"  
+        releaseDateYear: "2019"  ,
+        imageUrl: "assets/images/vehicle_models_images/Z4.png"
+
     },
     "M2": {
         type: "Passenger",
@@ -1558,7 +5787,9 @@ const vehicleDetails = {
         interiorFeatures: "Sporty Seats, 12.3-inch Digital Instrument Cluster",  
         exteriorFeatures: "M Sport Body Kit, Adaptive LED Headlights",  
         warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2023"  
+        releaseDateYear: "2023"  ,
+        imageUrl: "assets/images/vehicle_models_images/M2.png"
+
     },
     "M3": {
         type: "Passenger",
@@ -1577,7 +5808,9 @@ const vehicleDetails = {
         interiorFeatures: "M Carbon Bucket Seats, Gesture Controls, 12.3-inch Digital Cluster",  
         exteriorFeatures: "M Aerodynamics Package, Laser Light Technology",  
         warrantyAfterSalesService: "3-year/60,000 km Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2021"  
+        releaseDateYear: "2021"  ,
+        imageUrl: "assets/images/vehicle_models_images/M3.png"
+
     },
     "M4": {
         type: "Passenger",
@@ -1596,7 +5829,9 @@ const vehicleDetails = {
         interiorFeatures: "M Carbon Seats, M Performance Steering Wheel",  
         exteriorFeatures: "M Sport Body Kit, LED Headlights, Carbon Fiber Trim",  
         warrantyAfterSalesService: "3-year/60,000 km Warranty, 24/7 Roadside Assistance",  
-        releaseDateYear: "2021"  
+        releaseDateYear: "2021"  ,
+        imageUrl: "assets/images/vehicle_models_images/M4.png"
+
     },
     
     
@@ -1733,7 +5968,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof",
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/M5.png"
+
     },
     "M8": {
         type: "Passenger",
@@ -1752,7 +5989,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/M8.png"
+
     },
     "XM": {
         type: "Passenger",
@@ -1771,7 +6010,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof",
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/XM.png"
+
     },
     
     "E-Pace": {
@@ -1791,7 +6032,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Leather Seats, Digital Instrument Cluster",  // Interior Features
         exteriorFeatures: "LED Headlights, Panoramic Sunroof, 18” Alloy Wheels",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2017"  // Release Date/Year
+        releaseDateYear: "2017",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/E-Pace.png"
+
     },
     
     "F-Pace": {
@@ -1811,7 +6054,9 @@ const vehicleDetails = {
         interiorFeatures: "Touch Pro Duo System, Leather Upholstery, 14-Speaker Meridian Sound",  // Interior Features
         exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2016"  // Release Date/Year
+        releaseDateYear: "2016" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/F-Pace.png"
+
     },
     
     "XJ": {
@@ -1831,7 +6076,9 @@ const vehicleDetails = {
         interiorFeatures: "Premium Leather Seats, Rear-Seat Entertainment, Power Sunroof",  // Interior Features
         exteriorFeatures: "Active Grille Shutters, LED Tail Lamps, Panoramic Roof",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2010"  // Release Date/Year
+        releaseDateYear: "2010" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/XJ.png"
+
     },
     
     "XF": {
@@ -1851,7 +6098,9 @@ const vehicleDetails = {
         interiorFeatures: "Wood and Leather Interior, Advanced Sound System, Digital Display",  // Interior Features
         exteriorFeatures: "LED Headlights, Dual Exhaust, 18” Alloy Wheels",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2008"  // Release Date/Year
+        releaseDateYear: "2008" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/XF.png"
+
     },
     
     "F-Type": {
@@ -1871,7 +6120,9 @@ const vehicleDetails = {
         interiorFeatures: "Premium Leather Upholstery, Touchscreen Infotainment, Navigation",  // Interior Features
         exteriorFeatures: "LED Headlights, Alloy Wheels, Sports Exhaust",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2013"  // Release Date/Year
+        releaseDateYear: "2013"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/F-Type.png"
+
     },
     
     "Range Rover Sport": {
@@ -1891,7 +6142,9 @@ const vehicleDetails = {
         interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Panoramic Sunroof",  // Interior Features
         exteriorFeatures: "Matrix LED Headlamps, Signature Daytime Running Lights, Power Tailgate",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2005"  // Release Date/Year
+        releaseDateYear: "2005",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Range Rover Sport.png"
+
     },
     "Range Rover Velar": {
         type: "Passenger",
@@ -1910,7 +6163,9 @@ const vehicleDetails = {
         interiorFeatures: "Heated Seats, Meridian Sound System, Touch Pro Duo Dual-Screen",  // Interior Features
         exteriorFeatures: "LED Headlamps, Gloss Black Roof Rails, Power Foldable Mirrors",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2017"  // Release Date/Year
+        releaseDateYear: "2017" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Range Rover Velar.png"
+
     },
     "XE": {
         type: "Passenger",
@@ -1929,7 +6184,9 @@ const vehicleDetails = {
         interiorFeatures: "Leather Upholstery, 8-inch Touchscreen, Meridian Sound System",  // Interior Features
         exteriorFeatures: "LED Headlights, Dynamic Grill, Gloss Black Side Vents",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2015"  // Release Date/Year
+        releaseDateYear: "2015",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/XE.png"
+
     },
     "Range Rover Evoque": {
         type: "Passenger",
@@ -1948,7 +6205,9 @@ const vehicleDetails = {
         interiorFeatures: "InControl Touch Pro, Meridian Sound System, Panoramic Roof",  // Interior Features
         exteriorFeatures: "Matrix LED Headlights, Signature Daytime Running Lights, Black Roof",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2011"  // Release Date/Year
+        releaseDateYear: "2011" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Range Rover Evoque.png"
+
     },
     
     
@@ -1969,7 +6228,9 @@ const vehicleDetails = {
         "interiorFeatures": "12.3-inch TFT Instrument Cluster, Premium Sound System, Leather Upholstery",
         "exteriorFeatures": "LED Headlamps, Aerodynamic Design, Split Rear Spoiler",
         "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/I-Pace.png"
+
     },
     "Defender": {
         "type": "Passenger",
@@ -1988,7 +6249,9 @@ const vehicleDetails = {
         "interiorFeatures": "InControl Touch Pro, Meridian Sound System, Leather Upholstery",
         "exteriorFeatures": "LED Headlamps, Panoramic Sunroof, Raised Ground Clearance",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/Defender.png"
+
     },
     "Discovery": {
         "type": "Passenger",
@@ -2007,7 +6270,9 @@ const vehicleDetails = {
         "interiorFeatures": "Touch Pro Duo, Luxurious Leather Seats, Premium Sound System",
         "exteriorFeatures": "LED Signature Headlamps, Power Tailgate, Roof Rails",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2017"
+        "releaseDateYear": "2017",
+        imageUrl: "assets/images/vehicle_models_images/Discovery.png"
+
     },
     "Discovery Sport": {
         "type": "Passenger",
@@ -2026,7 +6291,9 @@ const vehicleDetails = {
         "interiorFeatures": "10-inch Touchscreen, Leather Upholstery, Meridian Sound System",
         "exteriorFeatures": "LED Headlamps, Panoramic Roof, Roof Rails",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2014"
+        "releaseDateYear": "2014",
+        imageUrl: "assets/images/vehicle_models_images/Discovery Sport.png"
+
     },
     "Range Rover": {
         "type": "Passenger",
@@ -2045,7 +6312,9 @@ const vehicleDetails = {
         "interiorFeatures": "Touch Pro Duo, 29-speaker Meridian Sound System, Executive Class Seating",
         "exteriorFeatures": "Signature LED Headlamps, Deployable Side Steps, Panoramic Glass Roof",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2012"
+        "releaseDateYear": "2012",
+        imageUrl: "assets/images/vehicle_models_images/Range Rover.png"
+
     },
     
     
@@ -2066,7 +6335,9 @@ const vehicleDetails = {
         "interiorFeatures": "MBUX Infotainment System, Dual Zone Climate Control, LED Ambient Lighting",
         "exteriorFeatures": "LED Headlights, Panoramic Sunroof, 17-inch Alloy Wheels",
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/A-Class.png"
+
       },
       "B-Class": {
         "type": "Passenger",
@@ -2085,7 +6356,9 @@ const vehicleDetails = {
         "interiorFeatures": "MBUX Infotainment, High-Resolution Display, Reversing Camera",
         "exteriorFeatures": "LED High-Performance Headlights, Roof Rails, Rear Spoiler",
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/B-Class.png"
+
       },
       "C-Class": {
         "type": "Passenger",
@@ -2104,7 +6377,9 @@ const vehicleDetails = {
         "interiorFeatures": "COMAND Infotainment System, Heated Seats, Electric Adjustments",
         "exteriorFeatures": "LED Intelligent Light System, 18-inch Alloy Wheels, Panoramic Sunroof",
         "warrantyAfterSalesService": "2-year Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/C-Class.png"
+
       },
       "E-Class": {
         "type": "Passenger",
@@ -2123,7 +6398,9 @@ const vehicleDetails = {
         "interiorFeatures": "MBUX with Voice Control, Ambient Lighting, Electric Front Seats",
         "exteriorFeatures": "LED High Performance Headlights, 19-inch Alloy Wheels, Panoramic Sunroof",
         "warrantyAfterSalesService": "3-year Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/E-Class.png"
+
       },
       "S-Class": {
         "type": "Passenger",
@@ -2142,7 +6419,9 @@ const vehicleDetails = {
         "interiorFeatures": "MBUX with Gesture Control, 3D Sound System, Massaging Seats",
         "exteriorFeatures": "Multibeam LED Headlights, 20-inch Alloy Wheels, Panorama Sunroof",
         "warrantyAfterSalesService": "3-year Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2023"
+        "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/S-Class.png"
+
       },
     
     
@@ -2164,7 +6443,9 @@ const vehicleDetails = {
         interiorFeatures: "MBUX Infotainment System, Leather Upholstery, Ambient Lighting",
         exteriorFeatures: "LED High Performance Headlamps, Panoramic Sunroof, AMG Styling",
         warrantyAfterSalesService: "3-year Warranty, Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/GLA.png"
+
     },
     
     // Vehicle Model: GLB
@@ -2185,7 +6466,9 @@ const vehicleDetails = {
         interiorFeatures: "MBUX, 10.25-inch Display, Thermotronic Climate Control",
         exteriorFeatures: "LED Tail Lights, Roof Rails, Power Tailgate",
         warrantyAfterSalesService: "3-year Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/GLB.png"
+
     },
     
     // Vehicle Model: GLC
@@ -2206,7 +6489,9 @@ const vehicleDetails = {
         interiorFeatures: "MBUX, Burmester Surround Sound, Panoramic Sunroof",
         exteriorFeatures: "LED High-Performance Lights, AMG Sport Package",
         warrantyAfterSalesService: "4-year Warranty, Roadside Assistance",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/GLC.png"
+
     },
     
     // Vehicle Model: GLE
@@ -2227,7 +6512,9 @@ const vehicleDetails = {
         interiorFeatures: "MBUX, Advanced Climate Control, Leather Upholstery",
         exteriorFeatures: "AMG Line, LED Tail Lights, Panoramic Sunroof",
         warrantyAfterSalesService: "4-year Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/GLE.png"
+
     },
     
     // Vehicle Model: GLS
@@ -2248,7 +6535,9 @@ const vehicleDetails = {
         interiorFeatures: "MBUX, Premium Sound System, 12.3-inch Digital Displays",
         exteriorFeatures: "Panoramic Sunroof, AMG Styling, LED High-Performance Lights",
         warrantyAfterSalesService: "4-year Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/GLS.png"
+
     },
     
     // Vehicle Model: G-Class
@@ -2269,7 +6558,9 @@ const vehicleDetails = {
         interiorFeatures: "Burmester Sound System, Nappa Leather, 12.3-inch MBUX Display",
         exteriorFeatures: "LED Headlights, AMG Body Styling, Side Steps",
         warrantyAfterSalesService: "5-year Warranty, Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/G-Class.png"
+
     },
     
     "EQB": {
@@ -2289,7 +6580,9 @@ const vehicleDetails = {
         interiorFeatures: "MBUX System, Panoramic Sunroof, Luxury Seats",  // Interior Features
         exteriorFeatures: "LED Headlamps, AMG Styling Package, 20-inch Wheels",  // Exterior Features
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/EQB.png"
+
     },
     
     "EQC": {
@@ -2309,7 +6602,9 @@ const vehicleDetails = {
         interiorFeatures: "MBUX System, Premium Audio, Full Digital Cockpit",  // Interior Features
         exteriorFeatures: "LED Headlamps, AMG Styling Package, 20-inch Wheels",  // Exterior Features
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/EQC.png"
+
     },
     
     "EQS": {
@@ -2329,7 +6624,9 @@ const vehicleDetails = {
         interiorFeatures: "MBUX Hyperscreen, Ambient Lighting, Premium Leather",  // Interior Features
         exteriorFeatures: "LED Headlamps, AMG Styling Package, 21-inch Wheels",  // Exterior Features
         warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/EQS.png"
+
     },
     
     "AMG A 35": {
@@ -2349,7 +6646,9 @@ const vehicleDetails = {
         interiorFeatures: "AMG Sport Seats, MBUX System, Digital Cockpit",  // Interior Features
         exteriorFeatures: "LED Headlamps, AMG Body Styling, 19-inch Wheels",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/AMG A 35.png"
+
     },
     
     "AMG C 63": {
@@ -2369,7 +6668,9 @@ const vehicleDetails = {
         interiorFeatures: "AMG Sport Seats, Premium Audio, Digital Cockpit",  // Interior Features
         exteriorFeatures: "LED Headlamps, AMG Body Styling, 19-inch Wheels",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,00,000 km Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/AMG C 63.png"
+
     },
     
     "AMG E 63": {
@@ -2389,7 +6690,9 @@ const vehicleDetails = {
         interiorFeatures: "MBUX Infotainment, Nappa Leather Upholstery, AMG Sport Seats",  // Interior Features
         exteriorFeatures: "AMG Night Package, LED Headlights, AMG Performance Exhaust",  // Exterior Features
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2017"  // Release Date/Year
+        releaseDateYear: "2017",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/AMG E 63.png"
+
     },
     
     
@@ -2410,7 +6713,9 @@ const vehicleDetails = {
         "interiorFeatures": "MBUX Infotainment System, Premium Leather Upholstery, 3-zone Climate Control",
         "exteriorFeatures": "LED Multibeam Headlamps, Panoramic Sunroof, AMG Styling",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/CLS.png"
+
     },
     "EQE": {
         "type": "Passenger",
@@ -2429,7 +6734,9 @@ const vehicleDetails = {
         "interiorFeatures": "MBUX Hyperscreen, Premium Sound System, Vegan Leather Upholstery",
         "exteriorFeatures": "LED Headlights, Flush Door Handles, Aerodynamic Design",
         "warrantyAfterSalesService": "8-year/160,000 km Battery Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/EQE.png"
+
     },
     "AMG GT": {
         "type": "Passenger",
@@ -2448,7 +6755,9 @@ const vehicleDetails = {
         "interiorFeatures": "MB-Tex Upholstery, AMG Performance Steering Wheel, Burmester Sound System",
         "exteriorFeatures": "AMG Performance Exhaust, LED High-Performance Headlamps, Panoramic Roof",
         "warrantyAfterSalesService": "3-year/Unlimited km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2015"
+        "releaseDateYear": "2015",
+        imageUrl: "assets/images/vehicle_models_images/AMG GT.png"
+
     },
     
     
@@ -2469,7 +6778,9 @@ const vehicleDetails = {
         "interiorFeatures": "12.3-inch Digital Driver Display, Leather Upholstery, Bowers & Wilkins Sound System",
         "exteriorFeatures": "LED Headlights, Panoramic Sunroof, 19-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/XC60.png"
+
     },
     "XC90": {
         "type": "Passenger",
@@ -2488,7 +6799,9 @@ const vehicleDetails = {
         "interiorFeatures": "Bowers & Wilkins Sound System, Leather Upholstery, 9-inch Infotainment Display",
         "exteriorFeatures": "LED Headlights, Panoramic Sunroof, 20-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2015"
+        "releaseDateYear": "2015",
+        imageUrl: "assets/images/vehicle_models_images/XC90.png"
+
     },
     "S60": {
         "type": "Passenger",
@@ -2507,7 +6820,9 @@ const vehicleDetails = {
         "interiorFeatures": "12.3-inch Digital Driver Display, Leather Upholstery, Harman Kardon Sound System",
         "exteriorFeatures": "LED DRLs, Adaptive Headlights, 18-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/S60.png"
+
     },
     "S90": {
         "type": "Passenger",
@@ -2526,7 +6841,9 @@ const vehicleDetails = {
         "interiorFeatures": "Leather Upholstery, 9-inch Infotainment, Harman Kardon Sound System",
         "exteriorFeatures": "LED Headlights, Panoramic Sunroof, 19-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/S90.png"
+
     },
     "XC40": {
         "type": "Passenger",
@@ -2545,7 +6862,9 @@ const vehicleDetails = {
         "interiorFeatures": "Leather Upholstery, 9-inch Infotainment, Wireless Charging",
         "exteriorFeatures": "LED DRLs, Panoramic Sunroof, 18-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/XC40.png"
+
     },
     "V40": {
         "type": "Passenger",
@@ -2564,7 +6883,9 @@ const vehicleDetails = {
         "interiorFeatures": "Leather Upholstery, 8-inch Infotainment, Premium Sound System",
         "exteriorFeatures": "LED DRLs, Roof Rails, 17-inch Alloy Wheels",
         "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, Roadside Assistance",
-        "releaseDateYear": "2017"
+        "releaseDateYear": "2017",
+        imageUrl: "assets/images/vehicle_models_images/V40.png"
+
     },
     
         "V60": {
@@ -2584,7 +6905,9 @@ const vehicleDetails = {
             "interiorFeatures": "Sensus Connect, Leather Upholstery, Panoramic Sunroof",
             "exteriorFeatures": "LED Headlights, Roof Rails, Dual Exhaust",
             "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Volvo On Call",
-            "releaseDateYear": "2018"
+            "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/V60.png"
+
         },
         "V90": {
             "type": "Passenger",
@@ -2603,7 +6926,9 @@ const vehicleDetails = {
             "interiorFeatures": "Bowers & Wilkins Sound System, Nappa Leather Upholstery",
             "exteriorFeatures": "Active Bending Lights, Power Tailgate, Roof Rails",
             "warrantyAfterSalesService": "4-year/1,00,000 km Warranty, Volvo Assistance",
-            "releaseDateYear": "2016"
+            "releaseDateYear": "2016",
+            imageUrl: "assets/images/vehicle_models_images/V90.png"
+
         },
         "EX90": {
             "type": "Passenger",
@@ -2622,7 +6947,9 @@ const vehicleDetails = {
             "interiorFeatures": "Large Touchscreen, Heated Seats, Premium Sound System",
             "exteriorFeatures": "Panoramic Roof, Adaptive Headlights, Roof Rails",
             "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, Volvo Assistance",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+            imageUrl: "assets/images/vehicle_models_images/EX90.png"
+
         },
         "Volvo 9400": {
             "type": "Commercial",
@@ -2641,7 +6968,9 @@ const vehicleDetails = {
             "interiorFeatures": "Comfortable Seating, AC, Onboard Wi-Fi",
             "exteriorFeatures": "LED Lights, Air Conditioning System, Roof Ventilation",
             "warrantyAfterSalesService": "2-year/2,00,000 km Warranty, Roadside Assistance",
-            "releaseDateYear": "2016"
+            "releaseDateYear": "2016",
+            imageUrl: "assets/images/vehicle_models_images/Volvo 9400.png"
+
         },
         "Volvo 9600": {
             "type": "Commercial",
@@ -2660,7 +6989,9 @@ const vehicleDetails = {
             "interiorFeatures": "Comfort Seats, Entertainment System, Onboard Refrigerator",
             "exteriorFeatures": "LED Fog Lights, Automatic Wipers, Roof Vents",
             "warrantyAfterSalesService": "3-year/2,50,000 km Warranty, Roadside Assistance",
-            "releaseDateYear": "2017"
+            "releaseDateYear": "2017",
+            imageUrl: "assets/images/vehicle_models_images/Volvo 9600.png"
+
         },
         "Volvo 7900": {
             "type": "Commercial",
@@ -2679,7 +7010,9 @@ const vehicleDetails = {
             "interiorFeatures": "Comfortable Seating, AC, Wi-Fi",
             "exteriorFeatures": "LED Tail Lights, Roof Vents, Adaptive Wipers",
             "warrantyAfterSalesService": "2-year/2,00,000 km Warranty, Roadside Assistance",
-            "releaseDateYear": "2015"
+            "releaseDateYear": "2015",
+            imageUrl: "assets/images/vehicle_models_images/Volvo 7900.png"
+
         },
     
         "RX": {
@@ -2699,7 +7032,9 @@ const vehicleDetails = {
             "interiorFeatures": "Leather Upholstery, 12-inch Touchscreen Infotainment, Digital Cluster",
             "exteriorFeatures": "LED Headlamps, Dual-tone Roof, Alloy Wheels",
             "warrantyAfterSalesService": "5-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+            imageUrl: "assets/images/vehicle_models_images/RX.png"
+
         },
         "NX": {
             "type": "Passenger",
@@ -2718,7 +7053,9 @@ const vehicleDetails = {
             "interiorFeatures": "Leatherette Seats, Touchscreen Infotainment, Auto Climate Control",
             "exteriorFeatures": "LED DRLs, Alloy Wheels, Fog Lamps",
             "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/MX.png"
+
         },
         "LS": {
             "type": "Passenger",
@@ -2737,7 +7074,9 @@ const vehicleDetails = {
             "interiorFeatures": "Touchscreen, Bluetooth Connectivity, Steering Mounted Controls",
             "exteriorFeatures": "Chrome Grille, Roof Rails, Body Cladding",
             "warrantyAfterSalesService": "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+            imageUrl: "assets/images/vehicle_models_images/LS.png"
+
         },
         "GX": {
             "type": "Passenger",
@@ -2756,7 +7095,9 @@ const vehicleDetails = {
             "interiorFeatures": "Leather Seats, Premium Audio System, Automatic Climate Control",
             "exteriorFeatures": "LED Tail Lights, Roof Rails, Alloy Wheels",
             "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+            imageUrl: "assets/images/vehicle_models_images/GX.png"
+
         },
         "LX": {
             "type": "Passenger",
@@ -2775,7 +7116,9 @@ const vehicleDetails = {
             "interiorFeatures": "Luxury Upholstery, 8-inch Infotainment, Voice Recognition",
             "exteriorFeatures": "LED Projector Headlamps, Roof Rails, Stylish Alloy Wheels",
             "warrantyAfterSalesService": "5-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+            imageUrl: "assets/images/vehicle_models_images/LX.png"
+
         },
         "UX": {
             "type": "Commercial",
@@ -2794,7 +7137,9 @@ const vehicleDetails = {
             "interiorFeatures": "Basic Console, Durable Seating",
             "exteriorFeatures": "Steel Wheels, Minimalistic Design",
             "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+            imageUrl: "assets/images/vehicle_models_images/UX.png"
+
         },
         "LC": {
             "type": "Commercial",
@@ -2813,7 +7158,9 @@ const vehicleDetails = {
             "interiorFeatures": "Durable Dashboard, Minimalistic Interior",
             "exteriorFeatures": "Reinforced Body, Heavy-duty Tyres",
             "warrantyAfterSalesService": "4-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/LC.png"
+
         },
     
         "Cayenne": {
@@ -2833,7 +7180,9 @@ const vehicleDetails = {
             "interiorFeatures": "Panoramic Roof, 12.3-inch Infotainment Screen, Leather Upholstery",
             "exteriorFeatures": "LED Matrix Headlights, Panoramic Sunroof, Active Rear Spoiler",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2002"
+            "releaseDateYear": "2002",
+            imageUrl: "assets/images/vehicle_models_images/Cayenne.png"
+
         },
         "Macan": {
             "type": "SUV",
@@ -2852,7 +7201,9 @@ const vehicleDetails = {
             "interiorFeatures": "Leather Seats, 10.9-inch Infotainment, Dual-zone Climate Control",
             "exteriorFeatures": "LED Headlights, Rear Spoiler, 21-inch Wheels",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2014"
+            "releaseDateYear": "2014",
+            imageUrl: "assets/images/vehicle_models_images/Macan.png"
+
         },
         "Panamera": {
             "type": "Luxury Sedan",
@@ -2871,7 +7222,9 @@ const vehicleDetails = {
             "interiorFeatures": "14-way Power Seats, Touchscreen Infotainment, Leather Upholstery",
             "exteriorFeatures": "LED Headlights, Panoramic Roof, Active Rear Spoiler",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2009"
+            "releaseDateYear": "2009",
+            imageUrl: "assets/images/vehicle_models_images/Panamera.png"
+
         },
         "911": {
             "type": "Sports Car",
@@ -2890,7 +7243,9 @@ const vehicleDetails = {
             "interiorFeatures": "Sports Seats, PCM Infotainment, Premium Audio System",
             "exteriorFeatures": "LED Headlights, Active Aero, Dynamic Chassis Control",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "1964"
+            "releaseDateYear": "1964",
+            imageUrl: "assets/images/vehicle_models_images/911.png"
+
         },
         "Taycan": {
             "type": "Electric Sedan",
@@ -2909,7 +7264,9 @@ const vehicleDetails = {
             "interiorFeatures": "Infotainment System, Digital Instrument Cluster, Leather Upholstery",
             "exteriorFeatures": "LED Matrix Headlights, Active Aero, Dynamic Chassis Control",
             "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2019"
+            "releaseDateYear": "2019",
+            imageUrl: "assets/images/vehicle_models_images/Taycan.png"
+
         },
         "Cayman": {
             "type": "Sports Car",
@@ -2928,7 +7285,9 @@ const vehicleDetails = {
             "interiorFeatures": "Sport Seats, 7-inch Infotainment, Premium Audio",
             "exteriorFeatures": "LED Headlights, Rear Spoiler, Sport Exhaust System",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "2005"
+            "releaseDateYear": "2005",
+            imageUrl: "assets/images/vehicle_models_images/Cayman.png"
+
         },
         "Boxster": {
             "type": "Sports Car",
@@ -2947,7 +7306,9 @@ const vehicleDetails = {
             "interiorFeatures": "Infotainment System, Leather Seats, Premium Audio",
             "exteriorFeatures": "LED Headlights, Rear Spoiler, Dynamic Chassis Control",
             "warrantyAfterSalesService": "4-year/50,000 km Warranty, 24/7 Roadside Assistance",
-            "releaseDateYear": "1996"
+            "releaseDateYear": "1996",
+            imageUrl: "assets/images/vehicle_models_images/Boxster.png"
+
         },
     
         "A3": {
@@ -2967,7 +7328,9 @@ const vehicleDetails = {
             "interiorFeatures": "Virtual Cockpit, MMI Touch, Leather Upholstery",
             "exteriorFeatures": "LED DRLs, S-Line Body Styling, Alloy Wheels",
             "warrantyAfterSalesService": "2-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2019"
+            "releaseDateYear": "2019",
+            imageUrl: "assets/images/vehicle_models_images/A3.png"
+
         },
         "A4": {
             "type": "Passenger",
@@ -2986,7 +7349,9 @@ const vehicleDetails = {
             "interiorFeatures": "MMI Navigation, Virtual Cockpit, Leather Upholstery",
             "exteriorFeatures": "Matrix LED Headlamps, S-Line Package, Alloy Wheels",
             "warrantyAfterSalesService": "3-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+            imageUrl: "assets/images/vehicle_models_images/A4.png"
+
         },
         "A6": {
             "type": "Passenger",
@@ -3005,7 +7370,9 @@ const vehicleDetails = {
             "interiorFeatures": "MMI Touch, Audi Virtual Cockpit, Leather Upholstery",
             "exteriorFeatures": "HD Matrix LED Headlamps, Panoramic Sunroof",
             "warrantyAfterSalesService": "3-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/A6.png"
+
         },
         "A8": {
             "type": "Passenger",
@@ -3024,7 +7391,9 @@ const vehicleDetails = {
             "interiorFeatures": "Bang & Olufsen Sound System, Executive Rear Seats, Virtual Cockpit",
             "exteriorFeatures": "HD Matrix LED Headlamps, Adaptive Cruise Control, 21-inch Alloy Wheels",
             "warrantyAfterSalesService": "5-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+            imageUrl: "assets/images/vehicle_models_images/A8.png"
+
         },
         "Q2": {
             "type": "SUV",
@@ -3043,7 +7412,9 @@ const vehicleDetails = {
             "interiorFeatures": "MMI Touch, Virtual Cockpit, Leather Upholstery",
             "exteriorFeatures": "LED Headlamps, Roof Rails, 18-inch Alloy Wheels",
             "warrantyAfterSalesService": "2-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+            imageUrl: "assets/images/vehicle_models_images/Q2.png"
+
         },
         "Q3": {
             "type": "SUV",
@@ -3062,7 +7433,9 @@ const vehicleDetails = {
             "interiorFeatures": "MMI Navigation, Virtual Cockpit, Leather Upholstery",
             "exteriorFeatures": "LED Headlamps, S-Line Package, Alloy Wheels",
             "warrantyAfterSalesService": "3-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/Q3.png"
+
         },
         "Q5": {
             "type": "SUV",
@@ -3081,7 +7454,9 @@ const vehicleDetails = {
             "interiorFeatures": "MMI Touch, Virtual Cockpit, Leather Upholstery",
             "exteriorFeatures": "HD Matrix LED Headlamps, Adaptive Cruise Control, 20-inch Alloy Wheels",
             "warrantyAfterSalesService": "3-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+            imageUrl: "assets/images/vehicle_models_images/Q5.png"
+
         },
         "Q7": {
             "type": "SUV",
@@ -3100,7 +7475,9 @@ const vehicleDetails = {
             "interiorFeatures": "Virtual Cockpit, Executive Rear Seats, Leather Upholstery",
             "exteriorFeatures": "HD Matrix LED Headlamps, 21-inch Alloy Wheels, Adaptive Cruise Control",
             "warrantyAfterSalesService": "5-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/Q7.png"
+
         },
         "Q8": {
             "type": "SUV",
@@ -3119,7 +7496,9 @@ const vehicleDetails = {
             "interiorFeatures": "Bang & Olufsen Sound System, Executive Rear Seats, Virtual Cockpit",
             "exteriorFeatures": "HD Matrix LED Headlamps, Panoramic Sunroof, 22-inch Alloy Wheels",
             "warrantyAfterSalesService": "5-year Warranty, Roadside Assistance",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+            imageUrl: "assets/images/vehicle_models_images/Q8.png"
+
         },
     
         "John Deere 5050 D": {
@@ -3139,7 +7518,9 @@ const vehicleDetails = {
             "interiorFeatures": "Ergonomic Driver Seat, Easy-to-Use Controls",
             "exteriorFeatures": "Front Weights, Heavy-Duty Tires",
             "warrantyAfterSalesService": "5-year/5000 hours Warranty, 24/7 Support",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+            imageUrl: "assets/images/vehicle_models_images/John Deere 5050 D.png"
+
         },
         "John Deere 5042 D": {
             "type": "Tractor",
@@ -3158,7 +7539,9 @@ const vehicleDetails = {
             "interiorFeatures": "Comfortable Driver Seat, Simple Controls",
             "exteriorFeatures": "Front Weights, Strong Axles",
             "warrantyAfterSalesService": "5-year/5000 hours Warranty, 24/7 Support",
-            "releaseDateYear": "2019"
+            "releaseDateYear": "2019",
+            imageUrl: "assets/images/vehicle_models_images/John Deere 5042 D.png"
+
         },
         "John Deere 3038 E": {
             "type": "Tractor",
@@ -3177,7 +7560,9 @@ const vehicleDetails = {
             "interiorFeatures": "Comfortable Seat, Simple Controls",
             "exteriorFeatures": "Heavy-Duty Tires, Adjustable Linkage",
             "warrantyAfterSalesService": "5-year/5000 hours Warranty, 24/7 Support",
-            "releaseDateYear": "2018"
+            "releaseDateYear": "2018",
+            imageUrl: "assets/images/vehicle_models_images/John Deere 3038 E.png"
+
         },
         "John Deere 5050 E": {
             "type": "Tractor",
@@ -3196,7 +7581,9 @@ const vehicleDetails = {
             "interiorFeatures": "Ergonomic Driver Seat, Easy-to-Use Controls",
             "exteriorFeatures": "Front Weights, Heavy-Duty Tires",
             "warrantyAfterSalesService": "5-year/5000 hours Warranty, 24/7 Support",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+            imageUrl: "assets/images/vehicle_models_images/John Deere 5050 E.png"
+
         },
     
     "Mahindra SP Plus Series": {
@@ -3216,7 +7603,9 @@ const vehicleDetails = {
         interiorFeatures: "Ergonomic Seat, Digital Console",
         exteriorFeatures: "Heavy Duty Bumper, Roof Rails, Fog Lamps",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/Mahindra SP Plus Series.png"
+
     },
     
        "605 DI i": {
@@ -3236,7 +7625,9 @@ const vehicleDetails = {
         "interiorFeatures": "Basic Cabin with Adjustable Seating",
         "exteriorFeatures": "Fog Lamps, Side Cladding, Roof Rail",
         "warrantyAfterSalesService": "3-year/1,00,000 km Warranty",
-        "releaseDateYear": "2019"
+        "releaseDateYear": "2019",
+        imageUrl: "assets/images/vehicle_models_images/605 DI i.png"
+
       },
       
       "Tech+ 265 DI": {
@@ -3256,7 +7647,9 @@ const vehicleDetails = {
         "interiorFeatures": "Basic Interior with Adjustable Seating",
         "exteriorFeatures": "Side Cladding, Roof Rail, Chrome Grille",
         "warrantyAfterSalesService": "3-year/1,20,000 km Warranty",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 265 DI.png"
+
       },
       
       "Tech+ 405 4WD": {
@@ -3276,7 +7669,9 @@ const vehicleDetails = {
         "interiorFeatures": "Premium Interior with Adjustable Seats",
         "exteriorFeatures": "Heavy Duty Bumpers, Roof Rails, Fog Lamps",
         "warrantyAfterSalesService": "3-year/1,50,000 km Warranty",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 405 4WD.png"
+
       },
       
       "Tech+ 415 4WD": {
@@ -3296,7 +7691,9 @@ const vehicleDetails = {
         "interiorFeatures": "Standard Interior with Adjustable Seats",
         "exteriorFeatures": "Heavy Duty Roof Rails, Side Steps, Bumper",
         "warrantyAfterSalesService": "3-year/1,50,000 km Warranty",
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 415 4WD.png"
+
       },
     
       "Tech+ 475": {
@@ -3316,7 +7713,9 @@ const vehicleDetails = {
         "interiorFeatures": "Basic Interior with Adjustable Seats",
         "exteriorFeatures": "Roof Rail, Side Cladding",
         "warrantyAfterSalesService": "3-year/1,20,000 km Warranty",
-        "releaseDateYear": "2022"
+        "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 475.png"
+
       },
     
         "Tech+ 575 4WD": {
@@ -3336,7 +7735,9 @@ const vehicleDetails = {
             "interiorFeatures": "Basic Upholstery, Radio, A/C",
             "exteriorFeatures": "LED Tail Lamps, Fog Lamps, Steel Wheels",
             "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-            "releaseDateYear": "2020"
+            "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 575 4WD.png"
+
         },
         
         "Tech+ 585": {
@@ -3356,7 +7757,9 @@ const vehicleDetails = {
             "interiorFeatures": "Basic Upholstery, Air Conditioning, Music System",
             "exteriorFeatures": "Chrome Grille, Fog Lights, Steel Rims",
             "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/Tech+ 585.png"
+
         },
         
         "SP Plus 265 DI": {
@@ -3376,7 +7779,9 @@ const vehicleDetails = {
             "interiorFeatures": "Basic Features, Radio, AC",
             "exteriorFeatures": "Steel Wheels, LED Tail Lamps",
             "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 265 DI.png"
+
         },
         
         "SP Plus 275 DI": {
@@ -3396,7 +7801,9 @@ const vehicleDetails = {
             "interiorFeatures": "Basic Upholstery, AC, Music System",
             "exteriorFeatures": "LED Tail Lights, Chrome Grille",
             "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 275 DI.png"
+
         },
         
         "SP Plus 415 DI": {
@@ -3416,7 +7823,9 @@ const vehicleDetails = {
             "interiorFeatures": "Basic Upholstery, A/C, Radio",
             "exteriorFeatures": "Fog Lamps, LED Tail Lights",
             "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-            "releaseDateYear": "2021"
+            "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 415 DI.png"
+
         },
         
         "SP Plus 475 DI": {
@@ -3436,7 +7845,9 @@ const vehicleDetails = {
             "interiorFeatures": "Basic Upholstery, A/C, Music System",
             "exteriorFeatures": "Steel Rims, Chrome Grille",
             "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 475 DI.png"
+
         },
         
         "SP Plus 575 DI": {
@@ -3456,7 +7867,9 @@ const vehicleDetails = {
             "interiorFeatures": "Premium Upholstery, A/C, Touchscreen",
             "exteriorFeatures": "Steel Rims, LED Lights",
             "warrantyAfterSalesService": "3-year/1,50,000 km Warranty",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 575 DI.png"
+
         },
         
         "SP Plus 585 DI": {
@@ -3476,7 +7889,9 @@ const vehicleDetails = {
             "interiorFeatures": "Premium Upholstery, A/C, Music System",
             "exteriorFeatures": "Steel Rims, Chrome Grille, LED Lights",
             "warrantyAfterSalesService": "3-year/1,50,000 km Warranty",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/SP Plus 585 DI.png"
+
         },
     
     
@@ -3497,7 +7912,9 @@ const vehicleDetails = {
           "interiorFeatures": "Air Conditioning, Ergonomic Driver's Seat, Digital Dashboard",
           "exteriorFeatures": "Wide Front Grille, Robust Body Structure, Fog Lamps",
           "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2018"
+          "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/5036 D.png"
+
         },
         
         "5042 D": {
@@ -3517,7 +7934,9 @@ const vehicleDetails = {
           "interiorFeatures": "Comfortable Seats, Advanced Dashboard Display, Air Conditioning",
           "exteriorFeatures": "Chrome Grille, LED Fog Lamps, Wide Tires",
           "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2019"
+          "releaseDateYear": "2019",
+        imageUrl: "assets/images/vehicle_models_images/5042 D.png"
+
         },
         
         "5050 D": {
@@ -3537,7 +7956,9 @@ const vehicleDetails = {
           "interiorFeatures": "Comfortable Seats, Adjustable Steering, Digital Dashboard",
           "exteriorFeatures": "Wide Grille, LED Headlamps, Reinforced Body",
           "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2020"
+          "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/5050 D.png"
+
         },
         
         "3028 EN": {
@@ -3557,7 +7978,9 @@ const vehicleDetails = {
           "interiorFeatures": "Driver's Comfort Seat, Digital Dashboard",
           "exteriorFeatures": "Sleek Design, Enhanced Visibility",
           "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2017"
+          "releaseDateYear": "2017",
+        imageUrl: "assets/images/vehicle_models_images/3028 EN.png"
+
         },
         
         "5075 E": {
@@ -3577,7 +8000,9 @@ const vehicleDetails = {
           "interiorFeatures": "Air Conditioning, Digital Dashboard, Comfortable Seating",
           "exteriorFeatures": "Durable Body, High Visibility Lights",
           "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2021"
+          "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/5075 E.png"
+
         },
         
         "PowerPro 5105": {
@@ -3597,7 +8022,9 @@ const vehicleDetails = {
           "interiorFeatures": "Air Conditioning, Ergonomic Driver's Seat",
           "exteriorFeatures": "Powerful Grille, LED Lights",
           "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-          "releaseDateYear": "2020"
+          "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/PowerPro 5105.png"
+
         },
     
        "PowerPro 5050": {
@@ -3617,7 +8044,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Vinyl Seat Upholstery, Power Steering",
         exteriorFeatures: "Halogen Headlamps, Steel Wheels, Side Step",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/PowerPro 5050.png"
+
         },
     
         "PowerPro 5305": {
@@ -3637,7 +8066,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Vinyl Seat Upholstery, Power Windows",
         exteriorFeatures: "Fog Lamps, Steel Wheels, Side Skirts",
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/PowerPro 5305.png"
+
         },
     
        "555 DI": {
@@ -3657,7 +8088,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Vinyl Seat Upholstery, Power Steering",
         exteriorFeatures: "Projector Headlamps, Side Skirts, Wide Tyres",
         warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2017"
+        releaseDateYear: "2017",
+        imageUrl: "assets/images/vehicle_models_images/555 DI.png"
+
         },
     
         "605 DI MS": {
@@ -3677,7 +8110,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Power Windows, Vinyl Upholstery",
         exteriorFeatures: "Heavy-duty Bumper, LED Tail Lights, Side Step",
         warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/605 DI MS.png"
+
         },
     
         "605 DI PP": {
@@ -3697,7 +8132,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Power Steering, Vinyl Upholstery",
         exteriorFeatures: "Fog Lamps, Steel Wheels, Side Skirts",
         warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/605 DI PP.png"
+
         },
     
        "New Holland Simba 20": {
@@ -3717,7 +8154,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Operator Cabin, Adjustable Seat",  // Interior Features
         exteriorFeatures: "High Ground Clearance, Durable Tires",  // Exterior Features
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/New Holland Simba 20.png"
+
         },
     
        "New Holland 5630 TX Plus 4WD": {
@@ -3737,7 +8176,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Cabin, Adjustable Steering",  // Interior Features
         exteriorFeatures: "Durable Tires, Front Weights",  // Exterior Features
         warrantyAfterSalesService: "3-year Warranty, 24/7 Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2022"  // Release Date/Year
+        releaseDateYear: "2022" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/New Holland 5630 TX Plus 4WD.png"
+
         },
     
         "New Holland T5": {
@@ -3757,7 +8198,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Dashboard, Premium Cabin",  // Interior Features
         exteriorFeatures: "Heavy-duty Tires, Front Weights",  // Exterior Features
         warrantyAfterSalesService: "3-year Warranty, 24/7 Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/New Holland T5.png"
+
         },
     
        "New Holland 7030": {
@@ -3777,7 +8220,9 @@ const vehicleDetails = {
         interiorFeatures: "Operator Cabin, Adjustable Seat",  // Interior Features
         exteriorFeatures: "Durable Tires, High Ground Clearance",  // Exterior Features
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2019"  // Release Date/Year
+        releaseDateYear: "2019"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/New Holland 7030.png"
+
         },
     
         "New Holland 6500": {
@@ -3797,7 +8242,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Cabin, Adjustable Seat",  // Interior Features
         exteriorFeatures: "High Ground Clearance, Strong Build",  // Exterior Features
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/New Holland 6500.png"
+
         },
     
        "Sonalika DI 734 DLX": {
@@ -3817,7 +8264,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Seat, Basic Dashboard",
         exteriorFeatures: "Wide Front Tyres, Strong Build",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika DI 734 DLX.png"
+
         },
     
         "Sonalika Tiger DI 75 CRDS": {
@@ -3837,7 +8286,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Seat, Advanced Dashboard",
         exteriorFeatures: "Strong Chassis, Wide Tyres",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika Tiger DI 75 CRDS.png"
+
         },
     
         "Sonalika DI 745 III": {
@@ -3857,7 +8308,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Operator Seat, Basic Dashboard",
         exteriorFeatures: "Heavy Duty Tyres, Robust Build",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika DI 745 III.png"
+
         },
     
         "Sonalika 60Max Tiger": {
@@ -3877,7 +8330,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Operator Seat, Modern Dashboard",
         exteriorFeatures: "Wide Front Tyres, Durable Build",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika 60Max Tiger.png"
+
         },
     
         "Sonalika DI 35 Sikander": {
@@ -3897,7 +8352,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Seat, Simple Dashboard",
         exteriorFeatures: "Durable Tyres, Solid Frame",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika DI 35 Sikander.png"
+
         },
     
         "Sonalika Worldtrac 90 4WD": {
@@ -3917,7 +8374,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Operator Seat, Advanced Dashboard",
         exteriorFeatures: "Heavy Duty Tyres, Robust Construction",
         warrantyAfterSalesService: "2-year Warranty, 24/7 Support",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/Sonalika Worldtrac 90 4WD.png"
+
         },
     
        "Swaraj 744 FE": {
@@ -3937,7 +8396,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Seats, Adjustable Steering",
         exteriorFeatures: "LED Headlamps, High Ground Clearance, Reflective Mirrors",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 744 FE.png"
+
         },
     
         "Swaraj 735 FE": {
@@ -3957,7 +8418,9 @@ const vehicleDetails = {
         interiorFeatures: "Ergonomically Designed Seats, Adjustable Steering",
         exteriorFeatures: "High Ground Clearance, Strong Grille",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 735 FE.png"
+
         },
     
         "Swaraj 855 FE": {
@@ -3977,7 +8440,9 @@ const vehicleDetails = {
         interiorFeatures: "Leather Seats, Digital Dashboard",
         exteriorFeatures: "LED Lights, High Ground Clearance",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2021"
+        releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 855 FE.png"
+
         },
     
         "Swaraj 963 FE": {
@@ -3997,7 +8462,9 @@ const vehicleDetails = {
         interiorFeatures: "Adjustable Seat, Digital Instrument Cluster",
         exteriorFeatures: "LED DRLs, Strong Bumper",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 963 FE.png"
+
         },
     
         "Swaraj 725 XM": {
@@ -4017,7 +8484,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Seat, Adjustable Steering",
         exteriorFeatures: "High Ground Clearance, LED Headlamps",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 725 XM.png"
+
         },
     
         "Swaraj 824 XM": {
@@ -4037,7 +8506,9 @@ const vehicleDetails = {
         interiorFeatures: "Ergonomically Designed Seats, Adjustable Steering",
         exteriorFeatures: "LED Lights, High Ground Clearance",
         warrantyAfterSalesService: "2-year/2,000 hours Warranty, 24/7 Customer Support",
-        releaseDateYear: "2017"
+        releaseDateYear: "2017",
+        imageUrl: "assets/images/vehicle_models_images/Swaraj 824 XM.png"
+
         },
     
        "Escorts Farmtrac Smart 45": {
@@ -4057,7 +8528,9 @@ const vehicleDetails = {
         interiorFeatures: "Adjustable Driver Seat, Ergonomic Controls",
         exteriorFeatures: "Wide Tyres, Durable Frame, High Ground Clearance",
         warrantyAfterSalesService: "3-year/3000 hours Warranty, 24/7 Support",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Escorts Farmtrac Smart 45.png"
+
         },
     
         "Escorts Josh 335": {
@@ -4077,7 +8550,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Seats, User-Friendly Dashboard",
         exteriorFeatures: "Durable Tires, Protective Front Guard, Strong Body Frame",
         warrantyAfterSalesService: "2-year/2500 hours Warranty, 24/7 Support",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/Escorts Josh 335.png"
+
         },
         
         "Escorts Powertrac Euro 60": {
@@ -4097,7 +8572,9 @@ const vehicleDetails = {
         interiorFeatures: "Adjustable Seat, High Comfort Steering",
         exteriorFeatures: "Strong Frame, Wide Rear Tyres, Protective Bumper",
         warrantyAfterSalesService: "3-year/3500 hours Warranty, 24/7 Support",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Escorts Powertrac Euro 60.png"
+
         },
     
        "Kubota MU 5502 4WD": {
@@ -4117,7 +8594,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Dashboard, Comfortable Seats",
         exteriorFeatures: "Wide Wheelbase, Front Guard",
         warrantyAfterSalesService: "2-year/1500-hour Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2022"
+        releaseDateYear: "2022",
+        imageUrl: "assets/images/vehicle_models_images/Kubota MU 5502 4WD.png"
+
         },
     
             "FZ-Series": {
@@ -4137,7 +8616,9 @@ const vehicleDetails = {
                 interiorFeatures: "Digital Instrument Console, LED Headlamps",
                 exteriorFeatures: "Fender, Alloy Wheels, LED Indicators",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2008"
+                releaseDateYear: "2008",
+        imageUrl: "assets/images/vehicle_models_images/FZ-Series.png"
+
             },
             
             "MT-15": {
@@ -4157,7 +8638,9 @@ const vehicleDetails = {
                 interiorFeatures: "Digital Instrument Console, Blue Core Technology",
                 exteriorFeatures: "Muscular Tank Design, LED DRLs, Alloy Wheels",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2019"
+                releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/MT-15.png"
+
             },
             
             "R15": {
@@ -4177,7 +8660,9 @@ const vehicleDetails = {
                 interiorFeatures: "Digital Speedometer, LED Tail Lamp, USB Charging Port",
                 exteriorFeatures: "Racing Inspired Design, LED DRLs, Alloy Wheels",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2008"
+                releaseDateYear: "2008",
+        imageUrl: "assets/images/vehicle_models_images/R15.png"
+
             },
             
             "FZ-X": {
@@ -4197,7 +8682,9 @@ const vehicleDetails = {
                 interiorFeatures: "Digital Instrument Console, LED Headlamps",
                 exteriorFeatures: "Fender, Alloy Wheels, LED Indicators",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2021"
+                releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/FZ-X.png"
+
             },
             
             "R15 V4": {
@@ -4217,7 +8704,9 @@ const vehicleDetails = {
                 interiorFeatures: "Digital Instrument Console, USB Charging, Smart LED Tail Lamp",
                 exteriorFeatures: "Racing Inspired Design, LED DRLs, Alloy Wheels",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2021"
+                releaseDateYear: "2021",
+        imageUrl: "assets/images/vehicle_models_images/R15 V4.png"
+
             },
     
             "MY-15": {
@@ -4237,7 +8726,9 @@ const vehicleDetails = {
                 interiorFeatures: "Analog Instrument Console, LED Tail Lamp",
                 exteriorFeatures: "Stylish Body Design, Alloy Wheels",
                 warrantyAfterSalesService: "2-year Warranty, Roadside Assistance",
-                releaseDateYear: "2015"
+                releaseDateYear: "2015",
+        imageUrl: "assets/images/vehicle_models_images/MY-15.png"
+
             },    
     
         "Massey Ferguson 5118": {
@@ -4257,7 +8748,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable Seat, Simple Controls, Spacious Cabin",  // Interior Features
         exteriorFeatures: "Strong Chassis, LED Tail Lamps, Robust Design",  // Exterior Features
         warrantyAfterSalesService: "2-year/2000 hours Warranty, 24/7 Customer Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2015"  // Release Date/Year
+        releaseDateYear: "2015",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Massey Ferguson 5118.png"
+
         },
     
         "Massey Ferguson 254 DI Dynatrak 4WD": {
@@ -4277,7 +8770,9 @@ const vehicleDetails = {
         interiorFeatures: "Spacious Cabin, Comfortable Seat, Easy-to-Use Controls",  // Interior Features
         exteriorFeatures: "Sturdy Build, LED Tail Lamps, Robust Design",  // Exterior Features
         warrantyAfterSalesService: "2-year/2000 hours Warranty, 24/7 Customer Support",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Massey Ferguson 254 DI Dynatrak 4WD.png"
+
         },
     
         "TVS Radeon": {
@@ -4297,7 +8792,9 @@ const vehicleDetails = {
         interiorFeatures: "Analog Speedometer, Telescopic Front Forks",
         exteriorFeatures: "Chrome Finished Silencer, Stylish Headlamp, LED Tail Lamp",
         warrantyAfterSalesService: "5-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/TVS Radeon.png"
+
         },
     
         "Honda Activa 6G": {
@@ -4317,7 +8814,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Speedometer, External Fuel Lid, LED Headlamp",
         exteriorFeatures: "LED Position Lamps, Stylish Graphics",
         warrantyAfterSalesService: "3-year/36,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Honda Activa 6G.png"
+
         },
     
         "Honda CB Hornet 160R": {
@@ -4337,7 +8836,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Instrument Cluster, Gear Indicator",
         exteriorFeatures: "Sharp Headlamp, Premium Styling",
         warrantyAfterSalesService: "2-year/24,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2015"
+        releaseDateYear: "2015",
+        imageUrl: "assets/images/vehicle_models_images/Honda CB Hornet 160R.png"
+
         },
     
         "Honda CBR 250R": {
@@ -4357,7 +8858,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Instrument Console, Full-Fairing Design",
         exteriorFeatures: "LED Headlamp, Aggressive Styling",
         warrantyAfterSalesService: "2-year/24,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2011"
+        releaseDateYear: "2011",
+        imageUrl: "assets/images/vehicle_models_images/Honda CBR 250R.png"
+
         },
     
         "Honda CB Shine": {
@@ -4377,7 +8880,9 @@ const vehicleDetails = {
         interiorFeatures: "Analog Speedometer, Clear Visibility",
         exteriorFeatures: "Chrome Finish, Stylish Design",
         warrantyAfterSalesService: "3-year/36,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2006"
+        releaseDateYear: "2006",
+        imageUrl: "assets/images/vehicle_models_images/Honda CB Shine.png"
+
         },
     
         "Honda SP 125": {
@@ -4397,7 +8902,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Meter Console, Side Stand Engine Cut-Off",
         exteriorFeatures: "Sharp Headlamps, Premium Body Design",
         warrantyAfterSalesService: "3-year/36,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Honda SP 125.png"
+
         },
     
         "Honda XBlade": {
@@ -4417,7 +8924,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Instrument Cluster, Full Digital Console",
         exteriorFeatures: "Aggressive Headlamp, LED Indicators",
         warrantyAfterSalesService: "2-year/24,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Honda XBlade.png"
+
         },
     
     
@@ -4438,7 +8947,9 @@ const vehicleDetails = {
         "interiorFeatures": "Fully Digital Instrument Cluster, LED Tail Lamp",  // Interior Features
         "exteriorFeatures": "LED DRLs, Aggressive Styling, Sporty Look",  // Exterior Features
         "warrantyAfterSalesService": "5-year/50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2006"  // Release Date/Year
+        "releaseDateYear": "2006" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS Apache RTR 160.png"
+
         },
     
         "TVS Apache RTR 180": {
@@ -4458,7 +8969,9 @@ const vehicleDetails = {
         "interiorFeatures": "Fully Digital Instrument Cluster, LED Tail Lamp",  // Interior Features
         "exteriorFeatures": "Aggressive Styling, LED DRLs, Muscular Design",  // Exterior Features
         "warrantyAfterSalesService": "5-year/50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2008"  // Release Date/Year
+        "releaseDateYear": "2008" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS Apache RTR 180.png"
+
         },
     
         "TVS Apache RR 310": {
@@ -4478,7 +8991,9 @@ const vehicleDetails = {
         "interiorFeatures": "Fully Digital Instrument Cluster, Bluetooth Connectivity",  // Interior Features
         "exteriorFeatures": "Aerodynamic Design, LED DRLs, LED Tail Light",  // Exterior Features
         "warrantyAfterSalesService": "3-year/36,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2017"  // Release Date/Year
+        "releaseDateYear": "2017",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS Apache RR 310.png"
+
         },
         
         "TVS Ntorq 125": {
@@ -4498,7 +9013,9 @@ const vehicleDetails = {
         "interiorFeatures": "Digital Instrument Console, LED Tail Light",  // Interior Features
         "exteriorFeatures": "LED DRLs, Sharp Styling, Dual-tone Seat",  // Exterior Features
         "warrantyAfterSalesService": "5-year/50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2018"  // Release Date/Year
+        "releaseDateYear": "2018" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS Ntorq 125.png"
+
         },
     
         "TVS Jupiter": {
@@ -4518,7 +9035,9 @@ const vehicleDetails = {
         "interiorFeatures": "Analog Instrument Console, USB Charging Port",  // Interior Features
         "exteriorFeatures": "Stylish Design, LED Tail Light",  // Exterior Features
         "warrantyAfterSalesService": "5-year/50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2013"  // Release Date/Year
+        "releaseDateYear": "2013",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS Jupiter.png"
+
         },
         
         "TVS XL100": {
@@ -4538,7 +9057,9 @@ const vehicleDetails = {
         "interiorFeatures": "Analog Instrument Cluster, Simple Design",  // Interior Features
         "exteriorFeatures": "Sturdy Build, Comfortable Seating",  // Exterior Features
         "warrantyAfterSalesService": "5-year/50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        "releaseDateYear": "2018"  // Release Date/Year
+        "releaseDateYear": "2018",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/TVS XL100.png"
+
         },
     
         "Bajaj Dominar 400": {
@@ -4558,7 +9079,9 @@ const vehicleDetails = {
         interiorFeatures: "LED Display, Comfortable Seat, Dual-channel ABS",
         exteriorFeatures: "LED DRLs, Dual-Tone Colors, Dual-Disc Brakes",
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Dominar 400.png"
+
         },
     
         "Bajaj Avenger Street 160": {
@@ -4578,7 +9101,9 @@ const vehicleDetails = {
         interiorFeatures: "Simple, Minimalist Design",
         exteriorFeatures: "Blacked-out Styling, Matte Finish",
         warrantyAfterSalesService: "2-year/24,000 km Warranty",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Avenger Street 160.png"
+
         },
     
         "Bajaj Avenger Cruise 220": {
@@ -4598,7 +9123,9 @@ const vehicleDetails = {
         interiorFeatures: "Minimalist Interior, Comfortable Cruiser Seat",
         exteriorFeatures: "Classic Cruiser Styling, Chrome Accents",
         warrantyAfterSalesService: "2-year/24,000 km Warranty",
-        releaseDateYear: "2017"
+        releaseDateYear: "2017",
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Avenger Cruise 220.png"
+
         },
     
         "CT 100": {
@@ -4618,7 +9145,9 @@ const vehicleDetails = {
         interiorFeatures: "Comfortable and Simple Design",
         exteriorFeatures: "Classic Styling, Economical Body",
         warrantyAfterSalesService: "2-year/24,000 km Warranty",
-        releaseDateYear: "2004"
+        releaseDateYear: "2004",
+        imageUrl: "assets/images/vehicle_models_images/CT 100.png"
+
         },
     
        "V15": {
@@ -4638,7 +9167,9 @@ const vehicleDetails = {
         interiorFeatures: "Simple, Easy-to-read Instrument Cluster",
         exteriorFeatures: "Classic and Modern Styling",
         warrantyAfterSalesService: "2-year/24,000 km Warranty",
-        releaseDateYear: "2016"
+        releaseDateYear: "2016",
+        imageUrl: "assets/images/vehicle_models_images/V15.png"
+
         },
     
         "Bajaj Pulsar 200NS": {
@@ -4658,7 +9189,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Instrument Cluster, Split Seats",  // Interior Features
         exteriorFeatures: "LED Tail Light, Tinted Windshield",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2012"  // Release Date/Year
+        releaseDateYear: "2012" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Pulsar 200NS.png"
+
         },
     
         "Bajaj Pulsar 220F": {
@@ -4678,7 +9211,9 @@ const vehicleDetails = {
         interiorFeatures: "LED Speedometer, Fully Digital Console",  // Interior Features
         exteriorFeatures: "Projector Headlamps, V-shaped Tail Light",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2007"  // Release Date/Year
+        releaseDateYear: "2007" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Pulsar 220F.png"
+
         },
     
        "Bajaj Dominar 250": {
@@ -4698,7 +9233,9 @@ const vehicleDetails = {
         interiorFeatures: "Full Digital Console, LED DRLs",  // Interior Features
         exteriorFeatures: "Full LED Lighting, Sporty Design",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Bajaj Dominar 250.png"
+
         },
     
         "Hero Pleasure Plus": {
@@ -4718,7 +9255,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Speedometer, 18L Under-seat Storage",
         exteriorFeatures: "Stylish Design, LED Tail Light, Large Footboard",
         warrantyAfterSalesService: "5-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/Hero Pleasure Plus.png"
+
         },
     
        "Hero Destini 125": {
@@ -4738,7 +9277,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Speedometer, USB Charging Port",
         exteriorFeatures: "Stylish Design, LED Tail Light, Front Disc Brake",
         warrantyAfterSalesService: "5-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Hero Destini 125.png"
+
         },
         
         "Hero Karizma XMR": {
@@ -4758,7 +9299,9 @@ const vehicleDetails = {
         interiorFeatures: "Full Digital Instrument Cluster, Smart App Connectivity",
         exteriorFeatures: "LED DRLs, Projector Headlamps, Sharp Styling",
         warrantyAfterSalesService: "5-year/50,000 km Warranty, 24/7 Roadside Assistance",
-        releaseDateYear: "2024"
+        releaseDateYear: "2024",
+        imageUrl: "assets/images/vehicle_models_images/Hero Karizma XMR.png"
+
         },
     
         "HeroSuperSplendor": {
@@ -4778,7 +9321,9 @@ const vehicleDetails = {
         interiorFeatures: "N/A",
         exteriorFeatures: "Halogen Headlamp, Stylish Graphics",
         warrantyAfterSalesService: "5-year/50,000 km Warranty",
-        releaseDateYear: "2005"
+        releaseDateYear: "2005",
+        imageUrl: "assets/images/vehicle_models_images/HeroSuperSplendor.png"
+
         },
     
         "HeroXPulse200": {
@@ -4798,7 +9343,9 @@ const vehicleDetails = {
         interiorFeatures: "N/A",
         exteriorFeatures: "LED Headlamp, Digital Instrument Cluster",
         warrantyAfterSalesService: "5-year/70,000 km Warranty",
-        releaseDateYear: "2019"
+        releaseDateYear: "2019",
+        imageUrl: "assets/images/vehicle_models_images/HeroXPulse200.png"
+
         },
     
         "HeroXtreme160R": {
@@ -4818,7 +9365,9 @@ const vehicleDetails = {
         interiorFeatures: "N/A",
         exteriorFeatures: "LED Headlamp, Split Grab Rail",
         warrantyAfterSalesService: "5-year/50,000 km Warranty",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/HeroXtreme160R.png"
+
         },
     
         "HeroXoom110": {
@@ -4838,7 +9387,9 @@ const vehicleDetails = {
         interiorFeatures: "N/A",
         exteriorFeatures: "LED Projector Headlamp, Sporty Design",
         warrantyAfterSalesService: "5-year/50,000 km Warranty",
-        releaseDateYear: "2023"
+        releaseDateYear: "2023",
+        imageUrl: "assets/images/vehicle_models_images/HeroXoom110.png"
+
         },
     
         "Hero Xtreme 125R": {
@@ -4858,7 +9409,9 @@ const vehicleDetails = {
             "interiorFeatures": "Digital Instrument Cluster",
             "exteriorFeatures": "Stylish Graphics, LED Headlamp",
             "warrantyAfterSalesService": "5-year Warranty, Extensive Service Network",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/Hero Xtreme 125R.png"
+
         },
         
         "Hero Passion Plus": {
@@ -4878,7 +9431,9 @@ const vehicleDetails = {
             "interiorFeatures": "Analog Instrument Cluster",
             "exteriorFeatures": "Stylish Body Graphics, Front Disc Brake",
             "warrantyAfterSalesService": "5-year Warranty, Trusted Service Network",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/Hero Passion Plus.png"
+
         },
         
         "Hero HF Deluxe": {
@@ -4898,7 +9453,9 @@ const vehicleDetails = {
             "interiorFeatures": "Simple Instrument Cluster",
             "exteriorFeatures": "Chiseled Design, Reflector Tail Lamp",
             "warrantyAfterSalesService": "5-year Warranty, Wide Service Network",
-            "releaseDateYear": "2022"
+            "releaseDateYear": "2022",
+        imageUrl: "assets/images/vehicle_models_images/Hero HF Deluxe.png"
+
         },
     
         "Hero Glamour": {
@@ -4918,7 +9475,9 @@ const vehicleDetails = {
             "interiorFeatures": "Digital Speedometer, Smart Instrument Console",
             "exteriorFeatures": "Stylish Body Panels, LED Headlamps",
             "warrantyAfterSalesService": "5-year Warranty, Pan-India Service Network",
-            "releaseDateYear": "2023"
+            "releaseDateYear": "2023",
+        imageUrl: "assets/images/vehicle_models_images/Hero Glamour.png"
+
         },
     
         "Glamour": {
@@ -4938,7 +9497,9 @@ const vehicleDetails = {
         "interiorFeatures": "N/A (Motorcycle)",
         "exteriorFeatures": "LED Headlamp, Stylish Graphics",
         "warrantyAfterSalesService": "5-year/70,000 km Warranty",
-        "releaseDateYear": "2005"
+        "releaseDateYear": "2005",
+        imageUrl: "assets/images/vehicle_models_images/Glamour.png"
+
          },
     
         "Xtreme 160R": {
@@ -4958,7 +9519,9 @@ const vehicleDetails = {
         "interiorFeatures": "N/A (Motorcycle)",
         "exteriorFeatures": "Sporty Design, LED Headlamp and Indicators",
         "warrantyAfterSalesService": "5-year/70,000 km Warranty",
-        "releaseDateYear": "2020"
+        "releaseDateYear": "2020",
+        imageUrl: "assets/images/vehicle_models_images/Xtreme 160R.png"
+
         },
     
         "Royal Enfield Meteor 350": {
@@ -4978,7 +9541,9 @@ const vehicleDetails = {
         interiorFeatures: "Not Applicable",
         exteriorFeatures: "Halogen Headlamp, LED Tail Lamp, Alloy Wheels",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, Roadside Assistance",
-        releaseDateYear: "2020"
+        releaseDateYear: "2020",
+        imageUrl: "assets/images/vehicle_models_images/Royal Enfield Meteor 350.png"
+
         },
         
         "Royal Enfield Interceptor 650": {
@@ -4998,7 +9563,9 @@ const vehicleDetails = {
         interiorFeatures: "Not Applicable",
         exteriorFeatures: "Round Headlamp, Teardrop Fuel Tank, Spoke Wheels",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Royal Enfield Interceptor 650.png"
+
         },
     
         "Royal Enfield Continental GT 650": {
@@ -5018,7 +9585,9 @@ const vehicleDetails = {
         interiorFeatures: "Not Applicable",
         exteriorFeatures: "Round Headlamp, Clip-on Handlebars, Spoke Wheels",
         warrantyAfterSalesService: "3-year/Unlimited km Warranty, Roadside Assistance",
-        releaseDateYear: "2018"
+        releaseDateYear: "2018",
+        imageUrl: "assets/images/vehicle_models_images/Royal Enfield Continental GT 650.png"
+
         },
     
         "Continental GT 650": {
@@ -5038,7 +9607,9 @@ const vehicleDetails = {
         interiorFeatures: "Analog Speedometer, Tripper Navigation (Optional)",  // Interior Features
         exteriorFeatures: "Cafe Racer Design, Sculpted Fuel Tank",  // Exterior Features
         warrantyAfterSalesService: "3-year Warranty, 1-year Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Continental GT 650.png"
+
         },
     
         "Enfield Classic 350": {
@@ -5058,7 +9629,9 @@ const vehicleDetails = {
         interiorFeatures: "Analog Speedometer, Tripper Navigation (Optional)",  // Interior Features
         exteriorFeatures: "Retro Styling, Metal Construction",  // Exterior Features
         warrantyAfterSalesService: "3-year Warranty, 1-year Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Enfield Classic 350.png"
+
         },
     
         "Royal Enfield Bullet 350": {
@@ -5078,7 +9651,9 @@ const vehicleDetails = {
         interiorFeatures: "Analog Speedometer, Minimal Instrumentation",  // Interior Features
         exteriorFeatures: "Iconic Design, Pinstripe Fuel Tank",  // Exterior Features
         warrantyAfterSalesService: "2-year Warranty",  // Warranty & After-Sales Service
-        releaseDateYear: "1948 (Initial), Updated Regularly"  // Release Date/Year
+        releaseDateYear: "1948 (Initial), Updated Regularly",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Royal Enfield Bullet 350.png"
+
         },
         
         "Classic 350": {
@@ -5094,7 +9669,9 @@ const vehicleDetails = {
             colorOptions: "Chrome Red, Halcyon Black, Signals Marsh Grey, and more",
             dimensions: "2145 mm (Length), 785 mm (Width), 1090 mm (Height)",
             performanceFeatures: "Smooth Gear Shifting, Enhanced Stability",
-            releaseDateYear: "2021"  // Latest model update
+            releaseDateYear: "2021",  // Latest model update
+        imageUrl: "assets/images/vehicle_models_images/Classic 350.png"
+
         },
         
         "Bullet 350": {
@@ -5110,7 +9687,9 @@ const vehicleDetails = {
             colorOptions: "Black, Bullet Silver, Regal Red, and more",
             dimensions: "2170 mm (Length), 810 mm (Width), 1120 mm (Height)",
             performanceFeatures: "Iconic Thump Sound, Reliable Performance",
-            releaseDateYear: "2019"  // Latest model update
+            releaseDateYear: "2019",  // Latest model update
+        imageUrl: "assets/images/vehicle_models_images/Bullet 350.png"
+
         },
     
         "Meteor 350": {
@@ -5126,7 +9705,9 @@ const vehicleDetails = {
             colorOptions: "Fireball Yellow, Stellar Blue, Supernova Brown, and more",
             dimensions: "2140 mm (Length), 845 mm (Width), 1140 mm (Height)",
             performanceFeatures: "Cruise Comfort, Refined Engine",
-            releaseDateYear: "2020"  // Latest model update
+            releaseDateYear: "2020",  // Latest model update
+        imageUrl: "assets/images/vehicle_models_images/Meteor 350.png"
+
         },
     
         "Interceptor 650": {
@@ -5142,7 +9723,9 @@ const vehicleDetails = {
             colorOptions: "Orange Crush, Baker Express, Mark Two, and more",
             dimensions: "2122 mm (Length), 789 mm (Width), 1165 mm (Height)",
             performanceFeatures: "High Torque, Smooth Power Delivery",
-            releaseDateYear: "2018"  // Latest model update
+            releaseDateYear: "2018",  // Latest model update
+        imageUrl: "assets/images/vehicle_models_images/Interceptor 650.png"
+
         },
     
         "Activa": {
@@ -5162,7 +9745,9 @@ const vehicleDetails = {
         "interiorFeatures": "Digital-Analog Meter, External Fuel Lid",  // Interior Features
         "exteriorFeatures": "Stylish LED Headlamps, Chrome Highlights",  // Exterior Features
         "warrantyAfterSalesService": "3-year Warranty, Optional Extended Warranty",  // Warranty & After-Sales Service
-        "releaseDateYear": "2000"  // Release Date/Year
+        "releaseDateYear": "2000",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Activa.png"
+
         },
     
         "Shine": {
@@ -5182,7 +9767,9 @@ const vehicleDetails = {
         "interiorFeatures": "Digital-Analog Meter, Comfortable Seat",  // Interior Features
         "exteriorFeatures": "Chrome Highlights, Stylish Graphics",  // Exterior Features
         "warrantyAfterSalesService": "3-year Warranty, Optional Extended Warranty",  // Warranty & After-Sales Service
-        "releaseDateYear": "2006"  // Release Date/Year
+        "releaseDateYear": "2006" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Shine.png"
+
         },
     
         "CBR 250R": {
@@ -5202,7 +9789,9 @@ const vehicleDetails = {
         "interiorFeatures": "Digital Console, Aerodynamic Windshield",  // Interior Features
         "exteriorFeatures": "Sporty Graphics, LED DRLs",  // Exterior Features
         "warrantyAfterSalesService": "2-year Warranty, Optional Extended Warranty",  // Warranty & After-Sales Service
-        "releaseDateYear": "2011"  // Release Date/Year
+        "releaseDateYear": "2011",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/CBR 250R.png"
+
         },
     
         "CB Shine SP": {
@@ -5222,7 +9811,9 @@ const vehicleDetails = {
         "interiorFeatures": "Digital-Analog Meter, Spacious Seat",  // Interior Features
         "exteriorFeatures": "Chrome Highlights, Stylish Graphics",  // Exterior Features
         "warrantyAfterSalesService": "3-year Warranty, Optional Extended Warranty",  // Warranty & After-Sales Service
-        "releaseDateYear": "2015"  // Release Date/Year
+        "releaseDateYear": "2015" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/CB Shine SP.png"
+
         },
     
         "Apache RTR 180": {
@@ -5242,7 +9833,9 @@ const vehicleDetails = {
         "interiorFeatures": "Digital Instrument Console, SmartXonnect Connectivity",  
         "exteriorFeatures": "LED DRLs, Sculpted Tank, Race-Inspired Graphics",  
         "warrantyAfterSalesService": "5-year Warranty, Extensive Dealer Network",  
-        "releaseDateYear": "2009"
+        "releaseDateYear": "2009",
+        imageUrl: "assets/images/vehicle_models_images/Apache RTR 180.png"
+
         },
     
         "Apache RR 310": {
@@ -5262,7 +9855,9 @@ const vehicleDetails = {
         "interiorFeatures": "5-inch TFT Display, SmartXonnect System",  
         "exteriorFeatures": "Aerodynamic Fairing, Race-Inspired Design, LED Taillamps",  
         "warrantyAfterSalesService": "5-year Warranty, Nationwide Service Centers",  
-        "releaseDateYear": "2017"
+        "releaseDateYear": "2017",
+        imageUrl: "assets/images/vehicle_models_images/Apache RR 310.png"
+
         },
     
         "Raider 125": {
@@ -5282,7 +9877,9 @@ const vehicleDetails = {
         "interiorFeatures": "Digital Console, USB Charging Port",  
         "exteriorFeatures": "LED Headlamp, Sporty Design",  
         "warrantyAfterSalesService": "5-year Warranty, Pan-India Service Centers",  
-        "releaseDateYear": "2021"
+        "releaseDateYear": "2021",
+        imageUrl: "assets/images/vehicle_models_images/Raider 125.png"
+
         },
     
         "Ntorq": {
@@ -5302,7 +9899,9 @@ const vehicleDetails = {
         "interiorFeatures": "Digital Display, USB Charger",  
         "exteriorFeatures": "LED Headlamp, Signature LED DRLs",  
         "warrantyAfterSalesService": "5-year Warranty, Extensive Dealer Network",  
-        "releaseDateYear": "2018"
+        "releaseDateYear": "2018",
+        imageUrl: "assets/images/vehicle_models_images/Ntorq.png"
+
          },
     
         "Jupiter": {
@@ -5322,7 +9921,9 @@ const vehicleDetails = {
         "interiorFeatures": "External Fuel Filler Cap, Digital Analog Speedometer",  
         "exteriorFeatures": "LED Headlamp, Metal Body Panels",  
         "warrantyAfterSalesService": "5-year Warranty, TVS Service Support",  
-        "releaseDateYear": "2013"
+        "releaseDateYear": "2013",
+        imageUrl: "assets/images/vehicle_models_images/Jupiter.png"
+
         },
     
         "ApacheRTR160": {
@@ -5342,7 +9943,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Instrument Cluster with Lap Timer",  // Interior Features
         exteriorFeatures: "LED DRLs, Aerodynamic Design, Muscular Tank",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Widespread Service Network",  // Warranty & After-Sales Service
-        releaseDateYear: "2005"  // Release Date/Year
+        releaseDateYear: "2005" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/ApacheRTR160.png"
+
         },
     
         "Gixxer 150": {
@@ -5362,7 +9965,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Instrument Cluster, LED Tail Light",  // Interior Features
         exteriorFeatures: "LED Headlamp, Sporty Muffler, Split Seat",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2014"  // Release Date/Year
+        releaseDateYear: "2014"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Gixxer 150.png"
+
         },
     
         "Access 125": {
@@ -5382,7 +9987,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Instrument Cluster, Smartphone Connectivity, Storage Space",  // Interior Features
         exteriorFeatures: "Stylish LED Tail Lamp, Front Disc Brake, Sleek Body Design",  // Exterior Features
         warrantyAfterSalesService: "5-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2007"  // Release Date/Year
+        releaseDateYear: "2007"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Access 125.png"
+
         },
     
         "V-Strom": {
@@ -5402,7 +10009,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",  // Interior Features
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2024"  // Release Date/Year
+        releaseDateYear: "2024" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/V-Strom.png"
+
         },
     
         "Hayabusa": {
@@ -5422,7 +10031,9 @@ const vehicleDetails = {
         interiorFeatures: "Instrument Cluster with LCD Display, Multi-function Display",  // Interior Features
         exteriorFeatures: "Aerodynamic Bodywork, LED Lighting, Dual Exhausts",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Hayabusa.png"
+
         },
     
         "Ather 450X": {
@@ -5442,7 +10053,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Dashboard, Smartphone Connectivity, Bluetooth",  // Interior Features
         exteriorFeatures: "LED Headlights, Sleek Body Design, Tubeless Tires",  // Exterior Features
         warrantyAfterSalesService: "3-year/30,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Ather 450X.png"
+
         },
     
         "Ather 450": {
@@ -5462,7 +10075,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Dashboard, Navigation, Bluetooth Connectivity",  // Interior Features
         exteriorFeatures: "Stylish Body Design, LED Tail Lamps, Modern Front Design",  // Exterior Features
         warrantyAfterSalesService: "3-year/30,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Ather 450.png"
+
         },
     
         "Ola Electric": {
@@ -5482,7 +10097,9 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Navigation, Smartphone Connectivity",  // Interior Features
         exteriorFeatures: "LED Headlamps, Rearview Camera, Alloy Wheels",  // Exterior Features
         warrantyAfterSalesService: "3-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Ola Electric.png"
+
         },
     
         "Ola S1 Pro": {
@@ -5502,7 +10119,9 @@ const vehicleDetails = {
         interiorFeatures: "Fully Digital Dashboard, Smart Navigation, Customizable Ride Modes",  // Interior Features
         exteriorFeatures: "LED Headlamps, Sporty Design, Anti-theft Lock",  // Exterior Features
         warrantyAfterSalesService: "3-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021"  ,// Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Ola S1 Pro.png"
+
         },
     
         "Ola S1": {
@@ -5522,7 +10141,9 @@ const vehicleDetails = {
         interiorFeatures: "7-inch Touchscreen, Bluetooth Connectivity, Smartphone App Integration",  // Interior Features
         exteriorFeatures: "LED Headlamps, DRLs, Rear Disc Brakes",  // Exterior Features
         warrantyAfterSalesService: "3-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2021"  // Release Date/Year
+        releaseDateYear: "2021" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Ola S1.png"
+
         },
     
         "Suzuki Intruder 150": {
@@ -5542,7 +10163,9 @@ const vehicleDetails = {
         interiorFeatures: "LED Tail Light, Digital Speedometer, Anti-Theft System",  // Interior Features
         exteriorFeatures: "Aggressive Styling, Chrome Finish, Stylish Alloy Wheels",  // Exterior Features
         warrantyAfterSalesService: "2-year/30,000 km Warranty, Suzuki Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Suzuki Intruder 150.png"
+
         },
         
         "Burgman Street 125": {
@@ -5562,7 +10185,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Instrument Cluster, Spacious Under-Seat Storage",  // Interior Features
         exteriorFeatures: "LED Headlamps, Sleek Design, Chrome Detailing",  // Exterior Features
         warrantyAfterSalesService: "2-year Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2018"  // Release Date/Year
+        releaseDateYear: "2018",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Burgman Street 125.png"
+
         },
     
         "V-Strom 650": {
@@ -5582,7 +10207,9 @@ const vehicleDetails = {
         interiorFeatures: "Digital Instrument Cluster, LED Lighting, Multi-function Display",  // Interior Features
         exteriorFeatures: "Aluminium Handguards, High-mounted Exhaust, Twin LED Headlights",  // Exterior Features
         warrantyAfterSalesService: "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2004"  // Release Date/Year
+        releaseDateYear: "2004",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/V-Strom 650.png"
+
         },
     
         "Classic": {
@@ -5602,7 +10229,9 @@ const vehicleDetails = {
         interiorFeatures: "Basic Infotainment System, Fabric Upholstery, Manual AC",  // Interior Features
         exteriorFeatures: "Halogen Headlamps, Body-colored Bumpers, Steel Wheels",  // Exterior Features
         warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2020"  // Release Date/Year
+        releaseDateYear: "2020",  // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Classic.png"
+
         },
     
     
@@ -5623,3871 +10252,37 @@ const vehicleDetails = {
         interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",  // Interior Features
         exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",  // Exterior Features
         warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-        releaseDateYear: "2024"  // Release Date/Year
-        },
-    
-        "Nexon": {
-            type: "Passenger",
-            brand: "Tata",
-            modelNameNumber: "XUV300",  // Model Name Number (Example, update as per your data)
-            engineSpecifications: "1.2L Turbocharged Petrol, 1.5L Diesel",  // Engine Specifications
-            fuelType: "Petrol/Diesel",  // Fuel Type
-            transmissionType: "Manual/Automatic",  // Transmission Type
-            seatingCapacity: "5",  // Seating Capacity
-            priceRange: "₹8,00,000 - ₹14,00,000",  // Price Range
-            mileageRange: "17 - 21 km/l",  // Mileage/Range
-            safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",  // Safety Features
-            colorOptions: "Flame Red, Calgary White, Foliage Green, Deep Red, and more",  // Color Options
-            dimensions: "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",  // Dimensions
-            performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Sports Mode",  // Performance Features
-            interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",  // Interior Features
-            exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",  // Exterior Features
-            warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-            releaseDateYear: "2016"  // Release Date/Year
-        },
-    
-        "Harrier": {
-            type: "Passenger",
-            brand: "Tata",
-            description: "Premium SUV with powerful engine and spacious interior.",
-            // features: ["Leather Seats", "Panoramic Sunroof", "Cruise Control"],
-            modelNameNumber: "",  // Placeholder for Model Name Number
-            engineSpecifications: "",  // Placeholder for Engine Specifications
-            fuelType: "",  // Placeholder for Fuel Type
-            transmissionType: "",  // Placeholder for Transmission Type
-            seatingCapacity: "",  // Placeholder for Seating Capacity
-            priceRange: "",  // Placeholder for Price Range
-            mileageRange: "",  // Placeholder for Mileage/Range
-            safetyFeatures: "",  // Placeholder for Safety Features
-            colorOptions: "",  // Placeholder for Color Options
-            dimensions: "",  // Placeholder for Dimensions
-            performanceFeatures: "",  // Placeholder for Performance Features
-            interiorFeatures: "",  // Placeholder for Interior Features
-            exteriorFeatures: "",  // Placeholder for Exterior Features
-            warrantyAfterSalesService: "",  // Placeholder for Warranty & After-Sales Service
-            releaseDateYear: ""  // Placeholder for Release Date/Year
+        releaseDateYear: "2024" , // Release Date/Year
+        imageUrl: "assets/images/vehicle_models_images/Java 42.png"
+
         },
 
-        "Eicher Pro 3015": {
-    type: "Commercial",
-    brand: "Eicher",
-    modelNameNumber: "Pro 3015",
-    engineSpecifications: "3.0L Turbocharged Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹15,00,000 - ₹18,00,000",
-    mileageRange: "8 - 10 km/l",
-    safetyFeatures: "ABS, EBD, Driver Airbag, Parking Brake Alarm",
-    colorOptions: "White, Silver, Blue",
-    dimensions: "6190 mm (Length), 2100 mm (Width), 2670 mm (Height)",
-    performanceFeatures: "High Torque Engine, Power Steering, Payload Capacity",
-    interiorFeatures: "Basic Cabin, Adjustable Seats, Digital Display",
-    exteriorFeatures: "Front Grille with Chrome, Halogen Headlights",
-    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
-},
-
-"Eicher Pro 5040": {
-    type: "Commercial",
-    brand: "Eicher",
-    modelNameNumber: "Pro 5040",
-    engineSpecifications: "4.0L Turbocharged Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹18,00,000 - ₹22,00,000",
-    mileageRange: "7 - 9 km/l",
-    safetyFeatures: "ABS, EBD, Driver Airbag, Parking Brake Alarm",
-    colorOptions: "White, Yellow, Green",
-    dimensions: "7200 mm (Length), 2400 mm (Width), 2950 mm (Height)",
-    performanceFeatures: "Powerful Engine, High Payload Capacity, Stable Ride",
-    interiorFeatures: "Basic Cabin, Adjustable Seats, Digital Instrument Cluster",
-    exteriorFeatures: "Large Front Grille, LED Headlamps",
-    warrantyAfterSalesService: "3-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
-},
-
-"Eicher Pro 6037": {
-    type: "Commercial",
-    brand: "Eicher",
-    modelNameNumber: "Pro 6037",
-    engineSpecifications: "6.0L Turbocharged Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹22,00,000 - ₹26,00,000",
-    mileageRange: "6 - 8 km/l",
-    safetyFeatures: "ABS, EBD, Driver and Co-Driver Airbags, Parking Brake Alarm",
-    colorOptions: "White, Red, Black",
-    dimensions: "8200 mm (Length), 2500 mm (Width), 3250 mm (Height)",
-    performanceFeatures: "High Payload Capacity, Heavy-Duty Engine, Air Brakes",
-    interiorFeatures: "Comfortable Cabin, Adjustable Seats, Digital Dashboard",
-    exteriorFeatures: "Large Front Grille, LED Fog Lamps, Dual-Tone Paint",
-    warrantyAfterSalesService: "3-year/2,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2022"
-},
-
-"Eicher Pro 5028": {
-    type: "Commercial",
-    brand: "Eicher",
-    modelNameNumber: "Pro 5028",
-    engineSpecifications: "5.0L Turbocharged Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹20,00,000 - ₹24,00,000",
-    mileageRange: "7 - 9 km/l",
-    safetyFeatures: "ABS, EBD, Driver Airbag, Parking Brake Alarm",
-    colorOptions: "White, Blue, Green",
-    dimensions: "7500 mm (Length), 2300 mm (Width), 3100 mm (Height)",
-    performanceFeatures: "High Torque Engine, High Ground Clearance, Payload Capacity",
-    interiorFeatures: "Basic Cabin, Adjustable Seats, Digital Instrument Cluster",
-    exteriorFeatures: "Front Grille, Halogen Headlamps, Reflector Taillights",
-    warrantyAfterSalesService: "3-year/1,80,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
-},
-
-"AMW 3118": {
-    "type": "Commercial",
-    "brand": "AMW",
-    "modelNameNumber": "3118",
-    "engineSpecifications": "7.8L, 6-Cylinder, Turbocharged Diesel",  // Engine Specifications (Example)
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity (Example)
-    "priceRange": "₹30,00,000 - ₹35,00,000",  // Price Range (Example)
-    "mileageRange": "6 - 8 km/l",  // Mileage/Range (Example)
-    "safetyFeatures": "ABS, EBD, Hill Assist, Air Brakes",  // Safety Features
-    "colorOptions": "White, Yellow, Red",  // Color Options (Example)
-    "dimensions": "8995 mm (Length), 2500 mm (Width), 3200 mm (Height)",  // Dimensions (Example)
-    "performanceFeatures": "High Torque Engine, Durable Suspension",  // Performance Features
-    "interiorFeatures": "Driver Information System, Ergonomic Seats",  // Interior Features
-    "exteriorFeatures": "Heavy-duty Front Bumper, LED Tail Lamps",  // Exterior Features
-    "warrantyAfterSalesService": "3-year/3,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2018"  // Release Date/Year
-},
-
-"AMW 2518": {
-    "type": "Commercial",
-    "brand": "AMW",
-    "modelNameNumber": "2518",
-    "engineSpecifications": "6.7L, 4-Cylinder, Turbocharged Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity
-    "priceRange": "₹28,00,000 - ₹33,00,000",  // Price Range
-    "mileageRange": "7 - 9 km/l",  // Mileage/Range
-    "safetyFeatures": "ABS, EBD, Air Brakes",  // Safety Features
-    "colorOptions": "White, Yellow",  // Color Options
-    "dimensions": "8200 mm (Length), 2450 mm (Width), 3100 mm (Height)",  // Dimensions
-    "performanceFeatures": "Turbocharged Engine, High Towing Capacity",  // Performance Features
-    "interiorFeatures": "Digital Instrument Cluster, Air Conditioning",  // Interior Features
-    "exteriorFeatures": "Heavy-duty Bumper, LED Tail Lamps",  // Exterior Features
-    "warrantyAfterSalesService": "2-year/2,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2017"  // Release Date/Year
-},
-
-"AMW 4023": {
-    "type": "Commercial",
-    "brand": "AMW",
-    "modelNameNumber": "4023",
-    "engineSpecifications": "9.0L, 6-Cylinder, Turbocharged Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity
-    "priceRange": "₹35,00,000 - ₹40,00,000",  // Price Range
-    "mileageRange": "5 - 7 km/l",  // Mileage/Range
-    "safetyFeatures": "ABS, EBD, Hill Assist, Air Brakes, Driver Assistance System",  // Safety Features
-    "colorOptions": "White, Red, Blue",  // Color Options
-    "dimensions": "9800 mm (Length), 2600 mm (Width), 3300 mm (Height)",  // Dimensions
-    "performanceFeatures": "High Torque, Advanced Suspension System",  // Performance Features
-    "interiorFeatures": "Driver Information System, Air Conditioning",  // Interior Features
-    "exteriorFeatures": "Heavy-duty Bumper, LED DRLs",  // Exterior Features
-    "warrantyAfterSalesService": "3-year/4,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2019"  // Release Date/Year
-},
-
-"SML Isuzu Super": {
-    type: "Commercial",
-    brand: "SML Isuzu",
-    modelNameNumber: "Super",  // Model Name Number
-    engineSpecifications: "3.0L Diesel",  // Engine Specifications (Placeholder)
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2-3",  // Seating Capacity (Placeholder)
-    priceRange: "₹12,00,000 - ₹18,00,000",  // Price Range (Placeholder)
-    mileageRange: "8 - 12 km/l",  // Mileage/Range (Placeholder)
-    safetyFeatures: "ABS, Driver & Co-Driver Airbags, Rear Parking Sensors",  // Safety Features (Placeholder)
-    colorOptions: "White, Yellow, Red, Blue, and more",  // Color Options (Placeholder)
-    dimensions: "5500 mm (Length), 2200 mm (Width), 2900 mm (Height)",  // Dimensions (Placeholder)
-    performanceFeatures: "Powerful Diesel Engine, Heavy Payload Capacity",  // Performance Features
-    interiorFeatures: "Basic Dashboard, Comfortable Seating",  // Interior Features (Placeholder)
-    exteriorFeatures: "Durable Body, Chrome Grille, Clear Lens Headlights",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2020"  // Release Date/Year
-},
-
-"SML Isuzu Citylife": {
-    type: "Commercial",
-    brand: "SML Isuzu",
-    modelNameNumber: "Citylife",  // Model Name Number
-    engineSpecifications: "2.8L Diesel",  // Engine Specifications (Placeholder)
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "8-12",  // Seating Capacity (Placeholder)
-    priceRange: "₹14,00,000 - ₹20,00,000",  // Price Range (Placeholder)
-    mileageRange: "10 - 15 km/l",  // Mileage/Range (Placeholder)
-    safetyFeatures: "ABS, Airbags, Parking Sensors, Rearview Camera",  // Safety Features (Placeholder)
-    colorOptions: "White, Silver, Blue, Yellow",  // Color Options (Placeholder)
-    dimensions: "6000 mm (Length), 2500 mm (Width), 2900 mm (Height)",  // Dimensions (Placeholder)
-    performanceFeatures: "Optimized for City Travel, Comfortable Ride",  // Performance Features
-    interiorFeatures: "Spacious Cabin, Premium Seats, Air Conditioning",  // Interior Features (Placeholder)
-    exteriorFeatures: "Stylish Front Bumper, Alloy Wheels",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
-},
-
-"SML Isuzu S5": {
-    type: "Commercial",
-    brand: "SML Isuzu",
-    modelNameNumber: "S5",  // Model Name Number
-    engineSpecifications: "3.0L Diesel",  // Engine Specifications (Placeholder)
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "6-8",  // Seating Capacity (Placeholder)
-    priceRange: "₹10,00,000 - ₹15,00,000",  // Price Range (Placeholder)
-    mileageRange: "9 - 14 km/l",  // Mileage/Range (Placeholder)
-    safetyFeatures: "ABS, Front and Rear Airbags, Rear Parking Sensors",  // Safety Features (Placeholder)
-    colorOptions: "White, Red, Silver, Yellow",  // Color Options (Placeholder)
-    dimensions: "5800 mm (Length), 2200 mm (Width), 2800 mm (Height)",  // Dimensions (Placeholder)
-    performanceFeatures: "Heavy Payload, Durable Chassis",  // Performance Features
-    interiorFeatures: "Spacious Interiors, Basic Infotainment",  // Interior Features (Placeholder)
-    exteriorFeatures: "Sturdy Bumper, Clear Headlamps",  // Exterior Features
-    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2019"  // Release Date/Year
-},
-
-"SML Isuzu S7": {
-    type: "Commercial",
-    brand: "SML Isuzu",
-    modelNameNumber: "S7",  // Model Name Number
-    engineSpecifications: "3.5L Diesel",  // Engine Specifications (Placeholder)
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "8-12",  // Seating Capacity (Placeholder)
-    priceRange: "₹16,00,000 - ₹22,00,000",  // Price Range (Placeholder)
-    mileageRange: "8 - 12 km/l",  // Mileage/Range (Placeholder)
-    safetyFeatures: "ABS, Airbags, Parking Sensors, Rearview Camera",  // Safety Features (Placeholder)
-    colorOptions: "Silver, White, Black, Red",  // Color Options (Placeholder)
-    dimensions: "6500 mm (Length), 2400 mm (Width), 3000 mm (Height)",  // Dimensions (Placeholder)
-    performanceFeatures: "High Payload Capacity, Robust Engine",  // Performance Features
-    interiorFeatures: "Luxurious Cabin, Premium Seating",  // Interior Features (Placeholder)
-    exteriorFeatures: "Sleek Design, Chrome Accents",  // Exterior Features
-    warrantyAfterSalesService: "4-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2022"  // Release Date/Year
-},
-
-"BharatBenz 2523R": {
-    type: "Commercial",
-    brand: "BharatBenz",
-    modelNameNumber: "2523R",
-    engineSpecifications: "6.3L Diesel, 230 HP",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹30,00,000 - ₹35,00,000",
-    mileageRange: "6 - 8 km/l",
-    safetyFeatures: "ABS, EBD, Hill Assist, Anti-roll Bar",
-    colorOptions: "White, Red, Blue, Yellow",
-    dimensions: "8190 mm (Length), 2490 mm (Width), 2880 mm (Height)",
-    performanceFeatures: "Heavy Load Capacity, Strong Chassis, High Torque",
-    interiorFeatures: "Basic Interior, Adjustable Seats",
-    exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2015"
-},
-"BharatBenz 3123R": {
-    type: "Commercial",
-    brand: "BharatBenz",
-    modelNameNumber: "3123R",
-    engineSpecifications: "6.3L Diesel, 230 HP",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹35,00,000 - ₹40,00,000",
-    mileageRange: "6 - 8 km/l",
-    safetyFeatures: "ABS, EBD, Hill Assist, Anti-roll Bar",
-    colorOptions: "White, Red, Blue, Yellow",
-    dimensions: "8500 mm (Length), 2500 mm (Width), 3000 mm (Height)",
-    performanceFeatures: "Heavy Load Capacity, Strong Chassis, High Torque",
-    interiorFeatures: "Basic Interior, Adjustable Seats",
-    exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2016"
-},
-"BharatBenz 3723R": {
-    type: "Commercial",
-    brand: "BharatBenz",
-    modelNameNumber: "3723R",
-    engineSpecifications: "7.2L Diesel, 240 HP",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹40,00,000 - ₹45,00,000",
-    mileageRange: "6 - 8 km/l",
-    safetyFeatures: "ABS, EBD, Hill Assist, Anti-roll Bar",
-    colorOptions: "White, Red, Blue, Yellow",
-    dimensions: "9000 mm (Length), 2600 mm (Width), 3100 mm (Height)",
-    performanceFeatures: "Heavy Load Capacity, Strong Chassis, High Torque",
-    interiorFeatures: "Basic Interior, Adjustable Seats",
-    exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
-},
-"BharatBenz 1617R": {
-    type: "Commercial",
-    brand: "BharatBenz",
-    modelNameNumber: "1617R",
-    engineSpecifications: "4.4L Diesel, 170 HP",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹20,00,000 - ₹25,00,000",
-    mileageRange: "7 - 9 km/l",
-    safetyFeatures: "ABS, EBD, Hill Assist, Anti-roll Bar",
-    colorOptions: "White, Red, Blue, Yellow",
-    dimensions: "6500 mm (Length), 2400 mm (Width), 2800 mm (Height)",
-    performanceFeatures: "Heavy Load Capacity, Strong Chassis, High Torque",
-    interiorFeatures: "Basic Interior, Adjustable Seats",
-    exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2014"
-},
-"BharatBenz 1014R": {
-    type: "Commercial",
-    brand: "BharatBenz",
-    modelNameNumber: "1014R",
-    engineSpecifications: "4.4L Diesel, 140 HP",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹15,00,000 - ₹20,00,000",
-    mileageRange: "7 - 9 km/l",
-    safetyFeatures: "ABS, EBD, Hill Assist, Anti-roll Bar",
-    colorOptions: "White, Red, Blue, Yellow",
-    dimensions: "6000 mm (Length), 2300 mm (Width), 2500 mm (Height)",
-    performanceFeatures: "Heavy Load Capacity, Strong Chassis, High Torque",
-    interiorFeatures: "Basic Interior, Adjustable Seats",
-    exteriorFeatures: "LED Tail Lamps, High Ground Clearance, Wide Front Grill",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2013"
-},
-
-"Mahindra Bolero Pik-Up": {
-    "type": "Commercial",
-    "brand": "Mahindra",
-    "modelNameNumber": "Bolero Pik-Up",  // Model Name Number
-    "engineSpecifications": "2.5L Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity
-    "priceRange": "₹7,00,000 - ₹8,50,000",  // Price Range
-    "mileageRange": "10 - 14 km/l",  // Mileage/Range
-    "safetyFeatures": "Driver Airbag, ABS with EBD, Reverse Parking Sensors",  // Safety Features
-    "colorOptions": "White, Silver, Blue, Red",  // Color Options
-    "dimensions": "4880 mm (Length), 1700 mm (Width), 1860 mm (Height)",  // Dimensions
-    "performanceFeatures": "Heavy Duty Suspension, Robust Load-Carrying Capacity",  // Performance Features
-    "interiorFeatures": "Basic Digital Cluster, Adjustable Seats",  // Interior Features
-    "exteriorFeatures": "Halogen Headlamps, Fog Lamps, Steel Wheels",  // Exterior Features
-    "warrantyAfterSalesService": "2-year/60,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2011"  // Release Date/Year
-},
-
-"Mahindra Supro Mini Truck": {
-    "type": "Commercial",
-    "brand": "Mahindra",
-    "modelNameNumber": "Supro Mini Truck",  // Model Name Number
-    "engineSpecifications": "0.8L Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity
-    "priceRange": "₹5,50,000 - ₹6,50,000",  // Price Range
-    "mileageRange": "15 - 19 km/l",  // Mileage/Range
-    "safetyFeatures": "Driver Airbag, Reverse Parking Sensors",  // Safety Features
-    "colorOptions": "White, Silver, Blue",  // Color Options
-    "dimensions": "3800 mm (Length), 1600 mm (Width), 1900 mm (Height)",  // Dimensions
-    "performanceFeatures": "Small and Compact for Urban Transportation",  // Performance Features
-    "interiorFeatures": "Basic Instrument Cluster, Adjustable Seats",  // Interior Features
-    "exteriorFeatures": "Halogen Headlamps, Steel Wheels",  // Exterior Features
-    "warrantyAfterSalesService": "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2016"  // Release Date/Year
-},
-
-"Mahindra Supro Maxi Truck": {
-    "type": "Commercial",
-    "brand": "Mahindra",
-    "modelNameNumber": "Supro Maxi Truck",  // Model Name Number
-    "engineSpecifications": "1.2L Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity
-    "priceRange": "₹6,00,000 - ₹7,50,000",  // Price Range
-    "mileageRange": "14 - 18 km/l",  // Mileage/Range
-    "safetyFeatures": "Driver Airbag, ABS with EBD, Reverse Parking Sensors",  // Safety Features
-    "colorOptions": "White, Silver, Red",  // Color Options
-    "dimensions": "4100 mm (Length), 1650 mm (Width), 1900 mm (Height)",  // Dimensions
-    "performanceFeatures": "Sturdy Load Capacity, Easy Maneuvering",  // Performance Features
-    "interiorFeatures": "Basic Digital Cluster, Adjustable Seats",  // Interior Features
-    "exteriorFeatures": "Halogen Headlamps, Steel Wheels",  // Exterior Features
-    "warrantyAfterSalesService": "2-year/60,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2016"  // Release Date/Year
-},
-
-"Mahindra Blazo X": {
-    "type": "Commercial",
-    "brand": "Mahindra",
-    "modelNameNumber": "Blazo X",  // Model Name Number
-    "engineSpecifications": "7.2L Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity
-    "priceRange": "₹15,00,000 - ₹25,00,000",  // Price Range
-    "mileageRange": "6 - 8 km/l",  // Mileage/Range
-    "safetyFeatures": "ABS, Air Brakes, Disc Brakes, Reverse Parking Sensors",  // Safety Features
-    "colorOptions": "White, Red, Blue",  // Color Options
-    "dimensions": "10500 mm (Length), 2500 mm (Width), 3000 mm (Height)",  // Dimensions
-    "performanceFeatures": "Heavy-duty Performance, Advanced Engine Technology",  // Performance Features
-    "interiorFeatures": "Basic Instrument Cluster, Ergonomic Seats",  // Interior Features
-    "exteriorFeatures": "LED Headlamps, Fog Lamps, Steel Wheels",  // Exterior Features
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2017"  // Release Date/Year
-},
-
-"Mahindra Furio": {
-    "type": "Commercial",
-    "brand": "Mahindra",
-    "modelNameNumber": "Furio",  // Model Name Number
-    "engineSpecifications": "4.2L Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity
-    "priceRange": "₹10,00,000 - ₹18,00,000",  // Price Range
-    "mileageRange": "8 - 12 km/l",  // Mileage/Range
-    "safetyFeatures": "ABS, Air Brakes, Reverse Parking Sensors",  // Safety Features
-    "colorOptions": "White, Silver, Red",  // Color Options
-    "dimensions": "8000 mm (Length), 2500 mm (Width), 3500 mm (Height)",  // Dimensions
-    "performanceFeatures": "Powerful Engine, Heavy-duty Performance",  // Performance Features
-    "interiorFeatures": "Basic Instrument Cluster, Ergonomic Seats",  // Interior Features
-    "exteriorFeatures": "LED Headlamps, Fog Lamps",  // Exterior Features
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2019"  // Release Date/Year
-},
-
-"Mahindra Jayo": {
-    type: "Passenger",
-    brand: "Mahindra",
-    modelNameNumber: "Jayo",
-    engineSpecifications: "1.5L Petrol, 1.5L Diesel", 
-    fuelType: "Petrol/Diesel", 
-    transmissionType: "Manual", 
-    seatingCapacity: "5", 
-    priceRange: "₹7,00,000 - ₹9,00,000", 
-    mileageRange: "15 - 18 km/l", 
-    safetyFeatures: "Dual Airbags, ABS, Reverse Parking Sensors", 
-    colorOptions: "Red, Silver, Blue, White, Black", 
-    dimensions: "3800 mm (Length), 1750 mm (Width), 1600 mm (Height)", 
-    performanceFeatures: "Compact SUV, Efficient Engine", 
-    interiorFeatures: "Basic Infotainment, Cloth Upholstery", 
-    exteriorFeatures: "LED DRLs, Body-colored Bumpers, Roof Rails", 
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance", 
-    releaseDateYear: "2021"
-},
-"Mahindra Thar": {
-    type: "Passenger",
-    brand: "Mahindra",
-    modelNameNumber: "Thar",
-    engineSpecifications: "2.0L Turbocharged Petrol, 2.2L Diesel", 
-    fuelType: "Petrol/Diesel", 
-    transmissionType: "Manual/Automatic", 
-    seatingCapacity: "4", 
-    priceRange: "₹12,00,000 - ₹16,00,000", 
-    mileageRange: "13 - 18 km/l", 
-    safetyFeatures: "Dual Airbags, ABS with EBD, Roll Cage, ESP", 
-    colorOptions: "Red, White, Green, Black, Blue", 
-    dimensions: "3985 mm (Length), 1820 mm (Width), 1844 mm (Height)", 
-    performanceFeatures: "4x4 Drive, Off-road Capability", 
-    interiorFeatures: "Touchscreen Infotainment, Leather Seats, Digital Cluster", 
-    exteriorFeatures: "Removable Roof, LED Headlamps, Raised Ground Clearance", 
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance", 
-    releaseDateYear: "2020"
-},
-"Mahindra Scorpio": {
-    type: "Passenger",
-    brand: "Mahindra",
-    modelNameNumber: "Scorpio",
-    engineSpecifications: "2.2L mHawk Diesel", 
-    fuelType: "Diesel", 
-    transmissionType: "Manual", 
-    seatingCapacity: "7", 
-    priceRange: "₹12,50,000 - ₹19,00,000", 
-    mileageRange: "13 - 16 km/l", 
-    safetyFeatures: "Dual Airbags, ABS, ESP, Rear Parking Sensors", 
-    colorOptions: "Silver, White, Red, Black, Blue", 
-    dimensions: "4456 mm (Length), 1820 mm (Width), 1995 mm (Height)", 
-    performanceFeatures: "Powerful Engine, High Ground Clearance", 
-    interiorFeatures: "Touchscreen Infotainment, Premium Upholstery, Digital Cluster", 
-    exteriorFeatures: "LED DRLs, Alloy Wheels, Bold Front Grille", 
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance", 
-    releaseDateYear: "2002"
-},
-"Mahindra XUV700": {
-    type: "Passenger",
-    brand: "Mahindra",
-    modelNameNumber: "XUV700",
-    engineSpecifications: "2.0L Turbo Petrol, 2.2L Diesel", 
-    fuelType: "Petrol/Diesel", 
-    transmissionType: "Manual/Automatic", 
-    seatingCapacity: "5-7", 
-    priceRange: "₹14,00,000 - ₹24,00,000", 
-    mileageRange: "12 - 16 km/l", 
-    safetyFeatures: "7 Airbags, ABS with EBD, ADAS, ESP", 
-    colorOptions: "Aqua Marine, Red, White, Black, Grey", 
-    dimensions: "4695 mm (Length), 1890 mm (Width), 1755 mm (Height)", 
-    performanceFeatures: "ADAS (Advanced Driver Assistance System), Turbocharged Engine", 
-    interiorFeatures: "Twin-Screen Infotainment, Leather Upholstery, 360-Degree Camera", 
-    exteriorFeatures: "LED Headlights, Panoramic Sunroof, Alloy Wheels", 
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, Roadside Assistance", 
-    releaseDateYear: "2021"
-},
-"Mahindra XUV300": {
-    type: "Passenger",
-    brand: "Mahindra",
-    modelNameNumber: "XUV300",
-    engineSpecifications: "1.2L Turbocharged Petrol, 1.5L Diesel", 
-    fuelType: "Petrol/Diesel", 
-    transmissionType: "Manual/Automatic", 
-    seatingCapacity: "5", 
-    priceRange: "₹8,00,000 - ₹12,00,000", 
-    mileageRange: "17 - 21 km/l", 
-    safetyFeatures: "7 Airbags, ABS with EBD, ESP, Rear Parking Sensors", 
-    colorOptions: "Red, White, Black, Silver, Blue", 
-    dimensions: "3995 mm (Length), 1821 mm (Width), 1627 mm (Height)", 
-    performanceFeatures: "Turbocharged Engine, 5-Star NCAP Safety Rating", 
-    interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Cluster", 
-    exteriorFeatures: "LED DRLs, Alloy Wheels, Fog Lamps", 
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance", 
-    releaseDateYear: "2019"
-},
-
-"Mahindra Bolero": {
-    "type": "Passenger",
-    "brand": "Mahindra",
-    "modelNameNumber": "Bolero",
-    "engineSpecifications": "1.5L Diesel",
-    "fuelType": "Diesel",
-    "transmissionType": "Manual",
-    "seatingCapacity": "7",
-    "priceRange": "₹9,00,000 - ₹10,50,000",
-    "mileageRange": "15 - 17 km/l",
-    "safetyFeatures": "ABS with EBD, Dual Airbags, Reverse Parking Sensors",
-    "colorOptions": "Diamond White, Bold Black, Mist Silver, Red Rage",
-    "dimensions": "3995 mm (Length), 1745 mm (Width), 1880 mm (Height)",
-    "performanceFeatures": "Body-on-Frame Construction, 4x4 Capabilities",
-    "interiorFeatures": "Basic Infotainment, Fabric Upholstery, Power Windows",
-    "exteriorFeatures": "Chrome Grille, LED Tail Lamps, Roof Rails",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2000"
-},
-
-"Mahindra Marazzo": {
-    "type": "Passenger",
-    "brand": "Mahindra",
-    "modelNameNumber": "Marazzo",
-    "engineSpecifications": "1.5L Diesel, 1.5L Petrol",
-    "fuelType": "Diesel/Petrol",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "7/8",
-    "priceRange": "₹11,00,000 - ₹14,00,000",
-    "mileageRange": "17 - 20 km/l",
-    "safetyFeatures": "6 Airbags, ABS with EBD, Rear Parking Sensors, ESP",
-    "colorOptions": "Shimmering Silver, Iceberg White, Blue, Red",
-    "dimensions": "4585 mm (Length), 1866 mm (Width), 1774 mm (Height)",
-    "performanceFeatures": "Premium MPV, Smooth Ride, Dynamic Handling",
-    "interiorFeatures": "Android Auto, Apple CarPlay, Touchscreen Infotainment",
-    "exteriorFeatures": "Projector Headlamps, LED DRLs, Roof Rails",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2018"
-},
-
-"Mahindra Alturas G4": {
-    "type": "Passenger",
-    "brand": "Mahindra",
-    "modelNameNumber": "Alturas G4",
-    "engineSpecifications": "2.2L Turbo Diesel",
-    "fuelType": "Diesel",
-    "transmissionType": "Automatic",
-    "seatingCapacity": "7",
-    "priceRange": "₹30,00,000 - ₹35,00,000",
-    "mileageRange": "12 - 14 km/l",
-    "safetyFeatures": "9 Airbags, ABS with EBD, ESP, Hill Hold, Rear Camera",
-    "colorOptions": "Pearl White, Napoli Black, Burgundy Red",
-    "dimensions": "4850 mm (Length), 1960 mm (Width), 1845 mm (Height)",
-    "performanceFeatures": "4x4 Drivetrain, Automatic Transmission, LED DRLs",
-    "interiorFeatures": "Leather Upholstery, 8-inch Touchscreen Infotainment, Sunroof",
-    "exteriorFeatures": "Chrome Garnish, LED Headlamps, Dual-tone Roof",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2018"
-},
-
-"Mahindra e2o Plus": {
-    "type": "Passenger",
-    "brand": "Mahindra",
-    "modelNameNumber": "e2o Plus",
-    "engineSpecifications": "Electric Motor",
-    "fuelType": "Electric",
-    "transmissionType": "Automatic",
-    "seatingCapacity": "4",
-    "priceRange": "₹8,00,000 - ₹10,00,000",
-    "mileageRange": "140 - 180 km per charge",
-    "safetyFeatures": "ABS, Regenerative Braking, Reverse Parking Sensors",
-    "colorOptions": "Red, White, Blue, Silver",
-    "dimensions": "3590 mm (Length), 1665 mm (Width), 1540 mm (Height)",
-    "performanceFeatures": "Electric Drivetrain, Smooth Acceleration, Zero Emissions",
-    "interiorFeatures": "Touchscreen Infotainment, Digital Dashboard, Eco Mode",
-    "exteriorFeatures": "LED DRLs, Smart Design, Compact Dimensions",
-    "warrantyAfterSalesService": "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
-},
-
-"Mahindra KUV100": {
-    "type": "Passenger",
-    "brand": "Mahindra",
-    "modelNameNumber": "KUV100",
-    "engineSpecifications": "1.2L Petrol, 1.2L Diesel",
-    "fuelType": "Petrol/Diesel",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹5,50,000 - ₹8,00,000",
-    "mileageRange": "14 - 18 km/l",
-    "safetyFeatures": "Dual Airbags, ABS, Rear Parking Sensors",
-    "colorOptions": "Dazzling Silver, Flamboyant Red, Pearl White",
-    "dimensions": "3700 mm (Length), 1735 mm (Width), 1655 mm (Height)",
-    "performanceFeatures": "Compact SUV, SUV Styling, High Ground Clearance",
-    "interiorFeatures": "Touchscreen Infotainment, Smart Storage Spaces",
-    "exteriorFeatures": "Bold Front Grille, Alloy Wheels, Roof Rails",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2016"
-},
-
-"TUV300": {
-    type: "Passenger",
-    brand: "Mahindra",
-    modelNameNumber: "TUV300",
-    engineSpecifications: "1.5L mHawk Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "7",
-    priceRange: "₹8,00,000 - ₹11,00,000",
-    mileageRange: "13 - 18 km/l",
-    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors, Cornering Stability Control",
-    colorOptions: "Dyno Blue, Bold Black, Molten Red, Premium Beige, and more",
-    dimensions: "3985 mm (Length), 1835 mm (Width), 1880 mm (Height)",
-    performanceFeatures: "Eco Mode, Power Steering, Hill Assist",
-    interiorFeatures: "Touchscreen Infotainment, Premium Fabric Upholstery, Digital Instrument Cluster",
-    exteriorFeatures: "LED Tail Lamps, Bold Front Grille, Silver Roof Rails",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2015"
-},
-
-
-"Tata Super Ace": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Super Ace",
-    "engineSpecifications": "1.4L CR4 Diesel",
-    "fuelType": "Diesel",
-    "transmissionType": "Manual",
-    "seatingCapacity": "2",
-    "priceRange": "₹5,00,000 - ₹6,50,000",
-    "mileageRange": "14 - 16 km/l",
-    "safetyFeatures": "Dual Airbags, ABS with EBD",
-    "colorOptions": "White, Silver, Red, Yellow",
-    "dimensions": "4300 mm (Length), 1700 mm (Width), 1900 mm (Height)",
-    "performanceFeatures": "Power Steering, Dual Front Airbags, Tough Build",
-    "interiorFeatures": "Comfortable Seating, AM/FM Radio",
-    "exteriorFeatures": "Bigger Load Deck, Sturdy Build",
-    "warrantyAfterSalesService": "2-year/75,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2009"
-  },
-  "Tata Ultra 1918": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Ultra 1918",
-    "engineSpecifications": "5.6L, 4-Cylinder Diesel",
-    "fuelType": "Diesel",
-    "transmissionType": "Manual",
-    "seatingCapacity": "2",
-    "priceRange": "₹25,00,000 - ₹30,00,000",
-    "mileageRange": "8 - 10 km/l",
-    "safetyFeatures": "ABS, EBD, Reverse Camera",
-    "colorOptions": "White, Red, Blue",
-    "dimensions": "8200 mm (Length), 2500 mm (Width), 3200 mm (Height)",
-    "performanceFeatures": "Heavy Payload Capacity, Turbocharged Engine",
-    "interiorFeatures": "Basic Dashboard, Comfortable Seating",
-    "exteriorFeatures": "Strong Body Frame, Large Cargo Space",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
-  },
-  "Tata Yodha": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Yodha",
-    "engineSpecifications": "2.2L 4-Cylinder Diesel",
-    "fuelType": "Diesel",
-    "transmissionType": "Manual",
-    "seatingCapacity": "3",
-    "priceRange": "₹8,00,000 - ₹9,50,000",
-    "mileageRange": "12 - 14 km/l",
-    "safetyFeatures": "Dual Airbags, ABS, Reverse Parking Sensors",
-    "colorOptions": "White, Black, Blue, Silver",
-    "dimensions": "5170 mm (Length), 1800 mm (Width), 1950 mm (Height)",
-    "performanceFeatures": "Payload Capacity: 1.25 tons, Durable Build",
-    "interiorFeatures": "Spacious Cabin, Ergonomic Seating",
-    "exteriorFeatures": "Strong Bumper, Wide Cargo Space",
-    "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2018"
-  },
-  "Tata Prima": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Prima",
-    "engineSpecifications": "8.8L 6-Cylinder Diesel",
-    "fuelType": "Diesel",
-    "transmissionType": "Manual",
-    "seatingCapacity": "2",
-    "priceRange": "₹30,00,000 - ₹45,00,000",
-    "mileageRange": "6 - 8 km/l",
-    "safetyFeatures": "ABS, EBD, Advanced Brake Assist",
-    "colorOptions": "White, Blue, Green",
-    "dimensions": "7000 mm (Length), 2400 mm (Width), 3000 mm (Height)",
-    "performanceFeatures": "Heavy-duty Engine, High Payload Capacity",
-    "interiorFeatures": "Comfortable Seat, Air Conditioning",
-    "exteriorFeatures": "Reinforced Chassis, Wide Cargo Bed",
-    "warrantyAfterSalesService": "4-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2011"
-  },
-  "Tata 3718": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "3718",
-    "engineSpecifications": "6.7L 4-Cylinder Turbocharged Diesel",
-    "fuelType": "Diesel",
-    "transmissionType": "Manual",
-    "seatingCapacity": "2",
-    "priceRange": "₹20,00,000 - ₹25,00,000",
-    "mileageRange": "7 - 9 km/l",
-    "safetyFeatures": "ABS, EBD, Reverse Parking Assist",
-    "colorOptions": "White, Blue, Red",
-    "dimensions": "8800 mm (Length), 2500 mm (Width), 3200 mm (Height)",
-    "performanceFeatures": "High Torque Engine, Robust Chassis",
-    "interiorFeatures": "Basic Interior, Comfortable Seats",
-    "exteriorFeatures": "Sturdy Build, Spacious Cargo Area",
-    "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2013"
-  },
-
-  "Traveller": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "Traveller 407",  // Model Name Number
-    engineSpecifications: "2.2L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "12-15",  // Seating Capacity
-    priceRange: "₹10,00,000 - ₹14,50,000",  // Price Range
-    mileageRange: "10 - 12 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Driver Airbag, Side Impact Beams",  // Safety Features
-    colorOptions: "White, Yellow, Red, Blue",  // Color Options
-    dimensions: "4800 mm (Length), 1850 mm (Width), 2080 mm (Height)",  // Dimensions
-    performanceFeatures: "Powerful Engine, High Payload Capacity",  // Performance Features
-    interiorFeatures: "Comfortable Seating, Air Conditioning",  // Interior Features
-    exteriorFeatures: "Durable Bumpers, High Ground Clearance",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2010"  // Release Date/Year
-},
-
-"Trax": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "Trax Cruiser",  // Model Name Number
-    engineSpecifications: "2.0L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "10-13",  // Seating Capacity
-    priceRange: "₹8,00,000 - ₹12,00,000",  // Price Range
-    mileageRange: "12 - 15 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Dual Airbags, EBD",  // Safety Features
-    colorOptions: "White, Silver, Grey",  // Color Options
-    dimensions: "4500 mm (Length), 1750 mm (Width), 1900 mm (Height)",  // Dimensions
-    performanceFeatures: "Robust Engine, Versatile Driving",  // Performance Features
-    interiorFeatures: "Spacious Cabin, Optional Roof Air-conditioning",  // Interior Features
-    exteriorFeatures: "Simple, Functional Design",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2008"  // Release Date/Year
-},
-
-"Gurkha": {
-    type: "Passenger",
-    brand: "Force Motors",
-    modelNameNumber: "Gurkha Xplorer",  // Model Name Number
-    engineSpecifications: "2.6L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "4",  // Seating Capacity
-    priceRange: "₹10,00,000 - ₹12,50,000",  // Price Range
-    mileageRange: "9 - 12 km/l",  // Mileage/Range
-    safetyFeatures: "Dual Airbags, ABS, Rear Parking Sensors",  // Safety Features
-    colorOptions: "Red, White, Silver",  // Color Options
-    dimensions: "4040 mm (Length), 1810 mm (Width), 1900 mm (Height)",  // Dimensions
-    performanceFeatures: "4WD, Off-road Capabilities",  // Performance Features
-    interiorFeatures: "Leather Seats, Touchscreen Infotainment",  // Interior Features
-    exteriorFeatures: "Steel Bumpers, High Ground Clearance",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2015"  // Release Date/Year
-},
-
-"Urbania": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "Urbania 408",  // Model Name Number
-    engineSpecifications: "2.2L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "10-12",  // Seating Capacity
-    priceRange: "₹12,00,000 - ₹16,00,000",  // Price Range
-    mileageRange: "8 - 11 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Driver Airbag, Side Impact Beams",  // Safety Features
-    colorOptions: "White, Black, Yellow",  // Color Options
-    dimensions: "5100 mm (Length), 1900 mm (Width), 2200 mm (Height)",  // Dimensions
-    performanceFeatures: "Comfortable Ride, High Payload",  // Performance Features
-    interiorFeatures: "Comfortable Seats, Air Conditioning",  // Interior Features
-    exteriorFeatures: "Stylish Front Grille, High Ground Clearance",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2020"  // Release Date/Year
-},
-
-"Citiline": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "Citiline 501",  // Model Name Number
-    engineSpecifications: "2.5L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "20-30",  // Seating Capacity
-    priceRange: "₹15,00,000 - ₹20,00,000",  // Price Range
-    mileageRange: "6 - 9 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, EBD, Driver and Co-driver Airbags",  // Safety Features
-    colorOptions: "Yellow, Green, White",  // Color Options
-    dimensions: "7000 mm (Length), 2500 mm (Width), 3000 mm (Height)",  // Dimensions
-    performanceFeatures: "High Passenger Capacity, Durable Build",  // Performance Features
-    interiorFeatures: "Spacious Cabin, Overhead Storage",  // Interior Features
-    exteriorFeatures: "Durable Bodywork, Enhanced Safety",  // Exterior Features
-    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2019"  // Release Date/Year
-},
-
-
-"Tata 2518": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "2518",
-    "engineSpecifications": "5.9L 4-cylinder Diesel Engine",
-    "fuelType": "Diesel",
-    "transmissionType": "Manual",
-    "seatingCapacity": "2",
-    "priceRange": "₹18,00,000 - ₹22,00,000",
-    "mileageRange": "8 - 10 km/l",
-    "safetyFeatures": "ABS with EBD, Driver Airbag, Reverse Camera",
-    "colorOptions": "White, Red, Yellow",
-    "dimensions": "6935 mm (Length), 2500 mm (Width), 2900 mm (Height)",
-    "performanceFeatures": "Heavy Load Capacity, High Torque, Power Steering",
-    "interiorFeatures": "Basic Dashboard, Driver Comfort Seat",
-    "exteriorFeatures": "High Ground Clearance, Large Cargo Area",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2020"
-},
-"Tata Intra": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Intra",
-    "engineSpecifications": "1.4L Diesel Engine",
-    "fuelType": "Diesel",
-    "transmissionType": "Manual",
-    "seatingCapacity": "2",
-    "priceRange": "₹6,00,000 - ₹7,50,000",
-    "mileageRange": "14 - 16 km/l",
-    "safetyFeatures": "Driver Airbag, ABS with EBD, Reverse Parking Sensor",
-    "colorOptions": "White, Silver, Red, Blue",
-    "dimensions": "3610 mm (Length), 1740 mm (Width), 1790 mm (Height)",
-    "performanceFeatures": "Strong Payload Capacity, Smooth Drive",
-    "interiorFeatures": "Basic Dashboard, Comfortable Seats, Minimalistic Controls",
-    "exteriorFeatures": "Compact Size, Sturdy Build, Functional Design",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2018"
-},
-"Tata T.12": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "T.12",
-    "engineSpecifications": "3.0L 4-cylinder Diesel Engine",
-    "fuelType": "Diesel",
-    "transmissionType": "Manual",
-    "seatingCapacity": "3",
-    "priceRange": "₹12,00,000 - ₹16,00,000",
-    "mileageRange": "10 - 12 km/l",
-    "safetyFeatures": "Driver Airbag, ABS with EBD, Parking Brake System",
-    "colorOptions": "White, Yellow, Grey",
-    "dimensions": "5220 mm (Length), 2000 mm (Width), 2250 mm (Height)",
-    "performanceFeatures": "Powerful Engine, Strong Load Handling",
-    "interiorFeatures": "Comfortable Seats, Simple Dashboard Layout",
-    "exteriorFeatures": "Functional Cargo Space, High Durability",
-    "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2019"
-},
-
-"Monobus": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "Monobus",  // Model Name Number
-    engineSpecifications: "4.0L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "30",  // Seating Capacity
-    priceRange: "₹15,00,000 - ₹20,00,000",  // Price Range
-    mileageRange: "6 - 8 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Air Suspension, Crash Protection",  // Safety Features
-    colorOptions: "White, Silver, Blue",  // Color Options
-    dimensions: "8000 mm (Length), 2500 mm (Width), 3500 mm (Height)",  // Dimensions
-    performanceFeatures: "Heavy-duty Suspension, Air-conditioning, Spacious Interior",  // Performance Features
-    interiorFeatures: "Spacious Seating, Overhead Storage, AC",  // Interior Features
-    exteriorFeatures: "LED Lights, High-Visibility Markings, Large Windows",  // Exterior Features
-    warrantyAfterSalesService: "3-year/100,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2019"  // Release Date/Year
-},
-
-"Delivery Van": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "Delivery Van",  // Model Name Number
-    engineSpecifications: "1.5L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2",  // Seating Capacity
-    priceRange: "₹6,00,000 - ₹8,00,000",  // Price Range
-    mileageRange: "12 - 15 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Reverse Camera, Parking Sensors",  // Safety Features
-    colorOptions: "White, Grey, Blue",  // Color Options
-    dimensions: "4000 mm (Length), 1700 mm (Width), 2000 mm (Height)",  // Dimensions
-    performanceFeatures: "Payload Capacity, Easy Access Door, High Mileage",  // Performance Features
-    interiorFeatures: "Minimalist Dashboard, Durable Flooring, Spacious Cargo Area",  // Interior Features
-    exteriorFeatures: "Side Sliding Doors, Reinforced Bumper, High Ground Clearance",  // Exterior Features
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
-},
-
-"Ambulance": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "Ambulance",  // Model Name Number
-    engineSpecifications: "2.0L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2 (Driver + Attendant)",  // Seating Capacity
-    priceRange: "₹8,00,000 - ₹12,00,000",  // Price Range
-    mileageRange: "10 - 12 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Reverse Parking Sensors, Emergency Lights",  // Safety Features
-    colorOptions: "White, Red",  // Color Options
-    dimensions: "5500 mm (Length), 2000 mm (Width), 2500 mm (Height)",  // Dimensions
-    performanceFeatures: "Emergency Lights, Medical Equipment Storage, Oxygen Supply",  // Performance Features
-    interiorFeatures: "Medical Equipment Holders, Spacious Cabin, AC",  // Interior Features
-    exteriorFeatures: "Reflective Decals, LED Siren Lights, High Ground Clearance",  // Exterior Features
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2018"  // Release Date/Year
-},
-
-"Force Minidor": {
-    type: "Commercial",
-    brand: "Force",
-    modelNameNumber: "Minidor",  // Model Name Number
-    engineSpecifications: "2.5L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2",  // Seating Capacity
-    priceRange: "₹5,00,000 - ₹6,00,000",  // Price Range
-    mileageRange: "10 - 12 km/l",  // Mileage/Range
-    safetyFeatures: "Driver Airbag, ABS",  // Safety Features
-    colorOptions: "White, Blue",  // Color Options
-    dimensions: "4000 mm (Length), 1700 mm (Width), 1900 mm (Height)",  // Dimensions
-    performanceFeatures: "Payload Capacity, Fuel Efficiency, Compact Design",  // Performance Features
-    interiorFeatures: "Spacious Cargo Area, Simple Dashboard",  // Interior Features
-    exteriorFeatures: "Heavy Duty Bumper, Sliding Doors",  // Exterior Features
-    warrantyAfterSalesService: "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2017"  // Release Date/Year
-},
-
-"Force Matador": {
-    type: "Commercial",
-    brand: "Force",
-    modelNameNumber: "Matador",  // Model Name Number
-    engineSpecifications: "2.5L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "12",  // Seating Capacity
-    priceRange: "₹7,00,000 - ₹9,00,000",  // Price Range
-    mileageRange: "10 - 12 km/l",  // Mileage/Range
-    safetyFeatures: "Driver Airbag, ABS, Fire Extinguisher",  // Safety Features
-    colorOptions: "Yellow, Red, Blue",  // Color Options
-    dimensions: "5500 mm (Length), 2000 mm (Width), 2200 mm (Height)",  // Dimensions
-    performanceFeatures: "Heavy-duty Suspension, Low Turning Radius",  // Performance Features
-    interiorFeatures: "Seating for 12, Overhead Luggage Storage",  // Interior Features
-    exteriorFeatures: "Rear Cargo Door, Side Windows",  // Exterior Features
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2015"  // Release Date/Year
-},
-
-"Force Shaktiman": {
-    type: "Commercial",
-    brand: "Force",
-    modelNameNumber: "Shaktiman",  // Model Name Number
-    engineSpecifications: "3.0L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2",  // Seating Capacity
-    priceRange: "₹8,00,000 - ₹11,00,000",  // Price Range
-    mileageRange: "8 - 10 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Air Suspension, Stability Control",  // Safety Features
-    colorOptions: "White, Red",  // Color Options
-    dimensions: "6000 mm (Length), 2500 mm (Width), 3000 mm (Height)",  // Dimensions
-    performanceFeatures: "High Towing Capacity, Heavy-duty Engine",  // Performance Features
-    interiorFeatures: "Simple Dashboard, Spacious Cargo Area",  // Interior Features
-    exteriorFeatures: "Heavy-duty Bumper, High Ground Clearance",  // Exterior Features
-    warrantyAfterSalesService: "3-year/100,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2016"  // Release Date/Year
-},
-
-
-"BOSS": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "BOSS",  
-    "engineSpecifications": "3.0L Diesel",  
-    "fuelType": "Diesel",  
-    "transmissionType": "Manual",  
-    "seatingCapacity": "3",  
-    "priceRange": "₹6,00,000 - ₹8,00,000",  
-    "mileageRange": "10 - 12 km/l",  
-    "safetyFeatures": "Driver Airbag, ABS, Reverse Parking Sensors",  
-    "colorOptions": "White, Red, Blue",  
-    "dimensions": "4530 mm (Length), 1940 mm (Width), 1680 mm (Height)",  
-    "performanceFeatures": "Heavy Payload, Good Mileage for Commercial Use",  
-    "interiorFeatures": "Basic Instrument Cluster, Durable Seats",  
-    "exteriorFeatures": "Front Bumper Guard, High Ground Clearance",  
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    "releaseDateYear": "2019"
-},
-"Ecomet": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Ecomet",  
-    "engineSpecifications": "2.2L Diesel",  
-    "fuelType": "Diesel",  
-    "transmissionType": "Manual",  
-    "seatingCapacity": "2",  
-    "priceRange": "₹7,50,000 - ₹9,50,000",  
-    "mileageRange": "8 - 10 km/l",  
-    "safetyFeatures": "Driver Airbag, ABS with EBD, Anti-Rollover Protection",  
-    "colorOptions": "White, Yellow, Grey",  
-    "dimensions": "5990 mm (Length), 2400 mm (Width), 2325 mm (Height)",  
-    "performanceFeatures": "Enhanced Fuel Efficiency, Heavy Load Capacity",  
-    "interiorFeatures": "Basic Dashboard, Vinyl Seats",  
-    "exteriorFeatures": "LED Tail Lamps, Robust Bumper",  
-    "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  
-    "releaseDateYear": "2018"
-},
-"Partner": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Partner",  
-    "engineSpecifications": "1.4L Diesel",  
-    "fuelType": "Diesel",  
-    "transmissionType": "Manual",  
-    "seatingCapacity": "2",  
-    "priceRange": "₹5,00,000 - ₹7,00,000",  
-    "mileageRange": "12 - 14 km/l",  
-    "safetyFeatures": "Driver Airbag, ABS, Disc Brakes",  
-    "colorOptions": "White, Blue, Red",  
-    "dimensions": "4420 mm (Length), 1700 mm (Width), 1750 mm (Height)",  
-    "performanceFeatures": "Compact, Efficient for City Deliveries",  
-    "interiorFeatures": "Basic Instrument Panel, Hard-wearing Seats",  
-    "exteriorFeatures": "Simple Grille Design, Rugged Rear",  
-    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    "releaseDateYear": "2015"
-},
-"Dost": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Dost",  
-    "engineSpecifications": "1.4L Diesel",  
-    "fuelType": "Diesel",  
-    "transmissionType": "Manual",  
-    "seatingCapacity": "2",  
-    "priceRange": "₹5,50,000 - ₹7,50,000",  
-    "mileageRange": "12 - 14 km/l",  
-    "safetyFeatures": "Driver Airbag, ABS, Reverse Parking Sensors",  
-    "colorOptions": "White, Red, Yellow",  
-    "dimensions": "4380 mm (Length), 1680 mm (Width), 1820 mm (Height)",  
-    "performanceFeatures": "Small Footprint, Easy Maneuverability",  
-    "interiorFeatures": "Basic Seating, Digital Dashboard",  
-    "exteriorFeatures": "Strong Body, Simple Bumper",  
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    "releaseDateYear": "2014"
-},
-"Stile": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Stile",  
-    "engineSpecifications": "1.4L Petrol/Diesel",  
-    "fuelType": "Petrol/Diesel",  
-    "transmissionType": "Manual",  
-    "seatingCapacity": "5",  
-    "priceRange": "₹5,50,000 - ₹7,50,000",  
-    "mileageRange": "14 - 18 km/l",  
-    "safetyFeatures": "Driver & Passenger Airbags, ABS, EBD",  
-    "colorOptions": "White, Silver, Red",  
-    "dimensions": "3745 mm (Length), 1640 mm (Width), 1615 mm (Height)",  
-    "performanceFeatures": "Compact and Efficient, Good for Urban Driving",  
-    "interiorFeatures": "Basic Dashboard, Comfortable Seats",  
-    "exteriorFeatures": "Simple, Attractive Design, Roof Rails",  
-    "warrantyAfterSalesService": "3-year/1,20,000 km Warranty, Roadside Assistance",  
-    "releaseDateYear": "2010"
-},
-"U-Truck": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "U-Truck",  
-    "engineSpecifications": "4.2L Diesel",  
-    "fuelType": "Diesel",  
-    "transmissionType": "Manual",  
-    "seatingCapacity": "2",  
-    "priceRange": "₹10,00,000 - ₹15,00,000",  
-    "mileageRange": "8 - 10 km/l",  
-    "safetyFeatures": "Driver Airbag, ABS, Anti-Rollover Protection",  
-    "colorOptions": "White, Red, Green",  
-    "dimensions": "7530 mm (Length), 2500 mm (Width), 2850 mm (Height)",  
-    "performanceFeatures": "High Load Carrying Capacity, Robust Engine",  
-    "interiorFeatures": "Basic Cabin, Durable Seats",  
-    "exteriorFeatures": "Heavy-duty Bumper, Large Tires",  
-    "warrantyAfterSalesService": "5-year/2,00,000 km Warranty, 24/7 Roadside Assistance",  
-    "releaseDateYear": "2017"
-},
-
-"Ashok Leyland Dost": {
-    "type": "Commercial",
-    "brand": "Ashok Leyland",
-    "modelNameNumber": "4923",  // Model Name Number
-    "engineSpecifications": "1.5L Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2-3",  // Seating Capacity
-    "priceRange": "₹7,00,000 - ₹9,00,000",  // Price Range
-    "mileageRange": "10 - 12 km/l",  // Mileage/Range
-    "safetyFeatures": "ABS, Driver Airbag, Rear Parking Sensors",  // Safety Features
-    "colorOptions": "White, Red, Blue, Yellow, and more",  // Color Options
-    "dimensions": "4340 mm (Length), 1735 mm (Width), 1890 mm (Height)",  // Dimensions
-    "performanceFeatures": "Heavy Load Capacity, Power Steering",  // Performance Features
-    "interiorFeatures": "Basic Dashboard, Fabric Upholstery, AM/FM Radio",  // Interior Features
-    "exteriorFeatures": "Halogen Headlamps, Roof Rails, Cargo Box",  // Exterior Features
-    "warrantyAfterSalesService": "2-year/80,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2013"  // Release Date/Year
-},
-"Ashok Leyland Dost Plus": {
-    "type": "Commercial",
-    "brand": "Ashok Leyland",
-    "modelNameNumber": "4923",  // Model Name Number
-    "engineSpecifications": "1.5L Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "3-4",  // Seating Capacity
-    "priceRange": "₹8,00,000 - ₹10,50,000",  // Price Range
-    "mileageRange": "11 - 14 km/l",  // Mileage/Range
-    "safetyFeatures": "ABS, Dual Airbags, Parking Sensors",  // Safety Features
-    "colorOptions": "White, Red, Yellow, Blue, and more",  // Color Options
-    "dimensions": "4700 mm (Length), 1800 mm (Width), 1900 mm (Height)",  // Dimensions
-    "performanceFeatures": "Heavy Duty, Good Load Distribution",  // Performance Features
-    "interiorFeatures": "Comfortable Seats, Digital Instrument Cluster",  // Interior Features
-    "exteriorFeatures": "Daytime Running Lamps, Steel Rims",  // Exterior Features
-    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2016"  // Release Date/Year
-},
-"Ashok Leyland Partner": {
-    "type": "Commercial",
-    "brand": "Ashok Leyland",
-    "modelNameNumber": "4923",  // Model Name Number
-    "engineSpecifications": "3.0L Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2-3",  // Seating Capacity
-    "priceRange": "₹9,00,000 - ₹11,50,000",  // Price Range
-    "mileageRange": "9 - 12 km/l",  // Mileage/Range
-    "safetyFeatures": "ABS, Dual Airbags, EBD",  // Safety Features
-    "colorOptions": "White, Yellow, Red",  // Color Options
-    "dimensions": "5400 mm (Length), 1900 mm (Width), 2150 mm (Height)",  // Dimensions
-    "performanceFeatures": "Payload Capacity of 2.5 tons, Power Steering",  // Performance Features
-    "interiorFeatures": "Basic Console, Fabric Upholstery",  // Interior Features
-    "exteriorFeatures": "Side Step, Chrome Grille",  // Exterior Features
-    "warrantyAfterSalesService": "3-year/1,50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2014"  // Release Date/Year
-},
-"Ashok Leyland Ecomet 1615": {
-    "type": "Commercial",
-    "brand": "Ashok Leyland",
-    "modelNameNumber": "4923",  // Model Name Number
-    "engineSpecifications": "3.0L Turbocharged Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2-3",  // Seating Capacity
-    "priceRange": "₹12,00,000 - ₹14,50,000",  // Price Range
-    "mileageRange": "8 - 10 km/l",  // Mileage/Range
-    "safetyFeatures": "ABS, Driver Airbag, Parking Sensors",  // Safety Features
-    "colorOptions": "White, Red, Blue",  // Color Options
-    "dimensions": "6400 mm (Length), 2100 mm (Width), 2500 mm (Height)",  // Dimensions
-    "performanceFeatures": "Heavy Duty, Good Payload Capacity",  // Performance Features
-    "interiorFeatures": "Basic Dashboard, Digital Cluster",  // Interior Features
-    "exteriorFeatures": "Dual-tone Bumper, Side Step",  // Exterior Features
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2017"  // Release Date/Year
-},
-"Ashok Leyland Ecomet 1214": {
-    "type": "Commercial",
-    "brand": "Ashok Leyland",
-    "modelNameNumber": "4923",  // Model Name Number
-    "engineSpecifications": "3.0L Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2-3",  // Seating Capacity
-    "priceRange": "₹10,00,000 - ₹12,50,000",  // Price Range
-    "mileageRange": "10 - 12 km/l",  // Mileage/Range
-    "safetyFeatures": "ABS, Airbags, Parking Sensors",  // Safety Features
-    "colorOptions": "White, Red, Blue, Yellow",  // Color Options
-    "dimensions": "5700 mm (Length), 1850 mm (Width), 2300 mm (Height)",  // Dimensions
-    "performanceFeatures": "Load Capacity of 1.5 tons, Power Steering",  // Performance Features
-    "interiorFeatures": "Digital Instrument Cluster, Basic Seats",  // Interior Features
-    "exteriorFeatures": "Side Cladding, Steel Wheels",  // Exterior Features
-    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2015"  // Release Date/Year
-},
-
-"Ashok Leyland 3118": {
-    type: "Commercial",
-    brand: "Ashok Leyland",
-    modelNameNumber: "3118",
-    engineSpecifications: "6.7L Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹25,00,000 - ₹35,00,000",  // Approximate, adjust as needed
-    mileageRange: "6 - 8 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Airbags, EBD, Anti-roll bar",
-    colorOptions: "White, Yellow, Green",  // Adjust according to available colors
-    dimensions: "10000 mm (Length), 2500 mm (Width), 3500 mm (Height)",  // Adjust as per the model specs
-    performanceFeatures: "Heavy Duty, Long Haul, Robust Engine",
-    interiorFeatures: "Basic Cabin, Driver Seat with Adjustable Suspension",
-    exteriorFeatures: "Steel Body, Wide Tires, LED Taillights",
-    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Nationwide Service Network",
-    releaseDateYear: "2015"
-},
-
-"Ashok Leyland 4923": {
-    type: "Commercial",
-    brand: "Ashok Leyland",
-    modelNameNumber: "4923",
-    engineSpecifications: "7.3L Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹30,00,000 - ₹40,00,000",  // Approximate, adjust as needed
-    mileageRange: "6 - 8 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, EBD, Airbags, Roll-Over Protection",
-    colorOptions: "White, Blue, Black",  // Adjust according to available colors
-    dimensions: "12000 mm (Length), 2500 mm (Width), 3800 mm (Height)",  // Adjust as per the model specs
-    performanceFeatures: "Heavy Payload Capacity, Long Distance Hauling",
-    interiorFeatures: "Spacious Cabin, Comfortable Seat, Adjustable Steering",
-    exteriorFeatures: "Durable Body, LED Lamps, Wide Wheelbase",
-    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
-},
-
-"Ashok Leyland Viking": {
-    type: "Commercial",
-    brand: "Ashok Leyland",
-    modelNameNumber: "Viking",
-    engineSpecifications: "4.0L Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "3",
-    priceRange: "₹15,00,000 - ₹25,00,000",  // Approximate, adjust as needed
-    mileageRange: "8 - 10 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, EBD, Safety Cab, Roll-Over Protection",
-    colorOptions: "White, Yellow, Green",  // Adjust according to available colors
-    dimensions: "7500 mm (Length), 2500 mm (Width), 3200 mm (Height)",  // Adjust as per the model specs
-    performanceFeatures: "Versatile, High Load Capacity",
-    interiorFeatures: "Basic Cabin, Adjustable Driver Seat",
-    exteriorFeatures: "Heavy Duty Bumper, Wide Front Grille",
-    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Nationwide Service Network",
-    releaseDateYear: "2016"
-},
-
-"Ashok Leyland Captain": {
-    type: "Commercial",
-    brand: "Ashok Leyland",
-    modelNameNumber: "Captain",
-    engineSpecifications: "5.3L Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹20,00,000 - ₹30,00,000",  // Approximate, adjust as needed
-    mileageRange: "7 - 9 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, EBD, Airbags, Safety Cabin",
-    colorOptions: "White, Blue, Yellow",  // Adjust according to available colors
-    dimensions: "9500 mm (Length), 2400 mm (Width), 3500 mm (Height)",  // Adjust as per the model specs
-    performanceFeatures: "Powerful Engine, High Payload Capacity",
-    interiorFeatures: "Comfortable Cabin, Adjustable Steering, Digital Instrument Cluster",
-    exteriorFeatures: "LED Taillights, Heavy Duty Suspension",
-    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, Nationwide Service Network",
-    releaseDateYear: "2017"
-},
-
-"Pro 2049": {
-    type: "Commercial",  // Vehicle Type
-    brand: "Tata",  // Brand
-    modelNameNumber: "Pro 2049",  // Model Name Number
-    engineSpecifications: "4.5L 4-Cylinder Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2",  // Seating Capacity (Commercial vehicle typically has 2)
-    priceRange: "₹10,00,000 - ₹12,00,000",  // Price Range
-    mileageRange: "8 - 10 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Driver and Passenger Airbags, Reverse Parking Sensors",  // Safety Features
-    colorOptions: "White, Silver, Red, Blue",  // Color Options
-    dimensions: "6725 mm (Length), 2500 mm (Width), 2900 mm (Height)",  // Dimensions
-    performanceFeatures: "Heavy Load Capacity, Sturdy Suspension, 4WD",  // Performance Features
-    interiorFeatures: "Basic Dashboard, Fabric Upholstery, Audio System",  // Interior Features
-    exteriorFeatures: "Fog Lamps, High Ground Clearance, Side Cladding",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
-},
-
-"Ecomet Star": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "Ecomet Star",  // Model Name Number
-    engineSpecifications: "2.2L CR4 Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2",  // Seating Capacity (Typically commercial vehicles have 2 or 3 seats)
-    priceRange: "₹10,00,000 - ₹12,50,000",  // Price Range
-    mileageRange: "10 - 14 km/l",  // Mileage/Range
-    safetyFeatures: "ABS with EBD, Airbags, Parking Sensors",  // Safety Features
-    colorOptions: "White, Red, Silver",  // Color Options
-    dimensions: "5240 mm (Length), 1835 mm (Width), 2195 mm (Height)",  // Dimensions
-    performanceFeatures: "Heavy Load Carrying Capacity, Enhanced Stability",  // Performance Features
-    interiorFeatures: "Basic Cabin, Adjustable Driver Seat",  // Interior Features
-    exteriorFeatures: "Durable Bumper, Alloy Wheels",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2020"  // Release Date/Year
-},
-"1615 HE": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "1615 HE",  // Model Name Number
-    engineSpecifications: "5.0L Turbocharged Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2",  // Seating Capacity
-    priceRange: "₹16,00,000 - ₹18,50,000",  // Price Range
-    mileageRange: "8 - 12 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Airbags, Reverse Parking Sensors",  // Safety Features
-    colorOptions: "White, Yellow, Blue",  // Color Options
-    dimensions: "7200 mm (Length), 2500 mm (Width), 3000 mm (Height)",  // Dimensions
-    performanceFeatures: "Heavy Duty Performance, Excellent Payload",  // Performance Features
-    interiorFeatures: "Basic Dashboard, Adjustable Seats",  // Interior Features
-    exteriorFeatures: "Durable Exterior, Front Bullbar",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Support",  // Warranty & After-Sales Service
-    releaseDateYear: "2018"  // Release Date/Year
-},
-"1915 HE": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "1915 HE",  // Model Name Number
-    engineSpecifications: "5.0L Turbocharged Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2",  // Seating Capacity
-    priceRange: "₹18,00,000 - ₹20,00,000",  // Price Range
-    mileageRange: "8 - 12 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Airbags, Reverse Parking Sensors",  // Safety Features
-    colorOptions: "White, Yellow, Blue",  // Color Options
-    dimensions: "7600 mm (Length), 2550 mm (Width), 3100 mm (Height)",  // Dimensions
-    performanceFeatures: "High Load Capacity, Powerful Engine",  // Performance Features
-    interiorFeatures: "Comfortable Cabin, Basic Features",  // Interior Features
-    exteriorFeatures: "Sturdy Build, High Clearance",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Support",  // Warranty & After-Sales Service
-    releaseDateYear: "2019"  // Release Date/Year
-},
-"4220 HG": {
-    type: "Commercial",
-    brand: "Tata",
-    modelNameNumber: "4220 HG",  // Model Name Number
-    engineSpecifications: "6.0L Turbocharged Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2",  // Seating Capacity
-    priceRange: "₹22,00,000 - ₹24,00,000",  // Price Range
-    mileageRange: "6 - 10 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Airbags, Advanced Parking Sensors",  // Safety Features
-    colorOptions: "White, Black, Silver",  // Color Options
-    dimensions: "8500 mm (Length), 2700 mm (Width), 3400 mm (Height)",  // Dimensions
-    performanceFeatures: "Heavy Load Bearing, High Power Engine",  // Performance Features
-    interiorFeatures: "Premium Cabin, Air Conditioning",  // Interior Features
-    exteriorFeatures: "Reinforced Body, Roof Rails",  // Exterior Features
-    warrantyAfterSalesService: "4-year/2,00,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
-},
-"Eicher 1110 Pro": {
-    type: "Commercial",
-    brand: "Eicher",
-    modelNameNumber: "1110 Pro",  // Model Name Number
-    engineSpecifications: "4.4L Turbocharged Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2",  // Seating Capacity
-    priceRange: "₹11,00,000 - ₹12,50,000",  // Price Range
-    mileageRange: "9 - 13 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Airbags, Anti-rollover System",  // Safety Features
-    colorOptions: "White, Yellow, Red",  // Color Options
-    dimensions: "6400 mm (Length), 2300 mm (Width), 2500 mm (Height)",  // Dimensions
-    performanceFeatures: "Strong Payload, Fuel Efficient",  // Performance Features
-    interiorFeatures: "Basic Cabin, Adjustable Seats",  // Interior Features
-    exteriorFeatures: "Reinforced Body, Easy Access Cab",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2017"  // Release Date/Year
-},
-"Eicher 1114 XP Pro": {
-    type: "Commercial",
-    brand: "Eicher",
-    modelNameNumber: "1114 XP Pro",  // Model Name Number
-    engineSpecifications: "4.4L Turbocharged Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "2",  // Seating Capacity
-    priceRange: "₹12,50,000 - ₹14,00,000",  // Price Range
-    mileageRange: "8 - 12 km/l",  // Mileage/Range
-    safetyFeatures: "ABS, Airbags, Parking Sensors",  // Safety Features
-    colorOptions: "White, Yellow, Red",  // Color Options
-    dimensions: "6600 mm (Length), 2350 mm (Width), 2700 mm (Height)",  // Dimensions
-    performanceFeatures: "Heavy Duty Performance, High Payload",  // Performance Features
-    interiorFeatures: "Comfortable Cabin, Adjustable Seats",  // Interior Features
-    exteriorFeatures: "Durable Build, Front Bumper",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, 24/7 Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2018"  // Release Date/Year
-},
-
-"Eicher 3015": {
-    type: "Commercial",
-    brand: "Eicher",
-    modelNameNumber: "3015",
-    engineSpecifications: "3.3L Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹7,00,000 - ₹10,00,000",  // Example price range
-    mileageRange: "8 - 10 km/l",  // Example mileage
-    safetyFeatures: "Driver Airbag, ABS, Reverse Parking Sensors",
-    colorOptions: "White, Red, Yellow",
-    dimensions: "5300 mm (Length), 2000 mm (Width), 3000 mm (Height)",
-    performanceFeatures: "Powerful Engine, High Load Carrying Capacity",
-    interiorFeatures: "Basic Cabin, Digital Speedometer, AM/FM Radio",
-    exteriorFeatures: "Strong Front Bumper, Halogen Headlamps, Wide Side Mirrors",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2019"
-},
-"Eicher 1049": {
-    type: "Commercial",
-    brand: "Eicher",
-    modelNameNumber: "1049",
-    engineSpecifications: "3.0L Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹6,00,000 - ₹8,50,000",  // Example price range
-    mileageRange: "10 - 12 km/l",  // Example mileage
-    safetyFeatures: "Driver Airbag, ABS, Reverse Parking Sensors",
-    colorOptions: "White, Red, Blue",
-    dimensions: "4200 mm (Length), 1900 mm (Width), 2400 mm (Height)",
-    performanceFeatures: "Durable Engine, High Payload Capacity",
-    interiorFeatures: "Basic Cabin, Speedometer, Cup Holders",
-    exteriorFeatures: "Reflective Tape, Strong Grille, Bumper Guard",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2018"
-},
-"Eicher Pro 6000": {
-    type: "Commercial",
-    brand: "Eicher",
-    modelNameNumber: "Pro 6000",
-    engineSpecifications: "5.0L Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹15,00,000 - ₹20,00,000",  // Example price range
-    mileageRange: "7 - 9 km/l",  // Example mileage
-    safetyFeatures: "Driver Airbag, ABS, Automatic Transmission, Hill Assist",
-    colorOptions: "White, Yellow, Blue",
-    dimensions: "6500 mm (Length), 2300 mm (Width), 3500 mm (Height)",
-    performanceFeatures: "High Torque Engine, Load Sensing, Long Haul Durability",
-    interiorFeatures: "Ergonomic Cabin, Digital Display, Bluetooth Connectivity",
-    exteriorFeatures: "LED Lighting, Robust Bumper, Durable Body",
-    warrantyAfterSalesService: "5-year/2,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
-},
-"Eicher Pro 8000": {
-    type: "Commercial",
-    brand: "Eicher",
-    modelNameNumber: "Pro 8000",
-    engineSpecifications: "7.0L Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "2",
-    priceRange: "₹22,00,000 - ₹28,00,000",  // Example price range
-    mileageRange: "6 - 8 km/l",  // Example mileage
-    safetyFeatures: "Driver Airbag, ABS, EBD, Emergency Braking System",
-    colorOptions: "White, Green, Blue",
-    dimensions: "8000 mm (Length), 2500 mm (Width), 3800 mm (Height)",
-    performanceFeatures: "Heavy Duty Engine, High Load Capacity, Excellent Torque",
-    interiorFeatures: "Comfortable Driver's Cabin, Digital Instrument Cluster",
-    exteriorFeatures: "Front Fog Lights, Extended Side Mirrors, Robust Design",
-    warrantyAfterSalesService: "5-year/3,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2022"
-},
-
-"Renault Kwid": {
-    type: "Passenger",
-    brand: "Renault",
-    modelNameNumber: "Kwid",  // Model Name Number (Example, update as per your data)
-    engineSpecifications: "1.0L Petrol",  // Engine Specifications
-    fuelType: "Petrol",  // Fuel Type
-    transmissionType: "Manual/Automatic",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹4,50,000 - ₹6,00,000",  // Price Range
-    mileageRange: "20 - 23 km/l",  // Mileage/Range
-    safetyFeatures: "Driver Airbag, ABS with EBD, Rear Parking Sensors",  // Safety Features
-    colorOptions: "Planet Grey, Fiery Red, Moonlight Silver, Electric Blue, and more",  // Color Options
-    dimensions: "3731 mm (Length), 1579 mm (Width), 1474 mm (Height)",  // Dimensions
-    performanceFeatures: "Compact Size, Efficient Engine, Easy Maneuvering",  // Performance Features
-    interiorFeatures: "Touchscreen Infotainment, Digital Instrument Cluster, Power Steering",  // Interior Features
-    exteriorFeatures: "LED DRLs, Body-coloured Bumpers, Stylish Grill",  // Exterior Features
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2015"  // Release Date/Year
-},
-
-"Renault Triber": {
-    type: "Passenger",
-    brand: "Renault",
-    modelNameNumber: "Triber",  // Model Name Number (Example, update as per your data)
-    engineSpecifications: "1.0L Petrol",  // Engine Specifications
-    fuelType: "Petrol",  // Fuel Type
-    transmissionType: "Manual/Automatic",  // Transmission Type
-    seatingCapacity: "7",  // Seating Capacity
-    priceRange: "₹5,50,000 - ₹8,00,000",  // Price Range
-    mileageRange: "18 - 20 km/l",  // Mileage/Range
-    safetyFeatures: "Driver and Passenger Airbags, ABS with EBD, Rear Parking Sensors",  // Safety Features
-    colorOptions: "Mystic Red, Ice Cool White, Moonlight Silver, and more",  // Color Options
-    dimensions: "3990 mm (Length), 1739 mm (Width), 1643 mm (Height)",  // Dimensions
-    performanceFeatures: "Flexible Seating, Efficient Engine, Compact Dimensions",  // Performance Features
-    interiorFeatures: "Touchscreen Infotainment, Modular Seating, Digital Instrument Cluster",  // Interior Features
-    exteriorFeatures: "LED DRLs, Roof Rails, Dual-tone Exteriors",  // Exterior Features
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2019"  // Release Date/Year
-},
-
-"Renault Duster": {
-    type: "Passenger",
-    brand: "Renault",
-    modelNameNumber: "Duster",  // Model Name Number (Example, update as per your data)
-    engineSpecifications: "1.5L Petrol, 1.5L Diesel",  // Engine Specifications
-    fuelType: "Petrol/Diesel",  // Fuel Type
-    transmissionType: "Manual/Automatic",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹9,00,000 - ₹14,00,000",  // Price Range
-    mileageRange: "16 - 19 km/l",  // Mileage/Range
-    safetyFeatures: "Dual Airbags, ABS with EBD, ESC, Hill Start Assist",  // Safety Features
-    colorOptions: "Cayenne Orange, Glacier White, Moonlight Silver, and more",  // Color Options
-    dimensions: "4360 mm (Length), 1822 mm (Width), 1695 mm (Height)",  // Dimensions
-    performanceFeatures: "Efficient Diesel Engine, All-terrain Capability, Powerful Performance",  // Performance Features
-    interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Climate Control",  // Interior Features
-    exteriorFeatures: "Roof Rails, Projector Headlamps, LED DRLs",  // Exterior Features
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2012"  // Release Date/Year
-},
-
-"Renault Captur": {
-    type: "Passenger",
-    brand: "Renault",
-    modelNameNumber: "Captur",  // Model Name Number (Example, update as per your data)
-    engineSpecifications: "1.5L Petrol, 1.5L Diesel",  // Engine Specifications
-    fuelType: "Petrol/Diesel",  // Fuel Type
-    transmissionType: "Manual/Automatic",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹10,00,000 - ₹16,00,000",  // Price Range
-    mileageRange: "14 - 17 km/l",  // Mileage/Range
-    safetyFeatures: "Dual Airbags, ABS with EBD, ESC, Hill Start Assist",  // Safety Features
-    colorOptions: "Mahogany Brown, Moonlight Silver, Caspian Blue, and more",  // Color Options
-    dimensions: "4122 mm (Length), 1789 mm (Width), 1613 mm (Height)",  // Dimensions
-    performanceFeatures: "Premium SUV Styling, Efficient Engine, Modern Features",  // Performance Features
-    interiorFeatures: "Touchscreen Infotainment, Automatic Climate Control, Leather Upholstery",  // Interior Features
-    exteriorFeatures: "LED Projector Headlamps, Dual-tone Exteriors, Roof Rails",  // Exterior Features
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2017"  // Release Date/Year
-},
-
-"Renault Lodgy": {
-    type: "Passenger",
-    brand: "Renault",
-    modelNameNumber: "Lodgy",  // Model Name Number (Example, update as per your data)
-    engineSpecifications: "1.5L Diesel",  // Engine Specifications
-    fuelType: "Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "7",  // Seating Capacity
-    priceRange: "₹9,00,000 - ₹12,00,000",  // Price Range
-    mileageRange: "19 - 22 km/l",  // Mileage/Range
-    safetyFeatures: "Driver and Passenger Airbags, ABS with EBD, Rear Parking Sensors",  // Safety Features
-    colorOptions: "Glacier White, Moonlight Silver, and more",  // Color Options
-    dimensions: "4498 mm (Length), 1751 mm (Width), 1690 mm (Height)",  // Dimensions
-    performanceFeatures: "Spacious Cabin, Efficient Diesel Engine",  // Performance Features
-    interiorFeatures: "Modular Seating, Touchscreen Infotainment, AC with Climate Control",  // Interior Features
-    exteriorFeatures: "Roof Rails, Chrome Front Grill, LED DRLs",  // Exterior Features
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2015"  // Release Date/Year
-},
-
-"Nissan Magnite": {
-    type: "Passenger",
-    brand: "Nissan",
-    modelNameNumber: "Magnite",
-    engineSpecifications: "1.0L Turbocharged Petrol, 1.0L Naturally Aspirated Petrol",  
-    fuelType: "Petrol",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹5,00,000 - ₹9,00,000",  
-    mileageRange: "18 - 20 km/l",  
-    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors, ESP",  
-    colorOptions: "Vivid Blue, Onyx Black, Flare Red, Pearl White, and more",  
-    dimensions: "3994 mm (Length), 1758 mm (Width), 1576 mm (Height)",  
-    performanceFeatures: "Turbocharged Engine, Responsive Steering, High Ground Clearance",  
-    interiorFeatures: "7-inch Touchscreen Infotainment, Steering Mounted Controls, Digital Instrument Cluster",  
-    exteriorFeatures: "LED DRLs, LED Projector Headlamps, Roof Rails, Stylish Front Grille",  
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2020"
-},
-
-"Nissan Kicks": {
-    type: "Passenger",
-    brand: "Nissan",
-    modelNameNumber: "Kicks",
-    engineSpecifications: "1.5L Petrol, 1.3L Turbocharged Petrol",  
-    fuelType: "Petrol",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹9,00,000 - ₹15,00,000",  
-    mileageRange: "13 - 16 km/l",  
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Traction Control, Rear Parking Sensors",  
-    colorOptions: "Pearl White, Blade Silver, Deep Blue, Radiant Red, and more",  
-    dimensions: "4135 mm (Length), 1813 mm (Width), 1625 mm (Height)",  
-    performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Hill Assist",  
-    interiorFeatures: "Touchscreen Infotainment, Automatic Climate Control, Leather Upholstery",  
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Roof Rails",  
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2019"
-},
-
-"Nissan Sunny": {
-    type: "Passenger",
-    brand: "Nissan",
-    modelNameNumber: "Sunny",
-    engineSpecifications: "1.5L Petrol",  
-    fuelType: "Petrol",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹7,00,000 - ₹11,00,000",  
-    mileageRange: "16 - 19 km/l",  
-    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",  
-    colorOptions: "Sunset Orange, Onyx Black, Brilliant Silver, Pearl White",  
-    dimensions: "4490 mm (Length), 1695 mm (Width), 1485 mm (Height)",  
-    performanceFeatures: "Smooth Ride, Fuel-Efficient Engine",  
-    interiorFeatures: "Touchscreen Infotainment, Automatic Climate Control, Premium Upholstery",  
-    exteriorFeatures: "Chrome Grille, LED Taillights, Large Windows for Better Visibility",  
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2011"
-},
-
-"Nissan Terrano": {
-    type: "SUV",
-    brand: "Nissan",
-    modelNameNumber: "Terrano",
-    engineSpecifications: "1.5L Diesel, 1.6L Petrol",  
-    fuelType: "Diesel/Petrol",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹9,50,000 - ₹14,00,000",  
-    mileageRange: "15 - 20 km/l",  
-    safetyFeatures: "Dual Airbags, ABS with EBD, ESC, Rear Parking Sensors, Hill Descent Control",  
-    colorOptions: "Fire Red, Sterling Grey, Nightshade, and more",  
-    dimensions: "4331 mm (Length), 1822 mm (Width), 1677 mm (Height)",  
-    performanceFeatures: "Rugged SUV Build, Off-road Capability, Powerful Engine Options",  
-    interiorFeatures: "Touchscreen Infotainment, Premium Leather Upholstery, Push Button Start",  
-    exteriorFeatures: "Chrome Door Handles, Roof Rails, Projector Headlamps",  
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2013"
-},
-
-"MG Hector": {
-    type: "Passenger",
-    brand: "MG",
-    modelNameNumber: "Hector",
-    engineSpecifications: "1.5L Turbocharged Petrol, 2.0L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5-7",
-    priceRange: "₹15,00,000 - ₹20,00,000",
-    mileageRange: "13 - 17 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
-    colorOptions: "Starry Sky, Glaze Red, Candy White, Aurora Silver, and more",
-    dimensions: "4655 mm (Length), 1835 mm (Width), 1760 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, 4x4 Option, Multi-Drive Modes",
-    interiorFeatures: "10.4-inch Infotainment, Leather Upholstery, Panoramic Sunroof",
-    exteriorFeatures: "LED DRLs, Dual-tone Roof, Chrome Accents, Fog Lamps",
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2019"
-},
-
-"MG Hector Plus": {
-    type: "Passenger",
-    brand: "MG",
-    modelNameNumber: "Hector Plus",
-    engineSpecifications: "1.5L Turbocharged Petrol, 2.0L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "6-7",
-    priceRange: "₹17,00,000 - ₹22,00,000",
-    mileageRange: "12 - 16 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
-    colorOptions: "Starry Sky, Glaze Red, Candy White, Aurora Silver, and more",
-    dimensions: "4720 mm (Length), 1835 mm (Width), 1774 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, 4x4 Option, Multi-Drive Modes",
-    interiorFeatures: "10.4-inch Infotainment, Leather Upholstery, Panoramic Sunroof",
-    exteriorFeatures: "LED DRLs, Dual-tone Roof, Chrome Accents, Fog Lamps",
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
-},
-
-"MG ZS EV": {
-    type: "Electric",
-    brand: "MG",
-    modelNameNumber: "ZS EV",
-    engineSpecifications: "44.5 kWh Lithium-ion Battery",
-    fuelType: "Electric",
-    transmissionType: "Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹22,00,000 - ₹25,00,000",
-    mileageRange: "340 km (WLTP Range)",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
-    colorOptions: "Glaze Red, Aurora Silver, and more",
-    dimensions: "4323 mm (Length), 1809 mm (Width), 1644 mm (Height)",
-    performanceFeatures: "Electric Motor, Fast Charging, Regenerative Braking",
-    interiorFeatures: "10.1-inch Infotainment, Leather Upholstery, Panoramic Sunroof",
-    exteriorFeatures: "LED DRLs, Dual-tone Roof, Fog Lamps",
-    warrantyAfterSalesService: "8-year/1,50,000 km Battery Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
-},
-
-"MG Astor": {
-    type: "Passenger",
-    brand: "MG",
-    modelNameNumber: "Astor",
-    engineSpecifications: "1.3L Turbocharged Petrol, 1.5L Petrol",
-    fuelType: "Petrol",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹10,00,000 - ₹15,00,000",
-    mileageRange: "14 - 18 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
-    colorOptions: "Candy White, Glaze Red, Aurora Silver, and more",
-    dimensions: "4323 mm (Length), 1809 mm (Width), 1644 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, Multi-Drive Modes",
-    interiorFeatures: "10.1-inch Infotainment, Leather Upholstery, Digital Instrument Cluster",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Fog Lamps",
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
-},
-
-"MG Gloster": {
-    type: "SUV",
-    brand: "MG",
-    modelNameNumber: "Gloster",
-    engineSpecifications: "2.0L Turbocharged Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Automatic",
-    seatingCapacity: "6-7",
-    priceRange: "₹30,00,000 - ₹40,00,000",
-    mileageRange: "12 - 14 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, 360-degree Camera, Adaptive Cruise Control",
-    colorOptions: "Candy White, Aurora Silver, and more",
-    dimensions: "4985 mm (Length), 1925 mm (Width), 1875 mm (Height)",
-    performanceFeatures: "4x4 Option, Advanced Terrain Management System, Multiple Driving Modes",
-    interiorFeatures: "12.3-inch Infotainment, Leather Upholstery, Panoramic Sunroof, 12-speaker Audio",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Chrome Accents, Fog Lamps",
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
-},
-
-"Linea": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Linea",  // Model Name Number
-    engineSpecifications: "1.3L Multijet Diesel, 1.4L Petrol",  // Engine Specifications
-    fuelType: "Petrol/Diesel",  // Fuel Type
-    transmissionType: "Manual/Automatic",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹7,50,000 - ₹10,00,000",  // Price Range
-    mileageRange: "14 - 18 km/l",  // Mileage/Range
-    safetyFeatures: "Dual Airbags, ABS with EBD, Reverse Parking Sensors",  // Safety Features
-    colorOptions: "Bossa Nova White, Exotica Red, Hip Hop Black",  // Color Options
-    dimensions: "4360 mm (Length), 1792 mm (Width), 1487 mm (Height)",  // Dimensions
-    performanceFeatures: "Powerful Petrol and Diesel Engines, Smooth Ride",  // Performance Features
-    interiorFeatures: "Infotainment System, Premium Upholstery, Spacious Cabin",  // Interior Features
-    exteriorFeatures: "Projector Headlamps, Chrome Accents, Body-colored Mirrors",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2007"  // Release Date/Year
-},
-
-"Punto": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Punto",  // Model Name Number
-    engineSpecifications: "1.2L Petrol, 1.3L Multijet Diesel",  // Engine Specifications
-    fuelType: "Petrol/Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹5,00,000 - ₹7,50,000",  // Price Range
-    mileageRange: "15 - 20 km/l",  // Mileage/Range
-    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",  // Safety Features
-    colorOptions: "Pearl White, Sunburnt Orange, Matte Black",  // Color Options
-    dimensions: "3987 mm (Length), 1687 mm (Width), 1487 mm (Height)",  // Dimensions
-    performanceFeatures: "Good Handling, Responsive Steering, Excellent Fuel Economy",  // Performance Features
-    interiorFeatures: "Touchscreen System, Comfortable Seats, Spacious Boot",  // Interior Features
-    exteriorFeatures: "Fog Lamps, Chrome Grille, Body-colored Door Handles",  // Exterior Features
-    warrantyAfterSalesService: "2-year/1,20,000 km Warranty, Free Service for First Year",  // Warranty & After-Sales Service
-    releaseDateYear: "2009"  // Release Date/Year
-},
-
-"Avventura": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Avventura",  // Model Name Number
-    engineSpecifications: "1.3L Multijet Diesel, 1.4L Petrol",  // Engine Specifications
-    fuelType: "Petrol/Diesel",  // Fuel Type
-    transmissionType: "Manual",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹7,50,000 - ₹10,00,000",  // Price Range
-    mileageRange: "16 - 19 km/l",  // Mileage/Range
-    safetyFeatures: "Dual Airbags, ABS with EBD, Cornering Stability Control",  // Safety Features
-    colorOptions: "Bronze, White, Red, Black",  // Color Options
-    dimensions: "3995 mm (Length), 1706 mm (Width), 1530 mm (Height)",  // Dimensions
-    performanceFeatures: "Elevated Ground Clearance, Robust Build, Strong Off-road Capability",  // Performance Features
-    interiorFeatures: "Touchscreen, Leather Upholstery, Spacious Boot Space",  // Interior Features
-    exteriorFeatures: "Roof Rails, Body Cladding, Daytime Running Lights",  // Exterior Features
-    warrantyAfterSalesService: "3-year/1,50,000 km Warranty, Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2014"  // Release Date/Year
-},
-
-"Tipo": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Tipo",  // Model Name Number
-    engineSpecifications: "1.4L Petrol, 1.3L Multijet Diesel",  // Engine Specifications
-    fuelType: "Petrol/Diesel",  // Fuel Type
-    transmissionType: "Manual/Automatic",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹6,00,000 - ₹8,00,000",  // Price Range
-    mileageRange: "14 - 18 km/l",  // Mileage/Range
-    safetyFeatures: "Dual Airbags, ABS, Hill Hold Control",  // Safety Features
-    colorOptions: "Pristine White, Red, Grey",  // Color Options
-    dimensions: "4370 mm (Length), 1792 mm (Width), 1485 mm (Height)",  // Dimensions
-    performanceFeatures: "Compact Size, Efficient Engine, Smooth Driving Experience",  // Performance Features
-    interiorFeatures: "Infotainment System, Premium Audio, Spacious Cabin",  // Interior Features
-    exteriorFeatures: "Body-colored Bumpers, Chrome Grille, Alloy Wheels",  // Exterior Features
-    warrantyAfterSalesService: "2-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2016"  // Release Date/Year
-},
-
-"Honda Amaze": {
-    type: "Passenger",
-    brand: "Honda",
-    modelNameNumber: "Amaze",  
-    engineSpecifications: "1.2L Petrol, 1.5L Diesel",  
-    fuelType: "Petrol/Diesel",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹7,00,000 - ₹10,00,000",  
-    mileageRange: "18 - 24 km/l",  
-    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",  
-    colorOptions: "Radiant Red, Modern Steel, White Orchid, Golden Brown",  
-    dimensions: "3995 mm (Length), 1695 mm (Width), 1501 mm (Height)",  
-    performanceFeatures: "Comfortable Ride, Smooth Handling",  
-    interiorFeatures: "Touchscreen Infotainment, Keyless Entry, Digital AC Control",  
-    exteriorFeatures: "LED DRLs, Chrome Grille, Fog Lamps",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    releaseDateYear: "2018"  
-},
-
-"Honda WR-V": {
-    type: "Passenger",
-    brand: "Honda",
-    modelNameNumber: "WR-V",  
-    engineSpecifications: "1.2L Petrol, 1.5L Diesel",  
-    fuelType: "Petrol/Diesel",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹8,00,000 - ₹12,00,000",  
-    mileageRange: "17 - 23 km/l",  
-    safetyFeatures: "Dual Airbags, ABS with EBD, Reverse Parking Sensors",  
-    colorOptions: "Lunar Silver, White Orchid, Golden Brown",  
-    dimensions: "3999 mm (Length), 1734 mm (Width), 1601 mm (Height)",  
-    performanceFeatures: "Higher Ground Clearance, Smooth Driving Experience",  
-    interiorFeatures: "Touchscreen Infotainment, Leather Seats, Smart Key",  
-    exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2017"  
-},
-
-"Honda Civic": {
-    type: "Passenger",
-    brand: "Honda",
-    modelNameNumber: "Civic",  
-    engineSpecifications: "1.8L Petrol, 1.6L Diesel",  
-    fuelType: "Petrol/Diesel",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹17,00,000 - ₹22,00,000",  
-    mileageRange: "16 - 26 km/l",  
-    safetyFeatures: "6 Airbags, ABS with EBD, Lane Watch Camera, Hill Assist",  
-    colorOptions: "Platinum White, Rallye Red, Lunar Silver",  
-    dimensions: "4630 mm (Length), 1799 mm (Width), 1416 mm (Height)",  
-    performanceFeatures: "Sporty Performance, Agile Handling",  
-    interiorFeatures: "Touchscreen Infotainment, Apple CarPlay, Leather Upholstery",  
-    exteriorFeatures: "LED Projector Headlamps, Alloy Wheels, Sunroof",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    releaseDateYear: "2019"  
-},
-
-"Honda Accord": {
-    type: "Passenger",
-    brand: "Honda",
-    modelNameNumber: "Accord",  
-    engineSpecifications: "2.4L Petrol, 1.5L Turbo Petrol",  
-    fuelType: "Petrol",  
-    transmissionType: "Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹23,00,000 - ₹28,00,000",  
-    mileageRange: "12 - 15 km/l",  
-    safetyFeatures: "6 Airbags, ABS with EBD, Lane Keep Assist, Collision Mitigation",  
-    colorOptions: "Crystal Black, Modern Steel, Platinum White",  
-    dimensions: "4933 mm (Length), 1850 mm (Width), 1460 mm (Height)",  
-    performanceFeatures: "Turbocharged Engine, Smooth Handling",  
-    interiorFeatures: "Premium Sound System, Leather Upholstery, Dual-zone Climate Control",  
-    exteriorFeatures: "LED Headlamps, Alloy Wheels, Sunroof",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    releaseDateYear: "2020"  
-},
-
-"Honda Jazz": {
-    type: "Passenger",
-    brand: "Honda",
-    modelNameNumber: "Jazz",  
-    engineSpecifications: "1.2L Petrol",  
-    fuelType: "Petrol",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹7,50,000 - ₹9,50,000",  
-    mileageRange: "16 - 18 km/l",  
-    safetyFeatures: "Dual Airbags, ABS with EBD, Reverse Parking Sensors",  
-    colorOptions: "Sunset Orange, Radiant Red, White Orchid, Modern Steel",  
-    dimensions: "3995 mm (Length), 1694 mm (Width), 1544 mm (Height)",  
-    performanceFeatures: "Responsive Handling, Spacious Cabin",  
-    interiorFeatures: "Touchscreen Infotainment, Keyless Entry, Magic Seats",  
-    exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2015"  
-},
-
-"Honda BR-V": {
-    type: "Passenger",
-    brand: "Honda",
-    modelNameNumber: "BR-V",  
-    engineSpecifications: "1.5L Petrol, 1.5L Diesel",  
-    fuelType: "Petrol/Diesel",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "7",  
-    priceRange: "₹9,50,000 - ₹12,00,000",  
-    mileageRange: "15 - 21 km/l",  
-    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",  
-    colorOptions: "Taffeta White, Golden Brown, Modern Steel",  
-    dimensions: "4456 mm (Length), 1735 mm (Width), 1666 mm (Height)",  
-    performanceFeatures: "Comfortable Ride, High Ground Clearance",  
-    interiorFeatures: "Touchscreen Infotainment, Leather Seats, Smart Key",  
-    exteriorFeatures: "Roof Rails, LED DRLs, Alloy Wheels",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    releaseDateYear: "2016"  
-},
-
-"Honda City": {
-    type: "Passenger",
-    brand: "Honda",
-    modelNameNumber: "City",  
-    engineSpecifications: "1.5L Petrol, 1.5L Diesel",  
-    fuelType: "Petrol/Diesel",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹11,00,000 - ₹16,00,000",  
-    mileageRange: "17 - 25 km/l",  
-    safetyFeatures: "Dual Airbags, ABS with EBD, Reverse Parking Sensors",  
-    colorOptions: "Radiant Red, Modern Steel, White Orchid, Golden Brown",  
-    dimensions: "4549 mm (Length), 1748 mm (Width), 1487 mm (Height)",  
-    performanceFeatures: "Smooth Handling, Comfortable Ride",  
-    interiorFeatures: "Touchscreen Infotainment, Apple CarPlay, Leather Upholstery",  
-    exteriorFeatures: "LED DRLs, Alloy Wheels, Sunroof",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",  
-    releaseDateYear: "2020"  
-},
-
-
-"Seltos": {
-    "type": "Passenger",
-    "brand": "Kia",
-    "modelNameNumber": "Seltos",  // Model Name Number
-    "engineSpecifications": "1.5L Petrol, 1.5L Diesel, 1.4L Turbocharged Petrol",  // Engine Specifications
-    "fuelType": "Petrol/Diesel",  // Fuel Type
-    "transmissionType": "Manual/Automatic",  // Transmission Type
-    "seatingCapacity": "5",  // Seating Capacity
-    "priceRange": "₹10,00,000 - ₹18,00,000",  // Price Range
-    "mileageRange": "16 - 21 km/l",  // Mileage/Range
-    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Assist, Reverse Parking Sensors",  // Safety Features
-    "colorOptions": "Intense Red, Gravity Grey, Clear White, Aurora Black Pearl",  // Color Options
-    "dimensions": "4315 mm (Length), 1800 mm (Width), 1645 mm (Height)",  // Dimensions
-    "performanceFeatures": "Turbocharged Engine, Smart Key, Drive Modes",  // Performance Features
-    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Premium Sound System",  // Interior Features
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, Sunroof, Chrome Accents",  // Exterior Features
-    "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2019"  // Release Date/Year
-},
-"Carens": {
-    "type": "Passenger",
-    "brand": "Kia",
-    "modelNameNumber": "Carens",  // Model Name Number
-    "engineSpecifications": "1.5L Petrol, 1.5L Diesel",  // Engine Specifications
-    "fuelType": "Petrol/Diesel",  // Fuel Type
-    "transmissionType": "Manual/Automatic",  // Transmission Type
-    "seatingCapacity": "7",  // Seating Capacity
-    "priceRange": "₹15,00,000 - ₹20,00,000",  // Price Range
-    "mileageRange": "16 - 20 km/l",  // Mileage/Range
-    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Parking Sensors",  // Safety Features
-    "colorOptions": "Sparkling Silver, Intense Red, Deep Blue",  // Color Options
-    "dimensions": "4565 mm (Length), 1800 mm (Width), 1700 mm (Height)",  // Dimensions
-    "performanceFeatures": "Smart Driving Modes, Advanced Infotainment",  // Performance Features
-    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, 7-seater Configuration",  // Interior Features
-    "exteriorFeatures": "LED DRLs, Chrome Grille, Projector Headlamps",  // Exterior Features
-    "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2022"  // Release Date/Year
-},
-"Carnival": {
-    "type": "Passenger",
-    "brand": "Kia",
-    "modelNameNumber": "Carnival",  // Model Name Number
-    "engineSpecifications": "2.2L Diesel, 3.5L Petrol",  // Engine Specifications
-    "fuelType": "Petrol/Diesel",  // Fuel Type
-    "transmissionType": "Automatic",  // Transmission Type
-    "seatingCapacity": "7/8",  // Seating Capacity
-    "priceRange": "₹30,00,000 - ₹35,00,000",  // Price Range
-    "mileageRange": "14 - 18 km/l",  // Mileage/Range
-    "safetyFeatures": "7 Airbags, ABS with EBD, ESC, 360-degree Camera",  // Safety Features
-    "colorOptions": "Aurora Black, Snow White Pearl, Steel Silver",  // Color Options
-    "dimensions": "5115 mm (Length), 1985 mm (Width), 1795 mm (Height)",  // Dimensions
-    "performanceFeatures": "Smart Power Tailgate, Dual-Sunroof",  // Performance Features
-    "interiorFeatures": "Premium Leather Seats, Dual Infotainment Screens",  // Interior Features
-    "exteriorFeatures": "LED DRLs, Front and Rear Fog Lamps",  // Exterior Features
-    "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2020"  // Release Date/Year
-},
-"EV6": {
-    "type": "Electric",
-    "brand": "Kia",
-    "modelNameNumber": "EV6",  // Model Name Number
-    "engineSpecifications": "77.4 kWh Electric Motor",  // Engine Specifications
-    "fuelType": "Electric",  // Fuel Type
-    "transmissionType": "Automatic",  // Transmission Type
-    "seatingCapacity": "5",  // Seating Capacity
-    "priceRange": "₹60,00,000 - ₹70,00,000",  // Price Range
-    "mileageRange": "425 km on a full charge",  // Mileage/Range
-    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Autonomous Emergency Braking",  // Safety Features
-    "colorOptions": "Runway Red, Snow White Pearl, Cyber Grey",  // Color Options
-    "dimensions": "4695 mm (Length), 1890 mm (Width), 1550 mm (Height)",  // Dimensions
-    "performanceFeatures": "Dual Motor AWD, 800V Charging System",  // Performance Features
-    "interiorFeatures": "Premium Audio System, Digital Cockpit, Panoramic Sunroof",  // Interior Features
-    "exteriorFeatures": "LED Headlights, Aerodynamic Design, Flush Door Handles",  // Exterior Features
-    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2022"  // Release Date/Year
-},
-"EV9": {
-    "type": "Electric",
-    "brand": "Kia",
-    "modelNameNumber": "EV9",  // Model Name Number
-    "engineSpecifications": "77.4 kWh Electric Motor",  // Engine Specifications
-    "fuelType": "Electric",  // Fuel Type
-    "transmissionType": "Automatic",  // Transmission Type
-    "seatingCapacity": "7",  // Seating Capacity
-    "priceRange": "₹70,00,000 - ₹80,00,000",  // Price Range
-    "mileageRange": "500 km on a full charge",  // Mileage/Range
-    "safetyFeatures": "8 Airbags, ABS with EBD, ESC, Lane Assist",  // Safety Features
-    "colorOptions": "Midnight Black, Snow White Pearl, Ocean Blue",  // Color Options
-    "dimensions": "5100 mm (Length), 2000 mm (Width), 1800 mm (Height)",  // Dimensions
-    "performanceFeatures": "Dual Motor AWD, Fast Charging, Autonomous Driving Features",  // Performance Features
-    "interiorFeatures": "Triple Display Screens, Heated/Cooled Seats, 360-degree Audio System",  // Interior Features
-    "exteriorFeatures": "Matrix LED Lights, Aerodynamic Styling",  // Exterior Features
-    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2024"  // Release Date/Year
-},
-
-"Hyundai Exter": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Exter",
-    engineSpecifications: "1.2L Petrol",
-    fuelType: "Petrol",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹6,00,000 - ₹8,00,000",
-    mileageRange: "18 - 22 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",
-    colorOptions: "Phantom Black, Polar White, Titan Grey, Typhoon Silver, and more",
-    dimensions: "3855 mm (Length), 1710 mm (Width), 1635 mm (Height)",
-    performanceFeatures: "Smart EV Option, Reverse Parking Camera, LED DRLs",
-    interiorFeatures: "Touchscreen Infotainment, Wireless Charging, Digital Speedometer",
-    exteriorFeatures: "LED Headlamps, Diamond Cut Alloys, Roof Rails",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2023"
-},
-"Hyundai Grand i10 Nios": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Grand i10 Nios",
-    engineSpecifications: "1.2L Petrol, 1.2L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹5,50,000 - ₹7,50,000",
-    mileageRange: "19 - 25 km/l",
-    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",
-    colorOptions: "Polar White, Aqua Teal, Fiery Red, Titan Grey, and more",
-    dimensions: "3795 mm (Length), 1680 mm (Width), 1520 mm (Height)",
-    performanceFeatures: "Smart Key, Reverse Parking Camera, Electric ORVMs",
-    interiorFeatures: "7-inch Touchscreen, Automatic Climate Control, Leather-wrapped Steering Wheel",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Diamond Cut Alloy Wheels",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2019"
-},
-"Hyundai i20": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "i20",
-    engineSpecifications: "1.2L Petrol, 1.5L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹7,50,000 - ₹11,00,000",
-    mileageRange: "18 - 22 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",
-    colorOptions: "Polar White, Thunder Grey, Fiery Red, Lava Orange, and more",
-    dimensions: "4040 mm (Length), 1775 mm (Width), 1505 mm (Height)",
-    performanceFeatures: "Turbocharged Engine (Sportz variant), Multi-Drive Modes",
-    interiorFeatures: "10.25-inch Touchscreen, Wireless Charging, Ambient Lighting",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, 16-inch Alloy Wheels",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
-},
-"Hyundai Aura": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Aura",
-    engineSpecifications: "1.2L Petrol, 1.2L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹6,00,000 - ₹8,00,000",
-    mileageRange: "20 - 25 km/l",
-    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",
-    colorOptions: "Fiery Red, Polar White, Aqua Teal, Titan Grey, and more",
-    dimensions: "3825 mm (Length), 1680 mm (Width), 1520 mm (Height)",
-    performanceFeatures: "Smart Key, Reverse Parking Camera, Smart Infotainment",
-    interiorFeatures: "7-inch Touchscreen, Automatic Climate Control, Digital Instrument Cluster",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Roof Rails",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
-},
-"Hyundai Verna": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Verna",
-    engineSpecifications: "1.5L Petrol, 1.5L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹10,00,000 - ₹15,00,000",
-    mileageRange: "17 - 21 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
-    colorOptions: "Polar White, Fiery Red, Typhoon Silver, Starry Night, and more",
-    dimensions: "4440 mm (Length), 1729 mm (Width), 1475 mm (Height)",
-    performanceFeatures: "Turbocharged Engine (Sporty variants), Multi-Drive Modes",
-    interiorFeatures: "10.25-inch Touchscreen, Wireless Charging, Leather Upholstery",
-    exteriorFeatures: "LED Headlamps, Chrome Grille, Dual-tone Roof",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2023"
-},
-"Hyundai Creta": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Creta",
-    engineSpecifications: "1.5L Petrol, 1.5L Diesel, 1.4L Turbo Petrol",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹10,00,000 - ₹18,00,000",
-    mileageRange: "16 - 21 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",
-    colorOptions: "Phantom Black, Polar White, Titan Grey, Lava Orange, and more",
-    dimensions: "4300 mm (Length), 1790 mm (Width), 1635 mm (Height)",
-    performanceFeatures: "Turbocharged Engine (Sportz variant), Drive Modes, Panoramic Sunroof",
-    interiorFeatures: "8-inch Touchscreen, Automatic Climate Control, Wireless Charging",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, 17-inch Alloy Wheels",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2015"
-},
-"Nexon": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "XUV300",
-    engineSpecifications: "1.2L Turbocharged Petrol, 1.5L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹8,00,000 - ₹14,00,000",
-    mileageRange: "17 - 21 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",
-    colorOptions: "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-    dimensions: "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-    interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2016"
-},
-
-"Hyundai Alcazar": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Alcazar",
-    engineSpecifications: "2.0L Petrol, 1.5L Diesel",  
-    fuelType: "Petrol/Diesel",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "6-7",  
-    priceRange: "₹16,00,000 - ₹20,00,000",  
-    mileageRange: "14 - 18 km/l",  
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",  
-    colorOptions: "Typhoon Silver, Phantom Black, Polar White, Taiga Brown",  
-    dimensions: "4500 mm (Length), 1790 mm (Width), 1675 mm (Height)",  
-    performanceFeatures: "Multi-Drive Modes, Electronic Stability Control",  
-    interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Wireless Charging",  
-    exteriorFeatures: "LED Headlamps, Roof Rails, Chrome Door Handles, Fog Lamps",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2021"
-},
-"Hyundai Venue": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Venue",
-    engineSpecifications: "1.2L Petrol, 1.0L Turbo Petrol, 1.5L Diesel",  
-    fuelType: "Petrol/Diesel",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹7,00,000 - ₹12,00,000",  
-    mileageRange: "17 - 23 km/l",  
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",  
-    colorOptions: "Polar White, Typhoon Silver, Deep Forest, Denim Blue",  
-    dimensions: "3995 mm (Length), 1770 mm (Width), 1605 mm (Height)",  
-    performanceFeatures: "Turbocharged Engine, Smart Key, Wireless Charging",  
-    interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Climate Control",  
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Roof Rails",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2019"
-},
-"Hyundai Tucson": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Tucson",
-    engineSpecifications: "2.0L Petrol, 2.0L Diesel",  
-    fuelType: "Petrol/Diesel",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹22,00,000 - ₹28,00,000",  
-    mileageRange: "15 - 20 km/l",  
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",  
-    colorOptions: "Phantom Black, Polar White, Red, Blue",  
-    dimensions: "4630 mm (Length), 1865 mm (Width), 1660 mm (Height)",  
-    performanceFeatures: "All-Wheel Drive, Multi-Drive Modes, Panoramic Sunroof",  
-    interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Wireless Charging",  
-    exteriorFeatures: "LED Headlamps, Roof Rails, Alloy Wheels, Fog Lamps",  
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2020"
-},
-"Hyundai Ioniq 5": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Ioniq 5",
-    engineSpecifications: "77.4 kWh Electric",  
-    fuelType: "Electric",  
-    transmissionType: "Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹45,00,000 - ₹50,00,000",  
-    mileageRange: "500 - 600 km (Range per Charge)",  
-    safetyFeatures: "Multiple Airbags, ABS, ESC, Lane Keep Assist, Autonomous Emergency Braking",  
-    colorOptions: "Lucid Blue, Phantom Black, Biophilic Blue, White",  
-    dimensions: "4635 mm (Length), 1890 mm (Width), 1605 mm (Height)",  
-    performanceFeatures: "Fast Charging, Dual Motor AWD, Regenerative Braking",  
-    interiorFeatures: "Dual Touchscreen Infotainment, Digital Instrument Cluster, Sustainable Materials",  
-    exteriorFeatures: "Pixelated LED Headlights, V2L (Vehicle-to-Load), Aerodynamic Design",  
-    warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2022"
-},
-"Hyundai Venue N Line": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Venue N Line",
-    engineSpecifications: "1.0L Turbo Petrol",  
-    fuelType: "Petrol",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹9,00,000 - ₹12,00,000",  
-    mileageRange: "16 - 19 km/l",  
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",  
-    colorOptions: "N Line Red, Polar White, Typhoon Silver",  
-    dimensions: "3995 mm (Length), 1770 mm (Width), 1605 mm (Height)",  
-    performanceFeatures: "Sporty Suspension, Multi-Drive Modes, Rear Disc Brakes",  
-    interiorFeatures: "Sporty Black Interior, Touchscreen Infotainment, Wireless Charging",  
-    exteriorFeatures: "Sporty Red Accents, LED DRLs, Dual-tone Roof, Roof Rails",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2021"
-},
-"Hyundai i20 N Line": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "i20 N Line",
-    engineSpecifications: "1.0L Turbo Petrol",  
-    fuelType: "Petrol",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹10,00,000 - ₹13,00,000",  
-    mileageRange: "17 - 20 km/l",  
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",  
-    colorOptions: "N Line Red, Polar White, Typhoon Silver",  
-    dimensions: "4045 mm (Length), 1775 mm (Width), 1505 mm (Height)",  
-    performanceFeatures: "Sporty Suspension, Multi-Drive Modes, Enhanced Handling",  
-    interiorFeatures: "Sporty Black Interior, Touchscreen Infotainment, Digital Instrument Cluster",  
-    exteriorFeatures: "Sporty Red Accents, LED DRLs, Alloy Wheels, Fog Lamps",  
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2021"
-},
-"Hyundai Creta N Line": {
-    type: "Passenger",
-    brand: "Hyundai",
-    modelNameNumber: "Creta N Line",
-    engineSpecifications: "1.4L Turbo Petrol",  
-    fuelType: "Petrol",  
-    transmissionType: "Manual/Automatic",  
-    seatingCapacity: "5",  
-    priceRange: "₹16,00,000 - ₹20,00,000",  
-    mileageRange: "14 - 18 km/l",  
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",  
-    colorOptions: "N Line Red, Phantom Black, Polar White",  
-    dimensions: "4300 mm (Length), 1790 mm (Width), 1635 mm (Height)",  
-    performanceFeatures: "Sporty Suspension, Multi-Drive Modes, Turbocharged Engine",  
-    interiorFeatures: "Sporty Interior, Touchscreen Infotainment, Wireless Charging",  
-    exteriorFeatures: "Sporty Red Accents, LED DRLs, Dual-tone Roof, Roof Rails",  
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  
-    releaseDateYear: "2021"
-},
-
-"Magnite": {
-    type: "Passenger",
-    brand: "Nissan",
-    modelNameNumber: "Magnite",
-    engineSpecifications: "1.0L Turbocharged Petrol, 1.0L Petrol",
-    fuelType: "Petrol",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹5,00,000 - ₹8,00,000",
-    mileageRange: "18 - 20 km/l",
-    safetyFeatures: "4 Airbags, ABS with EBD, Rear Parking Sensors, Rearview Camera",
-    colorOptions: "Vivid Blue, Onyx Black, Pearl White, Storm White, and more",
-    dimensions: "3994 mm (Length), 1758 mm (Width), 1573 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, Smart Driving Mode, 16-inch Wheels",
-    interiorFeatures: "Touchscreen Infotainment, Wireless Apple CarPlay, Wireless Charging, Adjustable Seats",
-    exteriorFeatures: "LED DRLs, Split-Type LED Tail Lamps, Bold Front Grille",
-    warrantyAfterSalesService: "2-year/50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
-},
-
-"X-Trail": {
-    type: "Passenger",
-    brand: "Nissan",
-    modelNameNumber: "X-Trail",
-    engineSpecifications: "2.0L Petrol, 1.6L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹25,00,000 - ₹35,00,000",
-    mileageRange: "13 - 15 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, Intelligent Emergency Braking, Lane Departure Warning",
-    colorOptions: "Brilliant Silver, Magnetic Red, Gun Metallic, Pearl White, and more",
-    dimensions: "4640 mm (Length), 1820 mm (Width), 1740 mm (Height)",
-    performanceFeatures: "4WD, Intelligent Mobility, All-Terrain Capabilities",
-    interiorFeatures: "Panoramic Sunroof, Leather Upholstery, 8-inch Touchscreen Infotainment",
-    exteriorFeatures: "LED Headlights, Roof Rails, Smart Auto Lights",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",
-    releaseDateYear: "2021"
-},
-
-"GT-R": {
-    type: "Passenger",
-    brand: "Nissan",
-    modelNameNumber: "GT-R",
-    engineSpecifications: "3.8L V6 Twin-Turbo Petrol",
-    fuelType: "Petrol",
-    transmissionType: "Automatic",
-    seatingCapacity: "2",
-    priceRange: "₹2,20,00,000 - ₹2,50,00,000",
-    mileageRange: "8 - 10 km/l",
-    safetyFeatures: "Advanced Airbag System, ABS with EBD, Traction Control, Active LSD",
-    colorOptions: "Super Silver, Pearl White, Jet Black, Blaze Metallic, and more",
-    dimensions: "4710 mm (Length), 1895 mm (Width), 1370 mm (Height)",
-    performanceFeatures: "565 hp, 0-100 km/h in 3.0 seconds, All-Wheel Drive",
-    interiorFeatures: "Recaro Seats, Multi-Function Display, Bose Audio System",
-    exteriorFeatures: "Aerodynamic Design, Signature LED Tail Lamps, Carbon Fiber Accents",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, Roadside Assistance",
-    releaseDateYear: "2007"
-},
-
-"Kushaq": {
-    type: "Passenger",
-    brand: "Skoda",
-    modelNameNumber: "Kushaq",
-    engineSpecifications: "1.0L Turbocharged Petrol, 1.5L Petrol",
-    fuelType: "Petrol",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹10,00,000 - ₹17,00,000",
-    mileageRange: "16 - 18 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Hold Control",
-    colorOptions: "Candy White, Brilliant Silver, Tornado Red, Carbon Steel, and more",
-    dimensions: "4225 mm (Length), 1760 mm (Width), 1610 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Electric Power Steering",
-    interiorFeatures: "Touchscreen Infotainment, Virtual Cockpit, Wireless Charging",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Roof Rails, Fog Lamps",
-    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
-},
-
-"Slavia": {
-    type: "Passenger",
-    brand: "Skoda",
-    modelNameNumber: "Slavia",
-    engineSpecifications: "1.0L Turbocharged Petrol, 1.5L Petrol",
-    fuelType: "Petrol",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹10,00,000 - ₹18,00,000",
-    mileageRange: "17 - 20 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors",
-    colorOptions: "Candy White, Brilliant Silver, Crystal Blue, and more",
-    dimensions: "4541 mm (Length), 1752 mm (Width), 1487 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, Regenerative Braking, Electric Power Steering",
-    interiorFeatures: "8-inch Touchscreen, Ambient Lighting, Wireless Charging",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Chrome Grille, Alloy Wheels",
-    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2022"
-},
-
-"Kodiaq": {
-    type: "Passenger",
-    brand: "Skoda",
-    modelNameNumber: "Kodiaq",
-    engineSpecifications: "2.0L Turbocharged Petrol, 2.0L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Automatic",
-    seatingCapacity: "7",
-    priceRange: "₹35,00,000 - ₹45,00,000",
-    mileageRange: "14 - 17 km/l",
-    safetyFeatures: "9 Airbags, ABS with EBD, ESC, Lane Assist, Adaptive Cruise Control",
-    colorOptions: "Moon White, Lava Blue, Brilliant Silver, and more",
-    dimensions: "4697 mm (Length), 1882 mm (Width), 1676 mm (Height)",
-    performanceFeatures: "4WD, Adaptive Suspension, Off-Road Mode",
-    interiorFeatures: "Panoramic Sunroof, Virtual Cockpit, Leather Upholstery",
-    exteriorFeatures: "LED Headlamps, Roof Rails, 18-inch Alloy Wheels, Fog Lamps",
-    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
-},
-
-"Superb": {
-    type: "Passenger",
-    brand: "Skoda",
-    modelNameNumber: "Superb",
-    engineSpecifications: "1.8L Petrol, 2.0L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹28,00,000 - ₹35,00,000",
-    mileageRange: "15 - 18 km/l",
-    safetyFeatures: "8 Airbags, ABS with EBD, ESC, Blind Spot Detection, Adaptive Cruise Control",
-    colorOptions: "Magnetite Brown, Candy White, Brilliant Silver, and more",
-    dimensions: "4869 mm (Length), 1864 mm (Width), 1467 mm (Height)",
-    performanceFeatures: "Adaptive Suspension, Dynamic Chassis Control, Turbocharged Engine",
-    interiorFeatures: "Touchscreen Infotainment, Ambient Lighting, Virtual Cockpit",
-    exteriorFeatures: "LED Headlamps, Chrome Trims, Alloy Wheels",
-    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2001"
-},
-
-"Octavia": {
-    type: "Passenger",
-    brand: "Skoda",
-    modelNameNumber: "Octavia",
-    engineSpecifications: "1.4L Turbocharged Petrol, 2.0L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹20,00,000 - ₹30,00,000",
-    mileageRange: "16 - 18 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Rear Parking Sensors, Lane Assist",
-    colorOptions: "Magnetite Brown, Quartz Grey, Brilliant Silver, and more",
-    dimensions: "4689 mm (Length), 1829 mm (Width), 1465 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, Regenerative Braking, Adaptive Cruise Control",
-    interiorFeatures: "8-inch Touchscreen, Leather Upholstery, Virtual Cockpit",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Alloy Wheels",
-    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "1996"
-},
-
-"Enyaq iV": {
-    type: "Passenger",
-    brand: "Skoda",
-    modelNameNumber: "Enyaq iV",
-    engineSpecifications: "77 kWh Battery Electric",
-    fuelType: "Electric",
-    transmissionType: "Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹55,00,000 - ₹65,00,000",
-    mileageRange: "500 km (Range)",
-    safetyFeatures: "8 Airbags, ABS with EBD, ESC, Lane Assist, Adaptive Cruise Control",
-    colorOptions: "Black Magic, Mamba Green, Steel Grey, and more",
-    dimensions: "4649 mm (Length), 1877 mm (Width), 1610 mm (Height)",
-    performanceFeatures: "Electric Motor, Regenerative Braking, Fast Charging",
-    interiorFeatures: "Panoramic Sunroof, Touchscreen Infotainment, Leather Upholstery",
-    exteriorFeatures: "LED Headlamps, Roof Rails, Alloy Wheels",
-    warrantyAfterSalesService: "8-year Battery Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
-},
-
-"Kylaq": {
-    type: "Passenger",
-    brand: "Skoda",
-    modelNameNumber: "Kylaq",
-    engineSpecifications: "1.5L Petrol, 2.0L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Automatic",
-    seatingCapacity: "7",
-    priceRange: "₹25,00,000 - ₹40,00,000",
-    mileageRange: "15 - 18 km/l",
-    safetyFeatures: "7 Airbags, ABS with EBD, ESC, Blind Spot Detection, Adaptive Cruise Control",
-    colorOptions: "Moon White, Platinum Grey, Velvet Red, and more",
-    dimensions: "4700 mm (Length), 1880 mm (Width), 1680 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, 4WD, Adaptive Suspension",
-    interiorFeatures: "Virtual Cockpit, Leather Upholstery, Premium Sound System",
-    exteriorFeatures: "LED Headlamps, Roof Rails, Alloy Wheels",
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2024"
-},
-
-
-"Alto 800": {
-    "type": "Passenger",
-    "brand": "Maruti Suzuki",
-    "modelNameNumber": "Alto 800",
-    "engineSpecifications": "0.8L Petrol",
-    "fuelType": "Petrol",
-    "transmissionType": "Manual",
-    "seatingCapacity": "4",
-    "priceRange": "₹3,50,000 - ₹5,00,000",
-    "mileageRange": "22 - 24 km/l",
-    "safetyFeatures": "Dual Airbags, ABS with EBD",
-    "colorOptions": "Silky Silver, Solid White, Cerulean Blue, Mojito Green",
-    "dimensions": "3445 mm (Length), 1475 mm (Width), 1470 mm (Height)",
-    "performanceFeatures": "Lightweight Engine, Smart Play Audio System",
-    "interiorFeatures": "Premium Upholstery, 2-DIN Audio System",
-    "exteriorFeatures": "Halogen Headlamps, Body-Colored Bumpers",
-    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2012"
-},
-"Alto K10": {
-    "type": "Passenger",
-    "brand": "Maruti Suzuki",
-    "modelNameNumber": "Alto K10",
-    "engineSpecifications": "1.0L Petrol",
-    "fuelType": "Petrol",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹4,00,000 - ₹5,50,000",
-    "mileageRange": "22 - 24 km/l",
-    "safetyFeatures": "Dual Airbags, ABS with EBD",
-    "colorOptions": "Silky Silver, Pearl Arctic White, Granite Grey, Blazing Red",
-    "dimensions": "3445 mm (Length), 1475 mm (Width), 1470 mm (Height)",
-    "performanceFeatures": "Peppy Engine, Fuel Efficient, Smooth Gearbox",
-    "interiorFeatures": "Integrated Audio System, Digital Instrument Cluster",
-    "exteriorFeatures": "Body-Colored ORVMs, Fog Lamps, Chrome Front Grille",
-    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2014"
-},
-"Wagon R": {
-    "type": "Passenger",
-    "brand": "Maruti Suzuki",
-    "modelNameNumber": "Wagon R",
-    "engineSpecifications": "1.0L Petrol, 1.2L Petrol",
-    "fuelType": "Petrol",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹5,00,000 - ₹6,50,000",
-    "mileageRange": "20 - 22 km/l",
-    "safetyFeatures": "Dual Airbags, ABS with EBD",
-    "colorOptions": "Magnetic Brown, Silky Silver, Nutmeg Brown, Poolside Blue",
-    "dimensions": "3655 mm (Length), 1620 mm (Width), 1675 mm (Height)",
-    "performanceFeatures": "Peppy Engine, High Fuel Efficiency, Dual-tone Interiors",
-    "interiorFeatures": "Touchscreen Infotainment, Digital Speedometer",
-    "exteriorFeatures": "New Grille Design, Fog Lamps, LED DRLs",
-    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "1999"
-},
-"Swift": {
-    "type": "Passenger",
-    "brand": "Maruti Suzuki",
-    "modelNameNumber": "Swift",
-    "engineSpecifications": "1.2L Petrol, 1.3L Diesel",
-    "fuelType": "Petrol/Diesel",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹5,80,000 - ₹8,00,000",
-    "mileageRange": "19 - 22 km/l",
-    "safetyFeatures": "Dual Airbags, ABS with EBD, ESP, Hill Hold Assist",
-    "colorOptions": "Pearl Arctic White, Silky Silver, Prime Mystic Red",
-    "dimensions": "3840 mm (Length), 1735 mm (Width), 1530 mm (Height)",
-    "performanceFeatures": "Powerful Engine, Swift Handling, Sporty Feel",
-    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Smart Instrument Cluster",
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, Chrome Accents",
-    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2005"
-},
-"Swift Dzire": {
-    "type": "Passenger",
-    "brand": "Maruti Suzuki",
-    "modelNameNumber": "Swift Dzire",
-    "engineSpecifications": "1.2L Petrol, 1.3L Diesel",
-    "fuelType": "Petrol/Diesel",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹6,00,000 - ₹8,50,000",
-    "mileageRange": "19 - 23 km/l",
-    "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
-    "colorOptions": "Pearl White, Silky Silver, Magma Grey, Oxford Blue",
-    "dimensions": "3995 mm (Length), 1690 mm (Width), 1515 mm (Height)",
-    "performanceFeatures": "Efficient Engine, Smooth Ride Quality, Low Maintenance",
-    "interiorFeatures": "Touchscreen Infotainment, Leather Seats, Smart Instrument Cluster",
-    "exteriorFeatures": "LED DRLs, Alloy Wheels, Chrome Accents",
-    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2008"
-},
-"Celerio": {
-    "type": "Passenger",
-    "brand": "Maruti Suzuki",
-    "modelNameNumber": "Celerio",
-    "engineSpecifications": "1.0L Petrol, 1.0L CNG",
-    "fuelType": "Petrol/CNG",
-    "transmissionType": "Manual/AMT",
-    "seatingCapacity": "5",
-    "priceRange": "₹4,50,000 - ₹6,00,000",
-    "mileageRange": "23 - 27 km/l",
-    "safetyFeatures": "Dual Airbags, ABS with EBD, Rear Parking Sensors",
-    "colorOptions": "Silky Silver, Blazing Red, Glistening Grey, Caffeine Brown",
-    "dimensions": "3695 mm (Length), 1600 mm (Width), 1555 mm (Height)",
-    "performanceFeatures": "AMT Transmission, Fuel Efficiency, Easy Maneuverability",
-    "interiorFeatures": "Touchscreen Infotainment, Smart Digital Display",
-    "exteriorFeatures": "LED DRLs, Body-Colored ORVMs, Fog Lamps",
-    "warrantyAfterSalesService": "2-year/40,000 km Warranty, Roadside Assistance",
-    "releaseDateYear": "2008"
-},
-"Nexon": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Nexon",
-    "engineSpecifications": "1.2L Turbocharged Petrol, 1.5L Diesel",
-    "fuelType": "Petrol/Diesel",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹8,00,000 - ₹14,00,000",
-    "mileageRange": "17 - 21 km/l",
-    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Assist",
-    "colorOptions": "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-    "dimensions": "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-    "performanceFeatures": "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-    "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
-},
-
-"Eeco Cargo": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Eeco Cargo",  // Model Name Number
-    "engineSpecifications": "1.2L Petrol",  // Engine Specifications
-    "fuelType": "Petrol",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity
-    "priceRange": "₹5,00,000 - ₹6,50,000",  // Price Range
-    "mileageRange": "15 - 17 km/l",  // Mileage/Range
-    "safetyFeatures": "Driver Airbag, ABS with EBD",  // Safety Features
-    "colorOptions": "White, Silver, Red, Blue",  // Color Options
-    "dimensions": "3679 mm (Length), 1475 mm (Width), 1875 mm (Height)",  // Dimensions
-    "performanceFeatures": "Stable Ride, High Payload Capacity",  // Performance Features
-    "interiorFeatures": "Basic Instrument Cluster, Spacious Cargo Area",  // Interior Features
-    "exteriorFeatures": "Halogen Headlamps, Body-Colored Bumpers",  // Exterior Features
-    "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2010"  // Release Date/Year
-},
-
-"Alto Tour": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Alto Tour",  // Model Name Number
-    "engineSpecifications": "1.0L Petrol",  // Engine Specifications
-    "fuelType": "Petrol",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity
-    "priceRange": "₹3,50,000 - ₹5,00,000",  // Price Range
-    "mileageRange": "18 - 20 km/l",  // Mileage/Range
-    "safetyFeatures": "Driver Airbag, ABS with EBD",  // Safety Features
-    "colorOptions": "White, Silver, Red",  // Color Options
-    "dimensions": "3445 mm (Length), 1490 mm (Width), 1475 mm (Height)",  // Dimensions
-    "performanceFeatures": "Fuel Efficient, Compact Design",  // Performance Features
-    "interiorFeatures": "Basic Instrument Cluster, Spacious Cabin",  // Interior Features
-    "exteriorFeatures": "Halogen Headlamps, Rear Defogger",  // Exterior Features
-    "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2014"  // Release Date/Year
-},
-
-"Wagon R Tour": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Wagon R Tour",  // Model Name Number
-    "engineSpecifications": "1.0L Petrol",  // Engine Specifications
-    "fuelType": "Petrol",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "2",  // Seating Capacity
-    "priceRange": "₹5,50,000 - ₹7,00,000",  // Price Range
-    "mileageRange": "18 - 22 km/l",  // Mileage/Range
-    "safetyFeatures": "Driver Airbag, ABS with EBD",  // Safety Features
-    "colorOptions": "White, Silver, Blue",  // Color Options
-    "dimensions": "3655 mm (Length), 1620 mm (Width), 1700 mm (Height)",  // Dimensions
-    "performanceFeatures": "Efficient Engine, Spacious Interior",  // Performance Features
-    "interiorFeatures": "Basic Instrument Cluster, Ample Boot Space",  // Interior Features
-    "exteriorFeatures": "Halogen Headlamps, Fog Lamps",  // Exterior Features
-    "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2015"  // Release Date/Year
-},
-
-"Ertiga Tour": {
-    "type": "Commercial",
-    "brand": "Tata",
-    "modelNameNumber": "Ertiga Tour",  // Model Name Number
-    "engineSpecifications": "1.5L Diesel",  // Engine Specifications
-    "fuelType": "Diesel",  // Fuel Type
-    "transmissionType": "Manual",  // Transmission Type
-    "seatingCapacity": "7",  // Seating Capacity
-    "priceRange": "₹9,50,000 - ₹11,00,000",  // Price Range
-    "mileageRange": "20 - 24 km/l",  // Mileage/Range
-    "safetyFeatures": "ABS with EBD, Dual Airbags, Reverse Parking Sensors",  // Safety Features
-    "colorOptions": "White, Silver, Blue, Black",  // Color Options
-    "dimensions": "4300 mm (Length), 1695 mm (Width), 1685 mm (Height)",  // Dimensions
-    "performanceFeatures": "Fuel Efficient, Spacious, and Comfortable Ride",  // Performance Features
-    "interiorFeatures": "Touchscreen Infotainment, Ample Legroom",  // Interior Features
-    "exteriorFeatures": "Chrome Accents, Dual-tone Roof",  // Exterior Features
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    "releaseDateYear": "2017"  // Release Date/Year
-},
-
-
-"Nexon": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Nexon",  // Model Name Number
-    engineSpecifications: "1.2L Turbocharged Petrol, 1.5L Diesel", 
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹8,00,000 - ₹14,00,000",
-    mileageRange: "17 - 21 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",
-    colorOptions: "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-    dimensions: "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-    interiorFeatures: "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2016"
-},
 "Harrier": {
     type: "Passenger",
     brand: "Tata",
-    modelNameNumber: "Harrier",
-    engineSpecifications: "2.0L Turbocharged Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹15,00,000 - ₹23,00,000",
-    mileageRange: "16 - 20 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Traction Control",
-    colorOptions: "Calypso Red, Pearl White, Daytona Grey, Orion Silver",
-    dimensions: "4598 mm (Length), 1894 mm (Width), 1706 mm (Height)",
-    performanceFeatures: "Turbocharged Engine, Multiple Driving Modes, Hill Hold Control",
-    interiorFeatures: "Panoramic Sunroof, Touchscreen Infotainment, Leather Upholstery",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, 18-inch Alloy Wheels",
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2019"
-},
-"Safari": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Safari",
-    engineSpecifications: "2.0L Turbocharged Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "7",
-    priceRange: "₹16,00,000 - ₹24,00,000",
-    mileageRange: "14 - 18 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Traction Control",
-    colorOptions: "Pearl White, Royale Blue, Oyster Brown",
-    dimensions: "4661 mm (Length), 1894 mm (Width), 1786 mm (Height)",
-    performanceFeatures: "Advanced ESP, Terrain Response Modes",
-    interiorFeatures: "Premium Leather Upholstery, 9-inch Touchscreen Infotainment, Panoramic Sunroof",
-    exteriorFeatures: "LED DRLs, Dual-tone Roof, Projector Headlamps",
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
-},
-"Tiago": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Tiago",
-    engineSpecifications: "1.2L Petrol",
-    fuelType: "Petrol",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹5,00,000 - ₹7,50,000",
-    mileageRange: "19 - 23 km/l",
-    safetyFeatures: "Dual Airbags, ABS with EBD, Corner Stability Control",
-    colorOptions: "Berry Red, Pure Silver, Ocean Blue",
-    dimensions: "3765 mm (Length), 1647 mm (Width), 1537 mm (Height)",
-    performanceFeatures: "3 Driving Modes, Responsive Power Steering",
-    interiorFeatures: "7-inch Touchscreen Infotainment, Premium Fabric Upholstery",
-    exteriorFeatures: "LED DRLs, Projector Headlamps",
-    warrantyAfterSalesService: "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2016"
-},
-"Tigor": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Tigor",
-    engineSpecifications: "1.2L Petrol",
-    fuelType: "Petrol",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹6,00,000 - ₹8,50,000",
-    mileageRange: "18 - 22 km/l",
-    safetyFeatures: "Dual Airbags, ABS with EBD, Corner Stability Control",
-    colorOptions: "Berry Red, Pure Silver, Arizona Blue",
-    dimensions: "3993 mm (Length), 1677 mm (Width), 1537 mm (Height)",
-    performanceFeatures: "Smooth Handling, Responsive Steering",
-    interiorFeatures: "7-inch Touchscreen Infotainment, Fabric Upholstery",
-    exteriorFeatures: "LED DRLs, Projector Headlamps",
-    warrantyAfterSalesService: "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
-},
-"Punch": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Punch",
-    engineSpecifications: "1.2L Petrol",
-    fuelType: "Petrol",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹6,00,000 - ₹8,50,000",
-    mileageRange: "18 - 20 km/l",
-    safetyFeatures: "Dual Airbags, ABS with EBD, Corner Stability Control",
-    colorOptions: "Royal Blue, Tropical Mist, Orcus White, Daytona Grey",
-    dimensions: "3827 mm (Length), 1742 mm (Width), 1622 mm (Height)",
-    performanceFeatures: "Rugged Build, High Ground Clearance",
-    interiorFeatures: "7-inch Touchscreen Infotainment, Fabric Upholstery",
-    exteriorFeatures: "LED DRLs, Projector Headlamps",
-    warrantyAfterSalesService: "3-year/1,25,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
-},
+    description: "Premium SUV with powerful engine and spacious interior.",
+    features: ["Leather Seats", "Panoramic Sunroof", "Cruise Control"],
+    modelNameNumber: "Tata Harrier XZA+ Dark Edition",  
+    engineSpecifications: "2.0L Kryotec Turbocharged Diesel Engine, 1956cc, 170 PS, 350 Nm",  
+    fuelType: "Diesel",  
+    transmissionType: "6-speed Automatic and Manual",  
+    seatingCapacity: "5",  
+    priceRange: "₹15.49 Lakh - ₹24.49 Lakh (ex-showroom)",  
+    mileageRange: "16.35 km/l - 17.05 km/l",  
+    safetyFeatures: "6 Airbags, ABS with EBD, ESP, Hill Hold Assist, Roll-Over Mitigation",  
+    colorOptions: "Atlas Black, Orcus White, Tropical Mist, Daytona Grey, Royale Blue, and Calypso Red",  
+    dimensions: "Length: 4598 mm, Width: 1894 mm, Height: 1706 mm, Wheelbase: 2741 mm",  
+    performanceFeatures: "Drive Modes (Eco, City, Sport), Multi Drive 2.0, Advanced Terrain Response System",  
+    interiorFeatures: "Leather Upholstery, 8.8-inch Infotainment System, Ambient Lighting, JBL Sound System",  
+    exteriorFeatures: "LED DRLs, Dual-function LED Headlamps, 18-inch Diamond-Cut Alloy Wheels, Panoramic Sunroof",  
+    warrantyAfterSalesService: "2 years/unlimited km warranty with extended options and reliable service network",  
+    releaseDateYear: "2023",  
+    imageUrl: "assets/images/vehicle_models_images/Harrier.png"
+}
 
 
-"Altroz": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Altroz",
-    engineSpecifications: "1.2L Petrol, 1.5L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹5,50,000 - ₹9,50,000",
-    mileageRange: "18 - 23 km/l",
-    safetyFeatures: "5 Star NCAP Rating, 6 Airbags, ABS with EBD, ESC, Hill Assist",
-    colorOptions: "High Street Gold, Harbour Blue, Downtown Red, Polar White, and more",
-    dimensions: "3990 mm (Length), 1755 mm (Width), 1505 mm (Height)",
-    performanceFeatures: "Harman Infotainment, Multi-Drive Modes, Premium Cabin",
-    interiorFeatures: "Touchscreen Infotainment, Premium Upholstery, Apple CarPlay/Android Auto",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Fog Lamps",
-    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2020"
-},
-"Curvv": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Curvv",
-    engineSpecifications: "1.2L Turbo Petrol, 1.5L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹12,00,000 - ₹18,00,000",
-    mileageRange: "14 - 18 km/l",
-    safetyFeatures: "Advanced Driver Assistance System (ADAS), 6 Airbags, ABS with EBD",
-    colorOptions: "Metalic Blue, Shadow Silver, White, Grey, and more",
-    dimensions: "4360 mm (Length), 1895 mm (Width), 1600 mm (Height)",
-    performanceFeatures: "Electric Sunroof, Adaptive Cruise Control, Advanced Infotainment System",
-    interiorFeatures: "Connected Car Tech, 10.25-inch Touchscreen, Wireless Charging",
-    exteriorFeatures: "LED Headlights, Bold Grille, SUV Coupe Design",
-    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2024"
-},
-"Gravitas": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Gravitas",
-    engineSpecifications: "2.0L Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "7",
-    priceRange: "₹15,00,000 - ₹22,00,000",
-    mileageRange: "14 - 17 km/l",
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Hold Assist",
-    colorOptions: "Orcus White, Telesto Grey, Royale Blue, and more",
-    dimensions: "4661 mm (Length), 1894 mm (Width), 1786 mm (Height)",
-    performanceFeatures: "Panoramic Sunroof, Adaptive Cruise Control, Terrain Response Modes",
-    interiorFeatures: "Premium Leather Upholstery, 8.8-inch Infotainment System, 9 Speaker System",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Dual-tone Roof",
-    warrantyAfterSalesService: "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2021"
-},
-"Nano": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Nano",
-    engineSpecifications: "0.8L Petrol",
-    fuelType: "Petrol",
-    transmissionType: "Manual",
-    seatingCapacity: "4",
-    priceRange: "₹2,00,000 - ₹3,00,000",
-    mileageRange: "20 - 25 km/l",
-    safetyFeatures: "ABS with EBD, Dual Airbags",
-    colorOptions: "Papaya Orange, Serene White, Meteor Silver, and more",
-    dimensions: "3164 mm (Length), 1652 mm (Width), 1652 mm (Height)",
-    performanceFeatures: "Compact and Fuel Efficient, Low Running Cost",
-    interiorFeatures: "Basic Infotainment, Minimalist Dashboard, Comfortable Seating",
-    exteriorFeatures: "Compact Design, Stylish Look, Fog Lamps",
-    warrantyAfterSalesService: "2-year/40,000 km Warranty",
-    releaseDateYear: "2008"
-},
-"Nexon EV": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Nexon EV",
-    engineSpecifications: "Electric Motor (127 bhp)",
-    fuelType: "Electric",
-    transmissionType: "Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹15,00,000 - ₹20,00,000",
-    mileageRange: "312 km (ARAI Certified)",
-    safetyFeatures: "5 Star Global NCAP, 6 Airbags, ABS with EBD, ESC",
-    colorOptions: "Glacier White, Moonlit Silver, Pure Blue, and more",
-    dimensions: "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-    performanceFeatures: "Instant Torque, Multi-Drive Modes, Fast Charging",
-    interiorFeatures: "7-inch Touchscreen, Apple CarPlay, Wireless Charging",
-    exteriorFeatures: "LED DRLs, Projector Headlamps, Fog Lamps, Stylish Alloy Wheels",
-    warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",
-    releaseDateYear: "2020"
-},
-"Tiago EV": {
-    type: "Passenger",
-    brand: "Tata",
-    modelNameNumber: "Tiago EV",
-    engineSpecifications: "Electric Motor (74 bhp)",
-    fuelType: "Electric",
-    transmissionType: "Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹8,00,000 - ₹11,00,000",
-    mileageRange: "250 km (ARAI Certified)",
-    safetyFeatures: "Dual Airbags, ABS with EBD, Rear Parking Sensors",
-    colorOptions: "Teal Blue, Deep Red, Pure Silver, and more",
-    dimensions: "3763 mm (Length), 1677 mm (Width), 1537 mm (Height)",
-    performanceFeatures: "Regenerative Braking, Quick Charging",
-    interiorFeatures: "7-inch Touchscreen, Apple CarPlay, Digital Instrument Cluster",
-    exteriorFeatures: "LED DRLs, Bold Grille, Rear Spoiler",
-    warrantyAfterSalesService: "8-year/1,60,000 km Battery Warranty",
-    releaseDateYear: "2022"
-},
-
-
-"Tigor EV": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Tigor EV",
-    "engineSpecifications": "72 V Lithium-ion Battery",
-    "fuelType": "Electric",
-    "transmissionType": "Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹12,00,000 - ₹15,00,000",
-    "mileageRange": "213 km (ARAI)",
-    "safetyFeatures": "Dual Airbags, ABS with EBD, Corner Stability Control",
-    "colorOptions": "Pristine White, Deep Red, Teal Blue, Daytona Grey",
-    "dimensions": "3990 mm (Length), 1677 mm (Width), 1532 mm (Height)",
-    "performanceFeatures": "Regenerative Braking, Electric Power Steering",
-    "interiorFeatures": "7-inch Touchscreen, Android Auto, Apple CarPlay, Digital Instrument Cluster",
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, Alloy Wheels",
-    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2021"
-},
-"Punch EV": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Punch EV",
-    "engineSpecifications": "26 kWh Lithium-ion Battery",
-    "fuelType": "Electric",
-    "transmissionType": "Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹9,50,000 - ₹12,00,000",
-    "mileageRange": "300 km (ARAI)",
-    "safetyFeatures": "Dual Airbags, ABS with EBD, ESP, Hill Assist",
-    "colorOptions": "Calypso Red, Tropical Mist, Orcus White, Meteor Bronze",
-    "dimensions": "3827 mm (Length), 1742 mm (Width), 1652 mm (Height)",
-    "performanceFeatures": "EV Powertrain, Multi-Drive Modes, Regenerative Braking",
-    "interiorFeatures": "Touchscreen Infotainment, Digital Instrument Cluster, Smart Storage",
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, 16-inch Alloy Wheels",
-    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2023"
-},
-"Curvv EV": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Curvv EV",
-    "engineSpecifications": "40 kWh Lithium-ion Battery",
-    "fuelType": "Electric",
-    "transmissionType": "Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹16,00,000 - ₹22,00,000",
-    "mileageRange": "500 km (ARAI)",
-    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Advanced Driver Assistance System",
-    "colorOptions": "Starry Black, Moonlit Silver, Coral Red",
-    "dimensions": "4300 mm (Length), 1875 mm (Width), 1600 mm (Height)",
-    "performanceFeatures": "Electric Powertrain, Regenerative Braking, Cruise Control",
-    "interiorFeatures": "7-inch Touchscreen Infotainment, Premium Upholstery, Voice Assist",
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, 18-inch Alloy Wheels",
-    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2024"
-},
-"Harrier EV": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Harrier EV",
-    "engineSpecifications": "40 kWh Lithium-ion Battery",
-    "fuelType": "Electric",
-    "transmissionType": "Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹22,00,000 - ₹28,00,000",
-    "mileageRange": "450 km (ARAI)",
-    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Advanced Driver Assistance System",
-    "colorOptions": "Calypso Red, Pearlescent White, Royale Blue",
-    "dimensions": "4598 mm (Length), 1894 mm (Width), 1700 mm (Height)",
-    "performanceFeatures": "Electric Powertrain, Regenerative Braking, Terrain Response Modes",
-    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, 17-inch Alloy Wheels",
-    "warrantyAfterSalesService": "8-year/1,60,000 km Battery Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2024"
-},
-"Hexa": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Hexa",
-    "engineSpecifications": "2.2L VARICOR Diesel",
-    "fuelType": "Diesel",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "7",
-    "priceRange": "₹13,00,000 - ₹20,00,000",
-    "mileageRange": "14 - 17 km/l",
-    "safetyFeatures": "6 Airbags, ABS with EBD, Cornering Stability Control",
-    "colorOptions": "Arctic Silver, Graphite, Pearl White",
-    "dimensions": "4760 mm (Length), 1900 mm (Width), 1785 mm (Height)",
-    "performanceFeatures": "4WD, Drive Modes, 6-Speed Automatic Transmission",
-    "interiorFeatures": "7-inch Touchscreen, Premium Leather Upholstery, Automatic Climate Control",
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, Roof Rails, Fog Lamps",
-    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-    "releaseDateYear": "2016"
-},
-"Zest": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Zest",
-    "engineSpecifications": "1.3L Quadrajet Diesel, 1.2L Revotron Petrol",
-    "fuelType": "Diesel/Petrol",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹6,00,000 - ₹8,00,000",
-    "mileageRange": "17 - 23 km/l",
-    "safetyFeatures": "Dual Airbags, ABS with EBD, Corner Stability Control",
-    "colorOptions": "Platinum Silver, Venetian Red, Sky Grey",
-    "dimensions": "3995 mm (Length), 1706 mm (Width), 1570 mm (Height)",
-    "performanceFeatures": "Turbocharged Engine, Drive Modes",
-    "interiorFeatures": "Touchscreen Infotainment, Automatic Climate Control, Keyless Entry",
-    "exteriorFeatures": "Projector Headlamps, Alloy Wheels, LED DRLs",
-    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-    "releaseDateYear": "2014"
-},
-"Bolt": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Bolt",
-    "engineSpecifications": "1.2L Revotron Petrol, 1.3L Quadrajet Diesel",
-    "fuelType": "Diesel/Petrol",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹5,50,000 - ₹7,50,000",
-    "mileageRange": "15 - 22 km/l",
-    "safetyFeatures": "Dual Airbags, ABS with EBD, Corner Stability Control",
-    "colorOptions": "Pristine White, Sunburst Orange, Platinum Silver",
-    "dimensions": "3825 mm (Length), 1695 mm (Width), 1550 mm (Height)",
-    "performanceFeatures": "Turbocharged Engine, Drive Modes",
-    "interiorFeatures": "Touchscreen Infotainment, Digital Instrument Cluster, Automatic Climate Control",
-    "exteriorFeatures": "Projector Headlamps, LED DRLs, Alloy Wheels",
-    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-    "releaseDateYear": "2015"
-},
-"Indica": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "Indica",
-    "engineSpecifications": "1.4L TDI Diesel, 1.2L Petrol",
-    "fuelType": "Diesel/Petrol",
-    "transmissionType": "Manual",
-    "seatingCapacity": "5",
-    "priceRange": "₹4,50,000 - ₹6,00,000",
-    "mileageRange": "15 - 20 km/l",
-    "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
-    "colorOptions": "Ocean Blue, Mist Silver, Spice Red",
-    "dimensions": "3795 mm (Length), 1665 mm (Width), 1490 mm (Height)",
-    "performanceFeatures": "Peppy Engine, Excellent Fuel Efficiency",
-    "interiorFeatures": "Basic Infotainment, Fabric Upholstery, Manual Air Conditioning",
-    "exteriorFeatures": "Halogen Headlamps, Body-colored Bumpers",
-    "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-    "releaseDateYear": "1998"
-},
-
-"Corolla Altis": {
-    type: "Passenger",
-    brand: "Toyota",
-    modelNameNumber: "Corolla Altis",
-    engineSpecifications: "1.8L Petrol, 1.4L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹16,00,000 - ₹20,00,000",
-    mileageRange: "15 - 18 km/l",
-    safetyFeatures: "7 Airbags, ABS with EBD, Vehicle Stability Control, Hill Assist",
-    colorOptions: "Pearl White, Silver Metallic, Attitude Black, Grey Metallic, and more",
-    dimensions: "4620 mm (Length), 1775 mm (Width), 1460 mm (Height)",
-    performanceFeatures: "Cruise Control, Enhanced Driving Modes, Electronic Power Steering",
-    interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Automatic Climate Control",
-    exteriorFeatures: "LED Headlamps, Fog Lamps, Alloy Wheels, Chrome Accents",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2008"
-},
-
-"Vellfire": {
-    type: "Passenger",
-    brand: "Toyota",
-    modelNameNumber: "Vellfire",
-    engineSpecifications: "2.5L Petrol, Hybrid",
-    fuelType: "Petrol/Hybird",
-    transmissionType: "Automatic",
-    seatingCapacity: "7",
-    priceRange: "₹80,00,000 - ₹90,00,000",
-    mileageRange: "10 - 14 km/l",
-    safetyFeatures: "10 Airbags, ABS with EBD, Vehicle Stability Control, Hill Start Assist",
-    colorOptions: "White Pearl Crystal Shine, Black, Silver, and more",
-    dimensions: "4935 mm (Length), 1850 mm (Width), 1895 mm (Height)",
-    performanceFeatures: "Adaptive Cruise Control, All-Wheel Drive, Power Tailgate",
-    interiorFeatures: "Luxury Leather Seats, 17-inch Touchscreen, Sunroof",
-    exteriorFeatures: "LED Projector Headlamps, Alloy Wheels, Power Sliding Doors",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
-},
-
-"Hilux": {
-    type: "Commercial",
-    brand: "Toyota",
-    modelNameNumber: "Hilux",
-    engineSpecifications: "2.4L Diesel, 2.8L Diesel",
-    fuelType: "Diesel",
-    transmissionType: "Manual/Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹35,00,000 - ₹45,00,000",
-    mileageRange: "12 - 16 km/l",
-    safetyFeatures: "7 Airbags, ABS with EBD, Traction Control, Hill Assist",
-    colorOptions: "White, Silver, Black, Red, and more",
-    dimensions: "5325 mm (Length), 1855 mm (Width), 1815 mm (Height)",
-    performanceFeatures: "4WD, Locking Differential, Tow Package",
-    interiorFeatures: "Premium Upholstery, Touchscreen Infotainment, Climate Control",
-    exteriorFeatures: "LED Daytime Running Lights, Alloy Wheels, Tow Hooks",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2017"
-},
-
-"Land Cruiser Prado": {
-    type: "Passenger",
-    brand: "Toyota",
-    modelNameNumber: "Land Cruiser Prado",
-    engineSpecifications: "2.8L Diesel, 4.0L Petrol",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Automatic",
-    seatingCapacity: "7",
-    priceRange: "₹95,00,000 - ₹1,05,00,000",
-    mileageRange: "8 - 12 km/l",
-    safetyFeatures: "10 Airbags, ABS with EBD, Vehicle Stability Control, Multi-Terrain Select",
-    colorOptions: "White, Black, Silver, Grey, and more",
-    dimensions: "4820 mm (Length), 1885 mm (Width), 1845 mm (Height)",
-    performanceFeatures: "4WD, Active Traction Control, Multi-Terrain Monitoring",
-    interiorFeatures: "Leather Upholstery, Touchscreen Infotainment, Rear Entertainment",
-    exteriorFeatures: "LED Headlamps, Alloy Wheels, Roof Rails",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2009"
-},
-
-"Etios": {
-    type: "Passenger",
-    brand: "Toyota",
-    modelNameNumber: "Etios",
-    engineSpecifications: "1.5L Petrol, 1.4L Diesel",
-    fuelType: "Petrol/Diesel",
-    transmissionType: "Manual",
-    seatingCapacity: "5",
-    priceRange: "₹7,00,000 - ₹9,00,000",
-    mileageRange: "15 - 18 km/l",
-    safetyFeatures: "Dual Airbags, ABS with EBD, Brake Assist",
-    colorOptions: "White, Silver, Red, Grey, and more",
-    dimensions: "4265 mm (Length), 1695 mm (Width), 1510 mm (Height)",
-    performanceFeatures: "Power Steering, Remote Central Locking, Dual Tone Dashboard",
-    interiorFeatures: "Touchscreen Infotainment, Digital Instrument Cluster, Air Conditioning",
-    exteriorFeatures: "LED DRLs, Fog Lamps, Body Colored Bumpers",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2010"
-},
-
-"Prius": {
-    type: "Passenger",
-    brand: "Toyota",
-    modelNameNumber: "Prius",
-    engineSpecifications: "1.8L Petrol Hybrid",
-    fuelType: "Hybrid",
-    transmissionType: "Automatic",
-    seatingCapacity: "5",
-    priceRange: "₹35,00,000 - ₹40,00,000",
-    mileageRange: "18 - 25 km/l",
-    safetyFeatures: "7 Airbags, ABS with EBD, Traction Control, Pre-Collision System",
-    colorOptions: "Silver, White, Black, Red, and more",
-    dimensions: "4540 mm (Length), 1760 mm (Width), 1490 mm (Height)",
-    performanceFeatures: "Eco Mode, Regenerative Braking, Power Mode",
-    interiorFeatures: "Premium Upholstery, Touchscreen Infotainment, Climate Control",
-    exteriorFeatures: "LED Headlamps, Alloy Wheels, Aerodynamic Design",
-    warrantyAfterSalesService: "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    releaseDateYear: "2010"
-},
-
-
-"Innova Crysta": {
-    "type": "Passenger",
-    "brand": "Toyota",
-    "modelNameNumber": "Innova Crysta",
-    "engineSpecifications": "2.7L Petrol, 2.4L Diesel",
-    "fuelType": "Petrol/Diesel",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "7-8",
-    "priceRange": "₹17,00,000 - ₹24,00,000",
-    "mileageRange": "10 - 15 km/l",
-    "safetyFeatures": "7 Airbags, ABS, EBD, TCS, Vehicle Stability Control",
-    "colorOptions": "Silver, White, Grey, Pearl White, Bronze",
-    "dimensions": "4735 mm (Length), 1830 mm (Width), 1795 mm (Height)",
-    "performanceFeatures": "Powerful Engine, Auto Climate Control, Multi-Function Steering Wheel",
-    "interiorFeatures": "Premium Upholstery, 8-inch Touchscreen, 7-inch MID",
-    "exteriorFeatures": "LED Headlamps, Chrome Grille, Roof Rails",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
-  },
-  "Fortuner": {
-    "type": "Passenger",
-    "brand": "Toyota",
-    "modelNameNumber": "Fortuner",
-    "engineSpecifications": "2.7L Petrol, 2.8L Diesel",
-    "fuelType": "Petrol/Diesel",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "7",
-    "priceRange": "₹33,00,000 - ₹50,00,000",
-    "mileageRange": "10 - 14 km/l",
-    "safetyFeatures": "7 Airbags, ABS, EBD, Vehicle Stability Control, Hill Assist",
-    "colorOptions": "White, Silver, Black, Grey, Pearl White",
-    "dimensions": "4795 mm (Length), 1855 mm (Width), 1835 mm (Height)",
-    "performanceFeatures": "4x4, Sports Mode, Automatic Climate Control",
-    "interiorFeatures": "Leather Upholstery, Touchscreen Infotainment, Smart Key Entry",
-    "exteriorFeatures": "LED Projector Headlamps, Chrome Accents, Roof Rails",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2009"
-  },
-  "Urban Cruiser": {
-    "type": "Passenger",
-    "brand": "Toyota",
-    "modelNameNumber": "Urban Cruiser",
-    "engineSpecifications": "1.5L Petrol",
-    "fuelType": "Petrol",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹8,00,000 - ₹11,00,000",
-    "mileageRange": "16 - 18 km/l",
-    "safetyFeatures": "6 Airbags, ABS, EBD, Hill Assist, Parking Sensors",
-    "colorOptions": "White, Silver, Black, Red, Orange",
-    "dimensions": "3995 mm (Length), 1795 mm (Width), 1640 mm (Height)",
-    "performanceFeatures": "Smart Hybrid Technology, Automatic Climate Control",
-    "interiorFeatures": "7-inch Touchscreen, Smart Connectivity, Leather Steering",
-    "exteriorFeatures": "LED Projector Headlamps, Diamond Cut Alloy Wheels, Roof Rails",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2020"
-  },
-  "Glanza": {
-    "type": "Passenger",
-    "brand": "Toyota",
-    "modelNameNumber": "Glanza",
-    "engineSpecifications": "1.2L Petrol",
-    "fuelType": "Petrol",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹7,00,000 - ₹9,00,000",
-    "mileageRange": "19 - 23 km/l",
-    "safetyFeatures": "Dual Airbags, ABS, EBD, Rear Parking Sensors",
-    "colorOptions": "White, Silver, Red, Blue, Black",
-    "dimensions": "4045 mm (Length), 1730 mm (Width), 1475 mm (Height)",
-    "performanceFeatures": "Smart Hybrid, LED Projector Headlamps",
-    "interiorFeatures": "7-inch Infotainment System, Steering-mounted Controls",
-    "exteriorFeatures": "LED DRLs, Dual-tone Roof",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2019"
-  },
-  "Yaris": {
-    "type": "Passenger",
-    "brand": "Toyota",
-    "modelNameNumber": "Yaris",
-    "engineSpecifications": "1.5L Petrol",
-    "fuelType": "Petrol",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹10,00,000 - ₹15,00,000",
-    "mileageRange": "17 - 20 km/l",
-    "safetyFeatures": "7 Airbags, ABS, EBD, Parking Sensors",
-    "colorOptions": "White, Silver, Black, Red, Blue",
-    "dimensions": "4425 mm (Length), 1730 mm (Width), 1495 mm (Height)",
-    "performanceFeatures": "Super CVT-i, Multi-drive Mode",
-    "interiorFeatures": "Touchscreen, Leather Upholstery, Smart Key Entry",
-    "exteriorFeatures": "LED Projector Headlamps, Alloy Wheels, Shark-fin Antenna",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2018"
-  },
-  "Camry": {
-    "type": "Passenger",
-    "brand": "Toyota",
-    "modelNameNumber": "Camry",
-    "engineSpecifications": "2.5L Petrol, 2.5L Hybrid",
-    "fuelType": "Petrol/Hybrid",
-    "transmissionType": "Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹40,00,000 - ₹50,00,000",
-    "mileageRange": "14 - 19 km/l",
-    "safetyFeatures": "9 Airbags, ABS, EBD, Vehicle Stability Control, Hill Assist",
-    "colorOptions": "White, Silver, Black, Blue, Red",
-    "dimensions": "4855 mm (Length), 1840 mm (Width), 1445 mm (Height)",
-    "performanceFeatures": "Hybrid Technology, Drive Modes, Adaptive Cruise Control",
-    "interiorFeatures": "Premium Leather Upholstery, Touchscreen, 9-inch MID",
-    "exteriorFeatures": "LED Headlamps, Alloy Wheels, Aerodynamic Design",
-    "warrantyAfterSalesService": "3-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2021"
-  },
-  "Nexon": {
-    "type": "Passenger",
-    "brand": "Tata",
-    "modelNameNumber": "XUV300",
-    "engineSpecifications": "1.2L Turbocharged Petrol, 1.5L Diesel",
-    "fuelType": "Petrol/Diesel",
-    "transmissionType": "Manual/Automatic",
-    "seatingCapacity": "5",
-    "priceRange": "₹8,00,000 - ₹14,00,000",
-    "mileageRange": "17 - 21 km/l",
-    "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Assist",
-    "colorOptions": "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-    "dimensions": "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-    "performanceFeatures": "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-    "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-    "exteriorFeatures": "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-    "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-    "releaseDateYear": "2016"
-  },
-
-  "Virtus": {
-    type: "Passenger",
-    brand: "Volkswagen",
-    modelNameNumber: "Virtus",  // Model Name Number
-    engineSpecifications: "1.0L TSI Petrol, 1.5L TSI Petrol",  // Engine Specifications
-    fuelType: "Petrol",  // Fuel Type
-    transmissionType: "Manual/Automatic",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹11,00,000 - ₹17,00,000",  // Price Range
-    mileageRange: "16 - 18 km/l",  // Mileage/Range
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",  // Safety Features
-    colorOptions: "Curcuma Yellow, Reflex Silver, Carbon Steel, Candy White, and more",  // Color Options
-    dimensions: "4561 mm (Length), 1759 mm (Width), 1506 mm (Height)",  // Dimensions
-    performanceFeatures: "Turbocharged Engine, Sports Mode, Adaptive Cruise Control",  // Performance Features
-    interiorFeatures: "Touchscreen Infotainment, Digital Cockpit, Leather Upholstery",  // Interior Features
-    exteriorFeatures: "LED Headlamps, Fog Lamps, Alloy Wheels, Sunroof",  // Exterior Features
-    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2022"  // Release Date/Year
-},
-
-"Taigun": {
-    type: "Passenger",
-    brand: "Volkswagen",
-    modelNameNumber: "Taigun",  // Model Name Number
-    engineSpecifications: "1.0L TSI Petrol, 1.5L TSI Petrol",  // Engine Specifications
-    fuelType: "Petrol",  // Fuel Type
-    transmissionType: "Manual/Automatic",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹10,00,000 - ₹17,50,000",  // Price Range
-    mileageRange: "16 - 18 km/l",  // Mileage/Range
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist",  // Safety Features
-    colorOptions: "Pure White, Reflex Silver, Carbon Steel, Lapiz Blue, and more",  // Color Options
-    dimensions: "4221 mm (Length), 1760 mm (Width), 1612 mm (Height)",  // Dimensions
-    performanceFeatures: "Turbocharged Engine, Sports Mode, Cruise Control",  // Performance Features
-    interiorFeatures: "Touchscreen Infotainment, Wireless Charging, Leather Upholstery",  // Interior Features
-    exteriorFeatures: "LED DRLs, Alloy Wheels, Roof Rails, Fog Lamps",  // Exterior Features
-    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
-},
-
-"Tiguan": {
-    type: "Passenger",
-    brand: "Volkswagen",
-    modelNameNumber: "Tiguan",  // Model Name Number
-    engineSpecifications: "2.0L TDI Diesel, 1.5L TSI Petrol",  // Engine Specifications
-    fuelType: "Diesel/Petrol",  // Fuel Type
-    transmissionType: "Automatic",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹30,00,000 - ₹36,00,000",  // Price Range
-    mileageRange: "12 - 16 km/l",  // Mileage/Range
-    safetyFeatures: "8 Airbags, ABS with EBD, ESC, Hill Assist, Lane Assist",  // Safety Features
-    colorOptions: "Pure White, Oryx White, Deep Black Pearl, and more",  // Color Options
-    dimensions: "4486 mm (Length), 1839 mm (Width), 1672 mm (Height)",  // Dimensions
-    performanceFeatures: "4MOTION All-Wheel Drive, Adaptive Cruise Control, Drive Mode Selection",  // Performance Features
-    interiorFeatures: "Digital Cockpit, 8-inch Infotainment, Leather Upholstery",  // Interior Features
-    exteriorFeatures: "LED Headlamps, Alloy Wheels, Roof Rails, Panoramic Sunroof",  // Exterior Features
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2021"  // Release Date/Year
-},
-
-"New Tiguan": {
-    type: "Passenger",
-    brand: "Volkswagen",
-    modelNameNumber: "New Tiguan",  // Model Name Number
-    engineSpecifications: "2.0L TDI Diesel, 1.5L TSI Petrol",  // Engine Specifications
-    fuelType: "Diesel/Petrol",  // Fuel Type
-    transmissionType: "Automatic",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹36,00,000 - ₹42,00,000",  // Price Range
-    mileageRange: "12 - 16 km/l",  // Mileage/Range
-    safetyFeatures: "8 Airbags, ABS with EBD, ESC, Hill Assist, Adaptive Cruise Control",  // Safety Features
-    colorOptions: "Oryx White, Deep Black Pearl, Lapiz Blue, and more",  // Color Options
-    dimensions: "4486 mm (Length), 1839 mm (Width), 1672 mm (Height)",  // Dimensions
-    performanceFeatures: "4MOTION AWD, Dynamic Chassis Control, Drive Mode Selector",  // Performance Features
-    interiorFeatures: "Virtual Cockpit, 9.2-inch Infotainment, Leather Upholstery",  // Interior Features
-    exteriorFeatures: "LED Matrix Headlamps, Alloy Wheels, Panoramic Sunroof",  // Exterior Features
-    warrantyAfterSalesService: "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2023"  // Release Date/Year
-},
-
-"Virtus GT": {
-    type: "Passenger",
-    brand: "Volkswagen",
-    modelNameNumber: "Virtus GT",  // Model Name Number
-    engineSpecifications: "1.5L TSI Petrol",  // Engine Specifications
-    fuelType: "Petrol",  // Fuel Type
-    transmissionType: "Automatic",  // Transmission Type
-    seatingCapacity: "5",  // Seating Capacity
-    priceRange: "₹16,00,000 - ₹20,00,000",  // Price Range
-    mileageRange: "14 - 16 km/l",  // Mileage/Range
-    safetyFeatures: "6 Airbags, ABS with EBD, ESC, Hill Assist, Rear Parking Sensors",  // Safety Features
-    colorOptions: "Flash Red, Curcuma Yellow, Carbon Steel, and more",  // Color Options
-    dimensions: "4561 mm (Length), 1759 mm (Width), 1506 mm (Height)",  // Dimensions
-    performanceFeatures: "Turbocharged Engine, Sporty Exhaust Note, Sports Mode",  // Performance Features
-    interiorFeatures: "GT-inspired Seats, Touchscreen Infotainment, Leather Upholstery",  // Interior Features
-    exteriorFeatures: "GT Badging, LED DRLs, Fog Lamps, Alloy Wheels",  // Exterior Features
-    warrantyAfterSalesService: "4-year/1,00,000 km Warranty, 24/7 Roadside Assistance",  // Warranty & After-Sales Service
-    releaseDateYear: "2022"  // Release Date/Year
-},
-
-    "Grand Vitara": {
-        "type": "Passenger",
-        "brand": "Tata",
-        "modelNameNumber": "Grand Vitara",
-        "engineSpecifications": "1.5L Petrol, 1.5L Hybrid",
-        "fuelType": "Petrol/Hybrid",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹9,00,000 - ₹15,00,000",
-        "mileageRange": "18 - 22 km/l",
-        "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Hold Assist, Reverse Parking Sensors",
-        "colorOptions": "Pearl White, Silky Silver, Grandeur Grey, and more",
-        "dimensions": "4645 mm (Length), 1855 mm (Width), 1695 mm (Height)",
-        "performanceFeatures": "All-Wheel Drive, Drive Modes, E-Call Feature",
-        "interiorFeatures": "10.1-inch Touchscreen, Premium Upholstery, Wireless Charging",
-        "exteriorFeatures": "LED Headlights, Front Skid Plate, Dual-tone Roof",
-        "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2022"
-    },
-    "Jimny": {
-        "type": "Passenger",
-        "brand": "Tata",
-        "modelNameNumber": "Jimny",
-        "engineSpecifications": "1.5L Petrol",
-        "fuelType": "Petrol",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "4",
-        "priceRange": "₹10,00,000 - ₹14,00,000",
-        "mileageRange": "15 - 18 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD, 4x4 Drive",
-        "colorOptions": "Kinetic Yellow, Silky Silver, Granite Grey",
-        "dimensions": "3645 mm (Length), 1645 mm (Width), 1725 mm (Height)",
-        "performanceFeatures": "4x4 Drive, Rigid Axle, Off-Road Capability",
-        "interiorFeatures": "7-inch Touchscreen, Fabric Upholstery, Roof Rails",
-        "exteriorFeatures": "LED Headlamps, Rear Spoiler, Alloy Wheels",
-        "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2023"
-    },
-    "Fronx": {
-        "type": "Passenger",
-        "brand": "Tata",
-        "modelNameNumber": "Fronx",
-        "engineSpecifications": "1.2L Petrol, 1.0L Turbocharged Petrol",
-        "fuelType": "Petrol",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹7,50,000 - ₹11,50,000",
-        "mileageRange": "18 - 20 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD, ESC, Hill Hold Assist",
-        "colorOptions": "Caffé Latte, Arctic White, Bronzo, and more",
-        "dimensions": "3995 mm (Length), 1765 mm (Width), 1550 mm (Height)",
-        "performanceFeatures": "Turbocharged Engine, Multi-Drive Modes",
-        "interiorFeatures": "7-inch Touchscreen, Wireless Apple CarPlay, Push Start",
-        "exteriorFeatures": "LED DRLs, Alloy Wheels, Roof Rails",
-        "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2023"
-    },
-    "Invicto": {
-        "type": "Passenger",
-        "brand": "Tata",
-        "modelNameNumber": "Invicto",
-        "engineSpecifications": "2.0L Diesel",
-        "fuelType": "Diesel",
-        "transmissionType": "Automatic",
-        "seatingCapacity": "7",
-        "priceRange": "₹16,00,000 - ₹22,00,000",
-        "mileageRange": "14 - 18 km/l",
-        "safetyFeatures": "6 Airbags, ABS with EBD, ESC, 360-degree Camera",
-        "colorOptions": "Moonlit Silver, Shadow Black, Ivory White",
-        "dimensions": "5055 mm (Length), 1855 mm (Width), 1775 mm (Height)",
-        "performanceFeatures": "Turbocharged Diesel Engine, Cruise Control, Electric Parking Brake",
-        "interiorFeatures": "12-inch Touchscreen, Leather Upholstery, Digital Instrument Cluster",
-        "exteriorFeatures": "LED Headlamps, Dual-tone Roof, Power Tailgate",
-        "warrantyAfterSalesService": "5-year/1,00,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2023"
-    },
-    "Eeco": {
-        "type": "Commercial",
-        "brand": "Tata",
-        "modelNameNumber": "Eeco",
-        "engineSpecifications": "1.2L Petrol",
-        "fuelType": "Petrol",
-        "transmissionType": "Manual",
-        "seatingCapacity": "5-7",
-        "priceRange": "₹4,50,000 - ₹5,50,000",
-        "mileageRange": "16 - 18 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
-        "colorOptions": "Superior White, Metallic Silver",
-        "dimensions": "3675 mm (Length), 1475 mm (Width), 1800 mm (Height)",
-        "performanceFeatures": "Good Load Capacity, Efficient Fuel Consumption",
-        "interiorFeatures": "Basic Infotainment System, Fabric Upholstery",
-        "exteriorFeatures": "Halogen Headlights, Wheel Covers",
-        "warrantyAfterSalesService": "3-year/1,00,000 km Warranty",
-        "releaseDateYear": "2010"
-    },
-    "Super Carry": {
-        "type": "Commercial",
-        "brand": "Tata",
-        "modelNameNumber": "Super Carry",
-        "engineSpecifications": "1.4L Diesel",
-        "fuelType": "Diesel",
-        "transmissionType": "Manual",
-        "seatingCapacity": "2",
-        "priceRange": "₹5,00,000 - ₹6,50,000",
-        "mileageRange": "18 - 20 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD",
-        "colorOptions": "White, Silver, Blue",
-        "dimensions": "3800 mm (Length), 1500 mm (Width), 1850 mm (Height)",
-        "performanceFeatures": "Heavy Payload Capacity, Strong Engine Torque",
-        "interiorFeatures": "Basic Cabin, Comfortable Seats",
-        "exteriorFeatures": "Robust Body, Halogen Headlamps",
-        "warrantyAfterSalesService": "2-year/1,00,000 km Warranty",
-        "releaseDateYear": "2016"
-    },
-    "Nexon": {
-        "type": "Passenger",
-        "brand": "Tata",
-        "modelNameNumber": "Nexon",
-        "engineSpecifications": "1.2L Turbocharged Petrol, 1.5L Diesel",
-        "fuelType": "Petrol/Diesel",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹8,00,000 - ₹14,00,000",
-        "mileageRange": "17 - 21 km/l",
-        "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Assist",
-        "colorOptions": "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-        "dimensions": "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-        "performanceFeatures": "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-        "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-        "exteriorFeatures": "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-        "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2016"
-    },
-
-    "Baleno": {
-        "type": "Passenger",
-        "brand": "Maruti Suzuki",
-        "modelNameNumber": "Baleno",
-        "engineSpecifications": "1.2L Petrol, 1.3L Diesel",
-        "fuelType": "Petrol/Diesel",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹6,00,000 - ₹9,50,000",
-        "mileageRange": "18 - 23 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
-        "colorOptions": "Pearl Arctic White, Premium Silver, NEXA Blue, and more",
-        "dimensions": "3995 mm (Length), 1745 mm (Width), 1500 mm (Height)",
-        "performanceFeatures": "Smooth Driving, Efficient Engine, Multi-Drive Modes",
-        "interiorFeatures": "Touchscreen Infotainment, SmartPlay Studio, Auto AC",
-        "exteriorFeatures": "LED DRLs, Projector Headlamps, Diamond Cut Alloy Wheels",
-        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2015"
-    },
-    "Ignis": {
-        "type": "Passenger",
-        "brand": "Maruti Suzuki",
-        "modelNameNumber": "Ignis",
-        "engineSpecifications": "1.2L Petrol",
-        "fuelType": "Petrol",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹5,00,000 - ₹7,50,000",
-        "mileageRange": "20 - 22 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
-        "colorOptions": "Uptown Red, Silky Silver, Pearl Arctic White, and more",
-        "dimensions": "3700 mm (Length), 1690 mm (Width), 1590 mm (Height)",
-        "performanceFeatures": "Compact Design, Fuel Efficient Engine",
-        "interiorFeatures": "Touchscreen Infotainment, Premium Upholstery, Smart Instrument Cluster",
-        "exteriorFeatures": "Dual-tone Roof, LED DRLs, Projector Headlamps",
-        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2017"
-    },
-    "S-Presso": {
-        "type": "Passenger",
-        "brand": "Maruti Suzuki",
-        "modelNameNumber": "S-Presso",
-        "engineSpecifications": "1.0L Petrol",
-        "fuelType": "Petrol",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹4,50,000 - ₹6,00,000",
-        "mileageRange": "21 - 23 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
-        "colorOptions": "Metallic Orange, Silky Silver, Starry Blue, and more",
-        "dimensions": "3565 mm (Length), 1520 mm (Width), 1549 mm (Height)",
-        "performanceFeatures": "Lightweight Design, Efficient Engine",
-        "interiorFeatures": "Smart Infotainment, Adjustable Seats, LED Cluster",
-        "exteriorFeatures": "SUV-like Stance, LED DRLs, Bold Grille",
-        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2019"
-    },
-    "Vitara Brezza": {
-        "type": "Passenger",
-        "brand": "Maruti Suzuki",
-        "modelNameNumber": "Vitara Brezza",
-        "engineSpecifications": "1.5L Petrol",
-        "fuelType": "Petrol",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹8,00,000 - ₹11,00,000",
-        "mileageRange": "17 - 19 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Camera",
-        "colorOptions": "Autumn Orange, Sizzling Red, Pearl Arctic White, and more",
-        "dimensions": "3995 mm (Length), 1790 mm (Width), 1640 mm (Height)",
-        "performanceFeatures": "Smart Hybrid System, Efficient Engine",
-        "interiorFeatures": "Touchscreen Infotainment, Smart Instrument Cluster, Rear AC Vents",
-        "exteriorFeatures": "LED DRLs, 16-inch Alloy Wheels, Roof Rails",
-        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2016"
-    },
-    "Ertiga": {
-        "type": "Passenger",
-        "brand": "Maruti Suzuki",
-        "modelNameNumber": "Ertiga",
-        "engineSpecifications": "1.5L Petrol, 1.3L Diesel",
-        "fuelType": "Petrol/Diesel",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "7",
-        "priceRange": "₹8,50,000 - ₹12,00,000",
-        "mileageRange": "16 - 19 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
-        "colorOptions": "Magma Grey, Pearl Arctic White, Auburn Red, and more",
-        "dimensions": "4395 mm (Length), 1735 mm (Width), 1690 mm (Height)",
-        "performanceFeatures": "Fuel Efficient, Smooth Handling",
-        "interiorFeatures": "Touchscreen Infotainment, Rear AC Vents, 3rd Row Seating",
-        "exteriorFeatures": "Roof Rails, LED DRLs, Projector Headlamps",
-        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2012"
-    },
-    "XL6": {
-        "type": "Passenger",
-        "brand": "Maruti Suzuki",
-        "modelNameNumber": "XL6",
-        "engineSpecifications": "1.5L Petrol",
-        "fuelType": "Petrol",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "6",
-        "priceRange": "₹10,00,000 - ₹12,50,000",
-        "mileageRange": "16 - 18 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
-        "colorOptions": "Brave Khaki, Premium Silver, Nexa Blue, and more",
-        "dimensions": "4450 mm (Length), 1775 mm (Width), 1700 mm (Height)",
-        "performanceFeatures": "Stylish, Efficient Engine, Smooth Drive",
-        "interiorFeatures": "Smart Infotainment, Premium Leather Upholstery, 2nd-row Captain Seats",
-        "exteriorFeatures": "LED DRLs, 16-inch Alloy Wheels, Roof Rails",
-        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2019"
-    },
-    "Ciaz": {
-        "type": "Passenger",
-        "brand": "Maruti Suzuki",
-        "modelNameNumber": "Ciaz",
-        "engineSpecifications": "1.5L Petrol, 1.3L Diesel",
-        "fuelType": "Petrol/Diesel",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹8,00,000 - ₹11,00,000",
-        "mileageRange": "20 - 25 km/l",
-        "safetyFeatures": "Dual Airbags, ABS with EBD, Reverse Parking Sensors",
-        "colorOptions": "Pearl Midnight Black, Burgundy Red, and more",
-        "dimensions": "4490 mm (Length), 1730 mm (Width), 1485 mm (Height)",
-        "performanceFeatures": "Smooth Drive, Fuel Efficient",
-        "interiorFeatures": "Touchscreen Infotainment, Smart Instrument Cluster",
-        "exteriorFeatures": "LED DRLs, Projector Headlamps",
-        "warrantyAfterSalesService": "2-year/40,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2014"
-    },
-    "Nexon": {
-        "type": "Passenger",
-        "brand": "Tata",
-        "modelNameNumber": "Nexon",
-        "engineSpecifications": "1.2L Turbocharged Petrol, 1.5L Diesel",
-        "fuelType": "Petrol/Diesel",
-        "transmissionType": "Manual/Automatic",
-        "seatingCapacity": "5",
-        "priceRange": "₹8,00,000 - ₹14,00,000",
-        "mileageRange": "17 - 21 km/l",
-        "safetyFeatures": "6 Airbags, ABS with EBD, ESC, Hill Assist",
-        "colorOptions": "Flame Red, Calgary White, Foliage Green, Deep Red, and more",
-        "dimensions": "3993 mm (Length), 1811 mm (Width), 1606 mm (Height)",
-        "performanceFeatures": "Turbocharged Engine, Multi-Drive Modes, Sports Mode",
-        "interiorFeatures": "Touchscreen Infotainment, Leather Upholstery, Digital Instrument Cluster",
-        "exteriorFeatures": "LED DRLs, Projector Headlamps, Dual-tone Roof, Fog Lamps",
-        "warrantyAfterSalesService": "5-year/1,50,000 km Warranty, 24/7 Roadside Assistance",
-        "releaseDateYear": "2016"
-    },
         // Add similar objects for other models...
+    // Add more vehicle models as needed
 
 };
 

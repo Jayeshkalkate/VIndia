@@ -1,176 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vehicle Filter</title>
-    <link rel="stylesheet" href="filters_display.css">
-	<link rel="shortcut icon" type="image/icon" href="assets/logo/vehilelogo2.webp"/>
+    <title>Vehicles of India</title>
 
-    <style>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/filters.css">
+    <link rel="stylesheet" href="assets/css/top-vehicle-model.css">
+    <link rel="stylesheet" href="assets/css/vehicle-logo.css">
+    <link rel="stylesheet" href="assets/css/contact-support.css">
+    <link rel="stylesheet" href="assets/css/new-vehicle.css">
+    <link rel="stylesheet" href="assets/css/searchbar.css">
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/vehiclelogo1.jpg">
 
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #ADBBDA;
-    background-image: url(assets/images/welcome-hero/Filterswebpagebackgroundimage.webp);
-    background-size: cover;  /* Ensures the image covers the entire background */
-    background-position: center;  /* Centers the image */
-}
-
-
-         /* body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            background-color: #ADBBDA;;
-        }  */
-
-
-        .filters {
-            max-width: 600px;
-            margin: 0 auto;
-            background: #919dcc;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px #57628a(0, 0, 0, 0.1);
-        }
-
-
-        .filter {
-            /* margin-top: 20; */
-            margin-bottom: 20px;
-        }
-/* 
-        label {
-            color: #ff7300;
-            display: block;
-            font-size: 18px;
-            font-weight: bold;            
-            margin-bottom: 5px;
-        } */
-
-        label {
-            color: #34495e;  /* Text color */
-            display: inline-block;  /* Allows for padding to wrap around text without consuming full line */
-            font-size: 16px;
-            font-weight: bold;
-            margin-bottom: 5px;
-            background-color: #e0eafc;  /* Background color for text */
-            padding: 2px 6px;  /* Padding around text to create a background effect */
-            border-radius: 4px;  /* Optional: Adds rounded corners to the background */
-        }
-
-
-        select, input[type="range"] {
-            width: 100%;
-            padding: 8px;
-            font-size: 14px;
-            color: #2c3e50;
-            background-color: #e0eafc;
-            border-color: #bdc3c7;
-            border: 1px solid #8a8888;
-            border-radius: 4px;
-        }
-
-        #price-value {
-            font-weight: bold;
-        }
-
-        button {
-            padding: 10px 20px;
-            background-color: #27ae60;
-            color: #ffffff;
-            border: none;
-            background-color: #2ecc71;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        button:hover {
-            background-color: #4cae4c;
-        }
-
-        /* Styling for the vehicle information section */
-
-        #vehicleInfo {
-            background-color: #cfdef3;  /* 8a8888 Light grey background */
-            color: #2c3e50;  /* Dark grey text color */
-            border: 1px solid #dcdcdc;  /* Light border */
-            padding: 20px;  /* Space around the content */
-            margin-top: 20px;  /* Space above the section */
-            border-radius: 8px;  /* Rounded corners */
-            font-family: Arial, sans-serif;  /* Font style */
-        }
-
-
-/* Example for highlighting specific information */
-#vehicleInfo h2 {
-    color: #34495e;  /* 2c3e50 Dark blue for headings */
-    font-weight: bold;
-}
-
-#vehicleInfo p {
-    color: #2c3e50;  /* Lighter grey for paragraphs */
-}
-
-    </style>
 </head>
+
 <body>
-      
 
-      <h1 style="font-size: 24px; font-weight: bold  ; background-color: #e0eafc; border-radius: 4px; padding: 2px 6px; display: inline-block; color: #2c3e50; text-align: center; width: 100%; margin: 0 auto; text-transform: uppercase;    margin-bottom: 100px;">
-        Filter by Vehicle Type, Brand, and Model to find your ideal ride
-    </h1>
+    <header class="header">
+        <img src="assets/logo/vehiclelogo1.jpg" alt="VINDIA Logo" id="logo">
+        <div class="logo">VEHICLES OF INDIA (VINDIA)</div>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="filters.html">Filters</a>
+            <a href="model_comparision.html">Compare</a>
+            <a href="top-vehicle-model.html">Top</a>
+            <a href="new-vehicle.html">New</a>
+            <a href="vehicle-logo.html">Logo</a>
+            <a href="contact-support.html">Contact</a>
+        </nav>
+    </header>
+
     
+    <!-- Search bar section -->
+    <section class="search-container">
+        <input type="text" id="search-bar" placeholder="Search for vehicles..." />
+        <button id="search-button">Search</button>
+    </section>
 
-    <div class="filters">
-        <form id="vehicle-filter-form" onsubmit="return false;">
-            <!-- Vehicle Type Filter -->
-            <div class="filter">
-                <label for="vehicle-type">Select Vehicle Type:</label>
-                <select id="vehicle-type">
-                    <option value="">Select Vehicle Type</option>
-                    <option value="Commercial Vehicles">Commercial Vehicles</option>
-                    <option value="Luxury and Premium Vehicles">Luxury and Premium Vehicles</option>
-                    <option value="Passenger Vehicles">Passenger Vehicles</option>
-                    <option value="Tractor and Farm Equipment">Tractor and Farm Equipment</option>
-                    <option value="Two Wheeler">Two Wheeler</option>
-                </select>
-            </div>
-        
-            <!-- Vehicle Brand Filter -->
-            <div class="filter">
-                <label for="vehicle-brand">Select Vehicle Brand:</label>
-                <select id="vehicle-brand" disabled>
-                    <option value="">Select Brand</option>
-                </select>
-            </div>
-        
-            <!-- Vehicle Model Filter -->
-            <div class="filter">
-                <label for="vehicle-model">Select Vehicle Model:</label>
-                <select id="vehicle-model" disabled>
-                    <option value="">Select Model</option>
-                </select>
-            </div>
-        
-            <button type="button" onclick="applyFilters(event)">Apply Filters</button>
-        </form>
-        
-        <!-- Results Section -->
-        <div id="vehicleInfo" class="vehicle-info">
-            <!-- Filtered vehicle information will appear here -->
-        </div>
-        
-        
-    </div>
+    <div id="suggestions" style="display: none;"></div>
 
-    <script src="assets/js/filters_display.js"></script>
+    <div id="search-results"></div>
+
+
+    <section class="hero">
+        <h1>Find Your Perfect Vehicle With VIndia</h1>
+    </section>
+
+    <script src="assets/js/contact-support.js"></script>
+    <script src="assets/js/new-vehicle.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/top-vehicle-model.js"></script>
+    <script src="assets/js/vehicle-logo.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="assets/js/searchbar.js"></script>
 
 </body>
 </html>

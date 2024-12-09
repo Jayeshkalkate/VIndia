@@ -5,13 +5,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: white;
+    /* background-color: #f0f0f0; */
+    /* color: white; */
 }
 
 
 header {
-    background-color: #f0f0f0  ;
+    /* background-color: #f0f0f0  ; */
     padding: 30px;
     text-align: center;
     /* color: #f1f1f1; */
@@ -35,87 +35,98 @@ header p {
     justify-content: space-between;
     padding: 30px;
     margin: 0 auto;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
     color: #f0f0f0 ;
     max-width: 1200px;
 }
 
-.brands {
-    color: #7091E6;
-    flex: 1;
-    margin-right: 30px;
+/* Container for the brand categories */
+.brands-container {
+    display: flex;
+    gap: 20px; /* Space between the two columns */
+    justify-content: space-between; /* Align columns with space in between */
 }
 
-.brand-category h3 {
-    color: #fcfdff;
-    background-color: #575a65;
-    padding: 5px 10px;  /* Padding around the text */
-    font-size: 22px;    /* Font size */
-    margin-bottom: 10px; /* Space below the header */
-    display: inline-block; /* Ensures background adjusts to the content size */
+/* Each column */
+.brands-column {
+    flex: 1; /* Each column takes up equal space */
+}
+
+/* Each brand category */
+.brand-category {
+    /* background-color: #4f4f4f; */
+    margin-bottom: 20px; /* Space between items */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for separation */
 }
 
 .brand-category h2 {
     color: #fcfdff;
-    background-color: #3D52A0;
-    padding: 5px 10px;  /* Padding around the text */
-    font-size: 22px;    /* Font size */
-    margin-bottom: 10px; /* Space below the header */
-    display: inline-block; /* Ensures background adjusts to the content size */
+    background-color: #2a588f;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .brand-category ul {
-    color: #f1f1f1;
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .brand-category ul li {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 8px;
-    color: #000000;
+    color: #07162f;
 }
 
 .newsletter {
     flex: 1;
-    background-color: #4f4f4f;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: #2a588f;
+    padding: 20px; /* Reduced padding */
+    border-radius: 10px; /* Reduced border-radius */
+    margin: 50px; /* Adjusted vertical margins */
+    max-width: 400px; /* Limit the width for a cleaner layout */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added subtle shadow for better visual separation */
 }
 
 .newsletter h2 {
     color: #c0a429;
-    font-size: 28px;
-    margin-bottom: 10px;
+    font-size: 24px; /* Reduced font size */
+    margin-bottom: 8px; /* Reduced bottom margin */
 }
 
 .newsletter p {
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 14px; /* Reduced font size */
+    margin-bottom: 15px; /* Adjusted bottom margin */
+    color: #f5f5f5; /* Added color for better readability */
 }
 
 .newsletter input {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    border: none;
+    padding: 8px; /* Reduced padding */
+    margin-bottom: 8px; /* Reduced margin */
+    font-size: 14px; /* Adjusted font size */
+    border: 1px solid #ddd; /* Added subtle border for input field */
     border-radius: 5px;
 }
 
 .newsletter button {
     width: 100%;
-    padding: 10px;
+    padding: 8px; /* Reduced padding */
     background-color: #7091E6;
     color: #fff;
-    border: 2px solid #7091E6;;
+    border: none; /* Removed double border */
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px; /* Adjusted font size */
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Added smooth hover effect */
 }
 
 .newsletter button:hover {
-    background-color: #555;
+    background-color: #555; /* Slightly darker on hover */
 }
 
 footer {

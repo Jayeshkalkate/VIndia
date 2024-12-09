@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.filters {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+select, input[type="range"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#price-value {
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1150fd;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333333;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.container h3 {
+  color: #3D52A0  ;
+  font-weight: 300;
+}
+
+.container h1 {
+  margin: 10px 0;
+  color: #3D52A0 ;
+  border-radius: 50px; /* Optional for a better look */
+}
+
+.vehicle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vehicle-image img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.vehicle-details {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.vehicle-details h2 {
+  color: #3D52A0 ;
+}
+
+.vehicle-details p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.vehicle-details button {
+  background-color: #3D52A0 ;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.vehicle-details button:hover {
+  background-color: #3D52A0 ;
+}
+
+
+#results {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#results p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Container for the vehicle image and details */
+.vehicle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensures content does not overflow */
+}

@@ -1,135 +1,233 @@
-
+/* General Reset and Body Styles */
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #f4f4f9;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: rgb(253, 253, 253);
 }
 
-.filters {
-  max-width: 600px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Header Styles */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 50px;
+    background: linear-gradient(to right, #ff7300, #ffffff, #15ff00);
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+    text-transform: uppercase;
+    color: rgb(78, 71, 167);
+    font-size: 24px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+/* Logo Styles */
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    /* color: #3D52A0 ;  */
+    color: #007bff;/* White color for high contrast */
 }
 
-.filter {
-  margin-bottom: 15px;
+/* Navigation Styles */
+.navbar a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s;
 }
 
-label {
-  display: block;
+
+/* Hover/Active Link Styles */
+.navbar a:hover, .navbar a.active {
+    color: #000000 ;
+    }
+
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 0; /* Remove padding to make the image cover the entire page */
+    margin: 0; /* Remove margin to eliminate space around the image */
+    height: 100vh; /* Full viewport height */
+    background: url('../images/welcome-hero/newhomepageimage.png') no-repeat center center;
+    background-size: cover; /* Ensure the image covers the entire section Contactusbackgroundimage.webp */
+    z-index: 1;
+}
+
+/* Overlay Styles */
+.hero:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #EDE8F5 (0, 0, 0, 0.4); /* Darker, subtle overlay for better contrast */
+    z-index: 2; /* Make sure overlay stays below text */
+}
+
+/* Hero Text Content Styles */
+.hero .hero-txt {
+    position: absolute;
+    top: 50%; /* Center the content vertically */
+    left: 50%; /* Center the content horizontally */
+    transform: translate(-50%, -50%); /* Offset the centering to perfectly align */
+    width: 100%;
+    z-index: 3; /* Ensure text appears above the overlay */
+    padding: 0 20px; /* Responsive padding */
+    text-align: center; /* Center align text */
+}
+
+.hero {
+  text-align: center;      /* Center text horizontally */
+  padding-top: 16vh;       /* 10 Adjust padding to move text down */
+  padding-bottom: 18vh;    /* 10 Adjust padding to move text up or down */
+}
+
+
+
+.hero h1 {
+  font-size: 2.5em;
+  /* color: #2D3A3A; */
+  color: #000000;
+  /* background: linear-gradient(45deg, #2D3A3A, #2D3A3A); */
+  color: transparent;
+  /* background-clip: text; */
+  text-shadow: 3px 3px 8px #000000(44, 43, 43, 0.7);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  padding: 10px;
+  text-align: center;      /* Center text horizontally */
+  padding-top: 0.1vh;       /* 10 Adjust padding to move text down */
+  padding-bottom: 74vh;    /* 10 Adjust padding to move text up or down */
+}
+
+
+/* Hero Paragraph Styles */
+.hero p {
+    font-size: 2.5rem; /* Slightly larger font size for better readability */
+    text-transform: initial;
+    color: #5D6D7E; /* White text for readability */
+    background: linear-gradient(45deg, #5D6D7E, #5D6D7E);
+    color: transparent;
+    background-clip: text;
+    text-shadow: 3px 3px 8px #5D6D7E(34, 33, 33, 0.89); /* Stronger shadow for better contrast */
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-bottom: 2rem; /* More space below the paragraph */
+    text-align: center; /* Centered paragraph */
+}
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      
+      #logo {
+        width: 90px; /* Fixed unit added */
+        height: auto; /* Height adjusts proportionally */
+      }
+      
+      nav ul {
+        list-style: none;
+        display: flex;
+      }
+      
+      nav ul li {
+        margin: 0 15px;
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+      }
+      
+
+        #suggestions {
+          align-items: center;
+          position: absolute;
+          background-color: #b6bed3;
+          border: 1px solid #ccc;
+          max-height: 150px;
+          overflow-y: auto;
+          z-index: 1000;
+          display: none;
+          box-sizing: border-box; /* Ensure padding is included in width calculation */
+        }
+        
+        .suggestion-item {
+          padding: 8px;
+          cursor: pointer;
+        }
+        
+        .suggestion-item:hover {
+          background-color: #b6bed3;
+        }
+
+/* Basic table styling */
+
+.vehicle-table {
+  width: 80%; /* Adjust to your desired width */
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.vehicle-table th, .vehicle-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
   font-size: 14px;
-  margin-bottom: 5px;
 }
 
-select, input[type="range"] {
-  width: 100%;
-  padding: 8px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-#price-value {
+.vehicle-table th {
+  background-color: #f0f0f0;
   font-weight: bold;
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #1150fd;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
+.vehicle-table tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
 
-button:hover {
-  background-color: #ffffff;
+.vehicle-table tr:hover {
+  background-color: #f1f1f1;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #333333;
-  color: #333;
-}
-
-.container {
-  text-align: center;
-  padding: 20px;
-}
-
-.container h3 {
-  color: #3D52A0  ;
-  font-weight: 300;
-}
-
-.container h1 {
-  margin: 10px 0;
-  color: #3D52A0 ;
-}
-
-.vehicle-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  padding: 20px;
-  margin: 20px auto;
-  width: 80%;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.vehicle-image img {
-  width: 300px;
+.vehicle-table td img.result-image {
+  width: 150px; /* Adjust the image size */
+  height: auto;
   border-radius: 8px;
 }
 
-.vehicle-details {
-  margin-left: 20px;
-  text-align: left;
-}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .vehicle-table {
+      width: 100%; /* Use full width on small screens */
+  }
 
-.vehicle-details h2 {
-  color: #3D52A0 ;
-}
-
-.vehicle-details p {
-  margin: 10px 0;
-  line-height: 1.5;
-}
-
-.vehicle-details button {
-  background-color: #3D52A0 ;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.vehicle-details button:hover {
-  background-color: #3D52A0 ;
-}
-
-
-
-
-
-
-#results {
-  margin-top: 20px;
-  padding: 20px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-#results p {
-  font-size: 16px;
-  color: #333;
+  .vehicle-table th, .vehicle-table td {
+      font-size: 12px;
+      padding: 8px;
+  }
 }
