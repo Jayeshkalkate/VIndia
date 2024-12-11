@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    background-color: #4f4f4f;
-    color: white;
+    /* background-color: #4f4f4f; */
+    color: rgb(248, 225, 225);
     padding: 30px 0;  /* Increased padding for better visual space */
     text-align: center;
 }
@@ -24,19 +24,19 @@ h1 {
     max-width: 900px;
     margin: 40px auto;  /* Increased top and bottom margin for more space */
     padding: 30px;  /* More padding for better spacing inside the content box */
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  /* Slightly larger shadow for depth */
 }
 
 h2 {
-    color: #333;
+    color: #000000;
     margin-top: 20px;
     font-size: 1.8em;  /* Slightly larger font size for section headers */
 }
 
 p {
-    color: #555;
+    color: #000000;
     margin-bottom: 20px;  /* Increased margin for more breathing room between paragraphs */
     font-size: 1.1em;  /* Slightly larger font size for readability */
 }
@@ -54,7 +54,7 @@ footer {
     color: white;
     background-color: #333;
     text-align: center;
-    padding: 5px 0;  /* Increased padding for footer */
+    padding: 2px 0;  /* Increased padding for footer */
     position: fixed;
     width: 100%;
     bottom: 0;

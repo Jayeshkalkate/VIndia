@@ -28,8 +28,7 @@ body {
 .logo {
     font-size: 35px;
     font-weight: bold;
-    /* color: #3D52A0 ;  */
-    color: #007bff;/* White color for high contrast */
+    color: #007bff;
 }
 
 /* Navigation Styles */
@@ -94,20 +93,17 @@ body {
 
 .hero h1 {
   font-size: 2.5em;
-  /* color: #2D3A3A; */
   color: #000000;
-  /* background: linear-gradient(45deg, #2D3A3A, #2D3A3A); */
   color: transparent;
-  /* background-clip: text; */
   text-shadow: 3px 3px 8px #000000(44, 43, 43, 0.7);
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 2rem;
   letter-spacing: 2px;
   padding: 10px;
-  text-align: center;      /* Center text horizontally */
-  padding-top: 0.1vh;       /* 10 Adjust padding to move text down */
-  padding-bottom: 74vh;    /* 10 Adjust padding to move text up or down */
+  text-align: center;
+  padding-top: 0.1vh;
+  padding-bottom: 74vh;
 }
 
 
@@ -220,7 +216,6 @@ body {
   border-radius: 8px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .vehicle-table {
       width: 100%; /* Use full width on small screens */

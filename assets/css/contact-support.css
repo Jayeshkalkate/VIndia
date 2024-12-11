@@ -5,7 +5,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #f0f0f0; */
+    /* background-color: #ffffff; */
     /* color: white; */
 }
 
@@ -27,7 +27,7 @@ header h1 {
 header p {
     font-size: 18px;
     margin-top: 10px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .content {
@@ -58,7 +58,7 @@ header p {
     margin-bottom: 20px; /* Space between items */
     padding: 15px;
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for separation */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Shadow for separation */
 }
 
 .brand-category h2 {
@@ -79,7 +79,7 @@ header p {
 .brand-category ul li {
     font-size: 16px;
     margin-bottom: 8px;
-    color: #07162f;
+    color: #000000;
 }
 
 .newsletter {
