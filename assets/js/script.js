@@ -10359,32 +10359,18 @@ document.getElementById("vehicle-brand").addEventListener("change", function() {
 });
 
 
-// Visitor count functionality (mocked for demonstration)
-
+// Visitor count functionality
 let visitorCount = localStorage.getItem("visitorCount") || 0;
 visitorCount++;
 localStorage.setItem("visitorCount", visitorCount);
 
-// Mock data for vehicle stats (Replace with actual data if available)
-
-const vehicleStats = {
-    types: 5,
-    brands: 42,
-    models: 351
-};
-
-// Update the footer with dynamic data
-
+// Ensure script runs after DOM is loaded
 window.addEventListener("DOMContentLoaded", () => {
-
     // Update visitor count
-
     const visitorCountElement = document.getElementById("visitor-count");
-    visitorCountElement.querySelector("span").textContent = visitorCount;
-
-    // Update vehicle stats
-
-    document.getElementById("vehicle-types").textContent = vehicleStats.types;
-    document.getElementById("vehicle-brands").textContent = vehicleStats.brands;
-    document.getElementById("vehicle-models").textContent = vehicleStats.models;
+    if (visitorCountElement) {
+        visitorCountElement.querySelector("span").textContent = visitorCount;
+    } else {
+        console.error("Visitor count element not found.");
+    }
 });

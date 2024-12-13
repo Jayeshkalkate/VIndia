@@ -281,3 +281,22 @@ nav ul li a {
   font-size: 10px;
   color: #000000;
 }
+
+#Available-Vehicles {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#Available-Vehicles span {
+  font-weight: bold;
+  color: #007BFF;
+}
