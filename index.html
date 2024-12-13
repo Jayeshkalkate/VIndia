@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vehicles of India</title>
@@ -21,7 +22,15 @@
 
     <header class="header">
         <img src="assets/logo/vehiclelogo1.jpg" alt="VINDIA Logo" id="logo">
-        <div class="logo">VEHICLES OF INDIA (VINDIA)</div>
+        <div class="logo">VINDIA</div>
+
+        <!-- Hamburger Icon -->
+       
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
 
         <nav class="navbar">
             <a href="index.html" class="active">Home</a>
@@ -34,7 +43,6 @@
         </nav>
     </header>
 
-    
     <!-- Search bar section -->
 
     <section class="search-container">
@@ -44,23 +52,24 @@
 
     <div id="suggestions" style="display: none;"></div>
 
-    <!-- <div id="search-results"></div> -->
-
+    <!-- Hero section with background video -->
 
     <section class="hero">
+        
+        <!-- Background video -->
+        
+        <video autoplay muted loop>
+            <source src="assets/images/welcome-hero/homepagebackgroundvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
 
-        <h1>
-            
-            Find Your Perfect Vehicle With VIndia
-            
-            <br>
-            
-            <div id="search-results"></div>
-
-        </h1>        
+        <!-- Content over the video -->
+        
+        <div class="hero-content">
+            <h1>Find Your Perfect Vehicle With VIndia</h1>
+        </div>
 
     </section>
-
 
     <script src="assets/js/contact-support.js"></script>
     <script src="assets/js/new-vehicle.js"></script>
@@ -69,6 +78,21 @@
     <script src="assets/js/vehicle-logo.js"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="assets/js/searchbar.js"></script>
+    
+    <!-- Footer Section -->
+     
+    <footer class="footer">
+        <div class="footer-content">
+            <p id="visitor-count">Visitors :- <span>Loading...</span></p>
+            <br>
+            <p id="vehicle-stats">
+                Available Vehicles :-  
+                <span id="vehicle-types">05</span> Types  || 
+                <span id="vehicle-brands">42 +</span> Brands  ||
+                <span id="vehicle-models">351 +</span> Models
+            </p>
+        </div>
+    </footer>
 
 </body>
 </html>

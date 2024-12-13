@@ -3,11 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right , #b0aead , #c8c3c1);
+    background: linear-gradient(to right, #FFDDB7 , #FFAB40 , #E0C5A3 );
     color: transparent;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
     color: rgb(78, 71, 167);
 }
+
 
 
 header {
@@ -39,6 +40,7 @@ header p {
 
 .vehicle-card {
     border: 1px solid #555770; /* Subtle border for definition */
+    background-color: #46639d;
     border-radius: 8px;
     overflow: hidden;
     width: 300px; /* Fixed width for uniformity */
@@ -51,6 +53,12 @@ header p {
 .vehicle-card:hover {
     transform: translateY(-5px); /* Lift effect on hover */
 }
+.vehicle-card {
+    border: 1px solid #555770; /* Light border */
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
 
 .vehicle-card img {
     width: 100%; /* Responsive image */
@@ -60,20 +68,76 @@ header p {
 
 .vehicle-card h3 {
     margin: 15px 0 10px;
-    font-size: 20px;
+    font-size: 22px; /* Slightly larger font size */
+    color: #030303; /* Black for the vehicle title */
+    text-align: center;
+}
+
+.vehicle-card {
+    border: 1px solid #555770; /* Light border */
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.vehicle-card img {
+    width: 100%; /* Responsive image */
+    height: auto;
+    border-bottom: 1px solid #555770; /* Separator line below the image */
+}
+
+.vehicle-card-content {
+    padding: 15px;
+    text-align: left; /* Align content to the left */
+}
+
+.vehicle-card h3 {
+    margin: 10px 0 5px;
+    font-size: 22px; /* Slightly larger font size */
     color: #030303; /* Black for the vehicle title */
 }
 
+.vehicle-card {
+    border: 1px solid #555770; /* Light border */
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.vehicle-card img {
+    width: 100%; /* Responsive image */
+    height: auto;
+    border-bottom: 1px solid #555770; /* Separator line below the image */
+}
+
+.vehicle-card h3 {
+    margin: 15px 0 10px;
+    font-size: 22px; /* Slightly larger font size */
+    color: #030303; /* Black for the vehicle title */
+    text-align: center;
+}
+
 .vehicle-card p {
-    margin: 5px 0;
-    font-size: 14px;
-    color: #3523bf; /* Slightly darker gray for text */
-    line-height: 1.4;
+    margin: 10px 15px;
+    font-size: 16px; /* Increased readability */
+    color: #e7e7e7; /* Slightly darker gray for text */
+    line-height: 1.5;
+    text-align: left; /* Left alignment for features text */
 }
 
 .vehicle-card p strong {
-    color: #14257d; /* Bold text in darker shade */
+    color: #ffffff; /* Bold text in darker shade */
 }
+
+.vehicle-card .details {
+    text-align: left; /* Aligning Brand, Fuel Type, Price, and Features left */
+}
+
+.vehicle-card:hover {
+    transform: translateY(-5px); /* Elevation effect */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
 
 footer {
     background-color: #333; /* Dark footer for consistency with header */

@@ -10280,18 +10280,17 @@ const vehicleData = {
     imageUrl: "assets/images/vehicle_models_images/Harrier.png"
 }
 
-
-        // Add similar objects for other models...
     // Add more vehicle models as needed
 
 };
 
 
+// script.js
 
-// Remove the Year and Fuel Type functionality
 // Remove "populateYears" function, year-related dropdown code, and fuel-type related code
 
 // Generalized function for populating dropdown options
+
 function populateDropdown(selectElement, options, placeholder) {
     selectElement.innerHTML = `<option value=''>${placeholder}</option>`;
     options.forEach(option => {
@@ -10302,7 +10301,14 @@ function populateDropdown(selectElement, options, placeholder) {
     });
 }
 
+// 3 dots and lines for mobile phones
+
+document.querySelector('.hamburger').addEventListener('click', () => {
+    document.querySelector('.nav-menu').classList.toggle('show');
+});
+
 // Event listeners for cascading filters
+
 document.getElementById("vehicle-type").addEventListener("change", function() {
     const selectedType = this.value;
     const vehicleBrandSelect = document.getElementById("vehicle-brand");
@@ -10316,6 +10322,7 @@ document.getElementById("vehicle-type").addEventListener("change", function() {
 });
 
 // Handle brand selection
+
 document.getElementById("vehicle-brand").addEventListener("change", function() {
     const selectedBrand = this.value;
     const vehicleModelSelect = document.getElementById("vehicle-model");
@@ -10326,4 +10333,35 @@ document.getElementById("vehicle-brand").addEventListener("change", function() {
     } else {
         vehicleModelSelect.disabled = true;
     }
+});
+
+
+// Visitor count functionality (mocked for demonstration)
+
+let visitorCount = localStorage.getItem("visitorCount") || 0;
+visitorCount++;
+localStorage.setItem("visitorCount", visitorCount);
+
+// Mock data for vehicle stats (Replace with actual data if available)
+
+const vehicleStats = {
+    types: 5,
+    brands: 42,
+    models: 351
+};
+
+// Update the footer with dynamic data
+
+window.addEventListener("DOMContentLoaded", () => {
+
+    // Update visitor count
+
+    const visitorCountElement = document.getElementById("visitor-count");
+    visitorCountElement.querySelector("span").textContent = visitorCount;
+
+    // Update vehicle stats
+
+    document.getElementById("vehicle-types").textContent = vehicleStats.types;
+    document.getElementById("vehicle-brands").textContent = vehicleStats.brands;
+    document.getElementById("vehicle-models").textContent = vehicleStats.models;
 });
