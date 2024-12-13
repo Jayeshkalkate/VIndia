@@ -14,4 +14,3 @@ document.getElementById('newsletter-form').addEventListener('submit', function (
         alert('Please enter a valid email address.');
     }
 });
-

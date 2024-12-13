@@ -1,20 +1,15 @@
-
 /* Global Styles */
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #ffffff; */
-    /* color: white; */
 }
 
 
 header {
-    /* background-color: #f0f0f0  ; */
     padding: 30px;
     text-align: center;
-    /* color: #f1f1f1; */
     color: #3D52A0  ;
 }
 
@@ -35,7 +30,6 @@ header p {
     justify-content: space-between;
     padding: 30px;
     margin: 0 auto;
-    /* background-color: #f0f0f0; */
     color: #f0f0f0 ;
     max-width: 1200px;
 }
@@ -57,7 +51,6 @@ header p {
     background-color: #2a588f;
     margin-bottom: 20px; /* Space between items */
     padding: 15px;
-    border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Shadow for separation */
 }
 

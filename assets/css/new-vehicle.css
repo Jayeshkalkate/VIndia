@@ -25,9 +25,8 @@ header h1 {
 
 header p {
     margin: 5px 0 0;
-    font-size: 16px;
-    color: #3D52A0  ;
-    /* color: #7091E6  (220, 220, 220); Subtle color for description text */
+    font-size: 20px;
+    color: #000000  ;
 }
 
 #vehicle-list {

@@ -16,7 +16,7 @@ body {
     font-size: 36px;
     color: #ADBBDA ;
     margin-bottom: 20px;
-    background: linear-gradient(to right, #ffffff , #3d52a0 ); /* Gradient effect */
+    background: linear-gradient(to right, #ffffff , #ffffff ); /* Gradient effect */
     -webkit-background-clip: text;
     color: transparent;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);

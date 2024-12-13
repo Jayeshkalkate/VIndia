@@ -97,9 +97,9 @@ const data = {
 
         "BharatBenz (Daimler India Commercial Vehicles)":["BharatBenz 2523R", "BharatBenz 3123R", "BharatBenz 3723R", "BharatBenz 1617R", "BharatBenz 1014R"],
         
-        "Mahindra & Mahindra":["Mahindra Bolero Pik-Up", "Mahindra Supro Mini Truck", "Mahindra Supro Maxi Truck", "Mahindra Blazo X", "Mahindra Furio", "Mahindra Jayo", "Mahindra Thar", "Mahindra Scorpio", "Mahindra XUV700", "Mahindra XUV300", "Mahindra Bolero", "Mahindra Marazzo", "Mahindra Alturas G4", "Mahindra e2o Plus", "Mahindra KUV100", "Mahindra TUV300", "Mahindra Xylo", "Mahindra Verito"],
+        "Mahindra & Mahindra":["Mahindra Bolero Pik-Up", "Jeep Avenger" , "Mahindra XEV 9e", "Mahindra Supro Mini Truck", "Mahindra Supro Maxi Truck", "Mahindra Blazo X", "Mahindra Furio", "Mahindra Jayo", "Mahindra Thar", "Mahindra Scorpio", "Mahindra XUV700", "Mahindra XUV300", "Mahindra Bolero", "Mahindra Marazzo", "Mahindra Alturas G4", "Mahindra Be 6", "Mahindra e2o Plus", "Mahindra KUV100", "Mahindra TUV300", "Mahindra Xylo", "Mahindra Verito"],
 
-        "Commercial Tata Motors":["Tata 1512 LPT", "Tata 1623 LPT", "Tata 407", "Tata LPT 1613", "Tata Ace", "Tata Super Ace", "Tata Ultra 1918", "Tata Yodha", "Tata Prima", "Tata 3718", "Tata 2518", "Tata Intra", "Tata T.12"],
+        "Commercial Tata Motors":["Tata 1512 LPT", "Tata Avinya", "Tata 1623 LPT", "Tata 407", "Tata LPT 1613", "Tata Ace", "Tata Super Ace", "Tata Ultra 1918", "Tata Yodha", "Tata Prima", "Tata 3718", "Tata 2518", "Tata Intra", "Tata T.12"],
 
         "Force Motors": ["Traveller", "Trax", "Gurkha", "Urbania", "Citiline", "Monobus", "Delivery Van", "Ambulance" , "Force Minidor", "Force Matador", "Force Shaktiman"],  
         
@@ -123,7 +123,7 @@ const data = {
        
         "Kia Motors India": ["Sonet", "Seltos", "Carens","Sonet", "Carnival", "EV6", "EV9"],  
         
-        "Maruti Suzuki India Ltd": ["Alto 800", "Alto K10", "Wagon R", "Swift", "Swift Dzire", "Celerio", "Baleno", "Ignis", "S-Presso", "Vitara Brezza", "Ertiga", "XL6", "Ciaz", "Grand Vitara", "Jimny", "Fronx", "Invicto", "Eeco", "Super Carry", "Eeco Cargo", "Alto Tour", "Wagon R Tour", "Ertiga Tour"],  
+        "Maruti Suzuki India Ltd": ["Alto 800", "Maruti Suzuki e Vitara", "Alto K10", "Wagon R", "Swift", "Swift Dzire", "Celerio", "Baleno", "Ignis", "S-Presso", "Vitara Brezza", "Ertiga", "XL6", "Ciaz", "Grand Vitara", "Jimny", "Fronx", "Invicto", "Eeco", "Super Carry", "Eeco Cargo", "Alto Tour", "Wagon R Tour", "Ertiga Tour"],  
        
         "Nissan Motor India": ["Magnite", "X-Trail", "GT-R"],  
        
@@ -10278,7 +10278,30 @@ const vehicleData = {
     warrantyAfterSalesService: "2 years/unlimited km warranty with extended options and reliable service network",  
     releaseDateYear: "2023",  
     imageUrl: "assets/images/vehicle_models_images/Harrier.png"
-}
+},
+
+    "Mahindra XEV 9e": {
+      "type": "Electric",
+      "brand": "Mahindra",
+      "description": "Innovative electric SUV with futuristic design and technology.",
+      "features": ["Long-range Battery", "Connected Features", "Fast Charging"],
+      "modelNameNumber": "Mahindra XEV 9e Flagship",
+      "engineSpecifications": "Dual Electric Motors, 400 km Range, 150 kW",
+      "fuelType": "Electric",
+      "transmissionType": "Single-speed Automatic",
+      "seatingCapacity": "5",
+      "priceRange": "₹35.00 Lakh (estimated)",
+      "mileageRange": "400 km (range)",
+      "safetyFeatures": "ADAS, 6 Airbags, ABS with EBD, Lane Keep Assist",
+      "colorOptions": "White Pearl, Electric Blue, Midnight Black",
+      "dimensions": "Length: 4600 mm, Width: 1900 mm, Height: 1680 mm, Wheelbase: 2750 mm",
+      "performanceFeatures": "Dual Motor AWD, Regenerative Braking, Drive Modes",
+      "interiorFeatures": "AI-enabled Infotainment, Premium Upholstery, Ambient Lighting",
+      "exteriorFeatures": "LED Light Bar, Aerodynamic Design, 19-inch Alloys",
+      "warrantyAfterSalesService": "8 years/1,60,000 km battery warranty",
+      "releaseDateYear": "2024",
+      "imageUrl": "assets/images/vehicle_models_images/Mahindra_XEV_9e.png"
+    },
 
     // Add more vehicle models as needed
 
