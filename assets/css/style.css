@@ -275,3 +275,9 @@ nav ul li a {
   font-weight: bold;
   color: #0059ff;
 }
+
+#last-updated {
+  font-style:normal;
+  font-size: 10px;
+  color: #000000;
+}
