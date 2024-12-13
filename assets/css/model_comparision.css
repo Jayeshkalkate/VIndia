@@ -17,17 +17,14 @@ h1 {
 
 .vehicle-selection {
   background-color: #c2a5a5;
-  /* background-color: rgb(152, 172, 172); */
   text-align: center;
   margin-bottom: 20px;
   padding: 10px;
-  /* display: inline-block; Adjusts the background to wrap the text */
-  border-radius: 50px; /* Optional for a better look */
+  border-radius: 50px;
 }
 
 h2 {
   color: #0277bd ;
-  /* background-color: black; */
 }
 
 label {
@@ -67,12 +64,15 @@ button:hover {
   background-color: #0d47a1;
 }
 
+
+
 table {
-  /* color: rgb(6, 7, 8); */
-  color: #ffffff  ;
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
+  color: #fff;
+  word-wrap: break-word; /* Ensure content doesn't overflow */
+  table-layout: auto; /* Allow table to adjust column widths */
 }
 
 th, td {
@@ -81,21 +81,67 @@ th, td {
 }
 
 th {
-  background-color: #c2a5a5;
+  background-color: #c2a5a5; /* Consistent header color */
 }
 
 tr:nth-child(even) {
-  background-color: #c2a5a5 ;
+  background-color: #c2a5a5; /* Alternating row color */
 }
 
 .comparison-result {
-  max-width: 926px;
-  margin: 0 auto;
+  max-width: 100%; /* Allow full-width on smaller screens */
+  margin: 20px auto;
+  padding: 20px;
   text-align: center;
   text-transform: uppercase;
-  background-color: #b79999 ;
-  border: 1px solid #b0bec5 ;
+  color: #fff; /* Text color for better visibility */
+  background-color: #b79999; /* Consistent background color */
+  border: 1px solid #b0bec5;
   border-radius: 50px;
-  padding: 20px;
-  overflow: hidden;
+  overflow-x: auto; /* Enable horizontal scrolling for large tables */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added slight shadow for depth */
 }
+
+.comparison-result .vehicle {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+  align-items: center; /* Align items vertically */
+  justify-content: space-around; /* Space between items */
+  gap: 20px; /* Add spacing between items */
+}
+
+.comparison-result .vehicle img {
+  max-width: 150px; /* Restrict image size */
+  max-height: 100px; /* Maintain a consistent height */
+  object-fit: contain; /* Ensure the image doesn't stretch */
+  border-radius: 10px; /* Add slight rounding to images */
+  border: 1px solid #ccc; /* Add a border for better visibility */
+}
+
+.comparison-result .vehicle-details {
+  max-width: 45%; /* Limit text width */
+  flex: 1; /* Allow flexible resizing */
+  text-align: left; /* Align text to the left for readability */
+}
+
+@media (max-width: 768px) {
+  .comparison-result {
+    padding: 15px;
+    max-width: 95%; /* Add slight padding around content */
+  }
+
+  .comparison-result .vehicle {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    gap: 10px; /* Reduce spacing for compact layout */
+  }
+
+  .comparison-result .vehicle img {
+    max-width: 100px; /* Smaller images on narrow screens */
+    max-height: 75px;
+  }
+
+  .comparison-result .vehicle-details {
+    max-width: 100%; /* Allow full width for text */
+  }
+}
+
