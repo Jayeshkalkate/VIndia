@@ -10289,17 +10289,7 @@ const vehicleData = {
 
 
 // Remove the Year and Fuel Type functionality
-
-// JavaScript to Toggle Navbar
-
-const hamburger = document.querySelector('.hamburger');
-const navbar = document.querySelector('.navbar');
-
-hamburger.addEventListener('click', () => {
-  navbar.classList.toggle('active');
-  hamburger.classList.toggle('is-active');
-});
-
+// Remove "populateYears" function, year-related dropdown code, and fuel-type related code
 
 // Generalized function for populating dropdown options
 function populateDropdown(selectElement, options, placeholder) {
