@@ -10302,6 +10302,7 @@ function populateDropdown(selectElement, options, placeholder) {
     });
 }
 
+<<<<<<< HEAD
 // Event listeners for cascading filters (guarded: these controls only exist on filters.html)
 const __vehicleTypeEl = document.getElementById("vehicle-type");
 const __vehicleBrandEl = document.getElementById("vehicle-brand");
@@ -10309,6 +10310,10 @@ const __vehicleModelEl = document.getElementById("vehicle-model");
 
 if (__vehicleTypeEl) {
   __vehicleTypeEl.addEventListener("change", function() {
+=======
+// Event listeners for cascading filters
+document.getElementById("vehicle-type").addEventListener("change", function() {
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b
     const selectedType = this.value;
     const vehicleBrandSelect = document.getElementById("vehicle-brand");
     vehicleBrandSelect.innerHTML = "<option value=''>Select Brand</option>";
@@ -10318,12 +10323,19 @@ if (__vehicleTypeEl) {
     } else {
         vehicleBrandSelect.disabled = true;
     }
+<<<<<<< HEAD
   });
 }
 
 // Handle brand selection
 if (__vehicleBrandEl) {
   __vehicleBrandEl.addEventListener("change", function() {
+=======
+});
+
+// Handle brand selection
+document.getElementById("vehicle-brand").addEventListener("change", function() {
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b
     const selectedBrand = this.value;
     const vehicleModelSelect = document.getElementById("vehicle-model");
     vehicleModelSelect.innerHTML = "<option value=''>Select Model</option>";
@@ -10333,5 +10345,9 @@ if (__vehicleBrandEl) {
     } else {
         vehicleModelSelect.disabled = true;
     }
+<<<<<<< HEAD
   });
 }
+=======
+});
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b

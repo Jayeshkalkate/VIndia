@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* =========================================================================
    top-vehicle-model.html
    ========================================================================= */
@@ -34,3 +35,101 @@
   font-weight:600; cursor:pointer; transition: background var(--fast), color var(--fast), transform var(--fast);
 }
 .view-more:hover{ background: var(--accent-grad); color:#fff; border-color:transparent; transform: translateY(-2px); }
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets\images\welcome-hero\Topvehiclebackgroundimage.png'); /* Insert background image path here */
+    
+    /* C:\Users\kalka\Desktop\New folder\assets\images\welcome-hero\Topvehiclebackgroundimage.png */
+    background-size: cover;  /* Ensures the image covers the entire background */
+    background-position: center;  /* Centers the image */
+    background-attachment: fixed;  /* Keeps the image fixed while scrolling */
+    background-color: #ADBBDA; /* Fallback background color in case the image doesn't load */
+}
+
+header {
+    background-color: #3e3f42;
+    color: rgb(240, 240, 240);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffffd9;
+}
+
+h4 {
+    margin: 0;
+    font-size: large;
+    color: #ffae00;
+}
+
+h2 {
+    margin: 0;
+    color: #0f1118;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Vehicle list section */
+#vehicle-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #ADBBDA;
+    justify-content: center;
+}
+
+/* Vehicle card */
+.vehicle-card {
+    background-color: #46639d;
+    border: 1px solid #EDE8F5;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(237, 232, 245, 0.1); /* Fixed the box-shadow */
+    transition: transform 0.3s;
+}
+
+.vehicle-card:hover {
+    transform: translateY(-5px);
+}
+
+.vehicle-card img {
+    width: 100%;
+    height: auto;
+}
+
+.vehicle-info {
+    padding: 15px;
+}
+
+.vehicle-info h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.vehicle-info p {
+    margin: 0 0 15px;
+    color: #ffffff;
+}
+
+.view-more {
+    background-color: #007BFF;
+    color: rgb(243, 246, 255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.view-more:hover {
+    background-color: #0056b3;
+}
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b

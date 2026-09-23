@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* =========================================================================
    new-vehicle.html
    ========================================================================= */
@@ -32,3 +33,168 @@
 .details-toggle + .collapse p{ margin: 12px 2px 0; font-size:13.5px; }
 
 footer p{ margin:0; }
+=======
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #FFDDB7 , #FFAB40 , #E0C5A3 );
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+    color: rgb(78, 71, 167);
+}
+
+
+
+header {
+    color: rgb(240, 240, 240); /* Light text in the header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: auto;
+    color: #3D52A0 ; /* Highlighted color for main title */
+    font-size: 28px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 20px;
+    color: #000000  ;
+}
+
+#vehicle-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between vehicle cards */
+    justify-content: center;
+    padding: 20px; /* Padding around the vehicle list */
+}
+
+.vehicle-card {
+    border: 1px solid #555770; /* Subtle border for definition */
+    background-color: #46639d;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px; /* Fixed width for uniformity */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    text-align: center;
+    color: #333; /* Dark text for readability on yellow */
+}
+
+.vehicle-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+.vehicle-card {
+    border: 1px solid #555770; /* Light border */
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.vehicle-card img {
+    width: 100%; /* Responsive image */
+    height: auto;
+    border-bottom: 1px solid #555770; /* Separator line below the image */
+}
+
+.vehicle-card h3 {
+    margin: 15px 0 10px;
+    font-size: 22px; /* Slightly larger font size */
+    color: #030303; /* Black for the vehicle title */
+    text-align: center;
+}
+
+.vehicle-card {
+    border: 1px solid #555770; /* Light border */
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.vehicle-card img {
+    width: 100%; /* Responsive image */
+    height: auto;
+    border-bottom: 1px solid #555770; /* Separator line below the image */
+}
+
+.vehicle-card-content {
+    padding: 15px;
+    text-align: left; /* Align content to the left */
+}
+
+.vehicle-card h3 {
+    margin: 10px 0 5px;
+    font-size: 22px; /* Slightly larger font size */
+    color: #030303; /* Black for the vehicle title */
+}
+
+.vehicle-card {
+    border: 1px solid #555770; /* Light border */
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.vehicle-card img {
+    width: 100%; /* Responsive image */
+    height: auto;
+    border-bottom: 1px solid #555770; /* Separator line below the image */
+}
+
+.vehicle-card h3 {
+    margin: 15px 0 10px;
+    font-size: 22px; /* Slightly larger font size */
+    color: #030303; /* Black for the vehicle title */
+    text-align: center;
+}
+
+.vehicle-card p {
+    margin: 10px 15px;
+    font-size: 16px; /* Increased readability */
+    color: #e7e7e7; /* Slightly darker gray for text */
+    line-height: 1.5;
+    text-align: left; /* Left alignment for features text */
+}
+
+.vehicle-card p strong {
+    color: #ffffff; /* Bold text in darker shade */
+}
+
+.vehicle-card .details {
+    text-align: left; /* Aligning Brand, Fuel Type, Price, and Features left */
+}
+
+.vehicle-card:hover {
+    transform: translateY(-5px); /* Elevation effect */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+
+footer {
+    background-color: #333; /* Dark footer for consistency with header */
+    color: rgb(240, 240, 240); /* Light text for footer */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #vehicle-list {
+        flex-direction: column; /* Stack cards on smaller screens */
+        align-items: center;
+    }
+    
+    .vehicle-card {
+        width: 90%; /* Full width on small screens */
+    }
+}
+
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* =========================================================================
    model_comparision.html
    ========================================================================= */
@@ -73,3 +74,152 @@ td.diff::before{ content:"\f024"; font-family:"Font Awesome 6 Free"; font-weight
   .compare-mobile{ display:flex; }
   .compare-mobile-dots{ display:flex; }
 }
+=======
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: #1a237e;
+  font-size: 40px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #ff7300 ,#ffffff , #15ff00 ); /* Gradient effect */
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.vehicle-selection {
+  background-color: #c2a5a5;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+h2 {
+  color: #0277bd ;
+}
+
+label {
+  color: bisque;
+}
+
+select#vehicle1 {
+  color: #263238 ;
+  background-color: #e7e7e7 ;
+  width: 200px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  border: 1px solid #90a4ae; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+}
+
+select#vehicle2 {
+  color: #263238 ;
+  background-color: #e7e7e7 ;
+  width: 200px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  border: 1px solid #90a4ae ; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+}
+
+
+button {
+  color: ffffff ;
+  background-color: #1565c0 ;
+  /* background-color: rgb(152, 172, 172); */
+  width: 200px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: #fff;
+  word-wrap: break-word; /* Ensure content doesn't overflow */
+  table-layout: auto; /* Allow table to adjust column widths */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #c2a5a5; /* Consistent header color */
+}
+
+tr:nth-child(even) {
+  background-color: #c2a5a5; /* Alternating row color */
+}
+
+.comparison-result {
+  max-width: 100%; /* Allow full-width on smaller screens */
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff; /* Text color for better visibility */
+  background-color: #b79999; /* Consistent background color */
+  border: 1px solid #b0bec5;
+  border-radius: 50px;
+  overflow-x: auto; /* Enable horizontal scrolling for large tables */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added slight shadow for depth */
+}
+
+.comparison-result .vehicle {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+  align-items: center; /* Align items vertically */
+  justify-content: space-around; /* Space between items */
+  gap: 20px; /* Add spacing between items */
+}
+
+.comparison-result .vehicle img {
+  max-width: 150px; /* Restrict image size */
+  max-height: 100px; /* Maintain a consistent height */
+  object-fit: contain; /* Ensure the image doesn't stretch */
+  border-radius: 10px; /* Add slight rounding to images */
+  border: 1px solid #ccc; /* Add a border for better visibility */
+}
+
+.comparison-result .vehicle-details {
+  max-width: 45%; /* Limit text width */
+  flex: 1; /* Allow flexible resizing */
+  text-align: left; /* Align text to the left for readability */
+}
+
+@media (max-width: 768px) {
+  .comparison-result {
+    padding: 15px;
+    max-width: 95%; /* Add slight padding around content */
+  }
+
+  .comparison-result .vehicle {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    gap: 10px; /* Reduce spacing for compact layout */
+  }
+
+  .comparison-result .vehicle img {
+    max-width: 100px; /* Smaller images on narrow screens */
+    max-height: 75px;
+  }
+
+  .comparison-result .vehicle-details {
+    max-width: 100%; /* Allow full width for text */
+  }
+}
+
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b

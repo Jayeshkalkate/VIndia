@@ -10166,12 +10166,16 @@ function applyFilters(event) {
 
     // Validate the selections
     if (!vehicleType || !vehicleBrand || !vehicleModel) {
+<<<<<<< HEAD
         vehicleInfoContainer.innerHTML = `
           <div class="empty-state">
             <i class="fa-solid fa-triangle-exclamation"></i>
             <h3>Almost there</h3>
             <p>Please select a vehicle type, brand and model to view details.</p>
           </div>`;
+=======
+        vehicleInfoContainer.innerHTML = "<p>Please select all filters to view vehicle details.</p>";
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b
         return;
     }
 
@@ -10179,6 +10183,7 @@ function applyFilters(event) {
     const vehicleDetails = vehicleData[vehicleModel];
 
     if (!vehicleDetails) {
+<<<<<<< HEAD
         vehicleInfoContainer.innerHTML = `
           <div class="empty-state">
             <i class="fa-solid fa-circle-exclamation"></i>
@@ -10268,13 +10273,45 @@ function applyFilters(event) {
                         </div>
                     </div>
                 </div>
+=======
+        vehicleInfoContainer.innerHTML = "<p>No details available for the selected model.</p>";
+        return;
+    }
+
+    // Display vehicle details
+    const detailsHTML = `
+        <div class="vehicle-section">
+            <div class="vehicle-details">
+                <h2>Vehicle Details - ${vehicleModel}</h2>
+                <p><strong>Type:</strong> ${vehicleDetails.type}</p>
+                <p><strong>Brand:</strong> ${vehicleDetails.brand}</p>
+                <p><strong>Model Name/Number:</strong> ${vehicleDetails.modelNameNumber}</p>
+                <p><strong>Engine Specifications:</strong> ${vehicleDetails.engineSpecifications}</p>
+                <p><strong>Fuel Type:</strong> ${vehicleDetails.fuelType}</p>
+                <p><strong>Transmission Type:</strong> ${vehicleDetails.transmissionType}</p>
+                <p><strong>Seating Capacity:</strong> ${vehicleDetails.seatingCapacity}</p>
+                <p><strong>Price Range:</strong> ${vehicleDetails.priceRange}</p>
+                <p><strong>Mileage Range:</strong> ${vehicleDetails.mileageRange}</p>
+                <p><strong>Safety Features:</strong> ${vehicleDetails.safetyFeatures}</p>
+                <p><strong>Color Options:</strong> ${vehicleDetails.colorOptions}</p>
+                <p><strong>Performance Features:</strong> ${vehicleDetails.performanceFeatures}</p>
+                <p><strong>Interior Features:</strong> ${vehicleDetails.interiorFeatures}</p>
+                <p><strong>Exterior Features:</strong> ${vehicleDetails.exteriorFeatures}</p>
+                <p><strong>Warranty & After-Sales Service:</strong> ${vehicleDetails.warrantyAfterSalesService}</p>
+                <p><strong>Release Date/Year:</strong> ${vehicleDetails.releaseDateYear}</p>
+                <img src="${vehicleDetails.imageUrl}" alt="${vehicleModel} photo" class="vehicle-image" />
+
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b
             </div>
         </div>
     `;
 
     // Display the vehicle details in the container
     vehicleInfoContainer.innerHTML = detailsHTML;
+<<<<<<< HEAD
     vehicleInfoContainer.scrollIntoView({ behavior: "smooth", block: "nearest" });
+=======
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b
 }
 
 // imageUrl: "assets/images/vehicle_models_images/Tata_nexon.png"

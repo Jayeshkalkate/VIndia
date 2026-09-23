@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* =========================================================================
    Homepage-specific styles (index.html) — sits on top of theme.css
    ========================================================================= */
@@ -128,3 +129,307 @@
 .cta-band p{ color: rgba(255,255,255,.9); margin:0; max-width:480px; }
 .cta-band .btn{ background:#fff; color:#111; box-shadow:none; }
 .cta-band .btn:hover{ transform: translateY(-2px); }
+=======
+/* General Reset and Body Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: rgb(253, 253, 253);
+}
+
+/* Header Styles */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 50px;
+  background: linear-gradient(to right, #FFDDB7 , #FFAB40 , #E0C5A3 );
+  color: rgb(78, 71, 167);
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Logo Styles */
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #7f7f7f;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.logo:hover {
+  color: #1e90ff;
+  transform: scale(1.1);
+}
+
+.logo-text {
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navigation Styles */
+
+.navbar a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+/* Hover/Active Link Styles */
+
+.navbar a:hover, .navbar a.active {
+  color: #000000 ;
+}
+
+/* Hero Section */
+
+.hero {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.hero video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero:before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  z-index: 2;
+}
+
+.hero .hero-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 3;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  padding: 10px;
+  padding-top: 5vh;
+  padding-bottom: 30vh;
+}
+
+.hero p {
+  font-size: 2.5rem;
+  text-transform: initial;
+  color: #5D6D7E;
+  background-clip: text;
+  text-shadow: 3px 3px 8px rgba(93, 109, 126, 0.89);
+  font-weight: 600;
+  margin: 0 auto;
+  max-width: 900px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Header Logo and Navigation */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+#logo {
+  width: 90px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#logo:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#suggestions {
+  align-items: center;
+  position: absolute;
+  background-color: #b6bed3;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1000;
+  display: none;
+  box-sizing: border-box;
+}
+
+.suggestion-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #b6bed3;
+}
+
+.vehicle-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.vehicle-table th, .vehicle-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 14px;
+}
+
+.vehicle-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.vehicle-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.vehicle-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.vehicle-table td img.result-image {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .vehicle-table {
+    width: 100%;
+  }
+
+  .vehicle-table th, .vehicle-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+/* Footer Section */
+
+.footer {
+  background: linear-gradient(to right, #FFDDB7 , #FFAB40 , #E0C5A3 );
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+.footer-content span {
+  font-weight: bold;
+  color: #0059ff;
+}
+
+#last-updated {
+  font-style:normal;
+  font-size: 10px;
+  color: #000000;
+}
+
+#Available-Vehicles {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#Available-Vehicles span {
+  font-weight: bold;
+  color: #007BFF;
+}
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b

@@ -1,3 +1,59 @@
+<<<<<<< HEAD
 /* Search bar — legacy hook kept for backward compatibility.
    Primary styling now lives in style.css (.search-pill, #suggestions). */
 #search-button{ white-space: nowrap; }
+=======
+        /* Search bar styles */
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: -50;
+            color: transparent;
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+            text-transform: uppercase;
+            color: rgb(78, 71, 167);
+            font-size: 24px;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: bold;
+        }                
+
+        #search-bar {
+            width: 300px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        #search-bar:focus {
+            border-color: #0056b3;
+        }
+
+        #search-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-left: 10px;
+        }
+
+        #search-button:hover {
+            background-color: #0056b3;
+        }
+
+        #search-results {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            color: #333;
+            text-align: center;
+        }
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b

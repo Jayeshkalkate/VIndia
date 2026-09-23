@@ -1,4 +1,5 @@
 function viewMoreDetails(modelName) {
+<<<<<<< HEAD
     // Lightweight, non-blocking toast instead of a jarring browser alert()
     let toast = document.getElementById("vi-toast");
     if (!toast) {
@@ -28,4 +29,7 @@ function viewMoreDetails(modelName) {
         toast.style.opacity = "0";
         toast.style.transform = "translateY(10px)";
     }, 3200);
+=======
+    alert(`More information about ${modelName} will be shown here!`);
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b
 }

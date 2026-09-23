@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Live search filter for the brand logo grid
 document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("brand-search");
@@ -30,3 +31,13 @@ document.addEventListener("DOMContentLoaded", function () {
     searchInput.addEventListener("input", applyBrandFilters);
   }
 });
+=======
+// Optional: Add interactivity, like hover effects, etc.
+document.querySelectorAll('.logo-item img').forEach(image => {
+    image.addEventListener('click', function() {
+      alert(`You clicked on the ${image.alt} logo.
+Now you are visit on the ${image.alt} website !`);
+    });
+  });
+  
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b

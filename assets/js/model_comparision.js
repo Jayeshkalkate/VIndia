@@ -10194,6 +10194,7 @@ Object.keys(vehicleData).forEach((vehicle) => {
   vehicle2Dropdown.add(option2);
 });
 
+<<<<<<< HEAD
 // Friendly labels for attribute keys
 const ATTRIBUTE_LABELS = {
   type: "Type", brand: "Brand", modelNameNumber: "Model No.",
@@ -10209,6 +10210,8 @@ function safeImg(url) {
   return url && !/\.(png|jpe?g|webp|avif|gif)$/i.test(url.trim()) ? "assets/logo/vehiclelogo1.jpg" : (url || "assets/logo/vehiclelogo1.jpg");
 }
 
+=======
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b
 // Compare vehicles
 function compareVehicles() {
   const vehicle1 = vehicle1Dropdown.value;
@@ -10228,6 +10231,7 @@ function compareVehicles() {
   const data1 = vehicleData[vehicle1];
   const data2 = vehicleData[vehicle2];
 
+<<<<<<< HEAD
   document.getElementById("comparison-container").classList.remove("hidden");
 
   // ---- Desktop table (with difference highlighting) ----
@@ -10296,4 +10300,19 @@ function compareVehicles() {
   };
 
   document.getElementById("comparison-container").scrollIntoView({ behavior: "smooth", block: "start" });
+=======
+  // Build the comparison table
+  const comparisonBody = document.getElementById("comparison-body");
+  comparisonBody.innerHTML = ""; // Clear previous comparisons
+
+  for (const attribute in data1) {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${attribute.charAt(0).toUpperCase() + attribute.slice(1)}</td>
+      <td>${data1[attribute]}</td>
+      <td>${data2[attribute]}</td>
+    `;
+    comparisonBody.appendChild(row);
+  }
+>>>>>>> 719d12311b1dd87b6fa2ca6545da46a16b7ab17b
 }
