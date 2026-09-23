@@ -1,0 +1,3 @@
+/* Search bar — legacy hook kept for backward compatibility.
+   Primary styling now lives in style.css (.search-pill, #suggestions). */
+#search-button{ white-space: nowrap; }

@@ -1,0 +1,24 @@
+/* =========================================================================
+   about_us.html
+   ========================================================================= */
+.about-intro{ display:grid; grid-template-columns: 1.2fr 1fr; gap:44px; align-items:center; }
+.about-intro p{ max-width:560px; }
+.about-stats{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.about-stats .mini-card{ text-align:center; }
+.about-stats h4{ font-size:26px; margin:6px 0 2px; font-family: var(--font-head); }
+.about-stats p{ margin:0; font-size:13px; }
+@media (max-width:900px){ .about-intro{ grid-template-columns:1fr; } }
+
+.value-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }
+.value-card{ background: var(--surface); border:1px solid var(--border); border-radius: var(--radius-lg); padding:26px 22px; transition: transform var(--fast); }
+.value-card:hover{ transform: translateY(-6px); }
+.value-card h3{ font-size:16px; margin-bottom:6px; }
+.value-card p{ font-size:13.5px; margin:0; }
+@media (max-width:900px){ .value-grid{ grid-template-columns:1fr 1fr; } }
+@media (max-width:520px){ .value-grid{ grid-template-columns:1fr; } }
+
+.team-members{ display:flex; justify-content:center; }
+.team-member{ text-align:center; width:240px; padding:28px 20px; }
+.team-member img{ width:110px; height:110px; border-radius:50%; margin:0 auto 16px; object-fit:cover; border:3px solid var(--accent); }
+.team-member h3{ font-size:17px; margin-bottom:2px; }
+.team-member p{ font-size:13px; margin-bottom:14px; }

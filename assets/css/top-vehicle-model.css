@@ -1,0 +1,36 @@
+/* =========================================================================
+   top-vehicle-model.html
+   ========================================================================= */
+#vehicle-list{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+@media (max-width:1100px){ #vehicle-list{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:640px){ #vehicle-list{ grid-template-columns:1fr; } }
+
+.vehicle-card{
+  position:relative; background: var(--surface); border:1px solid var(--border); border-radius: var(--radius-lg);
+  overflow:hidden; transition: transform var(--fast), box-shadow var(--fast), border-color var(--fast);
+}
+.vehicle-card:hover{ transform: translateY(-6px); box-shadow: var(--shadow); border-color: var(--border-strong); }
+.vehicle-card img{ width:100%; aspect-ratio:16/10; object-fit:cover; transition: transform .5s var(--ease); }
+.vehicle-card:hover img{ transform: scale(1.08); }
+
+.cat-badge{
+  position:absolute; top:14px; left:14px; z-index:2; display:inline-flex; align-items:center; gap:6px;
+  padding:6px 12px; border-radius: var(--radius-pill); font-size:11.5px; font-weight:700; color:#fff;
+  backdrop-filter: blur(6px); box-shadow: 0 4px 12px rgba(0,0,0,.35);
+}
+.cat-commercial{ background: rgba(53,214,138,.85); }
+.cat-luxury{ background: rgba(255,95,157,.85); }
+.cat-passenger{ background: rgba(91,124,255,.85); }
+.cat-two-wheeler{ background: rgba(255,201,75,.9); color:#25200a; }
+.cat-tractor{ background: rgba(255,154,60,.9); }
+
+.vehicle-info{ padding:18px 20px 20px; }
+.vehicle-info h2{ font-size:17px; margin-bottom:8px; }
+.vehicle-info p{ font-size:13.5px; margin-bottom:16px; min-height:58px; }
+
+.view-more{
+  display:inline-flex; align-items:center; gap:8px; background: var(--surface-2); color: var(--text);
+  border:1px solid var(--border); padding:9px 16px; border-radius: var(--radius-pill); font-size:13px;
+  font-weight:600; cursor:pointer; transition: background var(--fast), color var(--fast), transform var(--fast);
+}
+.view-more:hover{ background: var(--accent-grad); color:#fff; border-color:transparent; transform: translateY(-2px); }

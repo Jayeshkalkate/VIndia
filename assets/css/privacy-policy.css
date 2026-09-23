@@ -1,0 +1,5 @@
+/* =========================================================================
+   privacy-policy.html / terms-or-service.html (shared pattern)
+   ========================================================================= */
+.legal-wrap{ max-width: 760px; margin: 0 auto; }
+.legal-wrap .accordion-body a{ color: var(--accent-2); text-decoration: underline; }
